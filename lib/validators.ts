@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 export const VIDEO_MIMES = ["video/mp4", "video/quicktime", "video/3gpp", "video/webm"] as const;
-export const MAX_VIDEO_BYTES = 500 * 1024 * 1024;
+export const MAX_VIDEO_BYTES = 200 * 1024 * 1024;
 export const MAX_VIDEO_SECONDS = 5 * 60;
 export const CONSENT_VERSION = "2026-09-28";
 
@@ -66,6 +66,7 @@ export const contributeSchema = z.object({
   extra_notes: z.string().trim().max(2000).optional().or(z.literal("")),
   social_handle: z.string().trim().max(80).optional().or(z.literal("")),
   credit_preference: z.enum(["name", "anonymous"]),
+  category: z.string().trim().min(2).max(40).optional().or(z.literal("")),
   video_size_bytes: z.number().int().positive().max(MAX_VIDEO_BYTES),
   video_mime: z.enum(VIDEO_MIMES),
   video_duration_s: z.number().int().positive().max(MAX_VIDEO_SECONDS).nullable().optional(),

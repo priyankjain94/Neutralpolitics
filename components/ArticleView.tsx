@@ -7,7 +7,7 @@ import { NewsletterForm } from "./NewsletterForm";
 import { ReportForm } from "./ReportForm";
 import { ShareBar } from "./ShareBar";
 import { CATEGORIES, categoryLabel } from "@/lib/categories";
-import { findByFollowUp, publishedArticles, relatedArticles } from "@/lib/content";
+import { articlesWithDesk } from "@/lib/desk";
 import { isDatabaseConfigured } from "@/lib/env";
 import { formatDateTime, formatSourceTime } from "@/lib/format";
 import { t } from "@/lib/i18n";
@@ -15,17 +15,20 @@ import { absoluteUrl, articleHref, siteUrl, withLang } from "@/lib/paths";
 import { articleJsonLd } from "@/lib/seo";
 import type { Article } from "@/lib/types";
 
-export function ArticleView({ article }: { article: Article }) {
+export async function ArticleView({ article }: { article: Article }) {
   const m = t(article.lang);
   const path = `/news/${article.year}/${article.month}/${article.slug}`;
   const url = absoluteUrl(article.lang, path);
   const other = article.lang === "en" ? "hi" : "en";
-  const otherLive = publishedArticles(other).some(
+  const live = await articlesWithDesk(article.lang);
+  const otherLive = (await articlesWithDesk(other)).some(
     (item) => item.year === article.year && item.month === article.month && item.slug === article.slug,
   );
-  const parent = article.followUpOf ? findByFollowUp(article.lang, article.followUpOf) : undefined;
-  const related = relatedArticles(article);
-  const pool = publishedArticles(article.lang).filter((item) => item.slug !== article.slug);
+  const parent = article.followUpOf
+    ? live.find((item) => item.slug === article.followUpOf || item.eventId === article.followUpOf)
+    : undefined;
+  const pool = live.filter((item) => item.slug !== article.slug);
+  const related = [...pool.filter((item) => item.category === article.category), ...pool.filter((item) => item.category !== article.category)].slice(0, 4);
   const latest = pool.slice(0, 6);
   const trending = [...pool.filter((item) => item.breaking), ...pool.filter((item) => !item.breaking)].slice(0, 5);
   const image = article.poster.startsWith("http") ? article.poster : `${siteUrl()}${article.poster}`;

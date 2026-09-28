@@ -1,5 +1,10 @@
 export function isDatabaseConfigured(): boolean {
+  if (process.env.NP_ADMIN_FIXTURE === "1" && process.env.NODE_ENV !== "production") return true;
   return Boolean(process.env.SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY);
+}
+
+export function storageBucket(): string {
+  return process.env.SUPABASE_STORAGE_BUCKET || "submissions";
 }
 
 export function isR2Configured(): boolean {
@@ -12,17 +17,17 @@ export function isR2Configured(): boolean {
 }
 
 export function isSupabaseStorageConfigured(): boolean {
-  return isDatabaseConfigured() && Boolean(process.env.SUPABASE_STORAGE_BUCKET);
+  return Boolean(process.env.SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY);
 }
 
 export function isUploadConfigured(): boolean {
-  return isDatabaseConfigured() && (isR2Configured() || isSupabaseStorageConfigured());
+  if (process.env.NP_ADMIN_FIXTURE === "1") return false;
+  return isR2Configured() || isSupabaseStorageConfigured();
 }
 
 export function uploadProvider(): "r2" | "supabase" | null {
-  if (!isDatabaseConfigured()) return null;
-  if (isR2Configured()) return "r2";
   if (isSupabaseStorageConfigured()) return "supabase";
+  if (isR2Configured()) return "r2";
   return null;
 }
 

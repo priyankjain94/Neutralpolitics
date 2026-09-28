@@ -6,7 +6,8 @@ import { SearchBox } from "@/components/SearchBox";
 import { StaticPage } from "@/components/StaticPage";
 import { SubscribePage } from "@/components/SubscribePage";
 import { CATEGORIES, categoryLabel, isCategory } from "@/lib/categories";
-import { getArticle, loadPage, publishedArticles } from "@/lib/content";
+import { loadPage, publishedArticles } from "@/lib/content";
+import { articleWithDesk } from "@/lib/desk";
 import { isDatabaseConfigured } from "@/lib/env";
 import { t } from "@/lib/i18n";
 import { pageMetadata, articleMetadata as articleMetaFromArticle } from "@/lib/seo";
@@ -22,14 +23,14 @@ export function articleStaticParams(lang: Lang) {
 
 export async function articleMeta(lang: Lang, params: Promise<{ year: string; month: string; slug: string }>) {
   const { year, month, slug } = await params;
-  const article = getArticle(lang, year, month, slug);
+  const article = await articleWithDesk(lang, year, month, slug);
   if (!article) return {};
   return articleMetaFromArticle(article);
 }
 
 export async function ArticleRoute(lang: Lang, params: Promise<{ year: string; month: string; slug: string }>) {
   const { year, month, slug } = await params;
-  const article = getArticle(lang, year, month, slug);
+  const article = await articleWithDesk(lang, year, month, slug);
   if (!article) notFound();
   return <ArticleView article={article} />;
 }

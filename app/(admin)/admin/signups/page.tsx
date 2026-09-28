@@ -1,4 +1,5 @@
 import { redirect } from "next/navigation";
+import { deleteSignup } from "../actions";
 import { AdminShell } from "@/components/AdminShell";
 import { isAdmin } from "@/lib/admin-auth";
 import { getDb } from "@/lib/db";
@@ -29,13 +30,14 @@ export default async function SignupsPage() {
               <th>Language</th>
               <th>Channel</th>
               <th>Topics</th>
-              <th>Unsubscribed</th>
+              <th>Consent</th>
+              <th></th>
             </tr>
           </thead>
           <tbody>
             {(data || []).length === 0 ? (
               <tr>
-                <td colSpan={7}>Nothing here yet.</td>
+                <td colSpan={8}>Nothing here yet.</td>
               </tr>
             ) : (
               data!.map((row) => (
@@ -46,7 +48,15 @@ export default async function SignupsPage() {
                   <td>{row.language}</td>
                   <td>{row.channel}</td>
                   <td>{(row.topics || []).join(", ")}</td>
-                  <td>{row.unsubscribed_at ? "yes" : "no"}</td>
+                  <td>{row.consent_at ? formatDateTime(String(row.consent_at), "en") : "—"}</td>
+                  <td>
+                    <form action={deleteSignup}>
+                      <input type="hidden" name="id" value={row.id} />
+                      <button className="ghost" type="submit">
+                        Delete
+                      </button>
+                    </form>
+                  </td>
                 </tr>
               ))
             )}

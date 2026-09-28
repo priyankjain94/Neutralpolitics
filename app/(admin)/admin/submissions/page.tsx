@@ -4,11 +4,12 @@ import { AdminShell } from "@/components/AdminShell";
 import { isAdmin } from "@/lib/admin-auth";
 import { getDb } from "@/lib/db";
 import { isDatabaseConfigured } from "@/lib/env";
+import { deskStatusOf, DESK_STATUSES, statusLabel } from "@/lib/desk-status";
 import { formatDateTime } from "@/lib/format";
 
 export const dynamic = "force-dynamic";
 
-const STATUSES = ["new", "verifying", "approved", "rejected", "posted"];
+const STATUSES = DESK_STATUSES;
 
 function bytes(value: number | null) {
   if (!value) return "—";
@@ -29,7 +30,9 @@ export default async function SubmissionsPage({
     const db = getDb();
     if (db) {
       let request = db.from("submissions").select("*").order("created_at", { ascending: false }).limit(200);
-      if (query.status && STATUSES.includes(query.status)) request = request.eq("status", query.status);
+      if (query.status && STATUSES.includes(query.status as (typeof STATUSES)[number])) {
+        request = request.eq("desk_status", query.status);
+      }
       const { data } = await request;
       rows = data || [];
       const q = (query.q || "").toLowerCase();
@@ -43,6 +46,9 @@ export default async function SubmissionsPage({
   return (
     <AdminShell current="submissions">
       <h1 className="page-title">Submissions</h1>
+      <p>
+        <a href="/admin/submissions/export">Export CSV</a>
+      </p>
       {!dbReady || query.db === "0" ? (
         <p className="closed">
           The database is not configured, so there are no rows to review. Set SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY.
@@ -72,12 +78,13 @@ export default async function SubmissionsPage({
               <th>Description</th>
               <th>Size</th>
               <th>Status</th>
+              <th>Payment</th>
             </tr>
           </thead>
           <tbody>
             {rows.length === 0 ? (
               <tr>
-                <td colSpan={7}>Nothing here yet.</td>
+                <td colSpan={8}>Nothing here yet.</td>
               </tr>
             ) : (
               rows.map((row) => (
@@ -91,8 +98,9 @@ export default async function SubmissionsPage({
                   <td>{String(row.description).slice(0, 80)}</td>
                   <td>{bytes(Number(row.video_size_bytes) || null)}</td>
                   <td>
-                    <span className={`chip chip-${row.status}`}>{String(row.status)}</span>
+                    <span className="chip">{statusLabel(deskStatusOf(row as { desk_status?: string; status?: string }))}</span>
                   </td>
+                  <td>{String(row.payment_track || "unpaid")}</td>
                 </tr>
               ))
             )}

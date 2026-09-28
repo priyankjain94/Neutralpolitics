@@ -18,7 +18,7 @@ async function objectExists(key: string, provider: string, mime: string, size: n
     return true;
   }
   const db = getDb();
-  const bucket = process.env.SUPABASE_STORAGE_BUCKET;
+  const bucket = process.env.SUPABASE_STORAGE_BUCKET || "submissions";
   if (!db || !bucket) return false;
   const signed = await db.storage.from(bucket).createSignedUrl(key, 120);
   if (signed.error || !signed.data?.signedUrl) return false;

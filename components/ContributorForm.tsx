@@ -5,6 +5,7 @@ import Link from "next/link";
 import { OAuthButtons } from "./OAuthButtons";
 import { t } from "@/lib/i18n";
 import { withLang } from "@/lib/paths";
+import { CATEGORIES, categoryLabel } from "@/lib/categories";
 import { INDIAN_STATES, MAX_VIDEO_BYTES, VIDEO_MIMES, normalizeIndianMobile } from "@/lib/validators";
 import type { Lang } from "@/lib/types";
 
@@ -35,6 +36,7 @@ export function ContributorForm({ lang, enabled }: { lang: Lang; enabled: boolea
   const [file, setFile] = useState<File | null>(null);
   const [over, setOver] = useState(false);
   const [where, setWhere] = useState("");
+  const [category, setCategory] = useState("politics");
   const [when, setWhen] = useState("");
   const [description, setDescription] = useState("");
   const [name, setName] = useState("");
@@ -144,6 +146,7 @@ export function ContributorForm({ lang, enabled }: { lang: Lang; enabled: boolea
       description: description.trim(),
       event_date: when,
       event_location: where.trim(),
+      category,
       language: lang,
       extra_notes: notes.trim(),
       social_handle: "",
@@ -307,6 +310,16 @@ export function ContributorForm({ lang, enabled }: { lang: Lang; enabled: boolea
 
       {step === 2 ? (
         <div className="step-fields">
+          <label>
+            {m.storyCategory}
+            <select value={category} onChange={(event) => setCategory(event.target.value)} required>
+              {CATEGORIES.map((item) => (
+                <option key={item.slug} value={item.slug}>
+                  {categoryLabel(item.slug, lang)}
+                </option>
+              ))}
+            </select>
+          </label>
           <label>
             {m.where}
             <input value={where} onChange={(event) => setWhere(event.target.value)} required autoComplete="off" />

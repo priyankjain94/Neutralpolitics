@@ -7,8 +7,8 @@ The website for [Neutral Politics](https://www.instagram.com/theneutralpolitics/
 - Next.js (App Router) and TypeScript
 - Articles as Markdown plus a shared JSON file
 - Pagefind for search, one index per language
-- Supabase Postgres for contributor videos, newsletter signups, and reader reports
-- Cloudflare R2 for private video uploads (Supabase Storage is the fallback)
+- Supabase Postgres for contributor videos, newsletter signups, reader reports, and desk overrides
+- Supabase Storage, private bucket `submissions`, for contributor video (Cloudflare R2 is the fallback only when Supabase is unset)
 - Deployable on Vercel Hobby with no paid services
 
 The site builds and runs with no accounts connected. Forms that need a database or storage say so, instead of failing the build.
@@ -37,12 +37,14 @@ Copy `.env.example`. Never commit `.env` or `.env.local`. This repository is pub
 | Variable | Purpose |
 | --- | --- |
 | `NEXT_PUBLIC_SITE_URL` | Canonical origin, no trailing slash |
-| `SUPABASE_URL` | Supabase project URL |
+| `SUPABASE_URL` | Supabase project URL. Server-only |
 | `SUPABASE_SERVICE_ROLE_KEY` | Server-only key. Not for the browser |
+| `SUPABASE_STORAGE_BUCKET` | Optional. Defaults to the private bucket `submissions` |
 | `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Google and Facebook sign-in. See `docs/oauth-setup.md`. If unset, those buttons show Coming soon |
-| `SUPABASE_STORAGE_BUCKET` | Optional private bucket if you are not using R2 |
-| `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET` | Cloudflare R2 for contributor video |
-| `ADMIN_PASSWORD` | Password for `/admin`. There is no default |
+| `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET` | Cloudflare R2, used only when Supabase is unset |
+| `ADMIN_EMAIL` | Desk login. Set this to `priyank.cam@gmail.com` in Vercel |
+| `ADMIN_PASSWORD_HASH` | scrypt hash from `node scripts/hash-password.mjs`. Never commit it |
+| `ADMIN_SESSION_SECRET` | Long random string that signs the desk cookie |
 | `IP_HASH_SALT` | Salt for hashing IPs on submissions |
 | `NEXT_PUBLIC_TURNSTILE_SITE_KEY`, `TURNSTILE_SECRET_KEY` | Optional Cloudflare Turnstile |
 | `TRANSLATION_PROVIDER` | `none` (default) or `http` |
@@ -96,27 +98,40 @@ Published stories are written in both languages. Hindi files in this import are 
 
 ## Database
 
-Run `supabase/migrations/0001_init.sql` in the Supabase SQL editor. It creates:
+Exact steps are in `docs/admin-setup.md`. Run both files in the Supabase SQL editor, in order:
 
-- `submissions` — contributor videos, statuses `new → verifying → approved / rejected → posted`, notes, and a nullable `payment_status` that this version does not use
+1. `supabase/migrations/0001_init.sql`
+2. `supabase/migrations/0002_admin_desk.sql`
+
+They create:
+
+- `submissions` — contributor videos, desk status (`new`, `under review`, `verified`, `rejected`, `published`), notes, and payment tracking
 - `submission_events` — the review log
 - `signups` — newsletter or WhatsApp numbers, with consent, and no sending
 - `reports` — corrections, fact-check claims, and contact messages
+- `story_overrides` — desk edits on top of the git files
+- `desk_corrections` — notes shown on the public corrections page
+- `audit_log` — desk actions
 
 Row level security is on. The anonymous key cannot read or write. The site uses the service role only on the server.
 
-Contributor video does not pass through Vercel. The browser asks `/api/contribute/start` for a signed URL, uploads straight to R2 (or Supabase Storage), then calls `/api/contribute/complete`. The limit shown on the form is 500 MB and about five minutes. Rejected files should be deleted after 30 days. That cleanup is operational, not a paid job in this version.
+Contributor video does not pass through Vercel. The browser asks `/api/contribute/start` for a signed URL, uploads straight to the private Supabase bucket `submissions` (or R2 if Supabase is unset), then calls `/api/contribute/complete`. The limit is 200 MB and about five minutes. When the database variables are missing, the contribute form stays on “uploads opening soon” and the newsletter form stays closed.
 
 ## Admin
 
-`/admin` is password protected with `ADMIN_PASSWORD`, `noindex`, and absent from the public nav. After signing in:
+`/admin` is `noindex`, absent from the sitemap, and closed until `ADMIN_EMAIL`, `ADMIN_PASSWORD_HASH`, and `ADMIN_SESSION_SECRET` are set. There is no password in this repository. The cookie is signed, `httpOnly`, and `Secure` in production. Five failed logins from one IP wait 15 minutes.
 
-- `/admin/submissions` lists and filters submissions
-- `/admin/submissions/<id>` plays a short-lived video URL, stores notes, a verification checklist, and status changes
-- `/admin/signups` lists signups and exports CSV
+After signing in:
+
+- `/admin` shows published, draft, open submission, and signup counts, plus recent activity
+- `/admin/stories` lists, filters, and edits stories. Saves write `story_overrides`, not a git commit
+- `/admin/submissions` lists submissions and exports CSV
+- `/admin/submissions/<id>` plays a short-lived video URL, stores notes, changes status, links a story slug, and records a payment (amount, unpaid/pending/paid, method, reference, date). Nothing is paid out
+- `/admin/signups` lists signups, exports CSV, and deletes a row on request
+- `/admin/corrections` adds and edits public correction notes
 - `/admin/reports` updates correction, fact-check, and contact messages
 
-Payment is shown as an em dash. Nothing is paid out.
+Publish and unpublish take effect on the public pages within about a minute. Search and RSS follow the git files until the next deploy.
 
 ## Search, feeds, and SEO
 

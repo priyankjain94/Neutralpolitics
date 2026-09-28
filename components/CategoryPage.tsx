@@ -2,17 +2,18 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { LatestList, LeadStory, StoryGrid } from "./Stories";
 import { categoryLabel, isCategory } from "@/lib/categories";
-import { articlesInCategory, publishedArticles } from "@/lib/content";
+import { articlesWithDesk } from "@/lib/desk";
 import { t } from "@/lib/i18n";
 import { withLang } from "@/lib/paths";
 import type { Lang } from "@/lib/types";
 
 const PAGE_SIZE = 12;
 
-export function CategoryView({ lang, name, page }: { lang: Lang; name: string; page: number }) {
+export async function CategoryView({ lang, name, page }: { lang: Lang; name: string; page: number }) {
   if (!isCategory(name)) notFound();
   const m = t(lang);
-  const all = articlesInCategory(lang, name);
+  const live = await articlesWithDesk(lang);
+  const all = live.filter((article) => article.category === name);
   const pages = Math.max(1, Math.ceil(all.length / PAGE_SIZE));
   const current = Math.min(Math.max(page, 1), pages);
   const slice = all.slice((current - 1) * PAGE_SIZE, current * PAGE_SIZE);
@@ -30,7 +31,7 @@ export function CategoryView({ lang, name, page }: { lang: Lang; name: string; p
       {lead ? (
         <div className="home-top two">
           <LeadStory article={lead} />
-          <LatestList lang={lang} articles={publishedArticles(lang).slice(0, 6)} />
+          <LatestList lang={lang} articles={live.slice(0, 6)} />
         </div>
       ) : (
         <p>{m.emptyCategory}</p>

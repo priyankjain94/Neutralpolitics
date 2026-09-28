@@ -5,7 +5,7 @@ import { NewsletterForm } from "./NewsletterForm";
 import { JsonLd } from "./JsonLd";
 import { LatestList, LeadStory, SecondaryStory, StoryGrid } from "./Stories";
 import { CATEGORIES, categoryLabel } from "@/lib/categories";
-import { allCorrections, publishedArticles } from "@/lib/content";
+import { articlesWithDesk, publicCorrections } from "@/lib/desk";
 import { isDatabaseConfigured } from "@/lib/env";
 import { formatDay } from "@/lib/format";
 import { t } from "@/lib/i18n";
@@ -13,12 +13,12 @@ import { articleHref, withLang } from "@/lib/paths";
 import { homeJsonLd } from "@/lib/seo";
 import type { Lang } from "@/lib/types";
 
-export function HomePage({ lang }: { lang: Lang }) {
+export async function HomePage({ lang }: { lang: Lang }) {
   const m = t(lang);
-  const articles = publishedArticles(lang);
+  const articles = await articlesWithDesk(lang);
   const lead = articles.find((article) => article.breaking) || articles[0];
   const rest = articles.filter((article) => article !== lead);
-  const secondary = rest.slice(0, 3);
+  const secondary = rest.slice(0, 4);
   const latest = rest.slice(0, 8);
   const trending = [...rest.filter((article) => article.breaking), ...rest.filter((article) => !article.breaking)].slice(0, 5);
   const sections = CATEGORIES.map((category) => ({
@@ -26,7 +26,7 @@ export function HomePage({ lang }: { lang: Lang }) {
     articles: articles.filter((article) => article.category === category.slug && article.slug !== lead?.slug).slice(0, 4),
   })).filter((section) => section.articles.length > 0);
   const checks = articles.filter((article) => article.category === "fact-check").slice(0, 2);
-  const corrections = allCorrections(lang).slice(0, 2);
+  const corrections = (await publicCorrections(lang)).slice(0, 2);
 
   return (
     <>
@@ -83,10 +83,14 @@ export function HomePage({ lang }: { lang: Lang }) {
           <section className="strip">
             <h2 className="rule-title">{m.correctionsStrip}</h2>
             <div>
-              {corrections.map(({ article, correction }) => (
-                <p key={correction.at}>
-                  <time dateTime={correction.at}>{formatDay(correction.at, lang)}</time> — {correction.note}{" "}
-                  <Link href={articleHref(lang, article.year, article.month, article.slug)}>{article.title}</Link>
+              {corrections.map((entry) => (
+                <p key={entry.key}>
+                  <time dateTime={entry.at}>{formatDay(entry.at, lang)}</time> — {entry.note}{" "}
+                  {entry.article ? (
+                    <Link href={articleHref(lang, entry.article.year, entry.article.month, entry.article.slug)}>
+                      {entry.article.title}
+                    </Link>
+                  ) : null}
                 </p>
               ))}
               <Link href={withLang(lang, "/corrections")}>{m.allCorrections}</Link>

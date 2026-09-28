@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
-import { addNote, saveChecklist, updateStatus } from "../../actions";
+import { addNote, saveChecklist, savePayment, updateStatus } from "../../actions";
 import { AdminShell } from "@/components/AdminShell";
 import { isAdmin } from "@/lib/admin-auth";
 import { getDb } from "@/lib/db";
-import { isR2Configured } from "@/lib/env";
+import { isR2Configured, isSupabaseStorageConfigured, storageBucket } from "@/lib/env";
+import { DESK_STATUSES, deskStatusOf, statusLabel } from "@/lib/desk-status";
 import { formatDateTime } from "@/lib/format";
 import { presignR2 } from "@/lib/r2";
 
@@ -44,8 +45,8 @@ export default async function SubmissionDetail({
   if (data.video_key && data.upload_completed_at && data.video_provider === "r2" && isR2Configured()) {
     videoUrl = presignR2({ method: "GET", key: data.video_key, expires: 300 });
   }
-  if (data.video_key && data.upload_completed_at && data.video_provider === "supabase" && process.env.SUPABASE_STORAGE_BUCKET) {
-    const signed = await db.storage.from(process.env.SUPABASE_STORAGE_BUCKET).createSignedUrl(data.video_key, 300);
+  if (data.video_key && data.upload_completed_at && data.video_provider === "supabase" && isSupabaseStorageConfigured()) {
+    const signed = await db.storage.from(storageBucket()).createSignedUrl(data.video_key, 300);
     videoUrl = signed.data?.signedUrl || "";
   }
   const checklist = (data.checklist || {}) as Record<string, boolean>;
@@ -64,7 +65,7 @@ export default async function SubmissionDetail({
       </p>
       <h1 className="page-title">{String(data.reference)}</h1>
       <p>
-        <span className={`chip chip-${data.status}`}>{String(data.status)}</span>
+        <span className="chip">{statusLabel(deskStatusOf(data))}</span>
       </p>
       {error ? <p className="error-text">{error}</p> : null}
       <div className="detail-grid">
@@ -99,7 +100,15 @@ export default async function SubmissionDetail({
             <li>
               Consent: {data.consent_version} at {formatDateTime(String(data.consent_at), "en")}
             </li>
-            <li>Payment: —</li>
+            <li>Category: {data.category || "—"}</li>
+            <li>Age 18+ confirmed: {data.age_confirmed_at ? formatDateTime(String(data.age_confirmed_at), "en") : "—"}</li>
+            <li>
+              Payment tracking: {String(data.payment_track || "unpaid")}
+              {data.payment_amount_inr != null ? ` · ₹${data.payment_amount_inr}` : ""}
+              {data.payment_method ? ` · ${data.payment_method}` : ""}
+              {data.payment_reference ? ` · ${data.payment_reference}` : ""}
+              {data.payment_at ? ` · ${formatDateTime(String(data.payment_at), "en")}` : ""}
+            </li>
           </ul>
           <p>{data.description}</p>
           {data.extra_notes ? <p>{data.extra_notes}</p> : null}
@@ -129,16 +138,49 @@ export default async function SubmissionDetail({
             </button>
             {data.notes ? <pre style={{ whiteSpace: "pre-wrap" }}>{data.notes}</pre> : null}
           </form>
+          <form action={savePayment} className="form">
+            <h2>Payment tracking</h2>
+            <p className="fine">Record only. This screen does not send a payout.</p>
+            <input type="hidden" name="id" value={id} />
+            <label>
+              Amount (INR)
+              <input name="payment_amount_inr" type="number" min="0" step="1" defaultValue={data.payment_amount_inr ?? ""} />
+            </label>
+            <label>
+              Status
+              <select name="payment_track" defaultValue={String(data.payment_track || "unpaid")}>
+                <option value="unpaid">unpaid</option>
+                <option value="pending">pending</option>
+                <option value="paid">paid</option>
+              </select>
+            </label>
+            <label>
+              Method
+              <input name="payment_method" defaultValue={data.payment_method || ""} placeholder="UPI, bank transfer" />
+            </label>
+            <label>
+              Reference
+              <input name="payment_reference" defaultValue={data.payment_reference || ""} />
+            </label>
+            <label>
+              Date
+              <input name="payment_at" type="datetime-local" defaultValue={data.payment_at ? String(data.payment_at).slice(0, 16) : ""} />
+            </label>
+            <button className="button" type="submit">
+              Save payment record
+            </button>
+          </form>
           <form action={updateStatus} className="form">
             <h2>Status</h2>
             <input type="hidden" name="id" value={id} />
             <label>
               Move to
-              <select name="status" defaultValue="verifying">
-                <option value="verifying">verifying</option>
-                <option value="approved">approved</option>
-                <option value="rejected">rejected</option>
-                <option value="posted">posted</option>
+              <select name="status" defaultValue={deskStatusOf(data)}>
+                {DESK_STATUSES.map((status) => (
+                  <option key={status} value={status}>
+                    {statusLabel(status)}
+                  </option>
+                ))}
               </select>
             </label>
             <label>

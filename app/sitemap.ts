@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { CATEGORIES } from "@/lib/categories";
-import { publishedArticles } from "@/lib/content";
+import { articlesWithDesk } from "@/lib/desk";
 import { absoluteUrl } from "@/lib/paths";
 
 const PATHS = [
@@ -17,7 +17,9 @@ const PATHS = [
   "/terms",
 ];
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export const revalidate = 60;
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
   const pages: MetadataRoute.Sitemap = PATHS.map((path) => ({
     url: absoluteUrl("en", path),
@@ -55,7 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       { url: absoluteUrl("hi", path), lastModified: now, alternates },
     ];
   });
-  const articles: MetadataRoute.Sitemap = publishedArticles().map((article) => {
+  const articles: MetadataRoute.Sitemap = (await articlesWithDesk()).map((article) => {
     const path = `/news/${article.year}/${article.month}/${article.slug}`;
     return {
       url: absoluteUrl(article.lang, path),

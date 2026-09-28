@@ -1,26 +1,32 @@
 import Link from "next/link";
 import { logout } from "@/app/(admin)/admin/actions";
 
+const LINKS = [
+  ["/admin", "dashboard", "Dashboard"],
+  ["/admin/stories", "stories", "Stories"],
+  ["/admin/submissions", "submissions", "Submissions"],
+  ["/admin/signups", "signups", "Signups"],
+  ["/admin/corrections", "corrections", "Corrections"],
+  ["/admin/reports", "reports", "Reports"],
+] as const;
+
 export function AdminShell({
   current,
   children,
 }: {
-  current: "submissions" | "signups" | "reports";
+  current: (typeof LINKS)[number][1];
   children: React.ReactNode;
 }) {
-  const item = (href: string, id: typeof current, label: string) => (
-    <Link href={href} aria-current={current === id ? "page" : undefined}>
-      {label}
-    </Link>
-  );
   return (
     <div className="wrap">
       <div className="admin-bar">
         <strong>Neutral Politics desk</strong>
         <nav>
-          {item("/admin/submissions", "submissions", "Submissions")}
-          {item("/admin/signups", "signups", "Signups")}
-          {item("/admin/reports", "reports", "Reports")}
+          {LINKS.map(([href, id, label]) => (
+            <Link key={id} href={href} aria-current={current === id ? "page" : undefined}>
+              {label}
+            </Link>
+          ))}
         </nav>
         <form action={logout}>
           <button className="ghost" type="submit">

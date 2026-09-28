@@ -5,6 +5,8 @@ import { isUploadConfigured, uploadProvider } from "@/lib/env";
 import { presignR2 } from "@/lib/r2";
 import { rateLimit } from "@/lib/rate-limit";
 import { clientIp, hashIp, verifyTurnstile } from "@/lib/request";
+import { isCategory } from "@/lib/categories";
+import { storageBucket } from "@/lib/env";
 import { CONSENT_VERSION, INDIAN_STATES, contributeSchema, normalizeIndianMobile } from "@/lib/validators";
 
 const EXT: Record<string, string> = {
@@ -30,6 +32,7 @@ export async function POST(request: Request) {
   if (!INDIAN_STATES.includes(parsed.data.state as (typeof INDIAN_STATES)[number])) {
     return NextResponse.json({ error: "Choose a state." }, { status: 400 });
   }
+  const category = parsed.data.category && isCategory(parsed.data.category) ? parsed.data.category : null;
   if (!(await verifyTurnstile(parsed.data.turnstile_token, ip))) {
     return NextResponse.json({ error: "Captcha check failed." }, { status: 400 });
   }
@@ -58,6 +61,9 @@ export async function POST(request: Request) {
     extra_notes: parsed.data.extra_notes || null,
     social_handle: parsed.data.social_handle || null,
     credit_preference: parsed.data.credit_preference,
+    category,
+    desk_status: "new",
+    payment_track: "unpaid",
     video_key: key,
     video_provider: provider,
     video_size_bytes: parsed.data.video_size_bytes,
@@ -75,7 +81,7 @@ export async function POST(request: Request) {
     const uploadUrl = presignR2({ method: "PUT", key, contentType: parsed.data.video_mime, expires: 1800 });
     return NextResponse.json({ id, reference, uploadUrl, headers: { "content-type": parsed.data.video_mime } });
   }
-  const bucket = process.env.SUPABASE_STORAGE_BUCKET!;
+  const bucket = storageBucket();
   const signed = await db.storage.from(bucket).createSignedUploadUrl(key);
   if (signed.error || !signed.data) return NextResponse.json({ error: "Could not prepare the upload." }, { status: 500 });
   return NextResponse.json({

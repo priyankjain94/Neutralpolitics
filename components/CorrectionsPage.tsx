@@ -1,28 +1,31 @@
 import Link from "next/link";
 import { Markdown } from "./Markdown";
 import { ReportForm } from "./ReportForm";
-import { allCorrections, loadPage } from "@/lib/content";
+import { loadPage } from "@/lib/content";
+import { publicCorrections } from "@/lib/desk";
 import { isDatabaseConfigured } from "@/lib/env";
 import { formatDateTime } from "@/lib/format";
 import { t } from "@/lib/i18n";
 import { articleHref } from "@/lib/paths";
 import type { Lang } from "@/lib/types";
 
-export function CorrectionsPage({ lang }: { lang: Lang }) {
+export async function CorrectionsPage({ lang }: { lang: Lang }) {
   const m = t(lang);
   const page = loadPage("corrections", lang);
-  const entries = allCorrections(lang);
+  const entries = await publicCorrections(lang);
   return (
     <div className="wrap prose-page">
       <h1 className="page-title">{page?.title || m.corrections}</h1>
       {page?.description ? <p className="lede">{page.description}</p> : null}
       {page ? <Markdown>{page.body}</Markdown> : null}
       <ul className="log">
-        {entries.map(({ article, correction }) => (
-          <li key={`${article.slug}-${correction.at}`}>
-            <time dateTime={correction.at}>{formatDateTime(correction.at, lang)}</time>
-            <p>{correction.note}</p>
-            <Link href={articleHref(lang, article.year, article.month, article.slug)}>{article.title}</Link>
+        {entries.map((entry) => (
+          <li key={entry.key}>
+            <time dateTime={entry.at}>{formatDateTime(entry.at, lang)}</time>
+            <p>{entry.note}</p>
+            {entry.article ? (
+              <Link href={articleHref(lang, entry.article.year, entry.article.month, entry.article.slug)}>{entry.article.title}</Link>
+            ) : null}
           </li>
         ))}
       </ul>

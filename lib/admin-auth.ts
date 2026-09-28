@@ -1,63 +1,57 @@
-import { createHash, createHmac, timingSafeEqual } from "crypto";
+import { createHash, scryptSync, timingSafeEqual } from "crypto";
 import { cookies } from "next/headers";
-
-const COOKIE = "np_admin";
-const MAX_AGE = 60 * 60 * 12;
+import { ADMIN_COOKIE, ADMIN_MAX_AGE, readSession, signSession } from "./admin-session";
 
 export function adminConfigured(): boolean {
-  return Boolean(process.env.ADMIN_PASSWORD);
+  const email = process.env.ADMIN_EMAIL || "";
+  const hash = process.env.ADMIN_PASSWORD_HASH || "";
+  const secret = process.env.ADMIN_SESSION_SECRET || "";
+  return Boolean(email && secret && hash.startsWith("scrypt$") && hash.split("$").length === 3);
 }
 
-function sign(password: string, payload: string): string {
-  return createHmac("sha256", password).update(payload).digest("hex");
+export function verifyPassword(password: string, stored: string): boolean {
+  const [kind, salt, key] = stored.split("$");
+  if (kind !== "scrypt" || !salt || !key) return false;
+  const actual = scryptSync(password, salt, 32);
+  const expected = Buffer.from(key, "hex");
+  if (actual.length !== expected.length) return false;
+  return timingSafeEqual(actual, expected);
 }
 
-export function signAdminToken(password: string): string {
-  const payload = `v1.${Date.now() + MAX_AGE * 1000}`;
-  return `${payload}.${sign(password, payload)}`;
-}
-
-export function verifyAdminToken(token: string | undefined, password: string): boolean {
-  if (!token) return false;
-  const parts = token.split(".");
-  if (parts.length !== 3) return false;
-  const payload = `${parts[0]}.${parts[1]}`;
-  const expected = sign(password, payload);
-  const left = Buffer.from(parts[2]);
-  const right = Buffer.from(expected);
-  if (left.length !== right.length || !timingSafeEqual(left, right)) return false;
-  const exp = Number(parts[1]);
-  return Number.isFinite(exp) && exp > Date.now();
-}
-
-export function passwordMatches(input: string): boolean {
-  const expected = process.env.ADMIN_PASSWORD || "";
-  const left = createHash("sha256").update(input).digest();
-  const right = createHash("sha256").update(expected).digest();
+function sameEmail(input: string, expected: string): boolean {
+  const left = createHash("sha256").update(input.trim().toLowerCase()).digest();
+  const right = createHash("sha256").update(expected.trim().toLowerCase()).digest();
   return timingSafeEqual(left, right);
 }
 
-export async function isAdmin(): Promise<boolean> {
-  const password = process.env.ADMIN_PASSWORD;
-  if (!password) return false;
-  const jar = await cookies();
-  return verifyAdminToken(jar.get(COOKIE)?.value, password);
+export function credentialsMatch(email: string, password: string): boolean {
+  if (!adminConfigured()) return false;
+  const okEmail = sameEmail(email, process.env.ADMIN_EMAIL || "");
+  const okPassword = verifyPassword(password, process.env.ADMIN_PASSWORD_HASH || "");
+  return okEmail && okPassword;
 }
 
-export async function setAdminCookie(): Promise<void> {
-  const password = process.env.ADMIN_PASSWORD;
-  if (!password) throw new Error("Admin password is not configured");
+export async function isAdmin(): Promise<boolean> {
+  if (!adminConfigured()) return false;
   const jar = await cookies();
-  jar.set(COOKIE, signAdminToken(password), {
+  const session = await readSession(jar.get(ADMIN_COOKIE)?.value, process.env.ADMIN_SESSION_SECRET || "");
+  return Boolean(session);
+}
+
+export async function setAdminCookie(email: string): Promise<void> {
+  const secret = process.env.ADMIN_SESSION_SECRET;
+  if (!secret) throw new Error("Admin session secret is not configured");
+  const jar = await cookies();
+  jar.set(ADMIN_COOKIE, await signSession(email.trim().toLowerCase(), secret), {
     httpOnly: true,
     sameSite: "lax",
     secure: process.env.NODE_ENV === "production",
     path: "/",
-    maxAge: MAX_AGE,
+    maxAge: ADMIN_MAX_AGE,
   });
 }
 
 export async function clearAdminCookie(): Promise<void> {
   const jar = await cookies();
-  jar.delete(COOKIE);
+  jar.delete(ADMIN_COOKIE);
 }
