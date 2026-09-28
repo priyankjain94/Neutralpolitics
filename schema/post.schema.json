@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://neutralpolitics.example/schema/post.json",
+  "title": "Neutral Politics post.json",
+  "type": "object",
+  "required": ["schema", "ig_shortcode", "ig_url", "posted_at", "slug", "web_headline", "sources"],
+  "properties": {
+    "schema": { "const": 1 },
+    "ig_shortcode": { "type": "string", "minLength": 5 },
+    "ig_url": { "type": "string" },
+    "ig_media_id": { "type": ["string", "null"] },
+    "ig_type": { "enum": ["reel", "carousel", "image"] },
+    "posted_at": { "type": "string" },
+    "slug": { "type": "string" },
+    "event_id": { "type": ["string", "null"] },
+    "follow_up_of": { "type": ["string", "null"] },
+    "web_headline": { "type": "string", "maxLength": 110 },
+    "standfirst": { "type": "string" },
+    "summary": { "type": "string" },
+    "caption": { "type": "string" },
+    "caption_file": { "type": "string" },
+    "key_facts": { "type": "array", "items": { "type": "string" } },
+    "sides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "text"],
+        "properties": { "label": { "type": "string" }, "text": { "type": "string" } }
+      }
+    },
+    "not_confirmed": { "type": "array", "items": { "type": "string" } },
+    "category": { "type": "string" },
+    "pillar": { "type": "string" },
+    "package_category": { "type": "string" },
+    "secondary": { "type": "array", "items": { "type": "string" } },
+    "breaking": { "type": "boolean" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["outlet", "url"],
+        "properties": {
+          "outlet": { "type": "string" },
+          "url": { "type": "string" },
+          "published": { "type": "string" },
+          "headline": { "type": "string" },
+          "group": { "type": "string" }
+        }
+      }
+    },
+    "photo_credits": { "type": "array", "items": { "type": "string" } },
+    "poster": { "type": "string" },
+    "sensitive": { "type": "boolean" },
+    "claimed": { "type": "boolean" },
+    "publish": { "enum": ["auto", "draft"] },
+    "sample": { "type": "boolean" }
+  }
+}

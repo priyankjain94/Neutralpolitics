@@ -1,0 +1,11 @@
+{
+  "version": "2026-09-28",
+  "notes": "Keep names, numbers, rupee amounts and dates exact. Neutral news Hindi, not Sanskritised and not Hinglish. Quotes stay quotes and are marked (अनुवादित).",
+  "entries": [
+    { "en": "Supreme Court", "hi": "सुप्रीम कोर्ट" },
+    { "en": "High Court", "hi": "हाई कोर्ट" },
+    { "en": "alleged", "hi": "कथित" },
+    { "en": "merchant discount rate", "hi": "मर्चेंट डिस्काउंट रेट" },
+    { "en": "Neutral Politics", "hi": "न्यूट्रल पॉलिटिक्स" }
+  ]
+}

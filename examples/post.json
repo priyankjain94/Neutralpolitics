@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "ig_shortcode": "SAMPLEIMP01",
+  "ig_url": "https://www.instagram.com/reel/SAMPLEIMP01/",
+  "ig_media_id": null,
+  "ig_type": "reel",
+  "posted_at": "2026-09-28T15:00:00+05:30",
+  "slug": "sample-imported-harbour-bell",
+  "event_id": "sample-imported-harbour-bell",
+  "follow_up_of": null,
+  "web_headline": "SAMPLE: Imported placeholder about a fictional harbour bell",
+  "standfirst": "This file shows the importer. The bell, the harbour and the notice are invented.",
+  "summary": "This paragraph is placeholder copy produced by the importer example. A fictional harbour master in Greywater said a bell would ring at noon. It did not, because Greywater is not a real port. The Sample Herald and the Example Tribune both carried the same invented sentence so the article can show two sources.",
+  "key_facts": [
+    "Greywater is not a real port.",
+    "No bell rang.",
+    "This article was written by scripts/import-post.mjs from examples/post.json."
+  ],
+  "sides": [],
+  "not_confirmed": ["Any real notice. This is an importer example."],
+  "category": "explainers",
+  "secondary": [],
+  "breaking": false,
+  "tags": ["sample", "importer"],
+  "sources": [
+    {
+      "outlet": "Sample Herald",
+      "url": "https://example.com/sample/herald-bell",
+      "published": "2026-09-28T14:00:00+05:30",
+      "headline": "Placeholder bell note",
+      "group": "sample-herald"
+    },
+    {
+      "outlet": "Example Tribune",
+      "url": "https://example.com/sample/tribune-bell",
+      "published": "2026-09-28T14:10:00+05:30",
+      "headline": "Second placeholder bell note",
+      "group": "example-tribune"
+    }
+  ],
+  "photo_credits": ["No photograph. Importer example."],
+  "poster": "",
+  "slides": [],
+  "sensitive": false,
+  "publish": "draft",
+  "sample": true
+}

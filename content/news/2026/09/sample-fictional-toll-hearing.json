@@ -1,0 +1,45 @@
+{
+  "slug": "sample-fictional-toll-hearing",
+  "status": "published",
+  "published_at": "2026-09-28T09:30:00+05:30",
+  "updated_at": null,
+  "category": "courts",
+  "secondary": [
+    "economy"
+  ],
+  "breaking": true,
+  "tags": [
+    "sample",
+    "placeholder"
+  ],
+  "ig_shortcode": "SAMPLECT001",
+  "ig_url": "https://www.instagram.com/reel/SAMPLECT001/",
+  "ig_media_id": null,
+  "ig_type": "reel",
+  "event_id": "sample-toll-hearing",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Sample Herald",
+      "url": "https://example.com/sample/herald-toll",
+      "published": "2026-09-28T08:00:00+05:30",
+      "headline": "Placeholder dispatch",
+      "group": "sample-herald"
+    },
+    {
+      "outlet": "Example Tribune",
+      "url": "https://example.com/sample/tribune-toll",
+      "published": "2026-09-28T08:20:00+05:30",
+      "headline": "Second placeholder dispatch",
+      "group": "example-tribune"
+    }
+  ],
+  "photo_credits": [
+    "Sample illustration for this placeholder. Not a photograph."
+  ],
+  "byline": "Neutral Politics Desk",
+  "corrections": [],
+  "factcheck": null,
+  "sample": true,
+  "poster": "/media/sample-poster.svg"
+}

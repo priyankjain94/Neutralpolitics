@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Sample placeholder, not a photograph">
+  <rect width="800" height="1000" fill="#f3f3f3"/>
+  <rect width="800" height="10" fill="#B3121B"/>
+  <rect x="48" y="80" width="704" height="1" fill="#121212"/>
+  <text x="400" y="460" text-anchor="middle" font-family="Georgia, serif" font-size="54" fill="#121212">SAMPLE</text>
+  <text x="400" y="520" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#555555">Not a photograph</text>
+  <text x="400" y="570" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#555555">Placeholder image</text>
+  <rect x="48" y="900" width="704" height="1" fill="#121212"/>
+</svg>
