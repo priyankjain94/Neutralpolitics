@@ -134,7 +134,7 @@ Pagefind indexes the built HTML for each language from the `lang` attribute. Hin
 
 ## Deploying on Vercel
 
-The connected project is `neutralpolitics` on the Hobby plan.
+The connected project is `neutralpolitics` on the Hobby plan, team `neutral-politics`. Preview trigger: 28 Sep 2026, 17:40 UTC.
 
 - **Framework:** Next.js.
 - **Build command:** leave the framework default. Do not override it. In this repo `npm run build` runs the Pagefind index, then `next build`.
