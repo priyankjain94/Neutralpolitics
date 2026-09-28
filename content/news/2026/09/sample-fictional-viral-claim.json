@@ -1,0 +1,45 @@
+{
+  "slug": "sample-fictional-viral-claim",
+  "status": "published",
+  "published_at": "2026-09-28T12:05:00+05:30",
+  "updated_at": null,
+  "category": "fact-check",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "sample",
+    "fact-check"
+  ],
+  "ig_shortcode": "SAMPLEFC001",
+  "ig_url": "https://www.instagram.com/reel/SAMPLEFC001/",
+  "ig_type": "reel",
+  "event_id": "sample-viral-claim",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Sample Herald",
+      "url": "https://example.com/sample/herald-claim",
+      "published": "2026-09-28T08:00:00+05:30",
+      "headline": "Placeholder dispatch",
+      "group": "sample-herald"
+    },
+    {
+      "outlet": "Example Tribune",
+      "url": "https://example.com/sample/tribune-claim",
+      "published": "2026-09-28T08:20:00+05:30",
+      "headline": "Second placeholder dispatch",
+      "group": "example-tribune"
+    }
+  ],
+  "photo_credits": [
+    "Sample illustration for this placeholder. Not a photograph."
+  ],
+  "sample": true,
+  "poster": "/media/sample-poster.svg",
+  "factcheck": {
+    "verdict": "unverified",
+    "claimant": "A fictional social-media post",
+    "claim_date": "2026-09-28"
+  },
+  "corrections": []
+}

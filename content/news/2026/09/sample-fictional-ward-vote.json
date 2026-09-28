@@ -1,0 +1,40 @@
+{
+  "slug": "sample-fictional-ward-vote",
+  "status": "published",
+  "published_at": "2026-09-28T08:10:00+05:30",
+  "updated_at": null,
+  "category": "politics",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "sample"
+  ],
+  "ig_shortcode": "SAMPLEPOL01",
+  "ig_url": "https://www.instagram.com/p/SAMPLEPOL01/",
+  "ig_type": "carousel",
+  "event_id": "sample-ward-vote",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Sample Herald",
+      "url": "https://example.com/sample/herald-ward",
+      "published": "2026-09-28T08:00:00+05:30",
+      "headline": "Placeholder dispatch",
+      "group": "sample-herald"
+    },
+    {
+      "outlet": "Example Tribune",
+      "url": "https://example.com/sample/tribune-ward",
+      "published": "2026-09-28T08:20:00+05:30",
+      "headline": "Second placeholder dispatch",
+      "group": "example-tribune"
+    }
+  ],
+  "photo_credits": [
+    "Sample illustration for this placeholder. Not a photograph."
+  ],
+  "sample": true,
+  "poster": "/media/sample-poster.svg",
+  "factcheck": null,
+  "corrections": []
+}
