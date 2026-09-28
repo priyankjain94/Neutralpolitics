@@ -132,12 +132,18 @@ Pagefind indexes the built HTML for each language from the `lang` attribute. Hin
 
 `robots.txt` disallows `/admin` and `/api`. Preview deployments (`VERCEL_ENV=preview`) are `noindex`.
 
-## Deploy on Vercel Hobby
+## Deploying on Vercel
+
+The connected project is `neutralpolitics` on the Hobby plan.
+
+- **Framework:** Next.js.
+- **Build command:** leave the framework default. Do not override it. In this repo `npm run build` runs the Pagefind index, then `next build`.
+- **Environment variables:** none are required. The site builds, and the public pages render, with every variable unset. Contributor uploads, the database, and `/admin` stay closed until you add them.
 
 1. Push this repository.
-2. Import the project in Vercel. Framework preset: Next.js. Do not upgrade to Pro unless you have decided to.
-3. Add the environment variables from `.env.example` in the Vercel project settings. Leave unused ones empty.
-4. Deploy. `npm run build` runs the search index and then Next.js.
+2. Import the project in Vercel with the Next.js preset. Do not upgrade to Pro unless you have decided to.
+3. Add variables from `.env.example` in the Vercel project settings only when you connect those services. Leave unused ones empty.
+4. Deploy with the default build command.
 5. Point a domain when you have bought one. Set `NEXT_PUBLIC_SITE_URL` to that origin and redeploy so canonical URLs, sitemaps, and share links match.
 
 Do not put keys in the repository. Vercel environment variables are the right place.
