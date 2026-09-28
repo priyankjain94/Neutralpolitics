@@ -1,8 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
+import { OAuthButtons } from "./OAuthButtons";
 import { CATEGORIES } from "@/lib/categories";
 import { t } from "@/lib/i18n";
+import { withLang } from "@/lib/paths";
 import type { Lang } from "@/lib/types";
 
 export function NewsletterForm({
@@ -19,6 +22,7 @@ export function NewsletterForm({
   const m = t(lang);
   const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">("idle");
   const [message, setMessage] = useState("");
+  const [email, setEmail] = useState("");
 
   async function onSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -51,24 +55,33 @@ export function NewsletterForm({
     <form className="form newsletter" onSubmit={onSubmit}>
       <h2 style={{ fontSize: compact ? "1.15rem" : undefined }}>{m.newsletterTitle}</h2>
       <p className="dek">{m.newsletterBody}</p>
+      <OAuthButtons
+        lang={lang}
+        nextPath={withLang(lang, source === "/" ? "/subscribe" : source)}
+        onProfile={(profile) => {
+          if (profile.email) setEmail(profile.email);
+        }}
+      />
       {!enabled ? <p className="closed">{m.newsletterDisabled}</p> : null}
       <fieldset disabled={!enabled || status === "sending"}>
         <label>
           {m.email} <span className="fine">({m.optional})</span>
-          <input name="email" type="email" autoComplete="email" />
+          <input name="email" type="email" autoComplete="email" value={email} onChange={(event) => setEmail(event.target.value)} />
         </label>
         <label>
           {m.whatsappNumber} <span className="fine">({m.optional})</span>
           <input name="whatsapp" type="tel" inputMode="tel" placeholder="+91" />
         </label>
-        <label>
-          {m.language}
-          <select name="language" defaultValue={lang === "hi" ? "hi" : "en"}>
-            <option value="en">{m.langEn}</option>
-            <option value="hi">{m.langHi}</option>
-            <option value="both">{m.langBoth}</option>
-          </select>
-        </label>
+        {compact ? <input type="hidden" name="language" value={lang === "hi" ? "hi" : "en"} /> : (
+          <label>
+            {m.language}
+            <select name="language" defaultValue={lang === "hi" ? "hi" : "en"}>
+              <option value="en">{m.langEn}</option>
+              <option value="hi">{m.langHi}</option>
+              <option value="both">{m.langBoth}</option>
+            </select>
+          </label>
+        )}
         <div>
           <div>{m.topics}</div>
           <div className="topics">
@@ -78,13 +91,20 @@ export function NewsletterForm({
             <label>
               <input type="checkbox" name="topics" value="breaking" /> {m.topicBreaking}
             </label>
-            {CATEGORIES.slice(0, 5).map((category) => (
-              <label key={category.slug}>
-                <input type="checkbox" name="topics" value={category.slug} />
-                {lang === "hi" ? category.hi : category.en}
-              </label>
-            ))}
+            {compact
+              ? null
+              : CATEGORIES.slice(0, 5).map((category) => (
+                  <label key={category.slug}>
+                    <input type="checkbox" name="topics" value={category.slug} />
+                    {lang === "hi" ? category.hi : category.en}
+                  </label>
+                ))}
           </div>
+          {compact ? (
+            <p className="fine">
+              <Link href={withLang(lang, "/subscribe")}>{m.moreOptions}</Link>
+            </p>
+          ) : null}
         </div>
         <label className="check">
           <input type="checkbox" name="consent" required />

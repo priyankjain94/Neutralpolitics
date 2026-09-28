@@ -39,6 +39,7 @@ Copy `.env.example`. Never commit `.env` or `.env.local`. This repository is pub
 | `NEXT_PUBLIC_SITE_URL` | Canonical origin, no trailing slash |
 | `SUPABASE_URL` | Supabase project URL |
 | `SUPABASE_SERVICE_ROLE_KEY` | Server-only key. Not for the browser |
+| `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Google and Facebook sign-in. See `docs/oauth-setup.md`. If unset, those buttons show Coming soon |
 | `SUPABASE_STORAGE_BUCKET` | Optional private bucket if you are not using R2 |
 | `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET` | Cloudflare R2 for contributor video |
 | `ADMIN_PASSWORD` | Password for `/admin`. There is no default |

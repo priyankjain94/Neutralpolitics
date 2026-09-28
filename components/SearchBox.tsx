@@ -64,17 +64,20 @@ export function SearchBox({ lang, initialQuery }: { lang: Lang; initialQuery: st
           <a href={`/search?q=${encodeURIComponent(query)}`}>{m.searchAlso}</a>
         </p>
       ) : null}
-      {error ? <p className="error-text">{error}</p> : null}
-      {results && results.length === 0 ? <p>{m.searchEmpty}</p> : null}
+      {error ? <p className="empty-state error-text">{error}</p> : null}
+      {results && results.length === 0 ? <p className="empty-state">{m.searchEmpty}</p> : null}
       {results && results.length > 0 ? (
-        <ul className="results">
-          {results.map((result) => (
-            <li key={result.url}>
-              <a href={result.url}>{result.meta?.title || result.url}</a>
-              {result.excerpt ? <p className="excerpt" dangerouslySetInnerHTML={{ __html: result.excerpt }} /> : null}
-            </li>
-          ))}
-        </ul>
+        <>
+          <p className="fine">{m.searchCount.replace("{n}", String(results.length))}</p>
+          <ul className="results">
+            {results.map((result) => (
+              <li key={result.url}>
+                <a href={result.url}>{result.meta?.title || result.url}</a>
+                {result.excerpt ? <p className="excerpt" dangerouslySetInnerHTML={{ __html: result.excerpt }} /> : null}
+              </li>
+            ))}
+          </ul>
+        </>
       ) : null}
     </div>
   );
