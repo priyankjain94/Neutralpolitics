@@ -1,23 +1,9 @@
 import type { Metadata } from "next";
-import { Noto_Sans_Devanagari, Noto_Serif_Devanagari } from "next/font/google";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
+import { devanagari } from "@/lib/fonts";
 import { siteUrl } from "@/lib/paths";
 import "../globals.css";
-
-const serif = Noto_Serif_Devanagari({
-  subsets: ["devanagari", "latin"],
-  weight: ["600", "700"],
-  display: "swap",
-  variable: "--font-serif",
-});
-
-const sans = Noto_Sans_Devanagari({
-  subsets: ["devanagari", "latin"],
-  weight: ["400", "500", "600"],
-  display: "swap",
-  variable: "--font-sans",
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
@@ -30,8 +16,8 @@ export const metadata: Metadata = {
 
 export default function HindiLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="hi">
-      <body className={`${serif.variable} ${sans.variable}`} style={{ "--font-body": "var(--font-sans)" } as React.CSSProperties}>
+    <html lang="hi" className={devanagari.variable}>
+      <body>
         <SiteHeader />
         <main id="main">{children}</main>
         <SiteFooter lang="hi" />

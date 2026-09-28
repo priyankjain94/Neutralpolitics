@@ -5,9 +5,16 @@
   --rule: #e2e2e2;
   --red: #b3121b;
   --max: 1200px;
-  --sans: var(--font-sans), "Segoe UI", sans-serif;
-  --serif: var(--font-serif), Georgia, "Times New Roman", serif;
-  --body: var(--font-body), Georgia, "Times New Roman", serif;
+  --apple: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+  --sans: var(--apple);
+  --serif: var(--apple);
+  --body: var(--apple);
+}
+html[lang="hi"] {
+  --hi: -apple-system, BlinkMacSystemFont, "Kohinoor Devanagari", var(--font-devanagari, "Noto Sans Devanagari"), "Noto Sans Devanagari", "Mukta", system-ui, sans-serif;
+  --sans: var(--hi);
+  --serif: var(--hi);
+  --body: var(--hi);
 }
 
 * { box-sizing: border-box; }
@@ -18,15 +25,19 @@ body {
   color: var(--ink);
   font-family: var(--body);
   font-size: 18px;
-  line-height: 1.65;
+  line-height: 1.6;
 }
-html[lang="hi"] body { line-height: 1.8; }
+html[lang="hi"] body { line-height: 1.65; }
 img { max-width: 100%; height: auto; }
 a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
 a:hover { color: var(--red); }
 :focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
-h1, h2, h3, h4 { font-family: var(--serif); font-weight: 650; line-height: 1.15; letter-spacing: -0.015em; margin: 0; }
-html[lang="hi"] h1, html[lang="hi"] h2, html[lang="hi"] h3 { letter-spacing: 0; line-height: 1.35; }
+h1, h2, h3, h4 { font-family: var(--serif); font-weight: 600; line-height: 1.2; letter-spacing: -0.02em; margin: 0; }
+h1, .lead h1, .story-title, .page-title { font-weight: 700; letter-spacing: -0.028em; line-height: 1.12; }
+html[lang="hi"] h1, html[lang="hi"] h2, html[lang="hi"] h3, html[lang="hi"] h4,
+html[lang="hi"] .lead h1, html[lang="hi"] .story-title, html[lang="hi"] .page-title {
+  letter-spacing: 0; line-height: 1.35;
+}
 button, input, select, textarea { font: inherit; color: inherit; }
 .skip {
   position: absolute; left: -999px; top: 0; background: #fff; color: #000; padding: 0.5rem 1rem; z-index: 50;
@@ -43,8 +54,8 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .topbar a { text-decoration: none; }
 .lang-toggle { display: inline-flex; gap: 0.35rem; align-items: center; }
 .lang-toggle a { text-decoration: none; color: var(--muted); }
-.lang-toggle a[aria-current="true"] { color: var(--red); font-weight: 650; }
-.contribute-link { color: var(--red) !important; font-weight: 650; }
+.lang-toggle a[aria-current="true"] { color: var(--red); font-weight: 600; }
+.contribute-link { color: var(--red) !important; font-weight: 600; }
 
 .masthead { text-align: center; padding: 0.4rem 0 0.85rem; }
 .masthead img { width: min(280px, 70vw); height: auto; }
@@ -94,17 +105,18 @@ html[lang="hi"] .sections a, html[lang="hi"] .sections summary {
 .credit { margin: 0.3rem 0 0; color: var(--muted); font-family: var(--sans); font-size: 0.75rem; }
 .kicker {
   font-family: var(--sans); color: var(--red); font-size: 0.72rem; letter-spacing: 0.08em;
-  text-transform: uppercase; text-decoration: none; font-weight: 650;
+  text-transform: uppercase; text-decoration: none; font-weight: 600;
 }
 html[lang="hi"] .kicker { letter-spacing: 0; text-transform: none; font-size: 0.86rem; }
 .kicker-row { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
 .breaking {
   font-family: var(--sans); background: var(--red); color: #fff; font-size: 0.68rem;
-  letter-spacing: 0.08em; text-transform: uppercase; padding: 0.12rem 0.35rem; font-weight: 650;
+  letter-spacing: 0.08em; text-transform: uppercase; padding: 0.12rem 0.35rem; font-weight: 600;
 }
 html[lang="hi"] .breaking { letter-spacing: 0; text-transform: none; }
 .secondary { display: grid; gap: 1rem; }
-.secondary article h2, .cat-grid h2, .related h2, .story h2 { font-size: 1.15rem; font-weight: 650; }
+.secondary article h2, .cat-grid h2, .related h2, .story h2 { font-size: 1.15rem; font-weight: 600; letter-spacing: -0.015em; }
+html[lang="hi"] .secondary article h2, html[lang="hi"] .cat-grid h2, html[lang="hi"] .related h2, html[lang="hi"] .story h2 { letter-spacing: 0; }
 .secondary article h2 a, .story h2 a, .latest a, .cat-grid h2 a { text-decoration: none; }
 .thumb-row { display: grid; grid-template-columns: 1fr 84px; gap: 0.7rem; align-items: start; }
 .thumb-row img { width: 84px; height: 84px; object-fit: cover; background: #f3f3f3; }
@@ -165,7 +177,7 @@ html[lang="hi"] .sides h3 { letter-spacing: 0; text-transform: none; font-size: 
 }
 .embed-button img, .embed-frame { aspect-ratio: 4/5; object-fit: cover; display: block; }
 .embed-cta {
-  display: block; padding: 0.55rem 0.7rem; font-family: var(--sans); font-size: 0.85rem; color: var(--red); font-weight: 650;
+  display: block; padding: 0.55rem 0.7rem; font-family: var(--sans); font-size: 0.85rem; color: var(--red); font-weight: 600;
 }
 .embed-frame { border: 0; width: 100%; min-height: 28rem; background: #fff; }
 .embed-note { font-family: var(--sans); font-size: 0.75rem; color: var(--muted); margin: 0.35rem 0 0; }
@@ -179,7 +191,7 @@ html[lang="hi"] .sides h3 { letter-spacing: 0; text-transform: none; font-size: 
 .translated-note { font-family: var(--sans); font-size: 0.86rem; color: var(--muted); margin: 0.6rem 0; }
 .verdict {
   display: inline-block; border: 1px solid var(--red); color: var(--red); font-family: var(--sans);
-  font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.15rem 0.4rem; font-weight: 650;
+  font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.15rem 0.4rem; font-weight: 600;
 }
 html[lang="hi"] .verdict { letter-spacing: 0; text-transform: none; font-size: 0.9rem; }
 
@@ -227,7 +239,8 @@ fieldset:disabled { opacity: 0.72; }
 .search-form input[type="search"] { flex: 1; min-width: 12rem; border: 1px solid #cfcfcf; padding: 0.55rem 0.6rem; }
 .results { list-style: none; padding: 0; margin: 0 0 2rem; }
 .results li { border-top: 1px solid var(--rule); padding: 0.8rem 0; }
-.results a { text-decoration: none; font-family: var(--serif); font-size: 1.25rem; }
+.results a { text-decoration: none; font-family: var(--serif); font-size: 1.25rem; font-weight: 600; letter-spacing: -0.015em; }
+html[lang="hi"] .results a { letter-spacing: 0; }
 .excerpt { color: var(--muted); margin: 0.25rem 0 0; font-size: 0.95rem; }
 
 .site-footer { border-top: 1px solid var(--ink); margin-top: 2rem; padding: 1.4rem 0 2rem; font-family: var(--sans); font-size: 0.86rem; }

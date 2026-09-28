@@ -9,12 +9,20 @@ async function font(file: string): Promise<ArrayBuffer> {
   return data.buffer.slice(data.byteOffset, data.byteOffset + data.byteLength) as ArrayBuffer;
 }
 
+const latinFile = path.join(process.cwd(), "node_modules/next/dist/compiled/@vercel/og/noto-sans-v27-latin-regular.ttf");
+const devanagariFile = path.join(
+  process.cwd(),
+  "node_modules/@fontsource/noto-sans-devanagari/files/noto-sans-devanagari-devanagari-600-normal.woff",
+);
+
 export async function renderOg(input: { kicker: string; title: string; lang: "en" | "hi" }) {
-  const file =
-    input.lang === "hi"
-      ? path.join(process.cwd(), "node_modules/@fontsource/noto-serif-devanagari/files/noto-serif-devanagari-devanagari-600-normal.woff")
-      : path.join(process.cwd(), "node_modules/@fontsource/source-serif-4/files/source-serif-4-latin-600-normal.woff");
-  const data = await font(file);
+  const latin = await font(latinFile);
+  const fonts: { name: string; data: ArrayBuffer; weight: 600; style: "normal" }[] = [
+    { name: "Sans", data: latin, weight: 600, style: "normal" },
+  ];
+  if (input.lang === "hi") {
+    fonts.unshift({ name: "Sans", data: await font(devanagariFile), weight: 600, style: "normal" });
+  }
   return new ImageResponse(
     (
       <div
@@ -27,20 +35,21 @@ export async function renderOg(input: { kicker: string; title: string; lang: "en
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "64px 72px",
-          fontFamily: "Serif",
+          fontFamily: "Sans",
+          fontWeight: 600,
         }}
       >
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <div style={{ fontSize: 28, letterSpacing: input.lang === "hi" ? 0 : 2, color: "#B3121B" }}>{input.kicker}</div>
+          <div style={{ fontSize: 28, letterSpacing: input.lang === "hi" ? 0 : -0.5, color: "#B3121B" }}>{input.kicker}</div>
           <div style={{ width: 120, height: 4, background: "#B3121B", marginTop: 16 }} />
         </div>
-        <div style={{ fontSize: input.title.length > 80 ? 48 : 60, lineHeight: 1.2, display: "flex" }}>{input.title}</div>
+        <div style={{ fontSize: input.title.length > 80 ? 48 : 60, lineHeight: 1.2, letterSpacing: input.lang === "hi" ? 0 : -1, display: "flex" }}>{input.title}</div>
         <div style={{ fontSize: 28, color: "#555555" }}>Neutral Politics</div>
       </div>
     ),
     {
       ...ogSize,
-      fonts: [{ name: "Serif", data, weight: 600, style: "normal" }],
+      fonts,
     },
   );
 }
