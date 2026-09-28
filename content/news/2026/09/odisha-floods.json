@@ -1,0 +1,40 @@
+{
+  "slug": "odisha-floods",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-27T09:45:36+05:30",
+  "updated_at": null,
+  "category": "disasters-weather",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "Odisha",
+    "OdishaFloods",
+    "OdishaRain",
+    "Balasore",
+    "HirakudDam"
+  ],
+  "ig_shortcode": "Ddxup-4xc7X",
+  "ig_url": "https://www.instagram.com/reel/Ddxup-4xc7X/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": null,
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "NDTV",
+      "url": "https://www.ndtv.com/india-news/over-70-000-evacuated-in-odisha-as-rivers-swell-amid-heavy-rain-flash-floods-12103101"
+    },
+    {
+      "outlet": "ThePrint",
+      "url": "https://theprint.in/india/odisha-evacuates-over-70000-people-opens-relief-camps-as-rain-induced-floods-hit-districts/3054526/"
+    }
+  ],
+  "photo_credits": [
+    "ANI",
+    "ANI · Banpur, Khordha, Sept 26"
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/odisha-floods.webp",
+  "corrections": []
+}

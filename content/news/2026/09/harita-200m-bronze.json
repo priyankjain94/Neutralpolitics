@@ -1,0 +1,43 @@
+{
+  "slug": "harita-200m-bronze",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-27T16:42:59+05:30",
+  "updated_at": null,
+  "category": "sports",
+  "secondary": [],
+  "breaking": true,
+  "tags": [
+    "AsianGames2026",
+    "HaritaBhadra",
+    "TeamIndia",
+    "Athletics",
+    "200m"
+  ],
+  "ig_shortcode": "DdyebCxRY52",
+  "ig_url": "https://www.instagram.com/reel/DdyebCxRY52/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "asian-games-harita-bhadra-200m-bronze-sep27",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Sportstar (The Hindu)",
+      "url": "https://sportstar.thehindu.com/asian-games/harita-bhadra-india-win-women-200m-bronze-medal-asian-games-2026-timing-details/article71515790.ece"
+    },
+    {
+      "outlet": "The Straits Times",
+      "url": "https://www.straitstimes.com/sport/shanti-pereira-claims-gold-in-the-200m-at-the-asian-games-to-retain-title"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "url": "https://www.hindustantimes.com/sports/others/asian-games-2026-live-updates-day-9-schedule-results-medal-tally-today-27-september-latest-updates-japan-101790439264680.html"
+    }
+  ],
+  "photo_credits": [
+    "Mohd Rasfan / AFP (via Hindustan Times), women's 200m heat, 26 Sept"
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/harita-200m-bronze.webp",
+  "corrections": []
+}

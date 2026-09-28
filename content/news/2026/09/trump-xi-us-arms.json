@@ -1,0 +1,48 @@
+{
+  "slug": "trump-xi-us-arms",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-28T11:20:51+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "Trump",
+    "XiJinping",
+    "Taiwan",
+    "WorldNews"
+  ],
+  "ig_shortcode": "Dd0eWd4Rq9N",
+  "ig_url": "https://www.instagram.com/reel/Dd0eWd4Rq9N/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "trump-xi-us-weapons-offer-perdue-sep27-2026",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/trump-asked-chinas-president-if-he-wants-to-buy-us-arms-ambassador-says/article71518145.ece",
+      "published": "2026-09-28 06:59 IST (updated 09:39)",
+      "group": "The Hindu"
+    },
+    {
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/world/us/would-like-to-buy-some-trump-offered-xi-us-weapons-as-washington-sought-to-downplay-taiwan-arms-sale/articleshow/134530193.cms",
+      "published": "2026-09-28 08:51 IST",
+      "group": "Times"
+    },
+    {
+      "outlet": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/sep/28/trump-xi-jinping-china-buy-weapons",
+      "published": "2026-09-28 (IST morning)",
+      "group": "Guardian"
+    }
+  ],
+  "photo_credits": [
+    "File photo via Times of India"
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/trump-xi-us-arms.webp",
+  "corrections": []
+}

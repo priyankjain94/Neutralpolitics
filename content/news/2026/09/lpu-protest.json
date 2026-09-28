@@ -1,0 +1,44 @@
+{
+  "slug": "lpu-protest",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-09-27T10:03:21+05:30",
+  "updated_at": null,
+  "category": "fact-check",
+  "secondary": [],
+  "breaking": true,
+  "tags": [
+    "LPU",
+    "Punjab",
+    "FactCheck",
+    "Phagwara",
+    "Kapurthala"
+  ],
+  "ig_shortcode": "DdxwsAaEfh6",
+  "ig_url": "https://www.instagram.com/p/DdxwsAaEfh6/",
+  "ig_type": "image",
+  "ig_more": [],
+  "event_id": "lpu-protest-unverified-rape-rumour-sep27",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The Indian Express",
+      "url": "https://indianexpress.com/article/cities/chandigarh/lpu-students-protest-rape-report-damage-property-10895659/"
+    },
+    {
+      "outlet": "India Today",
+      "url": "https://www.indiatoday.in/india/story/lpu-punjab-protest-students-vandalise-campus-gangrape-suicide-rumours-police-deny-incident-3003935-2026-09-27"
+    }
+  ],
+  "photo_credits": [
+    "Indian Express"
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/lpu-protest.webp",
+  "corrections": [],
+  "factcheck": {
+    "verdict": "unverified",
+    "claimant": "Unverified social-media posts",
+    "claim_date": "2026-09-27"
+  }
+}

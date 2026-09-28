@@ -1,0 +1,51 @@
+{
+  "slug": "ec-sir-home-visits",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-27T09:15:51+05:30",
+  "updated_at": null,
+  "category": "politics",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "ElectionCommission",
+    "SIR",
+    "ECI",
+    "VoterList",
+    "Politics"
+  ],
+  "ig_shortcode": "DdxrQFOkcz8",
+  "ig_url": "https://www.instagram.com/p/DdxrQFOkcz8/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": null,
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/india/after-meeting-ec-says-officials-will-visit-homes-of-those-sent-notices/articleshow/134513237.cms"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "url": "https://www.hindustantimes.com/india-news/did-you-get-sir-notice-over-unmapped-and-logical-discrepancies-ec-tells-you-what-to-do-next-101790428034319.html"
+    },
+    {
+      "outlet": "The Indian Express",
+      "url": "https://indianexpress.com/article/india/ecinet-review-committee-sir-row-eci-10895298/"
+    },
+    {
+      "outlet": "India Today",
+      "url": "https://www.indiatoday.in/india/story/eci-special-intensive-revision-delhi-maharashtra-deadlines-extended-ecinet-review-ordered-3003628-2026-09-26"
+    },
+    {
+      "outlet": "Mint",
+      "url": "https://www.livemint.com/news/india/sir-blos-to-visit-homes-of-those-issued-notices-personal-hearings-only-in-exceptional-cases-read-full-eci-statement-11790428658531.html"
+    }
+  ],
+  "photo_credits": [
+    "Election Commission of India via Wikimedia Commons (GODL-India), file photo 2016"
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/ec-sir-home-visits.webp",
+  "corrections": []
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "sc-upi-mdr",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-27T16:22:38+05:30",
+  "updated_at": "2026-09-28T13:58:58+05:30",
+  "category": "courts",
+  "secondary": [],
+  "breaking": true,
+  "tags": [
+    "UPI",
+    "SupremeCourt",
+    "MDR",
+    "DigitalPayments",
+    "UPIFee"
+  ],
+  "ig_shortcode": "Dd0wckLxqRV",
+  "ig_url": "https://www.instagram.com/reel/Dd0wckLxqRV/",
+  "ig_type": "reel",
+  "ig_more": [
+    {
+      "shortcode": "DdycF6oT1Fy",
+      "url": "https://www.instagram.com/reel/DdycF6oT1Fy/",
+      "type": "reel",
+      "headline": "SC to hear plea against 0.4% UPI fee on Monday. This is a hearing, not a ruling"
+    }
+  ],
+  "event_id": "sc-upi-mdr-refuses-stay-oct15-sep28-2026",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Hindustan Times",
+      "url": "https://www.hindustantimes.com/india-news/supreme-court-seeks-centre-response-on-plea-challenging-mdr-on-upi-payments-of-over-rs-2000-101790579572070.html",
+      "published": "2026-09-28 ~13:33 IST",
+      "group": "HT Media"
+    },
+    {
+      "outlet": "India Today",
+      "url": "https://www.indiatoday.in/india/law-news/story/upi-mdr-charge-legal-basis-who-is-earning-supreme-court-asks-government-rbi-explain-3004649-2026-09-28",
+      "published": "2026-09-28 ~12:46–13:24 IST",
+      "group": "India Today"
+    },
+    {
+      "outlet": "Moneycontrol",
+      "url": "https://www.moneycontrol.com/news/india/supreme-court-issues-notice-to-rbi-npci-over-upi-mdr-charges-above-rs2-000-14039899.html",
+      "published": "2026-09-28 ~13:06 IST",
+      "group": "Network18"
+    },
+    {
+      "outlet": "CNBC-TV18",
+      "url": "https://www.cnbctv18.com/business/finance/upi-mdr-case-supreme-court-what-is-changing-october-15-why-challenged-19999618.htm",
+      "published": "2026-09-28 ~13:21 IST",
+      "group": "Network18"
+    }
+  ],
+  "photo_credits": [
+    "ANI via Hindustan Times (file); Supreme Court – Subhashish Panigrahi / Wikimedia Commons, CC BY-SA 4.0, cropped",
+    "Supreme Court of India by Subhashish Panigrahi, Wikimedia Commons, CC BY-SA 4.0"
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/sc-upi-mdr.webp",
+  "corrections": []
+}

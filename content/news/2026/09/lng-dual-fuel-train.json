@@ -1,0 +1,37 @@
+{
+  "slug": "lng-dual-fuel-train",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-27T15:54:16+05:30",
+  "updated_at": null,
+  "category": "economy",
+  "secondary": [],
+  "breaking": true,
+  "tags": [
+    "IndianRailways",
+    "LNG",
+    "DualFuel",
+    "Sabarmati",
+    "Gujarat"
+  ],
+  "ig_shortcode": "DdyY2M4xdbW",
+  "ig_url": "https://www.instagram.com/reel/DdyY2M4xdbW/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "lng-dual-fuel-demu-sabarmati-flag-off-sep27",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/india/amit-shah-flags-off-indias-first-lng-train-in-gujarat-launches-rs-1542-crore-railway-projects/articleshow/134516636.cms"
+    },
+    {
+      "outlet": "The Indian Express",
+      "url": "https://indianexpress.com/article/india/amit-shah-launches-major-railway-projects-gujarat-lng-train-wag12-kavach-10895734/"
+    }
+  ],
+  "photo_credits": [],
+  "sample": false,
+  "poster": "/media/2026/09/lng-dual-fuel-train.webp",
+  "corrections": []
+}

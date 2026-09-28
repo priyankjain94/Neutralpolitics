@@ -1,0 +1,45 @@
+{
+  "slug": "tejaswin-decathlon-bronze",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-27T21:54:37+05:30",
+  "updated_at": null,
+  "category": "sports",
+  "secondary": [],
+  "breaking": true,
+  "tags": [
+    "AsianGames2026",
+    "TejaswinShankar",
+    "Athletics",
+    "TeamIndia"
+  ],
+  "ig_shortcode": "DdzCFgwxMpO",
+  "ig_url": "https://www.instagram.com/reel/DdzCFgwxMpO/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "asian-games-tejaswin-shankar-decathlon-bronze-sep27",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Sportstar (The Hindu)",
+      "url": "https://sportstar.thehindu.com/asian-games/tejaswin-shankar-india-bronze-medal-decathlon-asian-games-2026-athletics-results/article71516037.ece",
+      "group": "The Hindu group"
+    },
+    {
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/sports/asian-games-2026/asian-games-2026-tejaswin-shankar-wins-decathlon-bronze-after-1500m-triumph/articleshow/134520253.cms",
+      "group": "Times group"
+    },
+    {
+      "outlet": "The Indian Express",
+      "url": "https://indianexpress.com/article/sports/asian-games-tejaswin-shankar-bags-bronze-in-mens-decathlon-10896341/",
+      "group": "Indian Express group"
+    }
+  ],
+  "photo_credits": [
+    "Reuters via Times of India"
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/tejaswin-decathlon-bronze.webp",
+  "corrections": []
+}

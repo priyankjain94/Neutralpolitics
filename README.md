@@ -2,8 +2,6 @@
 
 The website for [Neutral Politics](https://www.instagram.com/theneutralpolitics/) (`@theneutralpolitics`): a neutral, verified Indian news desk. This is the first working version. It is a classic newspaper layout, in English and Hindi, with articles stored as Markdown in this repository.
 
-Sample stories in `content/news` are **placeholders**. They are not reports of real events.
-
 ## Stack
 
 - Next.js (App Router) and TypeScript
@@ -57,14 +55,14 @@ Leave secrets empty until you create the accounts yourself. This project does no
 Each story is three files:
 
 ```text
-content/news/2026/09/sample-fictional-toll-hearing.json
-content/news/2026/09/sample-fictional-toll-hearing.en.md
-content/news/2026/09/sample-fictional-toll-hearing.hi.md
+content/news/2026/09/bank-strike-28-30-sep.json
+content/news/2026/09/bank-strike-28-30-sep.en.md
+content/news/2026/09/bank-strike-28-30-sep.hi.md
 ```
 
 The JSON holds the shared facts: status (`draft` or `published`), `status_hi`, Instagram shortcode, category, sources, and dates. The Markdown files hold the headline, standfirst, body, key facts, and the Hindi translation record.
 
-`status: draft` is never rendered, never added to the sitemap, RSS, or search index. A direct URL redirects away. The file `sample-draft-harbour-watch` is the check for that.
+`status: draft` is never rendered, never added to the sitemap, RSS, or search index. A direct URL redirects away. `sensex-fall` is one file that stays a draft.
 
 English URLs are `/news/2026/09/<slug>`. Hindi URLs are `/hi/news/2026/09/<slug>`. Slugs stay in Latin script. Each page sets `hreflang` for `en-IN`, `hi-IN`, and `x-default`.
 
@@ -93,7 +91,7 @@ To plug in your own translator, set `TRANSLATION_PROVIDER=http` and `TRANSLATION
 
 Automatic checks compare numbers, glossary terms, and length. A failed check keeps `status_hi` as `draft`. The header toggle then sends the reader to the Hindi home with a short notice instead of a broken article.
 
-The six public samples were written in both languages by hand and marked `translation.status: reviewed`.
+Published stories are written in both languages. Hindi files in this import are marked `translation.engine: cloud-agent` and `translation.status: machine`. Drafts stay off the public site in both languages.
 
 ## Database
 

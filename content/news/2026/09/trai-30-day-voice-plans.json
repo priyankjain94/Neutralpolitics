@@ -1,0 +1,42 @@
+{
+  "slug": "trai-30-day-voice-plans",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-28T18:00:16+05:30",
+  "updated_at": null,
+  "category": "explainers",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "TRAI",
+    "Recharge",
+    "Telecom"
+  ],
+  "ig_shortcode": "Dd1MD6Uxfql",
+  "ig_url": "https://www.instagram.com/reel/Dd1MD6Uxfql/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "trai-30-day-voice-sms-stv-amendment-sep2026",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/city/delhi/13-recharges-a-year-raghav-chadha-welcomes-trai-30-day-prepaid-plans-voice-only-options/articleshow/134518811.cms",
+      "group": "Times"
+    },
+    {
+      "outlet": "India Today",
+      "url": "https://www.indiatoday.in/india/story/trai-voice-sms-vouchers-cheaper-prepaid-plans-raghav-chadha-ptag-3004128-2026-09-27",
+      "group": "India Today"
+    },
+    {
+      "outlet": "TRAI",
+      "url": "https://www.trai.gov.in/sites/default/files/2026-09/PR_No120of2026.pdf",
+      "group": "government"
+    }
+  ],
+  "photo_credits": [],
+  "sample": false,
+  "poster": "/media/2026/09/trai-30-day-voice-plans.webp",
+  "corrections": []
+}

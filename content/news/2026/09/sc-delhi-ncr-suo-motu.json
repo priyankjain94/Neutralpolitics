@@ -1,0 +1,48 @@
+{
+  "slug": "sc-delhi-ncr-suo-motu",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-09-28T12:13:43+05:30",
+  "updated_at": null,
+  "category": "courts",
+  "secondary": [],
+  "breaking": true,
+  "tags": [
+    "SupremeCourt",
+    "Delhi",
+    "WomenSafety",
+    "ChildSafety"
+  ],
+  "ig_shortcode": "Dd0kZyERZie",
+  "ig_url": "https://www.instagram.com/reel/Dd0kZyERZie/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "sc-delhi-ncr-rape-suo-motu-nirbhaya-parallel-sep28-2026",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Hindustan Times",
+      "url": "https://www.hindustantimes.com/india-news/public-spaces-cant-be-zones-of-high-risk-supreme-court-takes-cognisance-of-kalkaji-other-recent-rape-cases-101790572200677.html",
+      "published": "2026-09-28 ~11:00–11:11 IST",
+      "group": "HT Media"
+    },
+    {
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/legal/news/growing-sexual-assault-cases-in-delhi-supreme-court-draws-parallel-to-2012-nirbhaya-gangrape/articleshow/134532687.cms",
+      "published": "2026-09-28 ~11:11–11:27 IST",
+      "group": "Times"
+    },
+    {
+      "outlet": "Bar and Bench",
+      "url": "https://www.barandbench.com/news/supreme-court-initiates-suo-motu-case-over-rise-in-rape-cases-in-delhi",
+      "published": "2026-09-28 05:27 am (site timestamp)",
+      "group": "independent legal"
+    }
+  ],
+  "photo_credits": [
+    "Supreme Court of India (file) – Subhashish Panigrahi / Wikimedia Commons, CC BY-SA 4.0, cropped"
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/sc-delhi-ncr-suo-motu.webp",
+  "corrections": []
+}

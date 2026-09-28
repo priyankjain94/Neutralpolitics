@@ -1,0 +1,37 @@
+{
+  "slug": "russia-unsc",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-27T04:37:23+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "UNSC",
+    "India",
+    "Russia",
+    "Lavrov",
+    "UNGA"
+  ],
+  "ig_shortcode": "DdxLYmiRy9D",
+  "ig_url": "https://www.instagram.com/reel/DdxLYmiRy9D/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": null,
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "India Today",
+      "url": "https://www.indiatoday.in/india/story/india-permanent-unsc-seat-russia-lavrov-backs-bid-western-expansion-3003869-2026-09-26"
+    },
+    {
+      "outlet": "TASS",
+      "url": "https://tass.com/politics/2193451"
+    }
+  ],
+  "photo_credits": [],
+  "sample": false,
+  "poster": "/media/2026/09/russia-unsc.webp",
+  "corrections": []
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "bank-strike-28-30-sep",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-27T03:54:02+05:30",
+  "updated_at": "2026-09-28T08:12:01+05:30",
+  "category": "economy",
+  "secondary": [],
+  "breaking": true,
+  "tags": [
+    "BankStrike",
+    "UFBU",
+    "Banking",
+    "BanksOpenToday",
+    "SBI"
+  ],
+  "ig_shortcode": "Dd0Ivdfxqkj",
+  "ig_url": "https://www.instagram.com/reel/Dd0Ivdfxqkj/",
+  "ig_type": "reel",
+  "ig_more": [
+    {
+      "shortcode": "DdxGbBCDy5Z",
+      "url": "https://www.instagram.com/p/DdxGbBCDy5Z/",
+      "type": "carousel",
+      "headline": "Bank strike 28-30 Sept"
+    },
+    {
+      "shortcode": "DdxHvT6R_yB",
+      "url": "https://www.instagram.com/reel/DdxHvT6R_yB/",
+      "type": "reel",
+      "headline": "Bank strike 28-30 Sept"
+    },
+    {
+      "shortcode": "DdxvBiGkbum",
+      "url": "https://www.instagram.com/p/DdxvBiGkbum/",
+      "type": "carousel",
+      "headline": "Banks open on a Sunday: PSBs, RRBs work today before 3-day strike"
+    }
+  ],
+  "event_id": "ufbu-bank-strike-deferred-iba-talks-sep27",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Mint",
+      "url": "https://www.livemint.com/industry/banking/bank-strike-deferred-as-unions-iba-reach-agreement-11790530217381.html",
+      "group": "HT Media"
+    },
+    {
+      "outlet": "Moneycontrol",
+      "url": "https://www.moneycontrol.com/banking/3-day-bank-strike-deferred-after-iba-ufbu-meeting-panel-to-discuss-saturday-holidays-article-14039468.html",
+      "published": "2026-09-28 00:07 IST",
+      "group": "Network18"
+    },
+    {
+      "outlet": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/bank-strike-deferred-after-iba-assurance-on-five-day-work-week/article71517232.ece",
+      "published": "2026-09-27 23:53 IST",
+      "group": "The Hindu group"
+    },
+    {
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/proposed-bank-strike-deferred-after-talks-between-bank-body-and-unions/articleshow/134524605.cms",
+      "group": "Times group"
+    },
+    {
+      "outlet": "The Hindu",
+      "url": "https://www.thehindu.com/business/Industry/bank-unions-defer-three-day-nationwide-strike-ubfu/article71517225.ece",
+      "group": "The Hindu group"
+    },
+    {
+      "outlet": "Mint",
+      "url": "https://www.livemint.com/money/personal-finance/are-banks-open-or-closed-on-sunday-september-27-here-s-why-there-s-confusion-ahead-of-the-proposed-bank-unions-strike-11790302699517.html"
+    },
+    {
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/to-safeguard-banking-needs-of-citizens-banks-to-remain-open-on-sunday-ahead-of-three-day-strike-sept-27/articleshow/134428877.cms"
+    },
+    {
+      "outlet": "The Indian Express",
+      "url": "https://indianexpress.com/article/india/bank-strike-september-28-30-which-banks-will-remain-operational-salary-10892288/"
+    }
+  ],
+  "photo_credits": [
+    "Times of India (file photo); The Hindu (file photo: earlier protest)"
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/bank-strike-28-30-sep.webp",
+  "corrections": []
+}

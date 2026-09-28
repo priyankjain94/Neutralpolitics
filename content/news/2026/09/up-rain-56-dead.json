@@ -1,0 +1,39 @@
+{
+  "slug": "up-rain-56-dead",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-27T16:18:10+05:30",
+  "updated_at": null,
+  "category": "disasters-weather",
+  "secondary": [],
+  "breaking": true,
+  "tags": [
+    "UttarPradesh",
+    "UPRain",
+    "HeavyRain",
+    "Floods",
+    "Monsoon"
+  ],
+  "ig_shortcode": "DdyblOaxe-i",
+  "ig_url": "https://www.instagram.com/reel/DdyblOaxe-i/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "up-rain-havoc-56-dead-relief-commissioner-sep27",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "India Today",
+      "url": "https://www.indiatoday.in/india/story/uttar-pradesh-rain-deaths-injured-after-60-hours-of-heavy-rainfall-3004083-2026-09-27"
+    },
+    {
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/city/lucknow/up-rain-havoc-leaves-56-dead-46-injured-in-48-hours-over-1000-houses-damaged/articleshow/134514863.cms"
+    }
+  ],
+  "photo_credits": [
+    "Times of India"
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/up-rain-56-dead.webp",
+  "corrections": []
+}

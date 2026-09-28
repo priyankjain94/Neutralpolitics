@@ -1,0 +1,41 @@
+{
+  "slug": "ankush-boxing-semis",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-27T10:19:25+05:30",
+  "updated_at": null,
+  "category": "sports",
+  "secondary": [],
+  "breaking": true,
+  "tags": [
+    "AsianGames2026",
+    "TeamIndia",
+    "Boxing",
+    "AnkushPanghal",
+    "IndianBoxing"
+  ],
+  "ig_shortcode": "DdxyhsYEYYx",
+  "ig_url": "https://www.instagram.com/p/DdxyhsYEYYx/",
+  "ig_type": "image",
+  "ig_more": [],
+  "event_id": "asian-games-ankush-panghal-boxing-medal-assured",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Hindustan Times",
+      "url": "https://www.hindustantimes.com/sports/others/asian-games-2026-live-updates-day-9-schedule-results-medal-tally-today-27-september-latest-updates-japan-101790439264680.html"
+    },
+    {
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/sports/asian-games-2026/asian-games-2026-live-updates-india-day-8-schedule-medal-tally-results-scores-latest-news/liveblog/134513349.cms"
+    },
+    {
+      "outlet": "Olympics.com",
+      "url": "https://www.olympics.com/en/news/asian-games-2026-live-scores-updates-results-india-september-27"
+    }
+  ],
+  "photo_credits": [],
+  "sample": false,
+  "poster": "/media/2026/09/ankush-boxing-semis.webp",
+  "corrections": []
+}

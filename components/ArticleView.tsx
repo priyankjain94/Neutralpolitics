@@ -9,7 +9,7 @@ import { ShareBar } from "./ShareBar";
 import { categoryLabel } from "@/lib/categories";
 import { findByFollowUp, publishedArticles, relatedArticles } from "@/lib/content";
 import { isDatabaseConfigured } from "@/lib/env";
-import { formatDateTime } from "@/lib/format";
+import { formatDateTime, formatSourceTime } from "@/lib/format";
 import { t } from "@/lib/i18n";
 import { absoluteUrl, articleHref, siteUrl, withLang } from "@/lib/paths";
 import { articleJsonLd } from "@/lib/seo";
@@ -82,6 +82,17 @@ export function ArticleView({ article }: { article: Article }) {
           poster={article.poster}
           sample={article.sample}
         />
+        {article.igMore.length ? (
+          <p className="embed-note">
+            {m.alsoOnInstagram}{" "}
+            {article.igMore.map((item, index) => (
+              <span key={item.shortcode}>
+                {index ? " · " : ""}
+                <a href={item.url}>{item.headline || item.shortcode}</a>
+              </span>
+            ))}
+          </p>
+        ) : null}
         {article.photoCredits.length ? <p className="credit">{m.photo}: {article.photoCredits.join("; ")}</p> : null}
         <ShareBar lang={article.lang} title={article.title} url={url} />
         <div className="prose" data-pagefind-body>
@@ -144,7 +155,7 @@ export function ArticleView({ article }: { article: Article }) {
                 <a href={source.url} rel="noopener noreferrer">
                   {source.url}
                 </a>
-                {source.published ? <span className="fine"> · {formatDateTime(source.published, article.lang)}</span> : null}
+                {source.published ? <span className="fine"> · {formatSourceTime(source.published, article.lang)}</span> : null}
               </li>
             ))}
           </ol>

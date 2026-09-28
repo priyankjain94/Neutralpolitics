@@ -26,6 +26,13 @@ export function formatDateTime(iso: string, lang: Lang): string {
   );
 }
 
+/** Source timestamps in the import are often "28 Sep 17:35 IST", not ISO. Show those as written. */
+export function formatSourceTime(value: string, lang: Lang): string {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+  return formatDateTime(value, lang);
+}
+
 export function formatTime(iso: string, lang: Lang): string {
   return new Intl.DateTimeFormat(lang === "hi" ? "hi-IN" : "en-GB", {
     timeZone: TZ,

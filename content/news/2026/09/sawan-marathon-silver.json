@@ -1,0 +1,39 @@
+{
+  "slug": "sawan-marathon-silver",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-27T10:07:32+05:30",
+  "updated_at": null,
+  "category": "sports",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "AsianGames2026",
+    "TeamIndia",
+    "SawanBarwal",
+    "Marathon",
+    "Athletics"
+  ],
+  "ig_shortcode": "DdxxKnjRgQQ",
+  "ig_url": "https://www.instagram.com/reel/DdxxKnjRgQQ/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "asian-games-sawan-barwal-marathon-silver",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The Hindu",
+      "url": "https://www.thehindu.com/sport/asian-games-2026-sawan-barwal-wins-historic-silver-mens-marathon-in-national-record-time/article71511502.ece"
+    },
+    {
+      "outlet": "The Indian Express",
+      "url": "https://indianexpress.com/article/sports/sawan-barwal-wins-asian-games-marathon-silver-india-first-medal-since-1982-10894451/"
+    }
+  ],
+  "photo_credits": [
+    "Indian Express"
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/sawan-marathon-silver.webp",
+  "corrections": []
+}

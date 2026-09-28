@@ -1,0 +1,66 @@
+{
+  "slug": "cg-flood-rescue",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-27T18:50:27+05:30",
+  "updated_at": null,
+  "category": "disasters-weather",
+  "secondary": [],
+  "breaking": true,
+  "tags": [
+    "Chhattisgarh",
+    "ChhattisgarhFloods",
+    "Bastar",
+    "FloodRescue"
+  ],
+  "ig_shortcode": "DdytAnLxgOU",
+  "ig_url": "https://www.instagram.com/reel/DdytAnLxgOU/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "cg-flood-rescue-2026-09-27",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "India Today",
+      "url": "https://www.indiatoday.in/india/story/chhattisgarh-floods-nearly-5000-rescued-16-airlifted-river-levels-stay-high-ptag-3004065-2026-09-27",
+      "published": "2026-09-27 15:15 IST",
+      "group": "India Today group"
+    },
+    {
+      "outlet": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/chhattisgarh-floods-5000-rescued-and-shifted-to-relief-camps/article71515583.ece",
+      "published": "2026-09-27 14:05 IST",
+      "group": "The Hindu group"
+    },
+    {
+      "outlet": "ThePrint",
+      "url": "https://theprint.in/india/chhattisgarh-floods-5000-rescued-video-shows-locals-retrieving-swept-away-liquor-bottles/3054721/",
+      "published": "2026-09-27 13:46 IST",
+      "group": "ThePrint"
+    },
+    {
+      "outlet": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/chhattisgarh/chhattisgarh-government-declares-school-holiday-amid-heavy-rain-flood-like-situation/article71511704.ece",
+      "published": "2026-09-26 11:07 IST",
+      "group": "The Hindu group"
+    },
+    {
+      "outlet": "ETV Bharat",
+      "url": "https://www.etvbharat.com/en/state/chhattisgarh-flooded-after-heavy-rains-two-dead-govt-announces-holiday-for-all-schools-in-state-district-collectors-on-alert-enn26092600830",
+      "published": "2026-09-26 09:33 IST",
+      "group": "ETV Bharat"
+    },
+    {
+      "outlet": "DPR Chhattisgarh",
+      "url": "https://dprcg.gov.in/post/1790506877/Raipur-18-people-stranded-in-the-floods-at-Dongaghat-in-Bastar-were-safely-rescued-by-an-Air-Force-Mi-17-helicopter",
+      "published": "2026-09-27",
+      "group": "CG govt"
+    }
+  ],
+  "photo_credits": [
+    "PTI via The Hindu (NH-30, Dimrapal, Bastar); PTI (Kharun river, Raipur). File photos, 25–26 Sep."
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/cg-flood-rescue.webp",
+  "corrections": []
+}

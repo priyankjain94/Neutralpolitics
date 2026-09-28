@@ -1,0 +1,35 @@
+{
+  "slug": "asian-games-kabaddi-gold",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-09-27T03:56:44+05:30",
+  "updated_at": "2026-09-27T04:07:37+05:30",
+  "category": "sports",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "AsianGames2026",
+    "Kabaddi",
+    "TeamIndia",
+    "Gold",
+    "Athletics"
+  ],
+  "ig_shortcode": "DdxH-lmRIJj",
+  "ig_url": "https://www.instagram.com/reel/DdxH-lmRIJj/",
+  "ig_type": "reel",
+  "ig_more": [
+    {
+      "shortcode": "DdxGu1bj6LG",
+      "url": "https://www.instagram.com/p/DdxGu1bj6LG/",
+      "type": "carousel",
+      "headline": "Asian Games kabaddi gold double"
+    }
+  ],
+  "event_id": null,
+  "follow_up_of": null,
+  "sources": [],
+  "photo_credits": [],
+  "sample": false,
+  "poster": "/media/2026/09/asian-games-kabaddi-gold.webp",
+  "corrections": []
+}

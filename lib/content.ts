@@ -7,6 +7,7 @@ import type {
   Article,
   Correction,
   Factcheck,
+  IgPost,
   Lang,
   PageCopy,
   Side,
@@ -31,6 +32,7 @@ type Shared = {
   ig_shortcode: string;
   ig_url: string;
   ig_type?: "reel" | "carousel" | "image";
+  ig_more?: IgPost[];
   event_id?: string | null;
   follow_up_of?: string | null;
   sources?: Source[];
@@ -115,6 +117,7 @@ function build(
     igShortcode: shared.ig_shortcode,
     igUrl: shared.ig_url,
     igType: shared.ig_type || "reel",
+    igMore: Array.isArray(shared.ig_more) ? shared.ig_more : [],
     eventId: shared.event_id || null,
     followUpOf: shared.follow_up_of || null,
     sources: shared.sources || [],

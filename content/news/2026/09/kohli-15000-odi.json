@@ -1,0 +1,45 @@
+{
+  "slug": "kohli-15000-odi",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-27T20:54:41+05:30",
+  "updated_at": null,
+  "category": "sports",
+  "secondary": [],
+  "breaking": true,
+  "tags": [
+    "ViratKohli",
+    "INDvWI",
+    "Cricket",
+    "TeamIndia"
+  ],
+  "ig_shortcode": "Ddy7OjlxECP",
+  "ig_url": "https://www.instagram.com/reel/Ddy7OjlxECP/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "virat-kohli-15000-odi-runs-fastest-sep27",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Moneycontrol",
+      "url": "https://www.moneycontrol.com/sports/cricket/ind-vs-wi-virat-kohli-completes-15000-odi-runs-shubman-gill-slams-ton-article-14039391.html",
+      "group": "Network18"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "url": "https://www.hindustantimes.com/cricket/ind-vs-wi-live-cricket-score-india-vs-west-indies-1st-odi-updates-today-27-september-latest-scorecard-101790475243988.html",
+      "group": "HT Media"
+    },
+    {
+      "outlet": "ESPNcricinfo",
+      "url": "https://www.espncricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-1st-odi-1529227/live-cricket-score",
+      "group": "ESPN"
+    }
+  ],
+  "photo_credits": [
+    "BCCI (via Moneycontrol)"
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/kohli-15000-odi.webp",
+  "corrections": []
+}

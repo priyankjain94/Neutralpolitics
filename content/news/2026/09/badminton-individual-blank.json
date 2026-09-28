@@ -1,0 +1,41 @@
+{
+  "slug": "badminton-individual-blank",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-27T15:58:15+05:30",
+  "updated_at": null,
+  "category": "sports",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "AsianGames2026",
+    "TeamIndia",
+    "Badminton",
+    "PVSindhu",
+    "UnnatiHooda"
+  ],
+  "ig_shortcode": "DdyZTcCRNju",
+  "ig_url": "https://www.instagram.com/reel/DdyZTcCRNju/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "asian-games-india-individual-badminton-blank-sep27",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The Hindu",
+      "url": "https://www.thehindu.com/sport/asian-games-2026-sindhu-unnati-bow-out-in-quarters-as-india-draw-blank-in-individual-badminton/article71515425.ece"
+    },
+    {
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/sports/asian-games-2026/asian-games-pv-sindhu-unnati-hooda-exits-cap-disappointing-badminton-campaign-as-india-return-with-just-one-medal/articleshow/134515912.cms"
+    },
+    {
+      "outlet": "India Today",
+      "url": "https://www.indiatoday.in/sports/badminton/story/asian-games-2026-india-fail-to-win-individual-badminton-medal-after-12-years-3004018-2026-09-27"
+    }
+  ],
+  "photo_credits": [],
+  "sample": false,
+  "poster": "/media/2026/09/badminton-individual-blank.webp",
+  "corrections": []
+}

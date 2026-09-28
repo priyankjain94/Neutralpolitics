@@ -8,6 +8,13 @@ export type Verdict =
   | "true"
   | "partly-true";
 
+export type IgPost = {
+  shortcode: string;
+  url: string;
+  type: "reel" | "carousel" | "image";
+  headline?: string;
+};
+
 export type Source = {
   outlet: string;
   url: string;
@@ -60,6 +67,7 @@ export type Article = {
   igShortcode: string;
   igUrl: string;
   igType: "reel" | "carousel" | "image";
+  igMore: IgPost[];
   eventId: string | null;
   followUpOf: string | null;
   sources: Source[];

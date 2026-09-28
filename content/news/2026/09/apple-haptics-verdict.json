@@ -1,0 +1,47 @@
+{
+  "slug": "apple-haptics-verdict",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-27T04:49:04+05:30",
+  "updated_at": null,
+  "category": "courts",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "Apple",
+    "iPhone",
+    "AppleWatch",
+    "Patent",
+    "Taction"
+  ],
+  "ig_shortcode": "DdxMuLpxMZQ",
+  "ig_url": "https://www.instagram.com/reel/DdxMuLpxMZQ/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": null,
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Reuters",
+      "url": "https://www.reuters.com/legal/litigation/us-jury-says-apple-owes-record-57-billion-haptic-technology-patent-case-2026-09-26/"
+    },
+    {
+      "outlet": "Bloomberg Law",
+      "url": "https://news.bloomberglaw.com/ip-law/apple-owes-5-7-billion-to-litigation-funded-firm-in-patent-case"
+    },
+    {
+      "outlet": "Law360",
+      "url": "https://www.law360.com/articles/2529150/breaking-apple-hit-with-historic-5-7b-patent-verdict"
+    },
+    {
+      "outlet": "Patent Litigator",
+      "url": "https://patentlitigator.com/analysis/taction-v-apple-haptics-verdict/"
+    }
+  ],
+  "photo_credits": [
+    "Raimond Spekking via Wikimedia Commons (CC BY-SA 4.0), iPhone 6s Taptic Engine, file photo"
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/apple-haptics-verdict.webp",
+  "corrections": []
+}

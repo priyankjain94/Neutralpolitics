@@ -1,0 +1,73 @@
+{
+  "slug": "jk-statehood-resolution",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-28T15:48:11+05:30",
+  "updated_at": "2026-09-28T15:54:34+05:30",
+  "category": "politics",
+  "secondary": [],
+  "breaking": true,
+  "tags": [
+    "JammuAndKashmir",
+    "Statehood",
+    "JKAssembly"
+  ],
+  "ig_shortcode": "Dd09rOPRxj2",
+  "ig_url": "https://www.instagram.com/reel/Dd09rOPRxj2/",
+  "ig_type": "reel",
+  "ig_more": [
+    {
+      "shortcode": "Dd088d5xwHd",
+      "url": "https://www.instagram.com/reel/Dd088d5xwHd/",
+      "type": "reel",
+      "headline": "Uproar in J&K Assembly Over Statehood Resolution"
+    }
+  ],
+  "event_id": "jk-assembly-statehood-resolution-passed-sep28-2026",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The Indian Express",
+      "url": "https://indianexpress.com/article/india/jk-assembly-resolution-full-restotation-statehood-article-370-bjp-10897368/",
+      "published": "2026-09-28 ~14:25–15:01 IST",
+      "group": "Indian Express"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "url": "https://www.hindustantimes.com/india-news/jk-assembly-passes-statehood-resolution-with-references-to-autonomy-article-370-bjp-walks-out-101790585048258.html",
+      "published": "2026-09-28 14:16 IST",
+      "group": "HT Media"
+    },
+    {
+      "outlet": "Deccan Herald",
+      "url": "https://www.deccanherald.com/india/jammu-and-kashmir/jammu-kashmir-assembly-passes-statehood-resolution-amid-protests-by-bjp-4162366",
+      "published": "2026-09-28 ~14:34–15:22 IST",
+      "group": "Deccan Herald"
+    },
+    {
+      "outlet": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/ruckus-in-jk-assembly-over-statehood-resolution/article71518638.ece",
+      "published": "2026-09-28 ~13:25–13:26 IST",
+      "group": "The Hindu"
+    },
+    {
+      "outlet": "The Indian Express",
+      "url": "https://indianexpress.com/article/india/jammu-kashmir-assembly-statehood-resolution-omar-abdullah-bjp-language-10897034/",
+      "published": "2026-09-28 11:31 IST",
+      "group": "Indian Express"
+    },
+    {
+      "outlet": "ABP Live",
+      "url": "https://news.abplive.com/news/india/jammu-kashmir-speaker-impeachment-bjp-moves-motion-over-cm-omar-abdullah-statehood-resolution-1868702",
+      "published": "2026-09-28 12:06 IST",
+      "group": "ABP"
+    }
+  ],
+  "photo_credits": [
+    "Express Photo; via Deccan Herald",
+    "Imran Nissar / The Hindu; via Indian Express; via New Indian Express"
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/jk-statehood-resolution.webp",
+  "corrections": []
+}
