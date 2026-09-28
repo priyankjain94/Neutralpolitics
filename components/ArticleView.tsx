@@ -6,7 +6,7 @@ import { Markdown } from "./Markdown";
 import { NewsletterForm } from "./NewsletterForm";
 import { ReportForm } from "./ReportForm";
 import { ShareBar } from "./ShareBar";
-import { categoryLabel } from "@/lib/categories";
+import { CATEGORIES, categoryLabel } from "@/lib/categories";
 import { findByFollowUp, publishedArticles, relatedArticles } from "@/lib/content";
 import { isDatabaseConfigured } from "@/lib/env";
 import { formatDateTime, formatSourceTime } from "@/lib/format";
@@ -25,7 +25,9 @@ export function ArticleView({ article }: { article: Article }) {
   );
   const parent = article.followUpOf ? findByFollowUp(article.lang, article.followUpOf) : undefined;
   const related = relatedArticles(article);
-  const latest = publishedArticles(article.lang).filter((item) => item.slug !== article.slug).slice(0, 6);
+  const pool = publishedArticles(article.lang).filter((item) => item.slug !== article.slug);
+  const latest = pool.slice(0, 6);
+  const trending = [...pool.filter((item) => item.breaking), ...pool.filter((item) => !item.breaking)].slice(0, 5);
   const image = article.poster.startsWith("http") ? article.poster : `${siteUrl()}${article.poster}`;
   const verdict = article.factcheck ? m.verdicts[article.factcheck.verdict] : "";
 
@@ -167,6 +169,7 @@ export function ArticleView({ article }: { article: Article }) {
               {related.map((item) => (
                 <li key={item.slug}>
                   <Link href={articleHref(item.lang, item.year, item.month, item.slug)}>{item.title}</Link>
+                  <time dateTime={item.publishedAt}>{formatDateTime(item.publishedAt, item.lang)}</time>
                 </li>
               ))}
             </ul>
@@ -177,6 +180,19 @@ export function ArticleView({ article }: { article: Article }) {
       </div>
       <aside className="rail">
         <LatestList lang={article.lang} articles={latest} />
+        <LatestList lang={article.lang} articles={trending} title={m.trending} />
+        <nav className="rail-cats">
+          <h2>{m.sectionsLabel}</h2>
+          <ul>
+            {CATEGORIES.map((category) => (
+              <li key={category.slug}>
+                <Link href={withLang(article.lang, `/category/${category.slug}`)}>
+                  {categoryLabel(category.slug, article.lang)}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
         <aside className="callout">
           <h2>{m.contributorTitle}</h2>
           <p>{m.contributorBody}</p>

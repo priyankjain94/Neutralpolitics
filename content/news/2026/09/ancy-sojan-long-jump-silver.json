@@ -3,7 +3,7 @@
   "status": "published",
   "status_hi": "published",
   "published_at": "2026-09-27T17:32:32+05:30",
-  "updated_at": null,
+  "updated_at": "2026-09-28T20:30:00+05:30",
   "category": "sports",
   "secondary": [],
   "breaking": true,
@@ -28,6 +28,18 @@
     {
       "outlet": "Sportstar (The Hindu)",
       "url": "https://sportstar.thehindu.com/asian-games/asian-games-2026-athletics-live-updates-medals-highlights-long-high-jump-final-race/article71515650.ece"
+    },
+    {
+      "outlet": "Sportstar (The Hindu)",
+      "url": "https://sportstar.thehindu.com/asian-games/ancy-sojan-india-wins-women-long-jump-silver-medal-asian-games-2026-athletics-results/article71515945.ece"
+    },
+    {
+      "outlet": "The Indian Express",
+      "url": "https://indianexpress.com/article/sports/ancy-sojan-wins-silver-chinese-jumps-end-indias-hope-double-podium-10896299/"
+    },
+    {
+      "outlet": "Mint",
+      "url": "https://www.livemint.com/sports/news/who-is-ancy-sojan-indian-record-holder-claims-second-asian-games-long-jump-silver-after-2cm-heartbreak-11790513429944.html"
     }
   ],
   "photo_credits": [

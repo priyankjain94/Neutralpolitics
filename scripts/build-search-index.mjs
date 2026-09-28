@@ -50,6 +50,8 @@ function walk() {
             standfirst: String(parsed.data.standfirst || ""),
             body: parsed.content,
             category: shared.category,
+            publishedAt: String(shared.published_at || ""),
+            poster: String(shared.poster || ""),
           });
         }
       }
@@ -85,6 +87,8 @@ for (const article of articles) {
   </head>
   <body>
     <article data-pagefind-body>
+      ${article.poster ? `<img alt="" src="${esc(article.poster)}" data-pagefind-meta="image[src]" />` : ""}
+      ${article.publishedAt ? `<meta data-pagefind-meta="date" content="${esc(article.publishedAt)}" />` : ""}
       <h1>${esc(article.title)}</h1>
       <div data-pagefind-filter="section">${esc(article.category)}</div>
       <div data-pagefind-filter="month">${esc(`${article.year}-${article.month}`)}</div>

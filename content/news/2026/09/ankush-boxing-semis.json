@@ -3,7 +3,7 @@
   "status": "published",
   "status_hi": "published",
   "published_at": "2026-09-27T10:19:25+05:30",
-  "updated_at": null,
+  "updated_at": "2026-09-28T20:30:00+05:30",
   "category": "sports",
   "secondary": [],
   "breaking": true,
@@ -32,6 +32,22 @@
     {
       "outlet": "Olympics.com",
       "url": "https://www.olympics.com/en/news/asian-games-2026-live-scores-updates-results-india-september-27"
+    },
+    {
+      "outlet": "Sportstar (The Hindu)",
+      "url": "https://sportstar.thehindu.com/asian-games/news/ankush-boxing-bronze-medal-assured-reaches-mens-80kg-semifinals-asian-games-2026/article71515242.ece"
+    },
+    {
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/sports/asian-games-2026/asian-games-2026-ankush-panghal-punches-indias-first-boxing-medal-with-5-0-quarterfinal-win/articleshow/134515198.cms"
+    },
+    {
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/sports/asian-games-2026/asian-games-2026-ankush-panghal-parveen-hooda-assure-india-of-two-boxing-medals/articleshow/134518029.cms"
+    },
+    {
+      "outlet": "The Sentinel",
+      "url": "https://www.sentinelassam.com/sports-news/asian-games-narender-confirms-medal-as-panghal-hooda-also-reach-boxing-semis"
     }
   ],
   "photo_credits": [],

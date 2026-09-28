@@ -13,11 +13,13 @@ export function NewsletterForm({
   source,
   enabled,
   compact = false,
+  band = false,
 }: {
   lang: Lang;
   source: string;
   enabled: boolean;
   compact?: boolean;
+  band?: boolean;
 }) {
   const m = t(lang);
   const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">("idle");
@@ -52,7 +54,7 @@ export function NewsletterForm({
   }
 
   return (
-    <form className="form newsletter" onSubmit={onSubmit}>
+    <form className={`form newsletter${compact ? " compact" : ""}${band ? " band" : ""}`} onSubmit={onSubmit}>
       <h2 style={{ fontSize: compact ? "1.15rem" : undefined }}>{m.newsletterTitle}</h2>
       <p className="dek">{m.newsletterBody}</p>
       <OAuthButtons

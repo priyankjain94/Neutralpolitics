@@ -3,7 +3,7 @@
   "status": "published",
   "status_hi": "published",
   "published_at": "2026-09-27T20:54:41+05:30",
-  "updated_at": null,
+  "updated_at": "2026-09-28T20:30:00+05:30",
   "category": "sports",
   "secondary": [],
   "breaking": true,
@@ -34,6 +34,10 @@
       "outlet": "ESPNcricinfo",
       "url": "https://www.espncricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-1st-odi-1529227/live-cricket-score",
       "group": "ESPN"
+    },
+    {
+      "outlet": "India Today",
+      "url": "https://www.indiatoday.in/sports/cricket/story/virat-kohli-15000-odi-runs-india-vs-west-indies-sachin-tendulkar-fastest-3004326-2026-09-27"
     }
   ],
   "photo_credits": [

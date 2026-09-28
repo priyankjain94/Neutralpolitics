@@ -3,7 +3,7 @@
   "status": "published",
   "status_hi": "published",
   "published_at": "2026-09-27T09:45:36+05:30",
-  "updated_at": null,
+  "updated_at": "2026-09-28T20:30:00+05:30",
   "category": "disasters-weather",
   "secondary": [],
   "breaking": false,
@@ -28,6 +28,18 @@
     {
       "outlet": "ThePrint",
       "url": "https://theprint.in/india/odisha-evacuates-over-70000-people-opens-relief-camps-as-rain-induced-floods-hit-districts/3054526/"
+    },
+    {
+      "outlet": "The Hindu BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/national/odisha-floods-70000-evacuated-as-13-districts-face-flash-floods-waterlogging/article71515087.ece"
+    },
+    {
+      "outlet": "The New Indian Express",
+      "url": "https://www.newindianexpress.com/states/odisha/2026/Sep/28/mohan-charan-majhi-surveys-rain-hit-south-odisha-districts-as-mahanadi-flood-looms"
+    },
+    {
+      "outlet": "The New Indian Express",
+      "url": "https://www.newindianexpress.com/states/odisha/2026/Sep/28/odishas-balasore-bhadrak-battle-floods"
     }
   ],
   "photo_credits": [

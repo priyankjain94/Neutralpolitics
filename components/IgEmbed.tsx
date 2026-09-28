@@ -32,7 +32,7 @@ export function IgEmbed({
         />
       ) : (
         <button type="button" className="embed-button" onClick={() => setOpen(true)}>
-          <img src={poster} alt="" width={800} height={1000} />
+          <img src={poster} alt="" />
           <span className="embed-cta">▶ {m.watch}</span>
         </button>
       )}

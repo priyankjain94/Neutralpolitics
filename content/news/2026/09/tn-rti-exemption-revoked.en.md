@@ -1,16 +1,31 @@
 ---
 title: "Tamil Nadu revokes the RTI exemption for the Public (Law and Order) Department"
-standfirst: "On Sunday the state cancelled a 21 September order that had classed the department as an intelligence and security organisation under Section 24(4) of the RTI Act."
+standfirst: "On Sunday the state withdrew a 21 September order that had classed the Public (Law and Order) Department as an intelligence and security organisation under Section 24(4) of the RTI Act. The decision followed criticism, including from the DMK, the CPM and human rights groups. The law minister had defended the order hours earlier."
 key_facts:
-  - "GO Ms No. 57 of 21 September had exempted the Public (Law and Order) Department from the RTI Act under Section 24(4)."
-  - "The Human Resources Management Department issued a fresh order on Sunday cancelling it, after criticism from opposition parties, the media and a ruling ally."
-  - "The department's files, including custodial-death reports and preventive-detention matters, are back under the RTI Act, according to the account."
-sides: []
+  - "On Sunday the Tamil Nadu government revoked GO Ms No. 57 of 21 September 2026, which had exempted the Public (Law and Order) Department under Section 24(4) of the RTI Act, 2005."
+  - "Law minister C. T. R. Nirmal Kumar announced the withdrawal on X, hours after he defended the order at a press conference in Madurai."
+  - "Deccan Chronicle reported that the order had kept out information on communal and caste clashes, police firing and custodial deaths, student and farmer agitations, NSA and COFEPOSA detentions, inquiry commissions, and monthly law-and-order reviews."
+  - "DT Next reported that the 21 September order had specified the department as an intelligence and security organisation. The revoking order says that exemption stands revoked."
+  - "Deccan Chronicle reported opposition from the DMK, social organisations and human rights groups, and from the CPM state secretary. DT Next named CPM MP S. Venkatesan among those who opposed it."
+  - "Deccan Chronicle linked the criticism to a promise of transparency by TVK leader C. Joseph Vijay. The government has withdrawn the 21 September notification."
+sides:
+  - label: "Tamil Nadu government, before the revocation"
+    text: "Law minister C. T. R. Nirmal Kumar defended the 21 September order at a press conference in Madurai on Sunday. Deccan Chronicle reported that he said only information on certain sensitive issues, including communal clashes, had been kept out of the Right to Information Act. The order itself, DT Next reported, had classed the Public (Law and Order) Department as an intelligence and security organisation under Section 24(4). Within hours, the minister announced on X that the order had been withdrawn."
+  - label: "Critics of the exemption"
+    text: "Deccan Chronicle reported that the DMK, social organisations and human rights groups opposed the order. It reported that the CPM, which supports the government from outside, condemned it. The state secretary said the order was contrary to democracy and transparency, that the RTI Act was a weapon for ordinary people, and that the order would blunt it and deny human rights. DT Next said CPM MP S. Venkatesan opposed the exemption and that critics questioned classing the department as an intelligence and security organisation."
 not_confirmed: []
 ---
 
-The Tamil Nadu government on Sunday revoked an order that had taken the Public (Law and Order) Department out of the Right to Information Act.
+The Tamil Nadu government on Sunday revoked an order that had taken the Public (Law and Order) Department out of the Right to Information Act, 2005. Law minister C. T. R. Nirmal Kumar announced the decision on X, Deccan Chronicle reported. DT Next reported that the Human Resources Management (R) Department issued a fresh order revoking GO Ms No. 57, dated 21 September 2026.
 
-The earlier order, GO Ms No. 57 of 21 September, had classed the department as an intelligence and security organisation under Section 24(4) of the Act, which is the provision used to exempt such bodies. The Human Resources Management Department issued a fresh order cancelling that exemption after criticism from opposition parties, the media and an ally of the ruling party.
+DT Next quoted the new order: "GO Ms.No.57 of Human Resources Management (R) Department dated 21st September, 2026, relating to exemption of the Public (Law and Order) Department under sub-section (4) of Section 24 of the RTI Act, 2005, stands revoked." The paper reported that the September order had specified the department as an intelligence and security organisation of the state government, bringing it under Section 24. The fresh order, it reported, withdrew that notification and ended the proposed exemption.
 
-According to the account published with this report, the department's files are again covered by the RTI Act. That includes custodial-death reports and matters of preventive detention.
+Deccan Chronicle reported that the announcement came within hours of the minister defending the order in Madurai. He had said only information on certain sensitive issues, including communal clashes, had been excluded.
+
+The paper listed what the 21 September order had kept out: information on communal and caste clashes; inquiry reports on police firing and custodial deaths; the handling of student and farmer agitations; and detentions under the National Security Act. It said the Human Resources Management Department issued the order under Section 24(4). The list also covered commissions of inquiry into law and order and follow-up on their recommendations; detentions under the Conservation of Foreign Exchange and Prevention of Smuggling Activities Act (COFEPOSA) and the National Security Act, including habeas corpus representations; and monthly law-and-order review meetings.
+
+DT Next described the department the order had sought to exempt. It deals with communal and caste clashes, political agitations, and preventive detention under COFEPOSA and the National Security Act. It handles detainee representations and habeas corpus petitions before the High Court and the Supreme Court, and police enquiry reports on custodial deaths, allegations of torture, and deaths of remand prisoners. It deals with references from the National Human Rights Commission, reports sent to the Centre, and replies to Parliament. It processes student and agricultural labourers' agitations, requests to withdraw cases registered on political grounds, and sanction to prosecute in cases involving articles, news reports and speeches. That is DT Next's account of the files. Deccan Chronicle's list is its account of what the September order placed outside the Act.
+
+Deccan Chronicle reported that criticism followed a promise by TVK leader C. Joseph Vijay of transparency, accountability, and doorstep delivery of services. It reported opposition from the DMK, social organisations and human rights groups. The state secretary of the CPM, which the paper said supports the government from outside, condemned the order as contrary to democracy and transparency. He said the RTI Act was a weapon for ordinary people and that the order would blunt it, resulting in denial of human rights. DT Next called the CPM an ally of the ruling dispensation, said the revocation came hours after that criticism, and named CPM MP S. Venkatesan among the opponents. It reported questions over classifying the department as an intelligence and security organisation. Those are the objections as the two papers reported them.
+
+With the fresh order, DT Next reported, the 21 September notification stands withdrawn. The department is no longer under the exemption that order had proposed.

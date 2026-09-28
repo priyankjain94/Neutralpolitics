@@ -4,7 +4,7 @@ import { LanguageBanner } from "./LanguageBanner";
 import { NewsletterForm } from "./NewsletterForm";
 import { JsonLd } from "./JsonLd";
 import { LatestList, LeadStory, SecondaryStory, StoryGrid } from "./Stories";
-import { categoryLabel } from "@/lib/categories";
+import { CATEGORIES, categoryLabel } from "@/lib/categories";
 import { allCorrections, publishedArticles } from "@/lib/content";
 import { isDatabaseConfigured } from "@/lib/env";
 import { formatDay } from "@/lib/format";
@@ -18,15 +18,13 @@ export function HomePage({ lang }: { lang: Lang }) {
   const articles = publishedArticles(lang);
   const lead = articles.find((article) => article.breaking) || articles[0];
   const rest = articles.filter((article) => article !== lead);
-  const secondary = rest.slice(0, 2);
-  const latest = rest.slice(2, 10);
-  const used = new Set([lead?.slug, ...secondary.map((article) => article.slug)]);
-  const sections = ["politics", "courts", "economy", "world", "sports", "fact-check"]
-    .map((slug) => ({
-      slug,
-      articles: articles.filter((article) => article.category === slug && !used.has(article.slug)).slice(0, 4),
-    }))
-    .filter((section) => section.articles.length > 0);
+  const secondary = rest.slice(0, 3);
+  const latest = rest.slice(0, 8);
+  const trending = [...rest.filter((article) => article.breaking), ...rest.filter((article) => !article.breaking)].slice(0, 5);
+  const sections = CATEGORIES.map((category) => ({
+    slug: category.slug,
+    articles: articles.filter((article) => article.category === category.slug && article.slug !== lead?.slug).slice(0, 4),
+  })).filter((section) => section.articles.length > 0);
   const checks = articles.filter((article) => article.category === "fact-check").slice(0, 2);
   const corrections = allCorrections(lang).slice(0, 2);
 
@@ -45,14 +43,18 @@ export function HomePage({ lang }: { lang: Lang }) {
                 <SecondaryStory key={article.slug} article={article} />
               ))}
             </div>
-            <div>
+            <div className="home-rail">
               <LatestList lang={lang} articles={latest.length ? latest : rest} />
-              <NewsletterForm lang={lang} source="/" enabled={isDatabaseConfigured()} compact />
+              <LatestList lang={lang} articles={trending} title={m.trending} />
             </div>
           </div>
         ) : (
           <p>{m.emptyCategory}</p>
         )}
+
+        <section className="signup-band">
+          <NewsletterForm lang={lang} source="/" enabled={isDatabaseConfigured()} compact band />
+        </section>
 
         {sections.map((section) => (
           <section className="section-block" key={section.slug}>

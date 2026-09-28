@@ -1,24 +1,31 @@
 ---
-title: "Chhattisgarh floods: officials say nearly 5,000 people were rescued in two days"
-standfirst: "PTI, quoted by several outlets, said nearly 5,000 people were rescued, including an airlift from Dongaghat in Bastar. A state disaster report put that airlift at 18 people rather than 16. One body was recovered in Bilaspur. There is no official statewide death toll in these reports."
+title: "Chhattisgarh floods: nearly 5,000 rescued; Dongaghat airlift given as 16 and as 18"
+standfirst: "PTI, carried by India Today and BusinessLine, said nearly 5,000 people were rescued in two days, including 16 airlifted at Dongaghat. A state public-relations post put that airlift at 18, by an Air Force Mi-17. The reports do not give one statewide death toll."
 key_facts:
-  - "PTI on Sunday: nearly 5,000 rescued in two days, including 16 airlifted. Bastar: more than 1,000 rescued in 24 hours. The state disaster report says an IAF Mi-17 airlifted people at Dongaghat and puts that number at 18."
-  - "Bastar: 43 relief camps and more than 5,000 people in them, according to PTI. Some local reports based on the disaster report say 4,798 people in 42 camps."
-  - "Indravati at 12.56 m at 8 pm on Saturday, 4.26 m above the danger mark."
-  - "PTI district figures: Durg 764 rescued and 16 camps; Raipur (Abhanpur) about 2,000 moved; Balodabazar-Bhatapara 120 rescued; Narayanpur nine families moved."
-  - "One body recovered in Bilaspur from the Arpa; one person still missing there. Two missing in Dhamtari. A farmer drowned in Kondagaon on 25 September. No official statewide death toll was reported."
+  - "Sunday, via PTI in India Today and BusinessLine: nearly 5,000 people rescued in two days. Those reports say 16 people were airlifted at Dongaghat. The Chhattisgarh Directorate of Public Relations post says an Air Force Mi-17 rescued 18 there."
+  - "Bastar, according to PTI: more than 1,000 rescued in 24 hours, 43 relief camps and more than 5,000 people in them. Indravati at 12.56 m at 8 pm on Saturday, 4.26 m above the danger mark."
+  - "PTI district figures: Durg 764 rescued and 16 camps; Raipur's Abhanpur about 2,000 moved; Balodabazar-Bhatapara 120 rescued; Narayanpur nine families moved."
+  - "Bilaspur: one of two boys recovered from the Arpa; a search for the other. Dhamtari: Babulal Sahu, 65, and Tarana Nishad, 15, missing. Officials told The Hindu and ETV Bharat a 40-year-old farmer drowned in Kondagaon on 25 September. ETV Bharat also reported a woman died in a mud-house collapse in Kurandi."
+  - "The state closed government, private and aided schools on Saturday, 26 September, after Chief Minister Vishnu Deo Sai's announcement on Friday. No single official statewide death toll is in these reports."
 sides: []
 not_confirmed:
-  - "The Dongaghat airlift count: PTI says 16, the state disaster report says 18."
-  - "Bastar camp numbers: PTI says 43 camps and more than 5,000 people; some reports drawn from the disaster report say 4,798 people in 42 camps."
+  - "The Dongaghat airlift count. India Today and BusinessLine, citing PTI, say 16. The state public-relations post says 18."
+  - "A death in a mud-house collapse at Kurandi in Bastar. ETV Bharat said a woman reportedly died there. The Sunday PTI copy does not mention it."
+  - "A statewide death toll. The reports list separate incidents and do not publish one official total."
 ---
 
-Nearly 5,000 people were rescued over two days as heavy rain swelled rivers in Chhattisgarh, officials said on Sunday, according to PTI. The agency's copy was carried by India Today, The Hindu BusinessLine and ThePrint.
+Nearly 5,000 people were rescued in Chhattisgarh over two days after heavy rain swelled rivers, officials said on Sunday. India Today and The Hindu BusinessLine carried that account from PTI. Rain had eased, they said, but levels stayed high because of upstream inflow and releases from dams. The districts named were Bastar, Dhamtari, Bilaspur, Durg, Raipur, Balodabazar-Bhatapara and Narayanpur.
 
-Bastar was the worst hit. PTI said more than 1,000 people were rescued there in 24 hours, and that 16 people stranded at Dongaghat were airlifted on Sunday morning. The state disaster report says an Indian Air Force Mi-17 did that airlift and puts the number at 18. The two official counts do not match. This report records both.
+Bastar was described as the worst affected. An official in Jagdalpur said more than 1,000 people were rescued and moved to camps in 24 hours. The Dongaghat airlift is not one figure. India Today said 16 people stranded there were rescued by helicopter on Sunday morning. BusinessLine said 16 were rescued using helicopters. A post by the Chhattisgarh Directorate of Public Relations said 18 people at Dongaghat were rescued by an Air Force Mi-17. Both numbers are recorded here. PTI said 43 relief camps were sheltering more than 5,000 people. These reports do not give a second camp count. The Indravati was at 12.56 metres at 8 pm on Saturday, 4.26 metres above the danger mark, PTI said. Collector Akash Chhikara and SP Shalabh Sinha visited Dongaghat, Asna and a camp at Panarapara on Saturday.
 
-PTI said Bastar district had 43 relief camps sheltering more than 5,000 people. Some local reports based on the disaster report say 4,798 people were in 42 camps. The Indravati was at 12.56 metres at 8 pm on Saturday, 4.26 metres above the danger mark.
+PTI also reported about six truck drivers and helpers rescued near Sonarpal on NH-30 on Saturday, after five trucks stopped on the Jagdalpur–Raipur road. In Durg, 764 people were rescued after water entered about 200 houses in 13 rural areas and in parts of Durg and Bhilai, and 16 temporary camps were opened. In Abhanpur, Raipur, about 2,000 people were moved, and Revenue and Disaster Management Minister Tankram Verma gave ₹5,000 cheques on Saturday. Balodabazar-Bhatapara reported 120 rescues. In Narayanpur, nine families were moved from Kalmanar, and Gopi Ram Patel, 55, was rescued at Taragaon. In Dhamtari, nine people were rescued at the Lomash Rishi Ashram in Kurud, and an SDRF team went to a waterlogged liquor shop in Nari.
 
-PTI's other district figures included 764 people rescued in Durg, where 16 camps were running; about 2,000 people moved to safety in Raipur's Abhanpur area; 120 rescued in Balodabazar-Bhatapara; and nine families moved in Narayanpur. Dhamtari was also affected.
+ETV Bharat, separately, said SDRF and Army personnel rescued 15 people at Matiya Khar in Durg at about 2 am, and that Gariaband police rescued 48 bus passengers near Sarai Bhadar. The Sunday PTI copy does not mention those two operations.
 
-On deaths, PTI said one body was recovered in Bilaspur from the Arpa river and another person was still missing there, and that two people were missing in Dhamtari, with the State Disaster Response Force and police searching. The Hindu and ETV Bharat reported that a farmer drowned in Kondagaon on 25 September. No official statewide death toll appears in these reports. SDRF and police were leading rescues. The reports found do not mention an NDRF or Army deployment. Chief Minister Vishnu Deo Sai told collectors to keep relief teams on alert and to provide shelter, food, water and medicines. State schools were shut on 26 September. Revenue and Disaster Management Minister Tankram Verma handed out ₹5,000 assistance cheques in Abhanpur, PTI said. Rain had eased, but the situation was still being watched.
+These reports do not give one statewide death toll. PTI said two boys, aged 12 and 16, were swept away on Saturday while bathing in the Arpa at Madhuban Ghat, Dayalband, Bilaspur. One body was recovered that night. The search for the other continued. In Dhamtari, police and the State Disaster Response Force were looking for Babulal Sahu, 65, a retired forest employee missing from Sirsida, whose phone, shawl, walking stick and towel were found near a riverbank, and for Tarana Nishad, 15, swept away near a petrol pump in Megha village under Magarlod police station. The Hindu and ETV Bharat said a farmer, 40, drowned in Kondagaon on Friday, 25 September, after falling into a flooded drain while trying to catch fish in a partly submerged paddy field, officials said. ETV Bharat also said a woman reportedly died when a mud house collapsed in Kurandi, Bastar. That death is not in the Sunday PTI copy.
+
+The Hindu said government, private and aided schools were closed on Saturday, 26 September, after Chief Minister Vishnu Deo Sai's Friday announcement. He asked parents to keep children at home and told collectors to arrange shelter, food, water and medicines. ETV Bharat quoted him telling people not to cross submerged roads and to dial 112. The Hindu said rain from 1 June to 25 September averaged 1,082.4 mm, 100.1 percent of the 10-year mark of 1,081.5 mm. ETV Bharat said a very-heavy-rain warning covered isolated places in 13 districts.
+
+## What's next
+
+India Today, citing officials, said rescue and relief were continuing because rivers were still high, and that searches were still on in Dhamtari and Bilaspur.

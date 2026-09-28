@@ -1,19 +1,37 @@
 ---
-title: "EC: BLOs to collect documents at home from voters served SIR notices"
-standfirst: "After a Commission meeting on Saturday, the Election Commission said voters flagged as \"unmapped\" or for \"logical discrepancies\" will not ordinarily be called to the ERO. Claim deadlines were extended in Delhi and Maharashtra."
+title: "EC says BLOs will collect documents at home from voters served SIR notices"
+standfirst: "After a full meeting on Saturday, the Election Commission said voters noticed in the special intensive revision for being unmapped or for logical discrepancies need not ordinarily attend a hearing. Booth level officers will collect documents at home. The Commission also set out a review of ECINet and extended claim deadlines in Delhi and Maharashtra."
 key_facts:
-  - "Booth Level Officers will collect documents at home and upload them on ECINET for voters served SIR notices as \"unmapped\" or for \"logical discrepancies\"."
-  - "Hearings only in exceptional cases, preferably online. An adult family member can attend."
-  - "A committee led by a senior Deputy Election Commissioner, with an IIT or IIIT expert, will review ECINET's legal compliance."
-  - "Claim deadlines extended to 30 October in Delhi and 12 October in Maharashtra. SIR is complete in 20 states and Union Territories, including Bihar and West Bengal."
-sides: []
-not_confirmed: []
+  - "Saturday, 26 September 2026, 3 pm, at Nirvachan Sadan: CEC Gyanesh Kumar and election commissioners Sukhbir Singh Sandhu and Vivek Joshi. The Commission said the press note had the full Commission's approval."
+  - "For SIR notices on unmapped entries and logical discrepancies, the Commission said BLOs will visit homes, collect documents and upload them on ECINet for the ERO's decision. Such voters need not be called to the ERO or AERO office."
+  - "A hearing only in exceptional cases, as the ERO decides, preferably online. An adult family member may be authorised to attend. DEOs are to set up help desks or camps for night shelters, labourers, the poor and the homeless."
+  - "A committee headed by a senior deputy election commissioner, with an expert from an IIT or IIIT, will review ECINet. The Commission said field officers have role-based access and rejected reports that they were locked out."
+  - "Claims and objections extended to 30 October 2026 in Delhi and 12 October 2026 in Maharashtra. Disposal runs to 30 November in Delhi and 10 November in Maharashtra. SIR is complete in 20 states and Union Territories, including Bihar and West Bengal, the Commission said."
+  - "The Commission said the 24 June 2025 SIR order had unanimous approval and was upheld by the Supreme Court. The Indian Express reported that the two commissioners had objected to a Form 6 declaration and to centralisation of ECINet."
+sides:
+  - label: "Election Commission"
+    text: "The Commission said voters issued SIR notices for being unmapped or for logical discrepancies need not attend a routine hearing. BLOs will collect documents at home and upload them for the ERO. It said the SIR declaration on Form 6 was upheld by the Supreme Court, and that outside the SIR the forms in the 1960 rules will be used. It said field officers have role-based access to ECINet, that a letter to the Cabinet Secretary concerned an officer on deputation and not policy, and that the June 2025 SIR order was unanimous."
+  - label: "Concerns reported inside the Commission"
+    text: "The Indian Express reported that Saturday's meeting was the first since it reported a divide, and that it addressed concerns of commissioners Sukhbir Singh Sandhu and Vivek Joshi. It reported that the two had called an added declaration on online Form 6 illegal and unauthorised, and had flagged centralisation of ECINet. The Times of India reported that the home-visit change followed criticism from voters and the opposition that discrepancies were inconveniencing citizens. The Commission rejected the lock-out allegation and ordered a review."
+not_confirmed:
+  - "That booth level officers or EROs were locked out of ECINet. The Commission denied that and said access is role-based. It still ordered a review of whether the system complies with the law."
+  - "That the two election commissioners dissented from the SIR order of 24 June 2025. The Commission said that order had unanimous approval. The Indian Express reported their objections to a Form 6 declaration and to ECINet."
 ---
 
-The Election Commission said on Saturday, after a full Commission meeting, that voters served notices in the special intensive revision for being "unmapped" or for "logical discrepancies" will generally not have to appear at electoral registration officer offices.
+The Election Commission said on Saturday, 26 September 2026, that voters noticed in the special intensive revision for being "unmapped" or for "logical discrepancies" will not ordinarily have to attend a hearing. The full Commission met at 3 pm at Nirvachan Sadan: Chief Election Commissioner Gyanesh Kumar and election commissioners Sukhbir Singh Sandhu and Vivek Joshi. The Indian Express reported that the note had the full Commission's approval. The Times of India called it the first meeting after reports of alleged internal differences. The Indian Express called it the first since that paper reported a divide.
 
-Booth Level Officers will collect documents at those voters' homes and upload them on ECINET. Hearings will be held only in exceptional cases, and preferably online. An adult family member can attend.
+The statement, quoted by The Indian Express, India Today, Mint and Hindustan Times, says booth level officers will visit the home, collect documents and upload them on ECINet for the electoral registration officer to decide. Such voters need not be called to the ERO or assistant ERO. A hearing is only in exceptional cases, as the ERO decides, preferably online, and an adult family member may be authorised to attend. The Times of India paraphrased the visit as one by EROs and assistant EROs. The quoted statement assigns the visit to booth level officers.
 
-The Commission also ordered a review of ECINET by a committee led by a senior Deputy Election Commissioner and including an expert from an IIT or IIIT, to check the portal's legal compliance.
+The Indian Express reported that "unmapped" means a name was not in the previous intensive revision and parents or grandparents could not be shown from that roll. "Logical discrepancies" are flags from the central software. The Times of India listed a name or gender mismatch, less than 15 years with a parent, less than 40 with a grandparent, six children mapped to one parent, and less than nine months between siblings. Until now, it said, notice recipients had to appear before the ERO. It said the change followed criticism from voters and the opposition. That is the paper's account of the criticism.
 
-Deadlines for claims and objections were extended in Delhi to 30 October and in Maharashtra to 12 October. The account of the decision says the revision is complete in 20 states and Union Territories, including Bihar and West Bengal.
+District officers are to set up help desks or camps for night shelters, labourers, the poor and the homeless. The Commission said the Form 6 declaration used for the SIR was upheld by the Supreme Court, and that outside the SIR the Registration of Electors Rules, 1960, apply. The Indian Express reported that the two commissioners had called an online Form 6 addition "illegal, unauthorised", because only the Law Ministry can amend that form.
+
+On ECINet, the Commission said field officers have role-based access. A committee under a senior deputy election commissioner, with an expert from an IIT or IIIT, will check compliance with the Acts and rules and report back. Further flexibility for field officers will be made operational, and new IT modules will pass through the Committee of Officers first. The Times of India reported that the Commission rejected claims that officers were locked out.
+
+At Delhi's request, claims run to 30 October 2026 and disposal to 30 November 2026. At Maharashtra's request, claims run to 12 October 2026 and disposal to 10 November 2026. The statement also said minutes will be issued, appraisals finished by 31 December, and foreign trips approved by the Commission.
+
+The Commission said the SIR is complete in 20 states and Union Territories, including Bihar and West Bengal. Anyone left out, including a first-time voter, may apply to the ERO under a special drive. It said the order of 24 June 2025 had unanimous approval and was upheld by the Supreme Court on 27 May 2026. On a letter to Cabinet Secretary T. V. Somanathan, it said the subject was an officer on deputation, not policy, and that IT oversight by the deputy election commissioner was never withdrawn. On Goa, it said 81 of 97 electors left off the roll, despite a recommendation to include them, had filled Form 6.
+
+## What's next
+
+The new claim deadlines are 30 October 2026 in Delhi and 12 October 2026 in Maharashtra. The ECINet committee is to report to the Commission. Officers are to start a special enrolment drive. In Goa, 81 of 97 named electors had filled Form 6, the Commission said.
