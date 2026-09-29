@@ -1,0 +1,39 @@
+{
+  "slug": "tata-trusts-merger-plan",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-29T16:33:00+05:30",
+  "updated_at": null,
+  "category": "economy",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "TataSons",
+    "TataTrusts",
+    "RBI"
+  ],
+  "ig_shortcode": "Dd3nREwxcFm",
+  "ig_url": "https://www.instagram.com/reel/Dd3nREwxcFm/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "tata-trusts-merger-tess-tce-avoid-listing-sep29",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The Hindu",
+      "url": "https://www.thehindu.com/business/tata-trusts-proposes-recast-of-tata-sons-to-avoid-listing/article71520398.ece",
+      "published": "2026-09-28T20:53:00+05:30"
+    },
+    {
+      "outlet": "Indian Express",
+      "url": "https://indianexpress.com/article/business/tata-trusts-proposes-strategic-reorganisation-tata-sons-to-avoid-listing-10897927/",
+      "published": "2026-09-28T19:23:04+05:30"
+    }
+  ],
+  "photo_credits": [
+    "Photo: AroundTheGlobe / Wikimedia Commons, CC BY-SA 3.0"
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/tata-trusts-merger-plan.webp",
+  "corrections": []
+}
