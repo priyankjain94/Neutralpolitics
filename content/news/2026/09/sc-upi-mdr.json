@@ -3,7 +3,7 @@
   "status": "published",
   "status_hi": "published",
   "published_at": "2026-09-27T16:22:38+05:30",
-  "updated_at": "2026-09-28T20:30:00+05:30",
+  "updated_at": "2026-09-29T10:39:00+05:30",
   "category": "courts",
   "secondary": [],
   "breaking": true,
@@ -12,17 +12,24 @@
     "SupremeCourt",
     "MDR",
     "DigitalPayments",
-    "UPIFee"
+    "UPIFee",
+    "payments"
   ],
-  "ig_shortcode": "Dd0wckLxqRV",
-  "ig_url": "https://www.instagram.com/reel/Dd0wckLxqRV/",
-  "ig_type": "reel",
+  "ig_shortcode": "Dd2-VrKkQMm",
+  "ig_url": "https://www.instagram.com/p/Dd2-VrKkQMm/",
+  "ig_type": "carousel",
   "ig_more": [
     {
       "shortcode": "DdycF6oT1Fy",
       "url": "https://www.instagram.com/reel/DdycF6oT1Fy/",
       "type": "reel",
       "headline": "SC to hear plea against 0.4% UPI fee on Monday. This is a hearing, not a ruling"
+    },
+    {
+      "shortcode": "Dd0wckLxqRV",
+      "url": "https://www.instagram.com/reel/Dd0wckLxqRV/",
+      "type": "reel",
+      "headline": "No Stay, Oct 15 On: SC Lets UPI Fee Above ₹2,000 Roll Out For Now"
     }
   ],
   "event_id": "sc-upi-mdr-refuses-stay-oct15-sep28-2026",
@@ -51,11 +58,27 @@
       "url": "https://www.cnbctv18.com/business/finance/upi-mdr-case-supreme-court-what-is-changing-october-15-why-challenged-19999618.htm",
       "published": "2026-09-28 ~13:21 IST",
       "group": "Network18"
+    },
+    {
+      "outlet": "The Hindu",
+      "url": "https://www.thehindu.com/business/Economy/if-neither-tax-nor-fee-what-is-this-expropriation-supreme-court-asks-govt-on-upi-mdr-charges/article71518779.ece",
+      "published": "2026-09-28"
+    },
+    {
+      "outlet": "The Tribune",
+      "url": "https://www.tribuneindia.com/news/india/sc-notice-to-centre-rbi-and-others-on-pil-against-mdr-on-upi-payments-above-rs-2000/",
+      "published": "2026-09-28"
+    },
+    {
+      "outlet": "New Indian Express",
+      "url": "https://www.newindianexpress.com/india/2026/Sep/28/sc-refuses-to-stay-fee-on-upi-transactions-above-rs-2000-seeks-centres-response",
+      "published": "2026-09-28"
     }
   ],
   "photo_credits": [
     "ANI via Hindustan Times (file); Supreme Court – Subhashish Panigrahi / Wikimedia Commons, CC BY-SA 4.0, cropped",
-    "Supreme Court of India by Subhashish Panigrahi, Wikimedia Commons, CC BY-SA 4.0"
+    "Supreme Court of India by Subhashish Panigrahi, Wikimedia Commons, CC BY-SA 4.0",
+    "Supreme Court (file), Subhashish Panigrahi / Wikimedia Commons, CC BY-SA 4.0"
   ],
   "sample": false,
   "poster": "/media/2026/09/sc-upi-mdr.webp",
