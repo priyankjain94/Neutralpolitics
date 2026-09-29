@@ -3,19 +3,27 @@
   "status": "published",
   "status_hi": "published",
   "published_at": "2026-09-28T15:48:11+05:30",
-  "updated_at": "2026-09-28T20:30:00+05:30",
+  "updated_at": "2026-09-29T19:49:00+05:30",
   "category": "politics",
   "secondary": [],
   "breaking": true,
   "tags": [
     "JammuAndKashmir",
     "Statehood",
-    "JKAssembly"
+    "JKStatehood",
+    "JKAssembly",
+    "OmarAbdullah"
   ],
-  "ig_shortcode": "Dd09rOPRxj2",
-  "ig_url": "https://www.instagram.com/reel/Dd09rOPRxj2/",
-  "ig_type": "reel",
+  "ig_shortcode": "Dd39KomEdB7",
+  "ig_url": "https://www.instagram.com/p/Dd39KomEdB7/",
+  "ig_type": "carousel",
   "ig_more": [
+    {
+      "shortcode": "Dd09rOPRxj2",
+      "url": "https://www.instagram.com/reel/Dd09rOPRxj2/",
+      "type": "reel",
+      "headline": "J&K Assembly passes a resolution asking the Centre to restore statehood"
+    },
     {
       "shortcode": "Dd088d5xwHd",
       "url": "https://www.instagram.com/reel/Dd088d5xwHd/",
@@ -61,11 +69,22 @@
       "url": "https://news.abplive.com/news/india/jammu-kashmir-speaker-impeachment-bjp-moves-motion-over-cm-omar-abdullah-statehood-resolution-1868702",
       "published": "2026-09-28 12:06 IST",
       "group": "ABP"
+    },
+    {
+      "outlet": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/india/jk-assembly-passes-resolution-seeking-urgent-restoration-of-full-statehood-amid-bjp-walkout/articleshow/134537362.cms",
+      "published": "2026-09-28"
+    },
+    {
+      "outlet": "The New Indian Express",
+      "url": "https://www.newindianexpress.com/india/2026/Sep/28/ruckus-in-jk-assembly-as-bjp-seeks-speakers-removal-protests-statehood-resolution-with-reference-to-autonomy",
+      "published": "2026-09-28"
     }
   ],
   "photo_credits": [
     "Express Photo; via Deccan Herald",
-    "Imran Nissar / The Hindu; via Indian Express; via New Indian Express"
+    "Imran Nissar / The Hindu; via Indian Express; via New Indian Express",
+    "J&K Legislature Complex (file), Ramchandra9 / Wikimedia Commons, CC BY 3.0"
   ],
   "sample": false,
   "poster": "/media/2026/09/jk-statehood-resolution.webp",
