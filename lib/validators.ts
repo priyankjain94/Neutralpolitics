@@ -96,6 +96,18 @@ export const signupSchema = z
     }
   });
 
+export const errorReportSchema = z.object({
+  story_ref: z.string().trim().min(2).max(500),
+  what_wrong: z.string().trim().min(10).max(4000),
+  suggested_correction: z.string().trim().min(10).max(4000),
+  source_url: z.string().trim().max(500).optional().or(z.literal("")),
+  name: z.string().trim().max(120).optional().or(z.literal("")),
+  email: z.string().trim().max(200).optional().or(z.literal("")),
+  language: z.enum(["en", "hi"]),
+  consent_contact: z.literal(true),
+  website: z.string().max(200).optional().or(z.literal("")),
+});
+
 export const reportSchema = z.object({
   type: z.enum(["correction", "factcheck", "contact"]),
   article_url: z.string().trim().max(500).optional().or(z.literal("")),

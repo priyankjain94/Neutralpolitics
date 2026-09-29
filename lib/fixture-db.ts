@@ -5,6 +5,7 @@ type Bag = {
   submission_events: Row[];
   signups: Row[];
   reports: Row[];
+  error_reports: Row[];
   story_overrides: Row[];
   desk_corrections: Row[];
   audit_log: Row[];
@@ -72,6 +73,27 @@ function bag(): Bag {
         },
       ],
       reports: [],
+      error_reports: [
+        {
+          id: "33333333-3333-4333-8333-333333333333",
+          created_at: now,
+          updated_at: now,
+          story_ref: "/news/2026/09/asian-games-day10",
+          what_wrong: "Fixture report used only when NP_ADMIN_FIXTURE=1 outside production. The medal line should be checked against the sources.",
+          suggested_correction: "Say India is 12th because the table ranks gold medals first.",
+          source_url: "https://sportstar.thehindu.com/asian-games/india-medal-tally-asian-games-2026-live-day-10-september-28/article71518481.ece",
+          name: "Preview Reader",
+          email: "reader@example.com",
+          language: "en",
+          consent_contact: true,
+          consent_at: now,
+          consent_ip_hash: "fixture",
+          status: "new",
+          notes: null,
+          desk_correction_id: null,
+          reviewed_at: null,
+        },
+      ],
       story_overrides: [],
       desk_corrections: [],
       audit_log: [],

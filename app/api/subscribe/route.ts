@@ -32,6 +32,7 @@ export async function POST(request: Request) {
     topics: parsed.data.topics,
     channel,
     consent_text_version: CONSENT_VERSION,
+    consent_at: new Date().toISOString(),
     source_page: parsed.data.source_page || null,
   });
   if (error && !String(error.message).toLowerCase().includes("duplicate")) {

@@ -16,42 +16,28 @@ The service role key bypasses row level security. Use it only on the server. Do 
 
 ## 2. Run the SQL
 
-In the Supabase **SQL Editor**, run the files in this order. Paste the whole file, then run it.
+In the Supabase **SQL Editor**, paste `supabase/setup_all.sql` and run it once. It is safe to run again. It applies the migrations in order and creates the private video bucket.
+
+The separate files, if you prefer them one at a time, are:
 
 1. `supabase/migrations/0001_init.sql`
 2. `supabase/migrations/0002_admin_desk.sql`
+3. `supabase/migrations/0003_error_reports.sql`
 
-`0001` creates `submissions`, `submission_events`, `signups`, and `reports`. `0002` adds desk status, payment tracking columns, `story_overrides`, `desk_corrections`, and `audit_log`. Row level security is enabled. `anon` and `authenticated` cannot read or write those tables. The service role can.
+`0001` creates `submissions`, `submission_events`, `signups`, and `reports`. `0002` adds desk status, payment tracking columns, `story_overrides`, `desk_corrections`, and `audit_log`. `0003` creates `error_reports` for the public “Report an error” form. Row level security is enabled. `anon` and `authenticated` cannot read or write those tables. The service role can.
 
 Payment columns are a record only. The site does not send money.
 
-## 3. Create the video bucket
+## 3. Video bucket
 
-In **Storage → New bucket**:
+`setup_all.sql` inserts a private Storage bucket named `submissions` (200 MB, video MIME types only). If that insert cannot see `storage.buckets`, create the bucket by hand:
 
 - Name: `submissions`
 - Public: off
 - File size limit: `209715200` (200 MB)
 - Allowed MIME types: `video/mp4`, `video/quicktime`, `video/3gpp`, `video/webm`
 
-Or run this in the SQL editor:
-
-```sql
-insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
-values (
-  'submissions',
-  'submissions',
-  false,
-  209715200,
-  array['video/mp4', 'video/quicktime', 'video/3gpp', 'video/webm']
-)
-on conflict (id) do update
-set public = false,
-    file_size_limit = excluded.file_size_limit,
-    allowed_mime_types = excluded.allowed_mime_types;
-```
-
-Leave the bucket private. The browser uploads with a signed URL created by the service role. The desk plays video with a short-lived signed URL. No public read policy is required.
+Leave the bucket private. The contribute form asks `/api/contribute/start` for a signed upload URL, the browser uploads straight to the bucket, then `/api/contribute/complete` marks the row. The row stores the consent text version, consent time, and a salted IP hash. The desk plays the file with a short-lived signed URL. No public read policy is required.
 
 `SUPABASE_STORAGE_BUCKET` is optional. Leave it empty to use the name `submissions`.
 
@@ -100,7 +86,7 @@ Optional:
 
 Until `ADMIN_EMAIL`, `ADMIN_PASSWORD_HASH`, and `ADMIN_SESSION_SECRET` are all set, `/admin` shows **Admin is not configured**. It does not open.
 
-Until `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` are set, the contribute form stays on “uploads opening soon” and the newsletter form stays closed. With those two set, both write to the database. Video upload also needs the private `submissions` bucket.
+Until `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` are set, the contribute form stays on “uploads opening soon”, the newsletter form stays closed, and “Report an error” says the form is temporarily unavailable and gives the corrections email. With those two set, newsletter signups write to `signups` (with the consent time), contributor videos write to `submissions` and the private bucket, and error reports write to `error_reports`.
 
 ## 6. Sign in
 
@@ -113,12 +99,13 @@ Open `https://neutralpolitics.vercel.app/admin`.
 
 ## What the desk can do
 
-- Dashboard counts and a recent audit log.
+- Dashboard counts, including open error reports, and a recent audit log.
 - Stories: search and filter, read English and Hindi, edit title, summary, body, category, and sources, mark sensitive, publish or unpublish. Saves update `story_overrides`. Empty fields keep the git text. `sensitive` is an internal flag. It does not hide a story by itself. Publish and unpublish do.
 - Submissions: status `new`, `under review`, `verified`, `rejected`, `published`; notes; a link to a story slug; payment amount, status (`unpaid` / `pending` / `paid`), method, reference, and date.
 - Signups: list, CSV export, delete a row on request.
 - Corrections: add and edit notes shown on the public corrections page.
-- CSV export for submissions and signups.
+- Error reports: list and filter (`new`, `reviewing`, `fixed`, `rejected`), notes, a link to the story, one click that copies the suggested correction onto the public corrections page, and CSV export.
+- CSV export for submissions, signups, and error reports.
 
 Public pages and the sitemap pick up overrides within about a minute. Middleware blocks a story whose override status is `draft`, including one that is still `published` in git. Pagefind search and the RSS feeds follow the git files until the next deploy.
 

@@ -4,7 +4,6 @@ import { JsonLd } from "./JsonLd";
 import { LatestList } from "./Stories";
 import { Markdown } from "./Markdown";
 import { NewsletterForm } from "./NewsletterForm";
-import { ReportForm } from "./ReportForm";
 import { ShareBar } from "./ShareBar";
 import { CATEGORIES, categoryLabel } from "@/lib/categories";
 import { articlesWithDesk } from "@/lib/desk";
@@ -59,6 +58,11 @@ export async function ArticleView({ article }: { article: Article }) {
             {article.readingMinutes} {m.minRead}
           </span>
         </div>
+        <p className="report-link">
+          <Link href={withLang(article.lang, `/report-error?story=${encodeURIComponent(`/news/${article.year}/${article.month}/${article.slug}`)}`)}>
+            {m.reportError}
+          </Link>
+        </p>
         {article.lang === "hi" ? (
           <p className="translated-note">
             {otherLive ? <Link href={articleHref("en", article.year, article.month, article.slug)}>{m.readOther}</Link> : m.comingSoon}
@@ -179,7 +183,6 @@ export async function ArticleView({ article }: { article: Article }) {
           </section>
         ) : null}
         <NewsletterForm lang={article.lang} source={path} enabled={isDatabaseConfigured()} />
-        <ReportForm lang={article.lang} type="correction" enabled={isDatabaseConfigured()} articleUrl={url} />
       </div>
       <aside className="rail">
         <LatestList lang={article.lang} articles={latest} />

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { login } from "./actions";
 import { AdminShell } from "@/components/AdminShell";
 import { adminConfigured, isAdmin } from "@/lib/admin-auth";
@@ -51,6 +52,8 @@ export default async function AdminHome({ searchParams }: { searchParams: Promis
     return status === "new" || status === "under_review" || status === "verifying";
   }).length;
   const signups = db ? await db.from("signups").select("id").limit(500) : { data: [] };
+  const errorReports = db ? await db.from("error_reports").select("status").limit(500) : { data: [] };
+  const openReports = (errorReports.data || []).filter((row) => row.status === "new" || row.status === "reviewing").length;
   const audit = db ? await db.from("audit_log").select("*").order("at", { ascending: false }).limit(12) : { data: [] };
 
   return (
@@ -75,6 +78,10 @@ export default async function AdminHome({ searchParams }: { searchParams: Promis
         <article>
           <p className="kicker">Signups</p>
           <h2>{db ? signups.data?.length || 0 : "—"}</h2>
+        </article>
+        <article>
+          <p className="kicker">Open error reports</p>
+          <h2>{db ? <Link href="/admin/error-reports">{openReports}</Link> : "—"}</h2>
         </article>
       </div>
       <h2 className="rule-title">Recent activity</h2>

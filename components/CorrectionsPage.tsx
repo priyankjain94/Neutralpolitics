@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Markdown } from "./Markdown";
-import { ReportForm } from "./ReportForm";
+import { ErrorReportForm } from "./ErrorReportForm";
 import { loadPage } from "@/lib/content";
 import { publicCorrections } from "@/lib/desk";
 import { isDatabaseConfigured } from "@/lib/env";
@@ -29,7 +29,7 @@ export async function CorrectionsPage({ lang }: { lang: Lang }) {
           </li>
         ))}
       </ul>
-      <ReportForm lang={lang} type="correction" enabled={isDatabaseConfigured()} />
+      <ErrorReportForm lang={lang} enabled={isDatabaseConfigured()} />
     </div>
   );
 }

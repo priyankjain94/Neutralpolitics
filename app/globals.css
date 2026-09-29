@@ -103,6 +103,11 @@ html[lang="hi"] .sections a, html[lang="hi"] .more-button {
   letter-spacing: 0.02em;
 }
 .more-panel a:hover, .more-panel a:focus-visible { background: #fafafa; }
+.hp {
+  position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden;
+}
+.report-link { margin: 0.2rem 0 0.8rem; }
+.report-link a { color: var(--red); font-weight: 600; }
 .sr-only {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden;
   clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;

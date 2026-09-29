@@ -98,17 +98,15 @@ Published stories are written in both languages. Hindi files in this import are 
 
 ## Database
 
-Exact steps are in `docs/admin-setup.md`. Run both files in the Supabase SQL editor, in order:
-
-1. `supabase/migrations/0001_init.sql`
-2. `supabase/migrations/0002_admin_desk.sql`
+Exact steps are in `docs/admin-setup.md`. Paste `supabase/setup_all.sql` once in the Supabase SQL editor. It runs the migrations in order and creates the private `submissions` bucket.
 
 They create:
 
 - `submissions` — contributor videos, desk status (`new`, `under review`, `verified`, `rejected`, `published`), notes, and payment tracking
 - `submission_events` — the review log
 - `signups` — newsletter or WhatsApp numbers, with consent, and no sending
-- `reports` — corrections, fact-check claims, and contact messages
+- `reports` — fact-check claims and contact messages
+- `error_reports` — the public report-an-error form. The IP is stored only as a salted hash
 - `story_overrides` — desk edits on top of the git files
 - `desk_corrections` — notes shown on the public corrections page
 - `audit_log` — desk actions
@@ -123,13 +121,14 @@ Contributor video does not pass through Vercel. The browser asks `/api/contribut
 
 After signing in:
 
-- `/admin` shows published, draft, open submission, and signup counts, plus recent activity
+- `/admin` shows published, draft, open submission, signup, and open error-report counts, plus recent activity
 - `/admin/stories` lists, filters, and edits stories. Saves write `story_overrides`, not a git commit
 - `/admin/submissions` lists submissions and exports CSV
 - `/admin/submissions/<id>` plays a short-lived video URL, stores notes, changes status, links a story slug, and records a payment (amount, unpaid/pending/paid, method, reference, date). Nothing is paid out
 - `/admin/signups` lists signups, exports CSV, and deletes a row on request
 - `/admin/corrections` adds and edits public correction notes
-- `/admin/reports` updates correction, fact-check, and contact messages
+- `/admin/error-reports` reviews reader error reports and can copy one onto the public corrections page
+- `/admin/reports` updates fact-check and contact messages
 
 Publish and unpublish take effect on the public pages within about a minute. Search and RSS follow the git files until the next deploy.
 

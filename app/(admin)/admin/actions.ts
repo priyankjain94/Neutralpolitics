@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 import { adminConfigured, clearAdminCookie, credentialsMatch, isAdmin, setAdminCookie } from "@/lib/admin-auth";
 import { getDb } from "@/lib/db";
 import { revalidateStory, writeAudit } from "@/lib/desk";
+import { storyParts } from "@/lib/story-ref";
 import { DESK_STATUSES, legacyStatus } from "@/lib/desk-status";
 import { isCategory } from "@/lib/categories";
 import { rateLimit } from "@/lib/rate-limit";
@@ -218,5 +219,64 @@ export async function saveCorrection(formData: FormData) {
   else await db.from("desk_corrections").insert(row);
   await writeAudit(id ? "correction_edit" : "correction_add", id || note.slice(0, 80));
   revalidateStory("", "", "");
+  redirect("/admin/corrections");
+}
+
+const ERROR_STATUSES = ["new", "reviewing", "fixed", "rejected"] as const;
+
+function rowId(result: { data?: unknown }): string {
+  const data = result.data;
+  if (Array.isArray(data)) return String((data[0] as { id?: string } | undefined)?.id || "");
+  if (data && typeof data === "object" && "id" in data) return String((data as { id?: string }).id || "");
+  return "";
+}
+
+export async function updateErrorReport(formData: FormData) {
+  const db = await guard();
+  const id = String(formData.get("id") || "");
+  const status = String(formData.get("status") || "");
+  const notes = String(formData.get("notes") || "").trim();
+  if (!ERROR_STATUSES.includes(status as (typeof ERROR_STATUSES)[number])) redirect(`/admin/error-reports/${id}?e=status`);
+  await db
+    .from("error_reports")
+    .update({
+      status,
+      notes: notes || null,
+      updated_at: new Date().toISOString(),
+      reviewed_at: new Date().toISOString(),
+    })
+    .eq("id", id);
+  await writeAudit("error_report_status", id, status);
+  redirect(`/admin/error-reports/${id}`);
+}
+
+export async function createCorrectionFromReport(formData: FormData) {
+  const db = await guard();
+  const id = String(formData.get("id") || "");
+  const { data } = await db.from("error_reports").select("*").eq("id", id).maybeSingle();
+  if (!data) redirect("/admin/error-reports");
+  if (data.desk_correction_id) redirect("/admin/corrections");
+  const parts = storyParts(String(data.story_ref || ""));
+  const note = String(data.suggested_correction || data.what_wrong || "").trim();
+  if (note.length < 5) redirect(`/admin/error-reports/${id}?e=note`);
+  const lang = data.language === "hi" ? "hi" : data.language === "en" ? "en" : "both";
+  const inserted = await db
+    .from("desk_corrections")
+    .insert({
+      note,
+      lang,
+      article_slug: parts?.slug || null,
+      article_year: parts?.year || null,
+      article_month: parts?.month || null,
+      visible: true,
+      updated_at: new Date().toISOString(),
+    })
+    .select("id");
+  const correctionId = rowId(inserted);
+  if (correctionId) {
+    await db.from("error_reports").update({ desk_correction_id: correctionId, updated_at: new Date().toISOString() }).eq("id", id);
+  }
+  await writeAudit("error_report_correction", id, parts?.slug || String(data.story_ref || ""));
+  revalidateStory(parts?.year || "", parts?.month || "", parts?.slug || "");
   redirect("/admin/corrections");
 }
