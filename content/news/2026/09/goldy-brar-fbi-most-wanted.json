@@ -1,0 +1,48 @@
+{
+  "slug": "goldy-brar-fbi-most-wanted",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-29T09:11:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "GoldyBrar",
+    "FBI"
+  ],
+  "ig_shortcode": "Dd20PzxRreb",
+  "ig_url": "https://www.instagram.com/reel/Dd20PzxRreb/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": null,
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "FBI",
+      "url": "https://www.fbi.gov/wanted/topten/satinderjeet-singh",
+      "published": "2026-07-06T13:48:00+05:30"
+    },
+    {
+      "outlet": "The Indian Express",
+      "url": "https://indianexpress.com/article/india/goldy-brar-fbi-most-wanted-1-million-bounty-10898112/",
+      "published": "2026-09-29T01:47:21+05:30"
+    },
+    {
+      "outlet": "CBC News",
+      "url": "https://www.cbc.ca/news/politics/goldy-brar-bishnoi-gang-most-wanted-9.7361302",
+      "published": "2026-09-29T00:35:18+05:30"
+    },
+    {
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/india/fbi-puts-gangster-goldy-brar-on-ten-most-wanted-fugitives-list/articleshow/134549606.cms",
+      "published": "2026-09-29T00:39:00+05:30"
+    }
+  ],
+  "photo_credits": [
+    "FBI"
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/goldy-brar-fbi-most-wanted.webp",
+  "corrections": []
+}
