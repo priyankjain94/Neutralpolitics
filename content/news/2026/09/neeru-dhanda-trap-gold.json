@@ -1,0 +1,46 @@
+{
+  "slug": "neeru-dhanda-trap-gold",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-29T13:54:00+05:30",
+  "updated_at": null,
+  "category": "sports",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "AsianGames2026",
+    "NeeruDhanda",
+    "Shooting",
+    "India"
+  ],
+  "ig_shortcode": "Dd3UnWIRtX9",
+  "ig_url": "https://www.instagram.com/reel/Dd3UnWIRtX9/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": null,
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The Hindu (PTI)",
+      "url": "https://www.thehindu.com/sport/asian-games-2026-neeru-dhanda-strikes-first-ever-womens-trap-gold-leads-team-to-silver/article71522726.ece",
+      "published": "2026-09-29T11:42:19+05:30"
+    },
+    {
+      "outlet": "India Today",
+      "url": "https://www.indiatoday.in/sports/asian-games/story/asian-games-shooting-gold-neeru-womens-trap-final-3005411-2026-09-29",
+      "published": "2026-09-29T11:55:00+05:30"
+    },
+    {
+      "outlet": "Indian Express",
+      "url": "https://indianexpress.com/article/sports/neeru-dhanda-shooting-gold-womens-trap-asian-games-history-india-medal-10898592/",
+      "published": "2026-09-29T11:19:43+05:30"
+    }
+  ],
+  "photo_credits": [
+    "Photo: PTI (Atul Yadav)",
+    "Action photo: PTI"
+  ],
+  "sample": false,
+  "poster": "/media/2026/09/neeru-dhanda-trap-gold.webp",
+  "corrections": []
+}

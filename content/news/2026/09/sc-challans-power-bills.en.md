@@ -19,7 +19,7 @@ not_confirmed:
 
 The Supreme Court on 28 September floated one way to recover unpaid traffic e-challans. A bench of Justices JB Pardiwala and KV Viswanathan suggested that states and Union territories consider linking those dues to electricity bills. The suggestion came while the court discussed how unpaid penalties might be recovered. It was not an order directing any state to change billing. It does not put challans on power bills, and it is not a binding nationwide rule already in force.
 
-Bar & Bench and PTI reported the discussion in court. Hindustan Times and India Today carried supporting accounts of the same hearing. The note drawn from those reports states the limit in plain words: the Supreme Court floated the idea, but it is not an order, and a power bill does not change today.
+Bar & Bench and PTI reported the discussion in court. Hindustan Times and India Today carried supporting accounts of the same hearing. The note drawn from those reports states the limit in plain words: the Supreme Court floated the idea, but it is not an order, and a power bill does not change today. A later note uses the same words. The facts of the hearing are unchanged.
 
 The sums that travel with the hearing are the ones the court was told, and the ones the reports cite. The court was told that about ₹45,000 crore is due and about ₹25,000 crore has been recovered, leaving around ₹20,000 crore. The reports put the same figures on traffic challans: roughly ₹45,000 crore due, about ₹25,000 crore recovered, and around ₹20,000 crore still outstanding. Those are reported figures placed before the court. They are not described as a total the court itself calculated or certified.
 
