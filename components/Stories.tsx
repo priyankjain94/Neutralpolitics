@@ -17,7 +17,7 @@ export function Kicker({ article }: { article: Article }) {
   );
 }
 
-export function LeadStory({ article }: { article: Article }) {
+export function LeadStory({ article, figure = true }: { article: Article; figure?: boolean }) {
   return (
     <article className="lead story-card">
       <Kicker article={article} />
@@ -30,9 +30,11 @@ export function LeadStory({ article }: { article: Article }) {
       <time className="story-time" dateTime={article.publishedAt}>
         {formatDateTime(article.publishedAt, article.lang)}
       </time>
-      <figure className="figure">
-        <img src={article.poster} alt="" fetchPriority="high" decoding="async" />
-      </figure>
+      {figure ? (
+        <figure className="figure">
+          <img src={article.poster} alt="" fetchPriority="high" decoding="async" />
+        </figure>
+      ) : null}
     </article>
   );
 }

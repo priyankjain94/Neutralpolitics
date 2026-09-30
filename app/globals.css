@@ -126,6 +126,10 @@ html[lang="hi"] .sections a, html[lang="hi"] .more-button {
 h1, h2, h3, p, li { overflow-wrap: break-word; }
 .lead .standfirst { color: var(--muted); font-size: 1.02rem; margin: 0 0 8px; line-height: 1.45; }
 .figure { margin: 8px 0 0; background: transparent; }
+.lead-photo { display: flex; justify-content: center; margin: 16px 0 0; }
+.lead-photo img {
+  width: auto; max-width: 100%; max-height: 32rem; height: auto; object-fit: contain; background: #fff; display: block;
+}
 .figure img, .card-figure img, .embed-button img {
   width: 100%; height: auto; object-fit: contain; background: #fff; display: block;
 }
@@ -367,16 +371,41 @@ th { font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; }
 .video-box video { width: 100%; }
 
 @media (min-width: 800px) {
-  .home-top { grid-template-columns: minmax(0, 6.4fr) minmax(0, 3.2fr) minmax(240px, 3.2fr); }
-  .home-top.two { grid-template-columns: minmax(0, 8fr) minmax(240px, 4fr); }
+  .home-top { grid-template-columns: minmax(0, 6.4fr) minmax(0, 3.2fr) minmax(240px, 3.2fr); align-items: start; }
+  .home-top.two {
+    grid-template-columns: minmax(0, 8fr) minmax(240px, 4fr);
+    grid-template-areas: "lead rail" "photo photo";
+  }
+  .home-top.two > .lead { grid-area: lead; }
+  .home-top.two > .latest { grid-area: rail; align-self: start; }
+  .home-top.two > .lead-photo {
+    grid-area: photo; border-left: 0; padding-left: 0; margin-left: 0;
+  }
   .home-top > * + * { border-left: 1px solid var(--rule); padding-left: 20px; margin-left: 16px; }
   .secondary { padding-top: 0; }
   .lead .figure img { width: 100%; max-width: 100%; height: auto; object-fit: contain; }
-  .cat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 16px; }
+  .cat-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 20px 16px;
+  }
+  .cat-grid > article { grid-column: span 6; }
+  .cat-grid > article:nth-child(odd):last-child { grid-column: span 12; }
   .sides-grid { grid-template-columns: 1fr 1fr; }
   .sides-grid article + article { border-top: 0; border-left: 1px solid var(--rule); padding: 0 0 0 0.9rem; }
-  .article-layout { grid-template-columns: minmax(0, 7.6fr) minmax(240px, 4fr); }
-  .article-layout > .rail { border-left: 1px solid var(--rule); padding-left: 20px; }
+  .article-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(240px, 320px);
+    grid-template-areas: "top rail" "body body";
+    column-gap: 28px;
+    align-items: start;
+  }
+  .article-top { grid-area: top; min-width: 0; }
+  .article-body { grid-area: body; min-width: 0; }
+  .article-layout > .rail {
+    grid-area: rail;
+    border-left: 1px solid var(--rule);
+    padding-left: 20px;
+    align-self: start;
+  }
   .strip { grid-template-columns: 1.2fr 2fr; align-items: start; }
   .footer-cols { grid-template-columns: 1.2fr 1fr 1fr; }
   .newsletter.band {
@@ -390,10 +419,31 @@ th { font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; }
 }
 @media (min-width: 1100px) {
   .wrap { width: min(var(--max), calc(100% - 48px)); }
-  .cat-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .cat-grid > article { grid-column: span 3; }
+  .cat-grid > article:nth-child(4n+1):nth-last-child(3),
+  .cat-grid > article:nth-child(4n+2):nth-last-child(2),
+  .cat-grid > article:nth-child(4n+3):nth-last-child(1) { grid-column: span 4; }
+  .cat-grid > article:nth-child(4n+1):nth-last-child(2),
+  .cat-grid > article:nth-child(4n+2):nth-last-child(1) { grid-column: span 6; }
+  .cat-grid > article:nth-child(4n+1):nth-last-child(1) { grid-column: span 12; }
+  .cat-grid > article:nth-child(4n+1):nth-last-child(1) .card-figure {
+    display: flex; justify-content: center;
+  }
+  .cat-grid > article:nth-child(4n+1):nth-last-child(1) .card-figure img {
+    width: auto; max-width: min(100%, 40rem); max-height: 28rem;
+  }
+}
+@media (min-width: 800px) and (max-width: 1099px) {
+  .cat-grid > article:nth-child(odd):last-child .card-figure {
+    display: flex; justify-content: center;
+  }
+  .cat-grid > article:nth-child(odd):last-child .card-figure img {
+    width: auto; max-width: 100%; max-height: 28rem;
+  }
 }
 @media (max-width: 799px) {
   body { font-size: 16.5px; }
+  .home-top.two > .latest { order: 1; }
   .search-form { flex-direction: column; }
   .search-form .button, .form-nav .button, .form-nav .ghost-btn, .contribute-form .button { width: 100%; }
   .form-nav { flex-direction: column-reverse; }

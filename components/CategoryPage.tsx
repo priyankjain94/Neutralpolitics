@@ -4,7 +4,7 @@ import { LatestList, LeadStory, StoryGrid } from "./Stories";
 import { categoryLabel, isCategory } from "@/lib/categories";
 import { articlesWithDesk } from "@/lib/desk";
 import { t } from "@/lib/i18n";
-import { withLang } from "@/lib/paths";
+import { articleHref, withLang } from "@/lib/paths";
 import type { Lang } from "@/lib/types";
 
 const PAGE_SIZE = 12;
@@ -30,8 +30,11 @@ export async function CategoryView({ lang, name, page }: { lang: Lang; name: str
       </p>
       {lead ? (
         <div className="home-top two">
-          <LeadStory article={lead} />
+          <LeadStory article={lead} figure={false} />
           <LatestList lang={lang} articles={live.slice(0, 6)} />
+          <Link className="lead-photo" href={articleHref(lead.lang, lead.year, lead.month, lead.slug)} aria-label={lead.title}>
+            <img src={lead.poster} alt="" fetchPriority="high" decoding="async" />
+          </Link>
         </div>
       ) : (
         <p>{m.emptyCategory}</p>

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { IgEmbed } from "./IgEmbed";
 import { JsonLd } from "./JsonLd";
-import { LatestList } from "./Stories";
+import { LatestList, StoryGrid } from "./Stories";
 import { Markdown } from "./Markdown";
 import { ShareBar } from "./ShareBar";
 import { CATEGORIES, categoryLabel } from "@/lib/categories";
@@ -34,7 +34,7 @@ export async function ArticleView({ article }: { article: Article }) {
   return (
     <article className="wrap article-layout">
       <JsonLd data={articleJsonLd(article, [image])} />
-      <div>
+      <div className="article-top">
         <nav className="crumbs" aria-label="Breadcrumb">
           <ol>
             <li>
@@ -114,6 +114,8 @@ export async function ArticleView({ article }: { article: Article }) {
         ) : null}
         {article.photoCredits.length ? <p className="credit">{m.photo}: {article.photoCredits.join("; ")}</p> : null}
         <ShareBar lang={article.lang} title={article.title} url={url} />
+      </div>
+      <div className="article-body">
         <div className="prose" data-pagefind-body>
           <Markdown>{article.body}</Markdown>
         </div>
@@ -182,19 +184,7 @@ export async function ArticleView({ article }: { article: Article }) {
         {related.length ? (
           <section className="related">
             <h2 className="rule-title">{m.related}</h2>
-            <ul>
-              {related.map((item) => (
-                <li className="story-card related-row" key={item.slug}>
-                  <img src={item.poster} alt="" loading="lazy" decoding="async" />
-                  <div>
-                    <Link className="story-hit" href={articleHref(item.lang, item.year, item.month, item.slug)}>
-                      {item.title}
-                    </Link>
-                    <time dateTime={item.publishedAt}>{formatDateTime(item.publishedAt, item.lang)}</time>
-                  </div>
-                </li>
-              ))}
-            </ul>
+            <StoryGrid articles={related} />
           </section>
         ) : null}
       </div>

@@ -12,22 +12,33 @@ export function FactCheckPage({ lang }: { lang: Lang }) {
   const page = loadPage("fact-check", lang);
   const articles = articlesInCategory(lang, "fact-check");
   return (
-    <div className="wrap prose-page">
-      <h1 className="page-title">{page?.title || m.factCheck}</h1>
-      {page?.description ? <p className="lede">{page.description}</p> : null}
-      {page ? <Markdown>{page.body}</Markdown> : null}
-      <ul className="log">
+    <div className="wrap">
+      <div className="prose-page">
+        <h1 className="page-title">{page?.title || m.factCheck}</h1>
+        {page?.description ? <p className="lede">{page.description}</p> : null}
+        {page ? <Markdown>{page.body}</Markdown> : null}
+      </div>
+      <div className="cat-grid">
         {articles.map((article) => (
-          <li className="story-card" key={article.slug}>
-            {article.factcheck ? <span className="verdict">{m.verdicts[article.factcheck.verdict]}</span> : null}{" "}
-            <Link className="story-hit" href={articleHref(lang, article.year, article.month, article.slug)}>
-              {article.title}
-            </Link>
+          <article className="story-card" key={article.slug}>
+            <figure className="card-figure">
+              <img src={article.poster} alt="" loading="lazy" decoding="async" />
+            </figure>
+            <div className="kicker-row">
+              {article.factcheck ? <span className="verdict">{m.verdicts[article.factcheck.verdict]}</span> : null}
+            </div>
+            <h2>
+              <Link className="story-hit" href={articleHref(lang, article.year, article.month, article.slug)}>
+                {article.title}
+              </Link>
+            </h2>
             <p className="dek">{article.standfirst}</p>
-          </li>
+          </article>
         ))}
-      </ul>
-      <ReportForm lang={lang} type="factcheck" enabled={isDatabaseConfigured()} />
+      </div>
+      <div className="prose-page">
+        <ReportForm lang={lang} type="factcheck" enabled={isDatabaseConfigured()} />
+      </div>
     </div>
   );
 }
