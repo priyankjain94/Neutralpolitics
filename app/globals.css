@@ -133,6 +133,7 @@ h1, h2, h3, p, li { overflow-wrap: break-word; }
 .kicker {
   font-family: var(--sans); color: var(--red); font-size: 0.72rem; letter-spacing: 0.08em;
   text-transform: uppercase; text-decoration: none; font-weight: 600;
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0 2px;
 }
 html[lang="hi"] .kicker { letter-spacing: 0; text-transform: none; font-size: 0.86rem; }
 .kicker-row { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
