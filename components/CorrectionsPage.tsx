@@ -20,11 +20,13 @@ export async function CorrectionsPage({ lang }: { lang: Lang }) {
       {page ? <Markdown>{page.body}</Markdown> : null}
       <ul className="log">
         {entries.map((entry) => (
-          <li key={entry.key}>
+          <li className={entry.article ? "story-card" : undefined} key={entry.key}>
             <time dateTime={entry.at}>{formatDateTime(entry.at, lang)}</time>
             <p>{entry.note}</p>
             {entry.article ? (
-              <Link href={articleHref(lang, entry.article.year, entry.article.month, entry.article.slug)}>{entry.article.title}</Link>
+              <Link className="story-hit" href={articleHref(lang, entry.article.year, entry.article.month, entry.article.slug)}>
+                {entry.article.title}
+              </Link>
             ) : null}
           </li>
         ))}

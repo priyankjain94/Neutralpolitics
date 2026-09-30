@@ -72,12 +72,12 @@ export function SearchBox({ lang, initialQuery }: { lang: Lang; initialQuery: st
           <p className="fine">{m.searchCount.replace("{n}", String(results.length))}</p>
           <ul className="results">
             {results.map((result) => (
-              <li key={result.url} className={result.meta?.image ? "result-row" : undefined}>
+              <li key={result.url} className={result.meta?.image ? "result-row story-card" : "story-card"}>
                 {result.meta?.image ? (
                   <img className="result-thumb" src={result.meta.image} alt="" />
                 ) : null}
                 <div>
-                  <a href={result.url}>{result.meta?.title || result.url}</a>
+                  <a className="story-hit" href={result.url}>{result.meta?.title || result.url}</a>
                   {result.meta?.date ? (
                     <time className="story-time" dateTime={result.meta.date}>
                       {formatDateTime(result.meta.date, lang)}

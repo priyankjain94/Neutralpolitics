@@ -18,9 +18,11 @@ export function FactCheckPage({ lang }: { lang: Lang }) {
       {page ? <Markdown>{page.body}</Markdown> : null}
       <ul className="log">
         {articles.map((article) => (
-          <li key={article.slug}>
+          <li className="story-card" key={article.slug}>
             {article.factcheck ? <span className="verdict">{m.verdicts[article.factcheck.verdict]}</span> : null}{" "}
-            <Link href={articleHref(lang, article.year, article.month, article.slug)}>{article.title}</Link>
+            <Link className="story-hit" href={articleHref(lang, article.year, article.month, article.slug)}>
+              {article.title}
+            </Link>
             <p className="dek">{article.standfirst}</p>
           </li>
         ))}

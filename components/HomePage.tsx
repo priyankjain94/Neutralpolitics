@@ -46,6 +46,10 @@ export async function HomePage({ lang }: { lang: Lang }) {
             <div className="home-rail">
               <LatestList lang={lang} articles={latest.length ? latest : rest} />
               <LatestList lang={lang} articles={trending} title={m.trending} />
+              <Link className="callout callout-compact" href={withLang(lang, "/contribute")}>
+                <span>{m.contributorTitle}</span>
+                <strong>{m.contributorLink}</strong>
+              </Link>
             </div>
           </div>
         ) : (
@@ -70,8 +74,10 @@ export async function HomePage({ lang }: { lang: Lang }) {
             <h2 className="rule-title">{m.factStrip}</h2>
             <div>
               {checks.map((article) => (
-                <p key={article.slug}>
-                  <Link href={articleHref(lang, article.year, article.month, article.slug)}>{article.title}</Link>
+                <p className="story-card" key={article.slug}>
+                  <Link className="story-hit" href={articleHref(lang, article.year, article.month, article.slug)}>
+                    {article.title}
+                  </Link>
                 </p>
               ))}
               <Link href={withLang(lang, "/fact-check")}>{m.allFactChecks}</Link>
@@ -84,10 +90,10 @@ export async function HomePage({ lang }: { lang: Lang }) {
             <h2 className="rule-title">{m.correctionsStrip}</h2>
             <div>
               {corrections.map((entry) => (
-                <p key={entry.key}>
+                <p className={entry.article ? "story-card" : undefined} key={entry.key}>
                   <time dateTime={entry.at}>{formatDay(entry.at, lang)}</time> — {entry.note}{" "}
                   {entry.article ? (
-                    <Link href={articleHref(lang, entry.article.year, entry.article.month, entry.article.slug)}>
+                    <Link className="story-hit" href={articleHref(lang, entry.article.year, entry.article.month, entry.article.slug)}>
                       {entry.article.title}
                     </Link>
                   ) : null}
@@ -97,12 +103,6 @@ export async function HomePage({ lang }: { lang: Lang }) {
             </div>
           </section>
         ) : null}
-
-        <aside className="callout">
-          <h2>{m.contributorTitle}</h2>
-          <p>{m.contributorBody}</p>
-          <Link href={withLang(lang, "/contribute")}>{m.contributorLink}</Link>
-        </aside>
       </div>
     </>
   );

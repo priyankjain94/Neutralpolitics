@@ -19,17 +19,19 @@ export function Kicker({ article }: { article: Article }) {
 
 export function LeadStory({ article }: { article: Article }) {
   return (
-    <article className="lead">
+    <article className="lead story-card">
       <Kicker article={article} />
       <h1>
-        <Link href={articleHref(article.lang, article.year, article.month, article.slug)}>{article.title}</Link>
+        <Link className="story-hit" href={articleHref(article.lang, article.year, article.month, article.slug)}>
+          {article.title}
+        </Link>
       </h1>
       <p className="standfirst">{article.standfirst}</p>
       <time className="story-time" dateTime={article.publishedAt}>
         {formatDateTime(article.publishedAt, article.lang)}
       </time>
       <figure className="figure">
-        <img src={article.poster} alt="" />
+        <img src={article.poster} alt="" fetchPriority="high" decoding="async" />
       </figure>
     </article>
   );
@@ -37,18 +39,20 @@ export function LeadStory({ article }: { article: Article }) {
 
 export function SecondaryStory({ article }: { article: Article }) {
   return (
-    <article>
+    <article className="story-card">
       <Kicker article={article} />
       <div className="thumb-row">
         <div>
           <h2>
-            <Link href={articleHref(article.lang, article.year, article.month, article.slug)}>{article.title}</Link>
+            <Link className="story-hit" href={articleHref(article.lang, article.year, article.month, article.slug)}>
+              {article.title}
+            </Link>
           </h2>
           <time className="story-time" dateTime={article.publishedAt}>
             {formatDateTime(article.publishedAt, article.lang)}
           </time>
         </div>
-        <img src={article.poster} alt="" />
+        <img src={article.poster} alt="" decoding="async" />
       </div>
     </article>
   );
@@ -61,8 +65,10 @@ export function LatestList({ lang, articles, title }: { lang: Lang; articles: Ar
       <h2>{title || m.latest}</h2>
       <ol>
         {articles.map((article) => (
-          <li key={article.slug}>
-            <Link href={articleHref(lang, article.year, article.month, article.slug)}>{article.title}</Link>
+          <li className="story-card" key={article.slug}>
+            <Link className="story-hit" href={articleHref(lang, article.year, article.month, article.slug)}>
+              {article.title}
+            </Link>
             <time dateTime={article.publishedAt}>{formatDateTime(article.publishedAt, lang)}</time>
           </li>
         ))}
@@ -77,11 +83,13 @@ export function StoryGrid({ articles }: { articles: Article[] }) {
       {articles.map((article) => (
         <article className="story-card" key={article.slug}>
           <figure className="card-figure">
-            <img src={article.poster} alt="" />
+            <img src={article.poster} alt="" loading="lazy" decoding="async" />
           </figure>
           <Kicker article={article} />
           <h2>
-            <Link href={articleHref(article.lang, article.year, article.month, article.slug)}>{article.title}</Link>
+            <Link className="story-hit" href={articleHref(article.lang, article.year, article.month, article.slug)}>
+              {article.title}
+            </Link>
           </h2>
           <time className="story-time" dateTime={article.publishedAt}>
             {formatDateTime(article.publishedAt, article.lang)}

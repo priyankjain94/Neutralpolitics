@@ -37,6 +37,18 @@ export async function ArticleView({ article }: { article: Article }) {
     <article className="wrap article-layout">
       <JsonLd data={articleJsonLd(article, [image])} />
       <div>
+        <nav className="crumbs" aria-label="Breadcrumb">
+          <ol>
+            <li>
+              <Link href={withLang(article.lang, "/")}>{m.home}</Link>
+            </li>
+            <li>
+              <Link href={withLang(article.lang, `/category/${article.category}`)}>
+                {categoryLabel(article.category, article.lang)}
+              </Link>
+            </li>
+          </ol>
+        </nav>
         <div className="kicker-row">
           {article.breaking ? <span className="breaking">{m.breaking}</span> : null}
           <Link className="kicker" href={withLang(article.lang, `/category/${article.category}`)}>
@@ -174,9 +186,14 @@ export async function ArticleView({ article }: { article: Article }) {
             <h2 className="rule-title">{m.related}</h2>
             <ul>
               {related.map((item) => (
-                <li key={item.slug}>
-                  <Link href={articleHref(item.lang, item.year, item.month, item.slug)}>{item.title}</Link>
-                  <time dateTime={item.publishedAt}>{formatDateTime(item.publishedAt, item.lang)}</time>
+                <li className="story-card related-row" key={item.slug}>
+                  <img src={item.poster} alt="" loading="lazy" decoding="async" />
+                  <div>
+                    <Link className="story-hit" href={articleHref(item.lang, item.year, item.month, item.slug)}>
+                      {item.title}
+                    </Link>
+                    <time dateTime={item.publishedAt}>{formatDateTime(item.publishedAt, item.lang)}</time>
+                  </div>
                 </li>
               ))}
             </ul>
@@ -199,11 +216,10 @@ export async function ArticleView({ article }: { article: Article }) {
             ))}
           </ul>
         </nav>
-        <aside className="callout">
-          <h2>{m.contributorTitle}</h2>
-          <p>{m.contributorBody}</p>
-          <Link href={withLang(article.lang, "/contribute")}>{m.contributorLink}</Link>
-        </aside>
+        <Link className="callout callout-compact" href={withLang(article.lang, "/contribute")}>
+          <span>{m.contributorTitle}</span>
+          <strong>{m.contributorLink}</strong>
+        </Link>
       </aside>
     </article>
   );
