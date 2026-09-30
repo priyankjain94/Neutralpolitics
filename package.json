@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "node scripts/build-search-index.mjs",
-    "build": "next build",
+    "build": "next build && node scripts/copy-layout-css.mjs",
     "start": "next start",
     "search:index": "node scripts/build-search-index.mjs",
     "import": "node scripts/import-post.mjs",
