@@ -1,0 +1,70 @@
+{
+  "slug": "flydubai-fz1073-cockpit-incident-what-is-confirmed",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-09-30T23:04:29+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "flydubai",
+    "FZ1073",
+    "NPVERIFY",
+    "NeutralPolitics",
+    "FactCheck"
+  ],
+  "ig_shortcode": "Dd64PtQRKi-",
+  "ig_url": "https://www.instagram.com/reel/Dd64PtQRKi-/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "flydubai-fz1073-cockpit-attack-sep30",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "flydubai",
+      "url": "https://news.flydubai.com/updates-on-fz-1073-dxb-tlv-on-30-september-2026",
+      "published": "2026-09-30"
+    },
+    {
+      "outlet": "Saudi Gazette",
+      "url": "https://saudigazette.com.sa/article/664991/saudi-arabia/flydubai-flight-makes-emergency-landing-at-tabuk-airport-two-pilots-injured",
+      "published": "2026-09-30T14:16:00+03:00"
+    },
+    {
+      "outlet": "Saudi Gazette",
+      "url": "https://saudigazette.com.sa/article/665001/saudi-arabia/tabuk-airport-all-flydubai-passengers-depart-on-replacement-aircraft",
+      "published": "2026-09-30T18:49:00+03:00"
+    },
+    {
+      "outlet": "AP via PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/world/netanyahu-says-a-pilot-on-a-flydubai-flight-stabbed-another-and-apparently-tried-to-crash-the-plane",
+      "published": "2026-09-30"
+    },
+    {
+      "outlet": "Reuters via HI-99",
+      "url": "https://hi99.com/2026/09/30/israel-bound-flight-diverted-to-saudi-arabia-after-brawl-between-pilots-israeli-official-says/",
+      "published": "2026-09-30"
+    },
+    {
+      "outlet": "The National",
+      "url": "https://www.thenationalnews.com/news/gulf/2026/09/30/flydubai-flight-to-tel-aviv-diverted-to-saudi-arabia-after-incident-on-board/",
+      "published": "2026-09-30T12:40:00+05:30"
+    },
+    {
+      "outlet": "BBC",
+      "url": "https://www.bbc.co.uk/news/live/cw980g1lem5pt",
+      "published": "2026-09-30"
+    },
+    {
+      "outlet": "ABC News (Australia)",
+      "url": "https://www.abc.net.au/news/2026-10-01/flydubai-ez1073-diverts-after-accusations-of-pilot-stabbing/107214522",
+      "published": "2026-09-30"
+    }
+  ],
+  "photo_credits": [],
+  "sample": false,
+  "poster": "/media/2026/09/flydubai-fz1073-cockpit-incident-what-is-confirmed.webp",
+  "corrections": [],
+  "sensitive": true
+}
