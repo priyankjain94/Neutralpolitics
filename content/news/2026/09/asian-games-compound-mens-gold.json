@@ -1,0 +1,57 @@
+{
+  "slug": "asian-games-compound-mens-gold",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-30T17:03:00+05:30",
+  "updated_at": null,
+  "category": "sports",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "AsianGames2026",
+    "Archery",
+    "TeamIndia"
+  ],
+  "ig_shortcode": "Dd6PB_WRcxL",
+  "ig_url": "https://www.instagram.com/reel/Dd6PB_WRcxL/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "asian-games-compound-mens-team-gold-sep30",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Asian Games 2026 official results (final)",
+      "url": "https://results.asiangames2026.org/#/discipline/ARC/results/M.CTEAM-------------.FNL-.000100--",
+      "published": "2026-09-30"
+    },
+    {
+      "outlet": "Asian Games 2026 official results (semifinal)",
+      "url": "https://results.asiangames2026.org/#/discipline/ARC/results/M.CTEAM-------------.SFNL.000200--",
+      "published": "2026-09-30"
+    },
+    {
+      "outlet": "Sportstar",
+      "url": "https://sportstar.thehindu.com/asian-games/asian-games-2026-india-wins-gold-mens-compound-team-archery-medals/article71527243.ece",
+      "published": "2026-09-30T14:04:50+05:30"
+    },
+    {
+      "outlet": "The Hindu",
+      "url": "https://www.thehindu.com/sport/asian-games-2026-mens-team-defends-title-as-indian-compound-archers-complete-hat-trick-of-golds/article71527398.ece",
+      "published": "2026-09-30T14:02:23+05:30"
+    },
+    {
+      "outlet": "Deccan Chronicle (PTI)",
+      "url": "https://www.deccanchronicle.com/sports/asian-games-2026-indian-mens-compound-archery-team-wins-gold-medal-1991855",
+      "published": "2026-09-30T13:20:00+05:30"
+    },
+    {
+      "outlet": "Olympics.com",
+      "url": "https://www.olympics.com/en/news/asian-games-2026-archery-compound-india-gold-la-2028-olympics-quota",
+      "published": "2026-09-30"
+    }
+  ],
+  "photo_credits": [],
+  "sample": false,
+  "poster": "/media/2026/09/asian-games-compound-mens-gold.webp",
+  "corrections": []
+}
