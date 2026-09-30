@@ -1,0 +1,48 @@
+{
+  "slug": "asian-games-compound-mixed-gold",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-30T12:39:00+05:30",
+  "updated_at": null,
+  "category": "sports",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "AsianGames2026",
+    "Archery",
+    "TeamIndia",
+    "LA2028"
+  ],
+  "ig_shortcode": "Dd5w0rhRpcu",
+  "ig_url": "https://www.instagram.com/reel/Dd5w0rhRpcu/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "asian-games-compound-mixed-team-gold-sep30",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Asian Games 2026 official results",
+      "url": "https://results.asiangames2026.org/#/discipline/ARC/results/X.CTEAM2------------.FNL-.000100--",
+      "published": "2026-09-30"
+    },
+    {
+      "outlet": "Firstpost",
+      "url": "https://www.firstpost.com/sports/sahil-chikitha-sink-south-korea-in-shoot-off-to-win-mixed-compound-team-gold-for-india-at-asian-games-2026-14049296.html",
+      "published": "2026-09-30T10:10:43+05:30"
+    },
+    {
+      "outlet": "Outlook India",
+      "url": "https://www.outlookindia.com/sports/others/chikitha-taniprarthi-and-sahil-jadhav-gold-medal-compound-mixed-team-archery-india-asian-games-2026",
+      "published": "2026-09-30T09:59:00+05:30"
+    },
+    {
+      "outlet": "Business Standard",
+      "url": "https://www.business-standard.com/sports/asian-games/asiad-2026-india-compound-mixed-team-archery-gold-olympics-berth-126093000255_1.html",
+      "published": "2026-09-30T10:07:00+05:30"
+    }
+  ],
+  "photo_credits": [],
+  "sample": false,
+  "poster": "/media/2026/09/asian-games-compound-mixed-gold.webp",
+  "corrections": []
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "jantar-mantar-old-video-fact-check",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-30T11:35:53+05:30",
+  "updated_at": null,
+  "category": "fact-check",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "JantarMantar",
+    "FactCheck",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "Dd5pf5BxIGv",
+  "ig_url": "https://www.instagram.com/reel/Dd5pf5BxIGv/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": null,
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Hindustan Times",
+      "url": "https://www.hindustantimes.com/cities/delhi-news/old-video-sparks-buzz-delhi-police-debunks-jantar-mantar-live-protest-101790482096234.html",
+      "published": "2026-09-27"
+    },
+    {
+      "outlet": "Times of India",
+      "url": "https://timesofindia.indiatimes.com/india/old-footage-delhi-police-fact-checks-viral-jantar-mantar-protest-video-amid-sir-row/articleshow/134515108.cms",
+      "published": "2026-09-27"
+    },
+    {
+      "outlet": "The Statesman",
+      "url": "https://www.thestatesman.com/india/todays-jantar-mantar-scene-delhi-police-call-viral-anti-cec-protest-video-shared-by-sanjay-raut-old-1503643525.html",
+      "published": "2026-09-27"
+    },
+    {
+      "outlet": "India TV",
+      "url": "https://www.indiatvnews.com/delhi/viral-jantar-mantar-protest-video-is-old-delhi-police-issues-misinformation-alert-2026-09-27-1055393",
+      "published": "2026-09-27"
+    },
+    {
+      "outlet": "Factly",
+      "url": "https://factly.in/a-2024-video-of-a-protest-against-evms-in-delhi-is-shared-as-a-september-2026-protest-demanding-cec-gyanesh-kumars-resignation/",
+      "published": "2026-09-28"
+    },
+    {
+      "outlet": "The Quint",
+      "url": "https://www.thequint.com/news/webqoof/old-video-falsely-linked-to-delhi-jantar-mantar-protests-against-cec-gyanesh-kumar-fact-check",
+      "published": "2026-09-28"
+    }
+  ],
+  "photo_credits": [],
+  "sample": false,
+  "poster": "/media/2026/09/jantar-mantar-old-video-fact-check.webp",
+  "corrections": [],
+  "factcheck": {
+    "verdict": "misleading",
+    "claimant": "Posts sharing the clip as a live protest at Jantar Mantar",
+    "claim_date": "2026-09-26"
+  }
+}

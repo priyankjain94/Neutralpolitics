@@ -1,0 +1,39 @@
+{
+  "slug": "let-musa-budgam",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-09-30T10:31:45+05:30",
+  "updated_at": null,
+  "category": "defence-security",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "Budgam",
+    "Kashmir",
+    "Operation Korag",
+    "Indian Army"
+  ],
+  "ig_shortcode": "Dd5iI3FxlHY",
+  "ig_url": "https://www.instagram.com/reel/Dd5iI3FxlHY/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "let-musa-killed-budgam-sep30",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The New Indian Express",
+      "url": "https://www.newindianexpress.com/india/2026/Sep/29/top-let-terrorist-killed-in-budgam-encounter-army-says-operation-still-underway",
+      "published": "2026-09-29T00:00:00+05:30"
+    },
+    {
+      "outlet": "Firstpost",
+      "url": "https://www.firstpost.com/india/fauzi-musa-top-let-commander-killed-by-indian-army-in-budgam-encounter-14049244.html",
+      "published": "2026-09-30T00:00:00+05:30"
+    }
+  ],
+  "photo_credits": [],
+  "sample": false,
+  "poster": "/media/2026/09/let-musa-budgam.webp",
+  "corrections": [],
+  "sensitive": true
+}
