@@ -36,7 +36,7 @@ Copy `.env.example`. Never commit `.env` or `.env.local`. This repository is pub
 
 | Variable | Purpose |
 | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | Canonical origin, no trailing slash |
+| `NEXT_PUBLIC_SITE_URL` | Canonical origin, no trailing slash. If unset, production uses `https://www.neutralpolitics.in`. Development uses `http://localhost:3000` |
 | `SUPABASE_URL` | Supabase project URL. Server-only |
 | `SUPABASE_SERVICE_ROLE_KEY` | Server-only key. Not for the browser |
 | `SUPABASE_STORAGE_BUCKET` | Optional. Defaults to the private bucket `submissions` |
@@ -157,7 +157,7 @@ The connected project is `neutralpolitics` on the Hobby plan, team `neutral-poli
 2. Import the project in Vercel with the Next.js preset. Do not upgrade to Pro unless you have decided to.
 3. Add variables from `.env.example` in the Vercel project settings only when you connect those services. Leave unused ones empty.
 4. Deploy with the default build command.
-5. Point a domain when you have bought one. Set `NEXT_PUBLIC_SITE_URL` to that origin and redeploy so canonical URLs, sitemaps, and share links match.
+5. The public site is [https://www.neutralpolitics.in](https://www.neutralpolitics.in). The apex domain redirects there. Leave `NEXT_PUBLIC_SITE_URL` unset, or set it to that origin, so canonical URLs, sitemaps, and share links match. `neutralpolitics.vercel.app` still serves the same build.
 
 Do not put keys in the repository. Vercel environment variables are the right place.
 
