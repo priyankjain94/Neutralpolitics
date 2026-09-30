@@ -1,0 +1,35 @@
+{
+  "slug": "asian-games-day11",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-09-30T08:16:00+05:30",
+  "updated_at": null,
+  "category": "sports",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "AsianGames2026",
+    "TeamIndia",
+    "Athletics"
+  ],
+  "ig_shortcode": "Dd5SyRfxcAx",
+  "ig_url": "https://www.instagram.com/reel/Dd5SyRfxcAx/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": null,
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Sportstar",
+      "url": "https://sportstar.thehindu.com/asian-games/asian-games-india-medals-september-29-day-11-results-updates-shooting-athletics-boxing/article71524066.ece"
+    },
+    {
+      "outlet": "Indian Express",
+      "url": "https://indianexpress.com/article/sports/asian-games-2026-medal-tally-live-day-11-india-gold-silver-bronze-list-10898380/"
+    }
+  ],
+  "photo_credits": [],
+  "sample": false,
+  "poster": "/media/2026/09/asian-games-day11.webp",
+  "corrections": []
+}
