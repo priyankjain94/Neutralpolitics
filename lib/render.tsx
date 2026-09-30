@@ -4,11 +4,9 @@ import { CategoryView } from "@/components/CategoryPage";
 import { HomePage } from "@/components/HomePage";
 import { SearchBox } from "@/components/SearchBox";
 import { StaticPage } from "@/components/StaticPage";
-import { SubscribePage } from "@/components/SubscribePage";
 import { CATEGORIES, categoryLabel, isCategory } from "@/lib/categories";
 import { loadPage, publishedArticles } from "@/lib/content";
 import { articleWithDesk } from "@/lib/desk";
-import { isDatabaseConfigured } from "@/lib/env";
 import { t } from "@/lib/i18n";
 import { pageMetadata, articleMetadata as articleMetaFromArticle } from "@/lib/seo";
 import type { Lang } from "@/lib/types";
@@ -106,8 +104,4 @@ export function SearchRoute({ lang, query }: { lang: Lang; query: string }) {
       <SearchBox lang={lang} initialQuery={query} />
     </div>
   );
-}
-
-export function SubscribeRoute({ lang }: { lang: Lang }) {
-  return <SubscribePage lang={lang} enabled={isDatabaseConfigured()} />;
 }

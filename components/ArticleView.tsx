@@ -3,11 +3,9 @@ import { IgEmbed } from "./IgEmbed";
 import { JsonLd } from "./JsonLd";
 import { LatestList } from "./Stories";
 import { Markdown } from "./Markdown";
-import { NewsletterForm } from "./NewsletterForm";
 import { ShareBar } from "./ShareBar";
 import { CATEGORIES, categoryLabel } from "@/lib/categories";
 import { articlesWithDesk } from "@/lib/desk";
-import { isDatabaseConfigured } from "@/lib/env";
 import { formatDateTime, formatSourceTime } from "@/lib/format";
 import { t } from "@/lib/i18n";
 import { absoluteUrl, articleHref, siteUrl, withLang } from "@/lib/paths";
@@ -199,7 +197,6 @@ export async function ArticleView({ article }: { article: Article }) {
             </ul>
           </section>
         ) : null}
-        <NewsletterForm lang={article.lang} source={path} enabled={isDatabaseConfigured()} />
       </div>
       <aside className="rail">
         <LatestList lang={article.lang} articles={latest} />

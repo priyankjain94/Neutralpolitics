@@ -13,7 +13,6 @@ export function SiteFooter({ lang }: { lang: Lang }) {
     ["/corrections", m.corrections],
     ["/contact", m.contact],
     ["/contribute", m.contribute],
-    ["/subscribe", m.subscribe],
     ["/privacy", m.privacy],
     ["/terms", m.terms],
   ] as const;

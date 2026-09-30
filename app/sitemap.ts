@@ -12,7 +12,6 @@ const PATHS = [
   "/contact",
   "/contribute",
   "/contribute/terms",
-  "/subscribe",
   "/privacy",
   "/terms",
 ];

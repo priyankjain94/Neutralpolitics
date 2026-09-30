@@ -1,12 +1,10 @@
 import Link from "next/link";
 import { Suspense } from "react";
 import { LanguageBanner } from "./LanguageBanner";
-import { NewsletterForm } from "./NewsletterForm";
 import { JsonLd } from "./JsonLd";
 import { LatestList, LeadStory, SecondaryStory, StoryGrid } from "./Stories";
 import { CATEGORIES, categoryLabel } from "@/lib/categories";
 import { articlesWithDesk, publicCorrections } from "@/lib/desk";
-import { isDatabaseConfigured } from "@/lib/env";
 import { formatDay } from "@/lib/format";
 import { t } from "@/lib/i18n";
 import { articleHref, withLang } from "@/lib/paths";
@@ -55,10 +53,6 @@ export async function HomePage({ lang }: { lang: Lang }) {
         ) : (
           <p>{m.emptyCategory}</p>
         )}
-
-        <section className="signup-band">
-          <NewsletterForm lang={lang} source="/" enabled={isDatabaseConfigured()} compact band />
-        </section>
 
         {sections.map((section) => (
           <section className="section-block" key={section.slug}>
