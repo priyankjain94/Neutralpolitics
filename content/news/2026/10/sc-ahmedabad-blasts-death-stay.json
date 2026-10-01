@@ -1,0 +1,44 @@
+{
+  "slug": "sc-ahmedabad-blasts-death-stay",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-10-01T18:33:47+05:30",
+  "updated_at": null,
+  "category": "politics",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "SupremeCourt",
+    "Ahmedabad",
+    "India",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "Dd89RMvCAFI",
+  "ig_url": "https://www.instagram.com/p/Dd89RMvCAFI/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "sc-ahmedabad-blasts-death-stay-oct1",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The Hindu (PTI)",
+      "url": "https://www.thehindu.com/news/cities/Delhi/sc-stays-execution-of-im-operatives-death-penalty-in-2008-ahmedabad-blasts-case/article71531867.ece",
+      "published": "2026-10-01T13:40:00+05:30"
+    },
+    {
+      "outlet": "LiveLaw",
+      "url": "https://www.livelaw.in/top-stories/2008-ahmedabad-blasts-supreme-court-stays-execution-of-convicts-death-penalty-552622",
+      "published": "2026-10-01T12:28:00+05:30"
+    },
+    {
+      "outlet": "Bar and Bench",
+      "url": "https://www.barandbench.com/news/litigation/2008-ahmedabad-blasts-supreme-court-stays-death-sentence-of-convict-ahmed-barelvi",
+      "published": "2026-10-01"
+    }
+  ],
+  "photo_credits": [],
+  "sample": false,
+  "poster": "/media/2026/10/sc-ahmedabad-blasts-death-stay.webp",
+  "corrections": [],
+  "sensitive": true
+}

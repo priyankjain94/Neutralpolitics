@@ -1,0 +1,59 @@
+{
+  "slug": "fake-saturday-bank-holiday-pib",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-01T16:07:00+05:30",
+  "updated_at": null,
+  "category": "fact-check",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "PIBFactCheck",
+    "FactCheck",
+    "BankHoliday",
+    "India",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "Dd8tcTHEZAQ",
+  "ig_url": "https://www.instagram.com/p/Dd8tcTHEZAQ/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "fake-saturday-bank-holiday-pib-oct1",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "PIB Fact Check (X)",
+      "url": "https://x.com/PIBFactCheck/status/2105555695638896883",
+      "published": "2026-10-01"
+    },
+    {
+      "outlet": "IANS",
+      "url": "https://ianslive.in/viral-gazette-declaring-saturday-holiday-for-psu-banks-is-fake-pib-fact-check--20261001133330",
+      "published": "2026-10-01T13:35:00+05:30"
+    },
+    {
+      "outlet": "Business Standard",
+      "url": "https://www.business-standard.com/industry/banking/fake-bank-holiday-notification-all-saturdays-pib-fact-check-five-day-week-126100100563_1.html",
+      "published": "2026-10-01T13:56:00+05:30"
+    },
+    {
+      "outlet": "Economic Times",
+      "url": "https://economictimes.indiatimes.com/wealth/save/saturday-bank-holiday-has-government-declared-all-saturdays-as-holidays-for-sbi-and-other-public-sector-banks-pib-says-this/articleshow/134612704.cms",
+      "published": "2026-10-01T14:01:00+05:30"
+    },
+    {
+      "outlet": "Gujarat Samachar",
+      "url": "https://english.gujaratsamachar.com/news/national/fact-check-gazette-circulating-online-declares-every-saturday-a-bank-holiday-pib-debunks-claim-10767235437",
+      "published": "2026-10-01"
+    }
+  ],
+  "photo_credits": [],
+  "sample": false,
+  "poster": "/media/2026/10/fake-saturday-bank-holiday-pib.webp",
+  "corrections": [],
+  "factcheck": {
+    "verdict": "false",
+    "claimant": "A Gazette circulating online, presented as a Finance Ministry notification",
+    "claim_date": "2026-09-30"
+  }
+}
