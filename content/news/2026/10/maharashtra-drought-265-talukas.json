@@ -1,0 +1,66 @@
+{
+  "slug": "maharashtra-drought-265-talukas",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-01T14:48:00+05:30",
+  "updated_at": null,
+  "category": "disasters-weather",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "MaharashtraDrought",
+    "Maharashtra",
+    "Farmers",
+    "IndiaNews",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "Dd8kYL3EUPI",
+  "ig_url": "https://www.instagram.com/p/Dd8kYL3EUPI/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "20260930-np-request-maharashtra-drought-265-talukas",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Maharashtra Relief and Rehabilitation Department",
+      "url": "https://gr.maharashtra.gov.in/Site/Upload/Government%20Resolutions/Marathi/202609261117494941.pdf",
+      "published": "2026-09-26T11:21:00+05:30"
+    },
+    {
+      "outlet": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/maharashtra/why-has-maharashtra-declared-drought-in-265-talukas-and-what-do-farmers-get-explained/article71522489.ece",
+      "published": "2026-09-29"
+    },
+    {
+      "outlet": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/maharashtra/government-to-assess-crop-damage-at-mandal-level-cover-losses-outside-drought-list-fadnavis/article71524000.ece",
+      "published": "2026-09-29T18:14:00+05:30"
+    },
+    {
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/city/mumbai/maharashtra-declares-265-of-358-talukas-drought-hit-announces-farm-loan-restructuring-other-relief/articleshow/134501843.cms",
+      "published": "2026-09-26"
+    },
+    {
+      "outlet": "DD News",
+      "url": "https://ddnews.gov.in/en/maharashtra-declares-drought-in-265-talukas-announces-12-point-relief-package/",
+      "published": "2026-09-26"
+    },
+    {
+      "outlet": "The Hindu BusinessLine (PTI)",
+      "url": "https://www.thehindubusinessline.com/news/national/maharashtra-govt-declares-265-of-358-talukas-drought-affected-announces-relief-measures/article71512049.ece",
+      "published": "2026-09-26"
+    },
+    {
+      "outlet": "Deccan Chronicle",
+      "url": "https://www.deccanchronicle.com/nation/fadnavis-assures-drought-relief-beyond-trigger-criteria-1991776",
+      "published": "2026-09-29"
+    }
+  ],
+  "photo_credits": [
+    "Representational image, not Maharashtra 2026: Ashwin Arun Yadav / Wikimedia Commons, CC BY-SA 4.0"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/maharashtra-drought-265-talukas.webp",
+  "corrections": []
+}
