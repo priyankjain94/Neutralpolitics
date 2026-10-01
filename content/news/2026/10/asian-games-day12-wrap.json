@@ -1,0 +1,69 @@
+{
+  "slug": "asian-games-day12-wrap",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-01T09:57:00+05:30",
+  "updated_at": null,
+  "category": "sports",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "AsianGames2026",
+    "Archery",
+    "TeamIndia",
+    "NPNOW",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "Dd8DNBARipQ",
+  "ig_url": "https://www.instagram.com/p/Dd8DNBARipQ/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "asian-games-day12-wrap-sep30",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Asian Games 2026 official medal table",
+      "url": "https://results.asiangames2026.org/#/medals",
+      "published": "2026-10-01T08:05:00+05:30"
+    },
+    {
+      "outlet": "Official results: compound women's team final",
+      "url": "https://results.asiangames2026.org/#/discipline/ARC/results/W.CTEAM-------------.FNL-.000100--",
+      "published": "2026-09-30 10:50"
+    },
+    {
+      "outlet": "Official results: compound mixed team final",
+      "url": "https://results.asiangames2026.org/#/discipline/ARC/results/X.CTEAM-------------.FNL-.000100--",
+      "published": "2026-09-30 12:45"
+    },
+    {
+      "outlet": "Official results: compound men's team final",
+      "url": "https://results.asiangames2026.org/#/discipline/ARC/results/M.CTEAM-------------.FNL-.000100--",
+      "published": "2026-09-30 15:50"
+    },
+    {
+      "outlet": "Official results: trap mixed team final",
+      "url": "https://results.asiangames2026.org/#/discipline/SHO/results/X.TRMT--------------.FNL-.000100--",
+      "published": "2026-09-30 14:30"
+    },
+    {
+      "outlet": "Sportstar",
+      "url": "https://sportstar.thehindu.com/asian-games/asian-games-2026-india-medals-september-30-day-12-results-updates-shooting-archery-gold/article71527533.ece",
+      "published": "2026-09-30"
+    },
+    {
+      "outlet": "Indian Express",
+      "url": "https://indianexpress.com/article/sports/asian-games-medal-tally-day-13-live-update-india-gold-silver-bronze-10901474/",
+      "published": "2026-10-01T07:24:00+05:30"
+    },
+    {
+      "outlet": "Sportstar",
+      "url": "https://sportstar.thehindu.com/asian-games/asian-games-live-updates-day-13-october-1-2026-match-scores-events-news-highlights/article71531150.ece",
+      "published": "2026-10-01"
+    }
+  ],
+  "photo_credits": [],
+  "sample": false,
+  "poster": "/media/2026/10/asian-games-day12-wrap.webp",
+  "corrections": []
+}

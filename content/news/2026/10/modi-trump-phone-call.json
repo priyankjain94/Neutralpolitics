@@ -1,0 +1,54 @@
+{
+  "slug": "modi-trump-phone-call",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-01T11:12:02+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "ModiTrump",
+    "IndiaUS",
+    "PMO",
+    "NPNOW",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "Dd8LiGbxWkV",
+  "ig_url": "https://www.instagram.com/p/Dd8LiGbxWkV/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "modi-trump-phone-call-sep30-oct1",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Prime Minister's Office",
+      "url": "https://www.pmindia.gov.in/en/news_updates/pm-speaks-with-us-president-donald-trump/?comment=disable",
+      "published": "2026-09-30"
+    },
+    {
+      "outlet": "The New Indian Express",
+      "url": "https://www.newindianexpress.com/india/2026/Sep/30/modi-trump-hold-first-call-since-russia-and-iran-sanctions-law-as-trade-talks-continue",
+      "published": "2026-09-30T20:45:00+05:30"
+    },
+    {
+      "outlet": "Reuters via Dawn",
+      "url": "https://www.dawn.com/news/2033785",
+      "published": "2026-09-30T22:03:00+05:30"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "url": "https://www.hindustantimes.com/india-news/pm-modi-calls-us-president-trump-discusses-trade-defence-energy-amid-russia-sanctions-101790789748962.html",
+      "published": "2026-10-01T07:31:00+05:30"
+    },
+    {
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/india/modi-and-trump-discuss-ties-pm-flags-concerns-about-us-russia-law/articleshow/134602223.cms",
+      "published": "2026-09-30"
+    }
+  ],
+  "photo_credits": [],
+  "sample": false,
+  "poster": "/media/2026/10/modi-trump-phone-call.webp",
+  "corrections": []
+}
