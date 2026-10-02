@@ -3,7 +3,7 @@
   "status": "published",
   "status_hi": "published",
   "published_at": "2026-10-02T10:14:00+05:30",
-  "updated_at": null,
+  "updated_at": "2026-10-02T14:17:00+05:30",
   "category": "explainers",
   "secondary": [],
   "breaking": false,
@@ -11,12 +11,23 @@
     "DelhiMetro",
     "DMRC",
     "JantarMantar",
-    "India"
+    "InternetShutdown",
+    "SIR",
+    "ElectionCommission",
+    "India",
+    "Delhi"
   ],
   "ig_shortcode": "Dd-p0D-kRSC",
   "ig_url": "https://www.instagram.com/p/Dd-p0D-kRSC/",
   "ig_type": "carousel",
-  "ig_more": [],
+  "ig_more": [
+    {
+      "shortcode": "Dd_FqVWEQGH",
+      "url": "https://www.instagram.com/p/Dd_FqVWEQGH/",
+      "type": "carousel",
+      "headline": "Internet cut and detentions, 2 Oct afternoon"
+    }
+  ],
   "event_id": "delhi-metro-cec-protest-security-oct2",
   "follow_up_of": null,
   "sources": [
@@ -51,13 +62,68 @@
       "published": "2026-10-02T08:35:00+05:30"
     },
     {
+      "outlet": "The Hindu live blog",
+      "url": "https://www.thehindu.com/news/national/cec-gyanesh-kumar-row-cjp-opposition-parties-to-organise-separate-protests-live-updates-october-2-2026/article71535655.ece",
+      "published": "2026-10-02T14:03:00+05:30"
+    },
+    {
+      "outlet": "Mid-day",
+      "url": "https://www.mid-day.com/news/india-news/article/jantar-mantar-protest-aap-leaders-student-activists-detained-over-sir-row-23652997",
+      "published": "2026-10-02T13:18:00+05:30"
+    },
+    {
+      "outlet": "Deccan Chronicle (PTI)",
+      "url": "https://www.deccanchronicle.com/nation/500-protesters-aap-leaders-detained-at-jantar-mantar-over-sir-1992491",
+      "published": "2026-10-02T13:40:00+05:30"
+    },
+    {
+      "outlet": "India TV",
+      "url": "https://www.indiatvnews.com/delhi/aap-leaders-sanjeev-jha-and-saurabh-bhardwaj-along-with-50-protesters-detained-from-janatar-mantar-internet-suspended-in-new-delhi-area-2026-10-02-1055883",
+      "published": "2026-10-02"
+    },
+    {
+      "outlet": "Times Now",
+      "url": "https://www.timesnownews.com/delhi/protest-at-11-am-internet-cut-at-940-iff-questions-delhi-shutdown-lists-4-demands-article-156262545",
+      "published": "2026-10-02"
+    },
+    {
+      "outlet": "The New Indian Express (PTI)",
+      "url": "https://www.newindianexpress.com/cities/delhi/2026/Oct/02/aap-leaders-bharadwaj-sanjeev-jha-detained-at-jantar-mantar-protest-against-cec",
+      "published": "2026-10-02"
+    },
+    {
+      "outlet": "The New Indian Express",
+      "url": "https://www.newindianexpress.com/cities/delhi/2026/Oct/02/over-500-detained-in-delhi-protest-against-cec-gyanesh-kumar-aap-leaders-students-held",
+      "published": "2026-10-02"
+    },
+    {
+      "outlet": "The Week (PTI)",
+      "url": "https://www.theweek.in/news/india/2026/10/02/jantar-mantar-protest-aaps-saurabh-bharadwaj-detained-as-agitation-against-gyanesh-kumar-heats-up.html",
+      "published": "2026-10-02"
+    },
+    {
       "outlet": "Mint",
-      "url": "https://www.livemint.com/news/india/sir-blos-to-visit-homes-of-those-issued-notices-personal-hearings-only-in-exceptional-cases-read-full-eci-statement-11790428658531.html",
-      "published": "2026-09-26T20:17:00+05:30"
+      "url": "https://www.livemint.com/news/india/section-163-imposed-in-delhi-what-it-means-amid-protest-in-jantar-mantar-against-cec-gyanesh-kumar-11790916798265.html",
+      "published": "2026-10-02"
+    },
+    {
+      "outlet": "Mint",
+      "url": "https://www.livemint.com/news/india/election-commission-clarifies-sir-orders-unanimous-form-6-changes-upheld-by-sc-amid-dissent-row-11790425858077.html",
+      "published": "2026-09-26"
+    },
+    {
+      "outlet": "Election Commission of India press note, 26 September 2026",
+      "url": "https://sabrangindia.in/wp-content/uploads/2026/09/ECI-Press-Note-26-September-2026.pdf",
+      "published": "2026-09-26"
+    },
+    {
+      "outlet": "Scroll",
+      "url": "https://scroll.in/latest/1096005/student-leaders-activists-detained-for-jantar-mantar-protest-against-cec-gyanesh-kumar",
+      "published": "2026-09-25"
     }
   ],
   "photo_credits": [
-    "Illustrative image, not the 2 October closures: Shashwat Verma / Pexels. A Delhi Metro station in the Pexels listing, not identified as one of the 11."
+    "Illustrative image, not the protest or the internet suspension: Anderson Martins / Pexels. A cell-site tower at sunset."
   ],
   "sample": false,
   "poster": "/media/2026/10/delhi-metro-11-stations-shut.webp",
