@@ -1,0 +1,60 @@
+{
+  "slug": "sc-unpaid-echallan-freeze",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-02T11:30:00+05:30",
+  "updated_at": null,
+  "category": "explainers",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "eChallan",
+    "SupremeCourt",
+    "TrafficFines",
+    "India"
+  ],
+  "ig_shortcode": "Dd-ylkBkfPZ",
+  "ig_url": "https://www.instagram.com/p/Dd-ylkBkfPZ/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "sc-unpaid-echallan-freeze-sep28",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The Hindu (Aaratrika Bhaumik)",
+      "url": "https://www.thehindu.com/news/national/supreme-court-orders-curbs-on-licence-renewal-vehicle-registration-for-motorists-with-unpaid-traffic-fines/article71532969.ece",
+      "published": "2026-10-01T19:54:00+05:30"
+    },
+    {
+      "outlet": "Hindustan Times (Utkarsh Anand)",
+      "url": "https://www.hindustantimes.com/india-news/supreme-court-order-pending-traffic-fines-challans-licence-puc-pollution-certificates-101790837511097.html",
+      "published": "2026-10-02T07:07:00+05:30"
+    },
+    {
+      "outlet": "The Times of India (Amit Anand Choudhary)",
+      "url": "https://timesofindia.indiatimes.com/india/supreme-court-says-seize-vehicle-stop-rc-puc-renewal-if-e-challans-not-paid/articleshow/134627354.cms",
+      "published": "2026-10-02T03:32:00+05:30"
+    },
+    {
+      "outlet": "IANS",
+      "url": "https://ianslive.in/scs-written-order-on-e-challans-does-not-include-linking-traffic-fines-to-electricity-bills--20261001175735",
+      "published": "2026-10-01T18:04:00+05:30"
+    },
+    {
+      "outlet": "LiveLaw",
+      "url": "https://www.livelaw.in/top-stories/impound-vehicles-with-unpaid-e-challans-freeze-online-services-supreme-court-orders-notes-over-23000-crore-traffic-fines-pending-552686",
+      "published": "2026-10-02"
+    },
+    {
+      "outlet": "Moneycontrol",
+      "url": "https://www.moneycontrol.com/news/india/blacklist-them-deny-fitness-certificates-sc-on-vehicles-with-pending-challans-14042797.html",
+      "published": "2026-10-02"
+    }
+  ],
+  "photo_credits": [
+    "Illustrative image, not the Supreme Court order: Maurício Mascaro / Pexels"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/sc-unpaid-echallan-freeze.webp",
+  "corrections": []
+}

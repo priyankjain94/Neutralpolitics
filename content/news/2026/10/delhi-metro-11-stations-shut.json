@@ -1,0 +1,65 @@
+{
+  "slug": "delhi-metro-11-stations-shut",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-02T10:14:00+05:30",
+  "updated_at": null,
+  "category": "explainers",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "DelhiMetro",
+    "DMRC",
+    "JantarMantar",
+    "India"
+  ],
+  "ig_shortcode": "Dd-p0D-kRSC",
+  "ig_url": "https://www.instagram.com/p/Dd-p0D-kRSC/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "delhi-metro-cec-protest-security-oct2",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "DMRC (@OfficialDMRC), quoted by The Economic Times, The Times of India, The Indian Express and ABP Live",
+      "url": "https://x.com/OfficialDMRC/status/2105853565969522737",
+      "published": "2026-10-02"
+    },
+    {
+      "outlet": "The Economic Times",
+      "url": "https://economictimes.indiatimes.com/news/india/delhi-metro-closes-11-stations-as-security-tightens-ahead-of-oct-2-protest-in-new-delhi/articleshow/134630848.cms",
+      "published": "2026-10-02"
+    },
+    {
+      "outlet": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/city/delhi/cjp-jantar-mantar-protest-delhi-metro-shuts-entry-and-exit-at-11-stations/articleshow/134630684.cms",
+      "published": "2026-10-02T08:22:00+05:30"
+    },
+    {
+      "outlet": "The Indian Express",
+      "url": "https://indianexpress.com/article/cities/delhi/11-metro-stations-shut-in-delhi-ahead-of-protests-against-cec-gyanesh-kumar-10903328/",
+      "published": "2026-10-02T08:48:00+05:30"
+    },
+    {
+      "outlet": "The Indian Express",
+      "url": "https://indianexpress.com/article/cities/delhi/jantar-mantar-protest-over-sir-election-commissioner-gyanesh-kumar-delhi-security-10903030/",
+      "published": "2026-10-02T01:31:00+05:30"
+    },
+    {
+      "outlet": "ABP Live (PTI)",
+      "url": "https://news.abplive.com/cities/jantar-mantar-protest-traffic-restriction-metro-stations-shut-protest-against-cec-gyanesh-kumar-1869313",
+      "published": "2026-10-02T08:35:00+05:30"
+    },
+    {
+      "outlet": "Mint",
+      "url": "https://www.livemint.com/news/india/sir-blos-to-visit-homes-of-those-issued-notices-personal-hearings-only-in-exceptional-cases-read-full-eci-statement-11790428658531.html",
+      "published": "2026-09-26T20:17:00+05:30"
+    }
+  ],
+  "photo_credits": [
+    "Illustrative image, not the 2 October closures: Shashwat Verma / Pexels. A Delhi Metro station in the Pexels listing, not identified as one of the 11."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/delhi-metro-11-stations-shut.webp",
+  "corrections": []
+}
