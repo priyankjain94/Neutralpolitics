@@ -5,6 +5,7 @@ import { JsonLd } from "./JsonLd";
 import { LatestList, LeadStory, SecondaryStory, StoryGrid } from "./Stories";
 import { CATEGORIES, categoryLabel } from "@/lib/categories";
 import { articlesWithDesk, publicCorrections } from "@/lib/desk";
+import { pickFeatured } from "@/lib/story-order";
 import { formatDay } from "@/lib/format";
 import { t } from "@/lib/i18n";
 import { articleHref, withLang } from "@/lib/paths";
@@ -14,11 +15,11 @@ import type { Lang } from "@/lib/types";
 export async function HomePage({ lang }: { lang: Lang }) {
   const m = t(lang);
   const articles = await articlesWithDesk(lang);
-  const lead = articles.find((article) => article.breaking) || articles[0];
-  const rest = articles.filter((article) => article !== lead);
-  const secondary = rest.slice(0, 4);
-  const latest = rest.slice(0, 8);
-  const trending = [...rest.filter((article) => article.breaking), ...rest.filter((article) => !article.breaking)].slice(0, 5);
+  const { lead, top, rest } = pickFeatured(articles);
+  const secondary = top;
+  const afterTop = rest.slice(top.length);
+  const latest = afterTop.slice(0, 8);
+  const trending = afterTop.slice(0, 5);
   const sections = CATEGORIES.map((category) => ({
     slug: category.slug,
     articles: articles.filter((article) => article.category === category.slug && article.slug !== lead?.slug).slice(0, 4),

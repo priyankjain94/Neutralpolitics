@@ -1,5 +1,6 @@
 import { revalidatePath } from "next/cache";
 import { loadArticles } from "./content";
+import { sortStories } from "./story-order";
 import { getDb } from "./db";
 import { readingMinutes } from "./format";
 import type { Article, Lang, Source } from "./types";
@@ -49,9 +50,9 @@ export async function allMerged(): Promise<Article[]> {
 }
 
 export async function articlesWithDesk(lang?: Lang): Promise<Article[]> {
-  return (await allMerged())
-    .filter((article) => article.status === "published" && (!lang || article.lang === lang))
-    .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt));
+  return sortStories(
+    (await allMerged()).filter((article) => article.status === "published" && (!lang || article.lang === lang)),
+  );
 }
 
 export type PublicCorrection = {

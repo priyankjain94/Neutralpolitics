@@ -61,6 +61,7 @@ export type Article = {
   category: string;
   secondary: string[];
   breaking: boolean;
+  pinned: boolean;
   tags: string[];
   publishedAt: string;
   updatedAt: string | null;

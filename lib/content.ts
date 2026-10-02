@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { isCategory } from "./categories";
+import { sortStories } from "./story-order";
 import { readingMinutes } from "./format";
 import type {
   Article,
@@ -28,6 +29,7 @@ type Shared = {
   category: string;
   secondary?: string[];
   breaking?: boolean;
+  pinned?: boolean;
   tags?: string[];
   ig_shortcode: string;
   ig_url: string;
@@ -111,6 +113,7 @@ function build(
     category: shared.category,
     secondary: shared.secondary || [],
     breaking: Boolean(shared.breaking),
+    pinned: Boolean(shared.pinned),
     tags: shared.tags || [],
     publishedAt: shared.published_at,
     updatedAt: shared.updated_at || null,
@@ -159,9 +162,9 @@ export function loadArticles(): Article[] {
       }
     }
   }
-  articles.sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt));
-  cache = articles;
-  return articles;
+  const sorted = sortStories(articles);
+  cache = sorted;
+  return sorted;
 }
 
 export function publishedArticles(lang?: Lang): Article[] {

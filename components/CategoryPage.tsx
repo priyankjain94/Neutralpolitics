@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { LatestList, LeadStory, StoryGrid } from "./Stories";
 import { categoryLabel, isCategory } from "@/lib/categories";
 import { articlesWithDesk } from "@/lib/desk";
+import { sortStories } from "@/lib/story-order";
 import { t } from "@/lib/i18n";
 import { articleHref, withLang } from "@/lib/paths";
 import type { Lang } from "@/lib/types";
@@ -12,8 +13,8 @@ const PAGE_SIZE = 12;
 export async function CategoryView({ lang, name, page }: { lang: Lang; name: string; page: number }) {
   if (!isCategory(name)) notFound();
   const m = t(lang);
-  const live = await articlesWithDesk(lang);
-  const all = live.filter((article) => article.category === name);
+  const live = sortStories(await articlesWithDesk(lang));
+  const all = sortStories(live.filter((article) => article.category === name));
   const pages = Math.max(1, Math.ceil(all.length / PAGE_SIZE));
   const current = Math.min(Math.max(page, 1), pages);
   const slice = all.slice((current - 1) * PAGE_SIZE, current * PAGE_SIZE);
