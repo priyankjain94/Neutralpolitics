@@ -1,0 +1,76 @@
+{
+  "slug": "sc-cec-sir-pleas-listed-5-oct",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-03T10:56:00+05:30",
+  "updated_at": null,
+  "category": "explainers",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "SupremeCourt",
+    "ElectionCommission",
+    "SIR",
+    "CEC",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DeBThg8ERwO",
+  "ig_url": "https://www.instagram.com/p/DeBThg8ERwO/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "sc-cec-sir-pleas-listed-5-oct-2026",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Supreme Court of India, daily cause list for 5 October 2026, Chief Justice's Court (items 18, 22 and 23; list generated)",
+      "url": "https://api.sci.gov.in/jonew/cl/2026-10-05/M_J_1.pdf",
+      "published": "2026-09-30T23:04:00+05:30"
+    },
+    {
+      "outlet": "The Indian Express",
+      "url": "https://indianexpress.com/article/legal-news/supreme-court-hearing-challenging-election-commission-functioning-gyanesh-kumar-10898603/",
+      "published": "2026-09-30T01:30:00+05:30"
+    },
+    {
+      "outlet": "The Hindu",
+      "url": "https://www.thehindu.com/news/national/supreme-court-agrees-to-list-next-week-plea-to-suspend-cec-gyanesh-kumar-from-office/article71522689.ece",
+      "published": "2026-09-29"
+    },
+    {
+      "outlet": "LiveLaw",
+      "url": "https://www.livelaw.in/top-stories/eci-row-supreme-court-to-hear-next-week-plea-against-cec-gyanesh-kumar-sir-decisions-552207",
+      "published": "2026-09-29"
+    },
+    {
+      "outlet": "LiveLaw",
+      "url": "https://www.livelaw.in/top-stories/plea-in-supreme-court-seeks-prosecution-of-cec-gyanesh-kumar-sit-inquiry-into-sir-voter-deletions-551769",
+      "published": "September 2026"
+    },
+    {
+      "outlet": "India Today",
+      "url": "https://www.indiatoday.in/india/law-news/story/election-commission-sir-row-sc-pil-seeks-action-against-cec-gyanesh-kumar-3003334-2026-09-26",
+      "published": "2026-09-26"
+    },
+    {
+      "outlet": "India Today",
+      "url": "https://www.indiatoday.in/india/story/election-commission-says-nationwide-sir-order-had-unanimous-approval-of-all-three-commissioners-3003699-2026-09-26",
+      "published": "2026-09-26T20:01:00+05:30"
+    },
+    {
+      "outlet": "Supreme Court Observer",
+      "url": "https://www.scobserver.in/cases/challenge-to-powers-of-the-chief-election-commissioner/",
+      "published": "2026-09-30"
+    },
+    {
+      "outlet": "Dynamite News",
+      "url": "https://www.dynamitenews.com/national/supreme-court-to-hear-pleas-against-cec-gyanesh-kumar-sir-on-october-5",
+      "published": "2026-10-02T13:56:00+05:30"
+    }
+  ],
+  "photo_credits": [
+    "Illustrative image, not the court or this listing: stock photo of a wooden gavel on a table, Pixabay (Pixabay Content License). https://pixabay.com/photos/gavel-wood-courtroom-legal-law-1017953/"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/sc-cec-sir-pleas-listed-5-oct.webp",
+  "corrections": []
+}
