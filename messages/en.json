@@ -55,6 +55,7 @@
   "whatsappNumber": "WhatsApp number",
   "language": "Language",
   "topics": "Topics",
+  "topicIntro": "Published stories on this topic, newest first.",
   "topicAll": "All",
   "topicBreaking": "Breaking only",
   "newsletterConsent": "Send me Neutral Politics updates. I can unsubscribe anytime.",

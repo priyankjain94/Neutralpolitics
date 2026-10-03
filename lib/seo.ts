@@ -1,7 +1,17 @@
 import type { Metadata } from "next";
 import { categoryLabel } from "./categories";
+import { isoIst } from "./format";
+import { documentTitle, fitDescription, googleSiteVerificationToken } from "./meta-text";
 import { absoluteUrl, siteUrl, withLang } from "./paths";
 import type { Article, Lang } from "./types";
+
+export { documentTitle, fitDescription } from "./meta-text";
+
+export function searchConsoleVerification(): Metadata["verification"] | undefined {
+  const token = googleSiteVerificationToken();
+  if (!token) return undefined;
+  return { google: token };
+}
 
 export function robotsForIndex(): Metadata["robots"] {
   if (process.env.VERCEL_ENV === "preview") return { index: false, follow: false };
@@ -29,23 +39,25 @@ export function pageMetadata(input: {
   noindex?: boolean;
 }): Metadata {
   const url = absoluteUrl(input.lang, input.path);
+  const title = documentTitle(input.title).absolute;
+  const description = fitDescription(input.description);
   return {
-    title: input.title,
-    description: input.description.slice(0, 155),
+    title: { absolute: title },
+    description,
     alternates: alternates(input.lang, input.path),
     robots: input.noindex ? { index: false, follow: false } : robotsForIndex(),
     openGraph: {
       type: "website",
-      title: input.title,
-      description: input.description.slice(0, 155),
+      title,
+      description,
       url,
       siteName: "Neutral Politics",
       locale: input.lang === "hi" ? "hi_IN" : "en_IN",
     },
     twitter: {
       card: "summary_large_image",
-      title: input.title,
-      description: input.description.slice(0, 155),
+      title,
+      description,
     },
   };
 }
@@ -53,10 +65,12 @@ export function pageMetadata(input: {
 export function articleMetadata(article: Article): Metadata {
   const path = `/news/${article.year}/${article.month}/${article.slug}`;
   const url = absoluteUrl(article.lang, path);
-  const title = article.title.slice(0, 90);
-  const description = article.standfirst.slice(0, 155);
+  const title = documentTitle(article.title).absolute;
+  const description = fitDescription(article.standfirst);
+  const published = isoIst(article.publishedAt);
+  const modified = isoIst(article.updatedAt || article.publishedAt);
   return {
-    title,
+    title: { absolute: title },
     description,
     authors: [{ name: article.byline }],
     alternates: alternates(article.lang, path),
@@ -68,8 +82,8 @@ export function articleMetadata(article: Article): Metadata {
       url,
       siteName: "Neutral Politics",
       locale: article.lang === "hi" ? "hi_IN" : "en_IN",
-      publishedTime: article.publishedAt,
-      modifiedTime: article.updatedAt || article.publishedAt,
+      publishedTime: published,
+      modifiedTime: modified,
       section: categoryLabel(article.category, article.lang),
       tags: article.tags,
     },
@@ -94,17 +108,19 @@ export function articleJsonLd(article: Article, imageAbs: string[]) {
   const path = `/news/${article.year}/${article.month}/${article.slug}`;
   const url = absoluteUrl(article.lang, path);
   const enUrl = absoluteUrl("en", path);
+  const published = isoIst(article.publishedAt);
+  const modified = isoIst(article.updatedAt || article.publishedAt);
   const news: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
     headline: article.title,
-    description: article.standfirst,
-    datePublished: article.publishedAt,
-    dateModified: article.updatedAt || article.publishedAt,
+    description: fitDescription(article.standfirst),
+    datePublished: published,
+    dateModified: modified,
     inLanguage: article.lang === "hi" ? "hi-IN" : "en-IN",
     articleSection: categoryLabel(article.category, "en"),
     image: imageAbs,
-    author: { "@type": "Organization", name: "Neutral Politics Desk", url: siteUrl() },
+    author: { "@type": "Organization", name: "Neutral Politics", url: siteUrl() },
     publisher: {
       "@type": "Organization",
       name: "Neutral Politics",
@@ -139,7 +155,7 @@ export function articleJsonLd(article: Article, imageAbs: string[]) {
       "@context": "https://schema.org",
       "@type": "ClaimReview",
       url,
-      datePublished: article.publishedAt,
+      datePublished: published,
       claimReviewed: article.factcheck.claim,
       author: { "@type": "Organization", name: "Neutral Politics", url: siteUrl() },
       reviewRating: {

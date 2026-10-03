@@ -3,7 +3,10 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { devanagari } from "@/lib/fonts";
 import { siteUrl } from "@/lib/paths";
+import { searchConsoleVerification } from "@/lib/seo";
 import "../globals.css";
+
+const verification = searchConsoleVerification();
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
@@ -12,6 +15,7 @@ export const metadata: Metadata = {
   applicationName: "Neutral Politics",
   icons: { icon: "/favicon.svg" },
   robots: process.env.VERCEL_ENV === "preview" ? { index: false, follow: false } : undefined,
+  ...(verification ? { verification } : {}),
 };
 
 export default function HindiLayout({ children }: { children: React.ReactNode }) {

@@ -245,8 +245,19 @@ html[lang="hi"] .sides h3 { letter-spacing: 0; text-transform: none; font-size: 
 }
 .share a:hover, .share button:hover { border-color: var(--red); color: var(--red); background: #fff; }
 .share button { font-size: 0.82rem; }
+.tag-row {
+  display: flex; flex-wrap: wrap; gap: 0.35rem 0.85rem; margin: 0.7rem 0 0;
+  font-family: var(--sans); font-size: 0.86rem;
+}
+.tag-row a { text-decoration: underline; text-underline-offset: 0.15em; }
+.tag-row span { color: var(--muted); }
 .related { margin-top: 24px; }
 .related ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 0; }
+.related-links li { padding: 0.7rem 0; border-bottom: 1px solid var(--rule); }
+.related .related-links a {
+  text-decoration: underline; text-underline-offset: 0.15em; font-weight: 600; line-height: 1.35;
+}
+html[lang="hi"] .related .related-links a { line-height: 1.5; }
 .related-row { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; align-items: start; padding: 12px 0; border-bottom: 1px solid var(--rule); }
 .related-row img { width: 72px; height: auto; object-fit: contain; background: #fff; display: block; }
 .related-row a { font-weight: 600; letter-spacing: -0.015em; line-height: 1.3; }

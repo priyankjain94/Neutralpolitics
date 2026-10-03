@@ -1,15 +1,17 @@
 import Link from "next/link";
 import { IgEmbed } from "./IgEmbed";
 import { JsonLd } from "./JsonLd";
-import { LatestList, StoryGrid } from "./Stories";
+import { LatestList } from "./Stories";
 import { Markdown } from "./Markdown";
 import { ShareBar } from "./ShareBar";
 import { CATEGORIES, categoryLabel } from "@/lib/categories";
+import { relatedArticles } from "@/lib/content";
 import { articlesWithDesk } from "@/lib/desk";
 import { formatDateTime, formatSourceTime } from "@/lib/format";
 import { t } from "@/lib/i18n";
 import { absoluteUrl, articleHref, siteUrl, withLang } from "@/lib/paths";
 import { articleJsonLd } from "@/lib/seo";
+import { indexTopics, tagKey, topicPath } from "@/lib/topics";
 import type { Article } from "@/lib/types";
 
 export async function ArticleView({ article }: { article: Article }) {
@@ -25,7 +27,8 @@ export async function ArticleView({ article }: { article: Article }) {
     ? live.find((item) => item.slug === article.followUpOf || item.eventId === article.followUpOf)
     : undefined;
   const pool = live.filter((item) => item.slug !== article.slug);
-  const related = [...pool.filter((item) => item.category === article.category), ...pool.filter((item) => item.category !== article.category)].slice(0, 4);
+  const related = relatedArticles(article, live, 4);
+  const topics = new Map(indexTopics(live).map((topic) => [topic.key, topic]));
   const latest = pool.slice(0, 6);
   const trending = [...pool.filter((item) => item.breaking), ...pool.filter((item) => !item.breaking)].slice(0, 5);
   const image = article.poster.startsWith("http") ? article.poster : `${siteUrl()}${article.poster}`;
@@ -68,6 +71,20 @@ export async function ArticleView({ article }: { article: Article }) {
             {article.readingMinutes} {m.minRead}
           </span>
         </div>
+        {article.tags.length ? (
+          <p className="tag-row">
+            {article.tags.map((tag, index) => {
+              const topic = topics.get(tagKey(tag));
+              return topic ? (
+                <Link key={`${tag}-${index}`} href={withLang(article.lang, topicPath(topic.tag))}>
+                  {tag}
+                </Link>
+              ) : (
+                <span key={`${tag}-${index}`}>{tag}</span>
+              );
+            })}
+          </p>
+        ) : null}
         <p className="report-link">
           <Link href={withLang(article.lang, `/report-error?story=${encodeURIComponent(`/news/${article.year}/${article.month}/${article.slug}`)}`)}>
             {m.reportError}
@@ -184,7 +201,13 @@ export async function ArticleView({ article }: { article: Article }) {
         {related.length ? (
           <section className="related">
             <h2 className="rule-title">{m.related}</h2>
-            <StoryGrid articles={related} />
+            <ul className="related-links">
+              {related.map((item) => (
+                <li key={item.slug}>
+                  <Link href={articleHref(item.lang, item.year, item.month, item.slug)}>{item.title}</Link>
+                </li>
+              ))}
+            </ul>
           </section>
         ) : null}
       </div>

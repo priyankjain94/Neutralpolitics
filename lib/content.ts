@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import { isCategory } from "./categories";
 import { sortStories } from "./story-order";
+import { pickRelated } from "./topics";
 import { readingMinutes } from "./format";
 import type {
   Article,
@@ -177,11 +178,8 @@ export function getArticle(lang: Lang, year: string, month: string, slug: string
   );
 }
 
-export function relatedArticles(article: Article, limit = 4): Article[] {
-  const pool = publishedArticles(article.lang).filter((item) => item.slug !== article.slug);
-  const same = pool.filter((item) => item.category === article.category);
-  const rest = pool.filter((item) => item.category !== article.category);
-  return [...same, ...rest].slice(0, limit);
+export function relatedArticles(article: Article, pool?: Article[], limit = 4): Article[] {
+  return pickRelated(article, pool ?? publishedArticles(article.lang), limit);
 }
 
 export function articlesInCategory(lang: Lang, category: string): Article[] {

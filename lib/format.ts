@@ -76,6 +76,27 @@ export function formatSourceTime(value: string, lang: Lang): string {
   return formatDateTime(value, lang);
 }
 
+/** ISO-8601 in Asia/Kolkata with a numeric +05:30 offset. India does not observe DST. */
+export function isoIst(iso: string): string {
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return iso;
+  const map: Record<string, string> = {};
+  for (const part of new Intl.DateTimeFormat("en-GB", {
+    timeZone: TZ,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(date)) {
+    if (part.type !== "literal") map[part.type] = part.value;
+  }
+  const hour = map.hour === "24" ? "00" : map.hour;
+  return `${map.year}-${map.month}-${map.day}T${hour}:${map.minute}:${map.second}+05:30`;
+}
+
 export function formatTime(iso: string, lang: Lang): string {
   return new Intl.DateTimeFormat(lang === "hi" ? "hi-IN" : "en-GB", {
     timeZone: TZ,
