@@ -98,5 +98,6 @@ assert.equal(top5.includes("nia-sonu-barnala-deportation"), false);
 assert.equal(top5.includes("sc-ahmedabad-blasts-death-stay"), false);
 assert.equal(top5.includes("navpreet-singh-deported-turkiye-custody"), false);
 assert.equal(top5.includes("pune-123-girls-kidnap-claim-fake"), false);
+assert.equal(top5.includes("cec-sir-protests-mumbai-march-delhi-journalists"), false);
 console.log("live lead", live.lead.slug);
 console.log("live top5", top5.join(", "));
