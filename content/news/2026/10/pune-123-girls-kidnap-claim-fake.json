@@ -1,0 +1,73 @@
+{
+  "slug": "pune-123-girls-kidnap-claim-fake",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-10-04T11:15:00+05:30",
+  "updated_at": null,
+  "category": "fact-check",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "ViralOrVerified",
+    "Pune",
+    "FactCheck",
+    "India",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DeD6e5_kbHc",
+  "ig_url": "https://www.instagram.com/p/DeD6e5_kbHc/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "pune-123-girls-kidnap-claim-fake-oct2",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Free Press Journal",
+      "headline": "Pune Police debunk viral claim of 123 girls kidnapped in 22 hours; probe finds no evidence",
+      "url": "https://www.freepressjournal.in/pune/pune-police-debunk-viral-claim-of-123-girls-kidnapped-in-22-hours-probe-finds-no-evidence",
+      "published": "2026-10-03"
+    },
+    {
+      "outlet": "Punekar News",
+      "headline": "Pune Police reject viral claim of 123 girls kidnapped in 22 hours",
+      "url": "https://www.punekarnews.in/pune-police-reject-viral-claim-of-123-girls-kidnapped-in-22-hours-citizens-urged-not-to-spread-rumours/",
+      "published": "2026-10-02"
+    },
+    {
+      "outlet": "Lokmat (Marathi)",
+      "headline": "123 girls missing from Pune? Viral reels and audio clips are rumours",
+      "url": "https://www.lokmat.com/pune/as-many-as-123-girls-missing-from-pune-viral-reels-and-audio-clips-are-just-rumors-pune-police-clarifies-a-a727/",
+      "published": "2026-10-02"
+    },
+    {
+      "outlet": "DCN",
+      "headline": "Viral claim of 123 girls kidnapped in Pune is false, police clarify",
+      "url": "https://thedcn.news/pune/viral-claim-of-123-girls-kidnapped-in-pune-is-false-police-clarify/",
+      "published": "2026-10-03"
+    },
+    {
+      "outlet": "The Hindu (context only)",
+      "headline": "Supreme Court orders immediate FIRs in missing person cases",
+      "url": "https://www.thehindu.com/news/national/supreme-court-orders-immediate-firs-in-missing-person-cases-activation-of-anti-trafficking-units-within-4-weeks/article71011256.ece",
+      "published": "2026-05-22"
+    },
+    {
+      "outlet": "The Economic Times (context only)",
+      "headline": "Register FIR in missing-person cases immediately, irrespective of age or gender: SC",
+      "url": "https://economictimes.indiatimes.com/news/india/register-fir-in-cases-of-missing-persons-immediately-irrespective-of-age-or-gender-sc/articleshow/133148967.cms",
+      "published": "August 2026"
+    }
+  ],
+  "photo_credits": [
+    "Schematic graphic and typographic slides. No photograph of any person."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/pune-123-girls-kidnap-claim-fake.webp",
+  "corrections": [],
+  "factcheck": {
+    "verdict": "misleading",
+    "claimant": "A viral reel and audio clip",
+    "claim_date": "2026-10-02"
+  },
+  "sensitive": true
+}
