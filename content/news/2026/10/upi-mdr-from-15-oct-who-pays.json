@@ -1,0 +1,67 @@
+{
+  "slug": "upi-mdr-from-15-oct-who-pays",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-04T09:44:10+05:30",
+  "updated_at": null,
+  "category": "economy",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "UPI",
+    "MDR",
+    "NPCI",
+    "DigitalPayments",
+    "India",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DeDv3N9R-Ft",
+  "ig_url": "https://www.instagram.com/p/DeDv3N9R-Ft/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "upi-mdr-from-15-oct-who-pays-oct3",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Press Information Bureau, Ministry of Finance",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2310586&lang=2&reg=48",
+      "published": "2026-09-15"
+    },
+    {
+      "outlet": "Department of Financial Services, FAQ on MDR for select UPI person-to-merchant payments",
+      "url": "https://financialservices.gov.in/sites/default/files/2026-09/FAQs---Merchant-Discount-Rate--MDR--on-Select-UPI--P2M--Transactions_0.pdf",
+      "published": "2026-09-15"
+    },
+    {
+      "outlet": "NPCI, FAQ on MDR for select UPI person-to-merchant payments",
+      "url": "https://www.npci.org.in/uploads/FA_Qs_Merchant_Discount_Rate_MDR_on_Select_UPI_P2_M_Transactions_58dba1d39e.pdf",
+      "published": "2026-09-15"
+    },
+    {
+      "outlet": "Business Standard",
+      "url": "https://www.business-standard.com/finance/news/mdr-on-upi-payments-what-customers-merchants-need-to-know-from-oct-15-126092401287_1.html",
+      "published": "2026-09-24"
+    },
+    {
+      "outlet": "India Today",
+      "url": "https://www.indiatoday.in/technology/news/story/upi-payments-above-rs-2000-to-be-chargeable-after-oct-15-what-is-it-why-is-it-happening-who-will-be-impacted-3007344-2026-10-01",
+      "published": "2026-10-01"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "url": "https://www.hindustantimes.com/india-news/upi-mdr-charges-can-merchants-pass-to-buyers-key-questions-faq-upi-payments-above-rs-2000-101789482772295.html",
+      "published": "2026-09-15"
+    },
+    {
+      "outlet": "Mint",
+      "url": "https://www.livemint.com/industry/upi-transaction-charges-mdr-rules-october-2026-11789652171571.html",
+      "published": "September 2026"
+    }
+  ],
+  "photo_credits": [
+    "Illustrative images, not this rule and not a shop: Pixabay stock of stacked Indian coins (https://pixabay.com/photos/coins-money-stacked-indian-rupees-7702613/) and a QR code (https://pixabay.com/photos/qr-code-quick-response-code-to-scan-1903447/), Pixabay Content License."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/upi-mdr-from-15-oct-who-pays.webp",
+  "corrections": []
+}
