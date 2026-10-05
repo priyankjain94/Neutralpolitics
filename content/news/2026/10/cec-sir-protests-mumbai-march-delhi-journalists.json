@@ -3,7 +3,7 @@
   "status": "draft",
   "status_hi": "draft",
   "published_at": "2026-10-04T16:21:11+05:30",
-  "updated_at": null,
+  "updated_at": "2026-10-05T14:15:00+05:30",
   "category": "politics",
   "secondary": [],
   "breaking": false,
@@ -12,12 +12,21 @@
     "SIR",
     "Mumbai",
     "Delhi",
+    "FactCheck",
+    "ViralOrVerified",
     "NeutralPolitics"
   ],
   "ig_shortcode": "DeEdFsDEdbH",
   "ig_url": "https://www.instagram.com/p/DeEdFsDEdbH/",
   "ig_type": "carousel",
-  "ig_more": [],
+  "ig_more": [
+    {
+      "shortcode": "DeGz1sxEXY6",
+      "url": "https://www.instagram.com/p/DeGz1sxEXY6/",
+      "type": "carousel",
+      "headline": "Viral image in the journalists' row? Police say FAKE"
+    }
+  ],
   "event_id": "cec-sir-protests-mumbai-march-delhi-journalists-oct4",
   "follow_up_of": null,
   "sources": [
@@ -71,7 +80,7 @@
     },
     {
       "outlet": "Hindustan Times, on the Delhi complaints",
-      "headline": "Three women journalists accuse Delhi police of sexual harassment at the Jantar Mantar protest; a probe is launched",
+      "headline": "Three complaints; quotes Delhi Police on a fair and impartial Crime Branch enquiry",
       "url": "https://www.hindustantimes.com/india-news/jantar-mantar-protest-cec-gyanesh-kumar-women-journalists-sexual-harassment-101791094824346.html",
       "published": "2026-10-04 11:54 IST"
     },
@@ -104,10 +113,47 @@
       "headline": "Complaints transferred to the Crime Branch",
       "url": "https://x.com/DelhiPolice",
       "published": "2026-10-04"
+    },
+    {
+      "outlet": "Delhi Police on X",
+      "headline": "Fact check: the CCTV footage image is fake",
+      "url": "https://x.com/DelhiPolice/status/2106681141172580386",
+      "published": "2026-10-04 15:11 IST"
+    },
+    {
+      "outlet": "PIB Fact Check on X",
+      "headline": "AI-generated content alert by Delhi Police",
+      "url": "https://x.com/PIBFactCheck/status/2106687702188114077",
+      "published": "2026-10-04 15:37 IST"
+    },
+    {
+      "outlet": "Times Now, on the image",
+      "headline": "A DCP says the footage has no relation to that day's on-ground footage",
+      "url": "https://www.timesnownews.com/delhi/no-incriminating-evidence-yet-against-cop-in-journalists-groping-allegation-police-say-article-156272210",
+      "published": "2026-10-04 19:35 IST"
+    },
+    {
+      "outlet": "Bharat Express",
+      "headline": "PIB Fact Check warns against a fake AI-generated CCTV visual",
+      "url": "https://english.bharatexpress.com/fact-check/pib-fact-check-warns-against-fake-ai-generated-cctv-visual-300441/amp",
+      "published": "2026-10-04"
+    },
+    {
+      "outlet": "The Tribune, on the transfer",
+      "headline": "Complaint transferred to the Crime Branch",
+      "url": "https://www.tribuneindia.com/news/delhi/complaint-against-delhi-police-acp-over-alleged-molestation-transferred-to-crime-branch/",
+      "published": "2026-10-04 13:09 IST"
+    },
+    {
+      "outlet": "The Hindu, on the FIR",
+      "headline": "Delhi Police yet to file an FIR over a journalist's claim",
+      "url": "https://www.thehindu.com/news/cities/Delhi/delhi-police-yet-to-file-fir-over-journalist-sexual-harassment-claim-against-acp-vivek-bhagat/article71542869.ece",
+      "published": "2026-10-04"
     }
   ],
   "photo_credits": [
-    "Neutral Politics schematic. It is not a photograph of any person."
+    "Neutral Politics schematic. It is not a photograph of any person.",
+    "Update graphic: Neutral Politics typographic schematic. It is not the viral image and not a photograph of any person."
   ],
   "sample": false,
   "poster": "/media/2026/10/cec-sir-protests-mumbai-march-delhi-journalists.webp",

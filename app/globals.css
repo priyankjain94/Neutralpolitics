@@ -214,6 +214,7 @@ a.callout-compact:hover span { color: var(--red); }
   font-family: var(--sans); font-size: 0.86rem;
 }
 .prose { max-width: 40rem; }
+.prose img { width: auto; max-width: 100%; height: auto; object-fit: contain; background: #fff; display: block; margin: 0 0 16px; }
 .prose p { margin: 0 0 16px; }
 .prose h2 { font-size: 1.35rem; margin: 1.4rem 0 0.5rem; }
 .prose ul, .prose ol { padding-left: 1.2rem; }
