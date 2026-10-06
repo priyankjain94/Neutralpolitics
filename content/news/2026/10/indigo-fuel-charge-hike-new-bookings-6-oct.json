@@ -1,0 +1,73 @@
+{
+  "slug": "indigo-fuel-charge-hike-new-bookings-6-oct",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-06T09:38:00+05:30",
+  "updated_at": null,
+  "category": "economy",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "IndiGo",
+    "Airfare",
+    "ATF",
+    "FuelCharge",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DeI5BLAEdrV",
+  "ig_url": "https://www.instagram.com/p/DeI5BLAEdrV/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "indigo-fuel-charge-hike-new-bookings-6-oct",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "CNBC-TV18",
+      "headline": "IndiGo flights to cost more as airline raises fuel charges from October 6",
+      "url": "https://www.cnbctv18.com/travel/indigo-flights-to-cost-more-as-airline-raises-fuel-charges-from-october-6-interglobe-aviation-shares-stock-20004574.htm",
+      "published": "2026-10-05T12:27:00+05:30"
+    },
+    {
+      "outlet": "Business Standard",
+      "headline": "IndiGo raises fuel surcharge on domestic and international flights as ATF rises",
+      "url": "https://www.business-standard.com/industry/aviation/indigo-raises-fuel-surcharge-on-domestic-int-l-flights-as-atf-rises-126100500889_1.html",
+      "published": "2026-10-05T17:53:00+05:30"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "IndiGo fuel charge hike: higher airfares likely amid cost surge",
+      "url": "https://indianexpress.com/article/business/aviation/indigo-fuel-charge-hike-higher-airfares-jet-fuel-prices-10907502/",
+      "published": "2026-10-05T16:12:00+05:30"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "IndiGo hikes fuel charges as ATF costs surge; domestic levy up to Rs 1,300",
+      "url": "https://timesofindia.indiatimes.com/city/chennai/indigo-hikes-fuel-charges-as-atf-costs-surge-domestic-levy-up-to-rs-1300-fares-set-to-rise/articleshow/134689098.cms",
+      "published": "2026-10-05T12:38:00+05:30"
+    },
+    {
+      "outlet": "Gulf News",
+      "headline": "UAE-India airfares set to rise as IndiGo raises fuel charges from October 6",
+      "url": "https://gulfnews.com/business/aviation/uae-india-airfares-set-to-rise-as-indigo-raises-fuel-charges-from-october-6-amid-us-iran-war-1.500698578",
+      "published": "2026-10-05"
+    },
+    {
+      "outlet": "The Economic Times",
+      "headline": "Flying IndiGo gets costlier as airline raises fuel charges after another ATF hike",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/flying-indigo-gets-costlier-as-airline-raises-fuel-charges-after-another-atf-hike/articleshow/134687201.cms",
+      "published": "2026-10-05"
+    },
+    {
+      "outlet": "Travel Trade Journal",
+      "headline": "IndiGo to increase fuel charges",
+      "url": "https://traveltradejournal.com/indigo-to-increase-fuel-charges-as-aviation-fuel-costs-rise/",
+      "published": "2026-10-05"
+    }
+  ],
+  "photo_credits": [
+    "Neutral Politics fuel-gauge graphic. It shows no aircraft, no airline logo and no person."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/indigo-fuel-charge-hike-new-bookings-6-oct.webp",
+  "corrections": []
+}
