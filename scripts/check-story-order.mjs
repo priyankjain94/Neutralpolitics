@@ -87,11 +87,11 @@ for (const file of walk(path.join(process.cwd(), "content", "news"))) {
 const live = pickFeatured(published, Date.parse("2026-10-02T04:20:00Z"));
 const top5 = [live.lead, ...live.rest].slice(0, 5).map((item) => item.slug);
 assert.deepEqual(live.top.map((item) => item.slug), live.rest.slice(0, 3).map((item) => item.slug));
-assert.equal(live.lead.slug, "rbi-repo-rate-hike-5-50-oct-2026-emi-fd");
+assert.equal(live.lead.slug, "harmanpreet-steps-down-mandhana-new-india-captain");
 assert.deepEqual(top5.slice(0, 3), [
+  "harmanpreet-steps-down-mandhana-new-india-captain",
   "rbi-repo-rate-hike-5-50-oct-2026-emi-fd",
   "maharashtra-10pc-water-cut-from-16-oct",
-  "india-bloc-march-ec-stopped-rahul-priyanka-detained",
 ]);
 assert.equal(top5.includes("delhi-judge-letter-pocso-survivor"), false);
 assert.equal(top5.includes("nia-sonu-barnala-deportation"), false);
@@ -102,5 +102,6 @@ assert.equal(top5.includes("cec-sir-protests-mumbai-march-delhi-journalists"), f
 assert.equal(top5.includes("sc-refuses-to-suspend-cec-notice"), false);
 assert.equal(top5.includes("hormuz-mt-on-peace-11-indians-injured"), false);
 assert.equal(top5.includes("viral-or-verified-4-ec-protest-claims-checked"), false);
+assert.equal(top5.includes("delhi-seemapuri-building-collapse"), false);
 console.log("live lead", live.lead.slug);
 console.log("live top5", top5.join(", "));

@@ -1,0 +1,103 @@
+{
+  "slug": "delhi-seemapuri-building-collapse",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-10-07T18:39:41+05:30",
+  "updated_at": null,
+  "category": "disasters-weather",
+  "secondary": [],
+  "breaking": false,
+  "sensitive": true,
+  "tags": [
+    "Delhi",
+    "Seemapuri",
+    "BuildingCollapse",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DeMbuRSEbE9",
+  "ig_url": "https://www.instagram.com/p/DeMbuRSEbE9/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "delhi-seemapuri-building-collapse",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "India Today",
+      "headline": "DCP R.P. Meena: at least 8 hospitalised at GTB Hospital after a building collapse in Seemapuri",
+      "url": "https://www.indiatoday.in/cities/delhi/story/month-after-satya-niketan-pg-collapse-3-storey-building-collapses-in-delhis-seemapuri-people-feared-trapped-3011658-2026-10-07",
+      "published": "2026-10-07T18:29:00+05:30"
+    },
+    {
+      "outlet": "PTI via News18",
+      "headline": "At least 5 injured; DCP Shahdara R.P. Meena says 2-3 suspected trapped after a Seemapuri collapse",
+      "url": "https://www.news18.com/amp/agency-feeds/at-least-5-injured-several-feared-trapped-after-building-collapses-in-seemapuri-10371532.html",
+      "published": "2026-10-07T17:45:00+05:30"
+    },
+    {
+      "outlet": "NDTV live updates (an unattributed line on rescued and missing people is not used as an official count)",
+      "headline": "Seemapuri building collapse",
+      "url": "https://www.ndtv.com/india-news/seemapuri-building-collapse-live-updates-delhi-building-collapse-rescue-operation-trapped-people-live-news-12151253",
+      "published": "2026-10-07T18:24:00+05:30"
+    },
+    {
+      "outlet": "Firstpost (PTI)",
+      "headline": "Several feared trapped as a structure crashes in Seemapuri; DCP quoted on four storeys",
+      "url": "https://www.firstpost.com/india/delhi-building-collapse-several-feared-trapped-as-four-storey-structure-crashes-in-seemapuri-14051203.html",
+      "published": "2026-10-07T17:40:33+05:30"
+    },
+    {
+      "outlet": "The Times of India (text only; the page's AI-generated image is not used)",
+      "headline": "DCP quoted on a five-storey building; at least 5 injured reported at 6:27 pm",
+      "url": "https://timesofindia.indiatimes.com/city/delhi/3-storey-building-collapses-in-delhis-seemapuri-several-feared-trapped-under-debris/articleshow/134763875.cms",
+      "published": "2026-10-07T18:27:00+05:30"
+    },
+    {
+      "outlet": "News18",
+      "headline": "Delhi Traffic Police and PTI on the Seemapuri collapse",
+      "url": "https://www.news18.com/india/5-storey-building-collapses-in-delhis-seemapuri-several-people-feared-trapped-10371393.html",
+      "published": "2026-10-07T16:50:00+05:30"
+    },
+    {
+      "outlet": "NDTV",
+      "headline": "Many feared trapped as a building collapses in Delhi's Seemapuri",
+      "url": "https://www.ndtv.com/india-news/many-feared-trapped-as-building-collapses-in-delhis-seemapuri-a-month-after-satya-niketan-tragedy-12150995",
+      "published": "2026-10-07T16:34:16+05:30"
+    },
+    {
+      "outlet": "Hindustan Times (a rescued count in the headline is unattributed and is not used as official)",
+      "headline": "Residential building collapses in Delhi's Seemapuri",
+      "url": "https://www.hindustantimes.com/india-news/fourstorey-residential-building-collapses-in-delhi-seemapuri-rescue-ops-dead-injured-trapped-101791371254622.html",
+      "published": "2026-10-07T18:33:36+05:30"
+    },
+    {
+      "outlet": "India TV",
+      "headline": "Building collapses in Delhi's Seemapuri, several feared trapped",
+      "url": "https://www.indiatvnews.com/delhi/building-collapses-in-seemapuri-several-trapped-casualties-rescue-operations-rekha-gupta-visuals-latest-updates-2026-10-07-1056318",
+      "published": "2026-10-07T16:46:00+05:30"
+    },
+    {
+      "outlet": "Amar Ujala (IANS)",
+      "headline": "Building collapses in Delhi's Seemapuri",
+      "url": "https://www.amarujala.com/delhi-ncr/building-collapses-in-delhi-s-seemapur-2026-10-07",
+      "published": "2026-10-07T16:26:00+05:30"
+    },
+    {
+      "outlet": "Live Hindustan",
+      "headline": "Building collapses in Seemapuri, several people feared trapped",
+      "url": "https://www.livehindustan.com/ncr/major-accident-in-seemapuri-delhi-5-storey-building-collapses-several-people-feared-trapped-201791370743475.html",
+      "published": "2026-10-07T16:49:00+05:30"
+    },
+    {
+      "outlet": "The New Indian Express (PTI)",
+      "headline": "Satya Niketan rescue ended after 27 hours; context that seven people were killed",
+      "url": "https://www.newindianexpress.com/cities/delhi/2026/Sep/07/delhi-building-collapse-rescue-operation-ends-after-27-hours-no-fresh-casualties",
+      "published": "2026-09-07"
+    }
+  ],
+  "photo_credits": [
+    "Cover and slide 4: NP map card from OpenStreetMap tiles (© OpenStreetMap contributors, ODbL), greyscale; circle = approximate New Seemapuri area, exact site not marked. No photos used."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/delhi-seemapuri-building-collapse.webp",
+  "corrections": []
+}
