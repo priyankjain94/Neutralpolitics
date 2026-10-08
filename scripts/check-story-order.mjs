@@ -87,11 +87,11 @@ for (const file of walk(path.join(process.cwd(), "content", "news"))) {
 const live = pickFeatured(published, Date.parse("2026-10-02T04:20:00Z"));
 const top5 = [live.lead, ...live.rest].slice(0, 5).map((item) => item.slug);
 assert.deepEqual(live.top.map((item) => item.slug), live.rest.slice(0, 3).map((item) => item.slug));
-assert.equal(live.lead.slug, "ncw-cab-safety-guidelines-women-app-cabs");
+assert.equal(live.lead.slug, "nana-patekar-dies-at-75-goa");
 assert.deepEqual(top5.slice(0, 3), [
+  "nana-patekar-dies-at-75-goa",
   "ncw-cab-safety-guidelines-women-app-cabs",
   "harmanpreet-steps-down-mandhana-new-india-captain",
-  "rbi-repo-rate-hike-5-50-oct-2026-emi-fd",
 ]);
 assert.equal(top5.includes("delhi-judge-letter-pocso-survivor"), false);
 assert.equal(top5.includes("nia-sonu-barnala-deportation"), false);
