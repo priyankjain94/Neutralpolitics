@@ -3,7 +3,7 @@
   "status": "draft",
   "status_hi": "draft",
   "published_at": "2026-10-07T18:39:41+05:30",
-  "updated_at": null,
+  "updated_at": "2026-10-08T17:20:00+05:30",
   "category": "disasters-weather",
   "secondary": [],
   "breaking": false,
@@ -14,10 +14,17 @@
     "BuildingCollapse",
     "NeutralPolitics"
   ],
-  "ig_shortcode": "DeMbuRSEbE9",
-  "ig_url": "https://www.instagram.com/p/DeMbuRSEbE9/",
+  "ig_shortcode": "DeO3cKOkWDo",
+  "ig_url": "https://www.instagram.com/p/DeO3cKOkWDo/",
   "ig_type": "carousel",
-  "ig_more": [],
+  "ig_more": [
+    {
+      "shortcode": "DeMbuRSEbE9",
+      "url": "https://www.instagram.com/p/DeMbuRSEbE9/",
+      "type": "carousel",
+      "headline": "7 October note"
+    }
+  ],
   "event_id": "delhi-seemapuri-building-collapse",
   "follow_up_of": null,
   "sources": [
@@ -92,10 +99,52 @@
       "headline": "Satya Niketan rescue ended after 27 hours; context that seven people were killed",
       "url": "https://www.newindianexpress.com/cities/delhi/2026/Sep/07/delhi-building-collapse-rescue-operation-ends-after-27-hours-no-fresh-casualties",
       "published": "2026-09-07"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "headline": "Toll in Delhi collapse rises to 5; DCP Shahdara Rajendra Prasad Meena on record on two more bodies, women aged 60 and 35",
+      "url": "https://www.hindustantimes.com/india-news/delhi-building-collapse-seemapuri-toll-deaths-rescue-operations-news-police-101791436411413.html",
+      "published": "2026-10-08T11:07:03+05:30"
+    },
+    {
+      "outlet": "Dainik Jagran",
+      "headline": "Seemapuri toll rises to five",
+      "url": "https://www.jagran.com/delhi/new-delhi-city-seemapuri-building-collapse-death-toll-rises-to-five-in-east-delhi-40397995.html",
+      "published": "2026-10-08T09:53:00+05:30"
+    },
+    {
+      "outlet": "The Times of India (with PTI inputs)",
+      "headline": "Seemapuri death toll rises to 5 after 2 more bodies recovered; officials say the exact cause is yet to be ascertained",
+      "url": "https://timesofindia.indiatimes.com/city/delhi/delhis-seemapuri-building-collapse-death-toll-rises-to-5-after-2-more-bodies-recovered/articleshow/134786268.cms",
+      "published": "2026-10-08T15:52:00+05:30"
+    },
+    {
+      "outlet": "Daily Jagran",
+      "headline": "Delhi Seemapuri building collapse: death toll rises to 5 (officials)",
+      "url": "https://www.thedailyjagran.com/india/news/delhi-building-collapse-seemapuri-death-toll-rises-demolition-work-quake-cracks-among-suspected-cause-10331946",
+      "published": "2026-10-08T10:57:00+05:30"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "headline": "2 children and a pregnant woman among 3 dead; 8 injured; DCP Shahdara R.P. Meena confirmed 3",
+      "url": "https://www.hindustantimes.com/cities/delhi-news/2-children-pregnant-woman-among-3-dead-in-seemapur-building-collapse-in-delhi-8-injured-delhi-police-101791409860309.html",
+      "published": "2026-10-08T06:42:36+05:30"
+    },
+    {
+      "outlet": "The New Indian Express (PTI)",
+      "headline": "Three killed, eight injured in Delhi's Seemapuri; 11 pulled out including 8 injured (police and MCD)",
+      "url": "https://www.newindianexpress.com/cities/delhi/2026/Oct/07/three-killed-eight-injured-as-building-collapses-in-delhis-seemapuri",
+      "published": "2026-10-07T18:45:00+05:30"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Seemapuri: 3 dead, 8 injured; police say 11 pulled out; Satya Niketan context, seven killed",
+      "url": "https://www.thehindu.com/news/cities/Delhi/delhi-seemapuri-building-collapse-people-trapped-rescue-october-7-2026/article71555449.ece",
+      "published": "2026-10-08T00:00:00+05:30"
     }
   ],
   "photo_credits": [
-    "Cover and slide 4: NP map card from OpenStreetMap tiles (© OpenStreetMap contributors, ODbL), greyscale; circle = approximate New Seemapuri area, exact site not marked. No photos used."
+    "Slide 4: NP map card from OpenStreetMap tiles (© OpenStreetMap contributors, ODbL), greyscale; circle = approximate New Seemapuri area, exact site not marked. No photos used."
   ],
   "sample": false,
   "poster": "/media/2026/10/delhi-seemapuri-building-collapse.webp",
