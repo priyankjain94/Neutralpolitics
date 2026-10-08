@@ -103,5 +103,6 @@ assert.equal(top5.includes("sc-refuses-to-suspend-cec-notice"), false);
 assert.equal(top5.includes("hormuz-mt-on-peace-11-indians-injured"), false);
 assert.equal(top5.includes("viral-or-verified-4-ec-protest-claims-checked"), false);
 assert.equal(top5.includes("delhi-seemapuri-building-collapse"), false);
+assert.equal(top5.includes("jantar-mantar-permission-rule-explained-cec-row-firs"), false);
 console.log("live lead", live.lead.slug);
 console.log("live top5", top5.join(", "));
