@@ -87,11 +87,11 @@ for (const file of walk(path.join(process.cwd(), "content", "news"))) {
 const live = pickFeatured(published, Date.parse("2026-10-02T04:20:00Z"));
 const top5 = [live.lead, ...live.rest].slice(0, 5).map((item) => item.slug);
 assert.deepEqual(live.top.map((item) => item.slug), live.rest.slice(0, 3).map((item) => item.slug));
-assert.equal(live.lead.slug, "gst-council-57th-meeting-arrest-powers-prosecution-5-crore");
+assert.equal(live.lead.slug, "indian-embassy-saudi-advisory-remain-alert-abha-riyadh-attacks");
 assert.deepEqual(top5.slice(0, 3), [
+  "indian-embassy-saudi-advisory-remain-alert-abha-riyadh-attacks",
   "gst-council-57th-meeting-arrest-powers-prosecution-5-crore",
   "nana-patekar-dies-at-75-goa",
-  "ncw-cab-safety-guidelines-women-app-cabs",
 ]);
 assert.equal(top5.includes("delhi-judge-letter-pocso-survivor"), false);
 assert.equal(top5.includes("nia-sonu-barnala-deportation"), false);
@@ -104,5 +104,6 @@ assert.equal(top5.includes("hormuz-mt-on-peace-11-indians-injured"), false);
 assert.equal(top5.includes("viral-or-verified-4-ec-protest-claims-checked"), false);
 assert.equal(top5.includes("delhi-seemapuri-building-collapse"), false);
 assert.equal(top5.includes("jantar-mantar-permission-rule-explained-cec-row-firs"), false);
+assert.equal(top5.includes("nepal-flood-search-ends-189-indians-missing"), false);
 console.log("live lead", live.lead.slug);
 console.log("live top5", top5.join(", "));

@@ -1,0 +1,75 @@
+{
+  "slug": "nepal-flood-search-ends-189-indians-missing",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-10-09T09:52:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "sensitive": true,
+  "tags": [
+    "Nepal",
+    "NepalFlood",
+    "MEA",
+    "MissingIndians",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DeQoT60xKnZ",
+  "ig_url": "https://www.instagram.com/reel/DeQoT60xKnZ/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "nepal-flood-search-ends-189-indians-missing",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Reuters",
+      "headline": "Nepal ends the search and rescue after the flood and focuses on rehabilitation",
+      "url": "https://www.reuters.com/world/china/nepal-ends-search-rescue-after-flood-focuses-rehabilitation-2026-10-05/",
+      "published": "2026-10-05"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "After 40 days Nepal ends the flood search with 5,285 still missing",
+      "url": "https://timesofindia.indiatimes.com/world/south-asia/after-40-days-nepal-ends-flood-search-with-5285-still-missing/articleshow/134707559.cms",
+      "published": "2026-10-05"
+    },
+    {
+      "outlet": "Zee News",
+      "headline": "Search operation ends after 40 days; 5,285 still missing, including 189 Indians, per Nepal's tourism department",
+      "url": "https://zeenews.india.com/world/nepal-flash-flood-search-operation-ends-after-40-days-5285-still-missing-including-189-indians-3074816.html",
+      "published": "2026-10-05"
+    },
+    {
+      "outlet": "Times Now (PTI)",
+      "headline": "Nepal calls off the flash-flood search; around 5,000 still missing, including over 180 Indians",
+      "url": "https://www.timesnownews.com/world/asia/nepal-calls-off-flash-flood-search-operation-around-5000-still-missing-including-over-180-indians-article-156281496",
+      "published": "2026-10-05"
+    },
+    {
+      "outlet": "DD India",
+      "headline": "MEA sets up a 24x7 control room on 27 August, with helpline numbers",
+      "url": "https://ddindia.co.in/2026/08/mea-sets-up-24x7-control-room-to-assist-indian-nationals-affected-by-nepal-floods/",
+      "published": "2026-08-27T15:56:00+05:30"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "MEA sets up a control room on 27 August, with helpline numbers",
+      "url": "https://timesofindia.indiatimes.com/india/nepal-floods-mea-sets-up-control-room-nearly-200-indians-missing/articleshow/133571783.cms",
+      "published": "2026-08-27"
+    },
+    {
+      "outlet": "AP",
+      "headline": "Families' reaction; the toll of 1,455 dead and 5,285 missing is unchanged",
+      "url": "https://apnews.com/article/nepal-flood-missing-rescue-ends-death-certificates-d884e240ee256e660403d124619e2620",
+      "published": "2026-10-07"
+    }
+  ],
+  "photo_credits": [
+    "Map: © OpenStreetMap contributors (ODbL), tiles from tile.openstreetmap.org, z8, credited on frame and end card. Flood-hit area marker is NP-drawn and approximate.",
+    "No photos, no flood footage, no people. Other backgrounds NP-generated (cream / abstract contour lines)."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/nepal-flood-search-ends-189-indians-missing.webp",
+  "corrections": []
+}
