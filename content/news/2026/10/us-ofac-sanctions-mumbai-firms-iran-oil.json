@@ -1,0 +1,93 @@
+{
+  "slug": "us-ofac-sanctions-mumbai-firms-iran-oil",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-10-09T17:20:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "sensitive": true,
+  "tags": [
+    "USSanctions",
+    "OFAC",
+    "Iran",
+    "Mumbai",
+    "IndiaUS",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DeRbxOukVqO",
+  "ig_url": "https://www.instagram.com/p/DeRbxOukVqO/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "us-ofac-sanctions-mumbai-firms-iran-oil",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "US Treasury OFAC",
+      "headline": "Recent actions, 8 October 2026: Iran-related designations, General License EE, and SDN additions including SSPL, Samudra and five Indian nationals",
+      "url": "https://ofac.treasury.gov/recent-actions/20261008",
+      "published": "2026-10-08"
+    },
+    {
+      "outlet": "US Treasury OFAC",
+      "headline": "General License EE: wind-down of transactions involving Samudra Marine Services Private Limited through 12:01 a.m. Eastern time, 23 October 2026",
+      "url": "https://ofac.treasury.gov/media/937096/download?inline",
+      "published": "2026-10-08"
+    },
+    {
+      "outlet": "US Treasury",
+      "headline": "Press release sb0653: Operation Economic Outcast and a separate designation of shadow-fleet vessels; sanctions implications; Bessent",
+      "url": "https://home.treasury.gov/news/press-releases/sb0653",
+      "published": "2026-10-08"
+    },
+    {
+      "outlet": "US State Department, Office of the Spokesman",
+      "headline": "Operation Economic Outcast sanctions described as covering entities, individuals and vessels under Executive Order 13846",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/operation-economic-outcast-sanctions-on-irans-shadow-fleet-network/",
+      "published": "2026-10-08"
+    },
+    {
+      "outlet": "The Hindu (PTI, Washington)",
+      "headline": "Two Mumbai-based firms and five Indian nationals face US sanctions over Iran oil trade; updated 9 October, 8:42 am IST",
+      "url": "https://www.thehindu.com/business/two-mumbai-based-firms-five-indian-nationals-face-us-sanctions-over-iran-oil-trade/article71561446.ece",
+      "published": "2026-10-09T05:43:00+05:30"
+    },
+    {
+      "outlet": "Firstpost",
+      "headline": "US names five Indian nationals and two companies in an Iran sanctions action",
+      "url": "https://www.firstpost.com/business/us-iran-sanctions-indian-nationals-mumbai-companies-14051541.html",
+      "published": "2026-10-09T05:23:42+05:30"
+    },
+    {
+      "outlet": "NDTV",
+      "headline": "Report on two Mumbai-based firms and five Indian nationals facing US action",
+      "url": "https://www.ndtv.com/india-news/2-mumbai-based-firms-5-indian-nationals-face-us-action-over-iran-oil-trade-12159792",
+      "published": "2026-10-09"
+    },
+    {
+      "outlet": "State Department fact sheet, as carried by forth.news",
+      "headline": "Fact sheet on Operation Economic Outcast used for the firm-specific allegations; the state.gov copy did not load in the check that produced this note",
+      "url": "https://www.forth.news/lists/state/CfqCanaugp7aZpt8zwXBC",
+      "published": "2026-10-08"
+    },
+    {
+      "outlet": "Hindustan Times (PTI)",
+      "headline": "Same report as The Hindu on the Mumbai firms and five nationals",
+      "url": "https://www.hindustantimes.com/world-news/us-news/two-mumbai-based-firms-5-indian-nationals-face-us-sanctions-over-iran-oil-trade-101791487323727.html",
+      "published": "2026-10-09"
+    },
+    {
+      "outlet": "India Today (PTI)",
+      "headline": "US sanctions on Mumbai firms linked, in the headline, to Iran petroleum trade",
+      "url": "https://www.indiatoday.in/world/story/us-sanctions-mumbai-firms-linked-to-iran-petroleum-trade-ptag-3012890-2026-10-09",
+      "published": "2026-10-09"
+    }
+  ],
+  "photo_credits": [
+    "Typographic only. No photos, no tanker images, no logos/seals."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/us-ofac-sanctions-mumbai-firms-iran-oil.webp",
+  "corrections": []
+}

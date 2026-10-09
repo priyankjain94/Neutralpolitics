@@ -105,5 +105,6 @@ assert.equal(top5.includes("viral-or-verified-4-ec-protest-claims-checked"), fal
 assert.equal(top5.includes("delhi-seemapuri-building-collapse"), false);
 assert.equal(top5.includes("jantar-mantar-permission-rule-explained-cec-row-firs"), false);
 assert.equal(top5.includes("nepal-flood-search-ends-189-indians-missing"), false);
+assert.equal(top5.includes("us-ofac-sanctions-mumbai-firms-iran-oil"), false);
 console.log("live lead", live.lead.slug);
 console.log("live top5", top5.join(", "));
