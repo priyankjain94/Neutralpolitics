@@ -1,0 +1,78 @@
+{
+  "slug": "lucknow-gomti-floods-still-rising",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-09T13:48:00+05:30",
+  "updated_at": null,
+  "category": "disasters-weather",
+  "secondary": [],
+  "breaking": false,
+  "tags": [
+    "Lucknow",
+    "GomtiFlood",
+    "UttarPradesh",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DeRD_YElaQb",
+  "ig_url": "https://www.instagram.com/p/DeRD_YElaQb/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "lucknow-gomti-floods-still-rising",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Hindustan Times",
+      "headline": "Gomti recedes upstream; relief for Lucknow expected in 48 hours; irrigation department readings at 8 pm Thursday; executive engineer Mukesh Vaish; LDA pumps",
+      "url": "https://www.hindustantimes.com/cities/lucknow-news/gomti-recedes-upstream-relief-for-lucknow-expected-in-48-hrs-101791485653747.html",
+      "published": "2026-10-09T07:41:40+05:30"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "Gomti continues to rise; 52 boats deployed; irrigation department readings at 6 pm; Hayat Nagar camp",
+      "url": "https://timesofindia.indiatimes.com/city/lucknow/gomti-continues-to-rise-52-boats-deployed-for-relief/articleshow/134800091.cms",
+      "published": "2026-10-09T01:04:00+05:30"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "Flood crisis persists; IIIT Lucknow; LDA using 26 pumps; a forecast of a decline",
+      "url": "https://timesofindia.indiatimes.com/city/lucknow/flood-crisis-persists-residents-struggle-for-food-water-and-shelter/articleshow/134800083.cms",
+      "published": "2026-10-09T01:03:00+05:30"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "headline": "IIIT Lucknow campus closed till Sunday, exams postponed; Dean Deepak Kumar Singh",
+      "url": "https://www.hindustantimes.com/education/news/gomti-flooding-iiit-lucknow-campus-closed-till-sunday-exams-postponed-101791439003248.html",
+      "published": "2026-10-08"
+    },
+    {
+      "outlet": "PTI via ABP Live",
+      "headline": "Flood reaches a shopping hub and a stadium; municipal corporation on 12 night shelters and about 20 tankers",
+      "url": "https://news.abplive.com/news/india/flood-reaches-lucknow-s-premium-shopping-hub-stadium-as-gomti-waters-rise-1870275",
+      "published": "2026-10-07"
+    },
+    {
+      "outlet": "Amar Ujala",
+      "headline": "40 schools shut because of the floods, basic education officials",
+      "url": "https://www.amarujala.com/lucknow/40-schools-shut-due-to-floods-childrens-education-halted-lucknow-news-c-13-lko1070-1954089-2026-10-07",
+      "published": "2026-10-07"
+    },
+    {
+      "outlet": "News18",
+      "headline": "About 40,000 homes underwater in Faizullaganj, as News18 reports it; not an official count",
+      "url": "https://www.news18.com/cities/lucknow-news/faizullaganj-floods-why-40000-homes-are-underwater-as-gomti-swells-in-lucknow-see-videos-ws-l-10367299.html",
+      "published": "2026-10-08"
+    },
+    {
+      "outlet": "Live Hindustan",
+      "headline": "LDA using 26 pumps; a separate embankment report is not used",
+      "url": "https://www.livehindustan.com/uttar-pradesh/lucknow-flood-threat-now-looms-over-area-near-the-police-headquarters-cracks-have-appeared-in-the-embankment-201791504706995.html",
+      "published": "2026-10-09T06:12:00+05:30"
+    }
+  ],
+  "photo_credits": [
+    "Cover map: NP map card from OpenStreetMap tiles (© OpenStreetMap contributors, ODbL), greyscale; points geocoded via Nominatim, approximate. No photos used."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/lucknow-gomti-floods-still-rising.webp",
+  "corrections": []
+}
