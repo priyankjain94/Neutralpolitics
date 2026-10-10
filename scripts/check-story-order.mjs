@@ -87,11 +87,11 @@ for (const file of walk(path.join(process.cwd(), "content", "news"))) {
 const live = pickFeatured(published, Date.parse("2026-10-02T04:20:00Z"));
 const top5 = [live.lead, ...live.rest].slice(0, 5).map((item) => item.slug);
 assert.deepEqual(live.top.map((item) => item.slug), live.rest.slice(0, 3).map((item) => item.slug));
-assert.equal(live.lead.slug, "delhi-mobile-internet-shutdown-cjp-protest");
+assert.equal(live.lead.slug, "trump-putin-russian-diesel-us-licence");
 assert.deepEqual(top5.slice(0, 3), [
+  "trump-putin-russian-diesel-us-licence",
   "delhi-mobile-internet-shutdown-cjp-protest",
   "lucknow-gomti-floods-still-rising",
-  "indian-embassy-saudi-advisory-remain-alert-abha-riyadh-attacks",
 ]);
 assert.equal(top5.includes("delhi-judge-letter-pocso-survivor"), false);
 assert.equal(top5.includes("nia-sonu-barnala-deportation"), false);
@@ -106,5 +106,6 @@ assert.equal(top5.includes("delhi-seemapuri-building-collapse"), false);
 assert.equal(top5.includes("jantar-mantar-permission-rule-explained-cec-row-firs"), false);
 assert.equal(top5.includes("nepal-flood-search-ends-189-indians-missing"), false);
 assert.equal(top5.includes("us-ofac-sanctions-mumbai-firms-iran-oil"), false);
+assert.equal(top5.includes("mt-gem-no2-sharjah-22-indians-safe"), false);
 console.log("live lead", live.lead.slug);
 console.log("live top5", top5.join(", "));
