@@ -1,0 +1,73 @@
+{
+  "slug": "mamata-banerjee-detained-delhi-south-avenue-dharna",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-10-10T14:58:00+05:30",
+  "updated_at": null,
+  "category": "politics",
+  "secondary": [],
+  "breaking": false,
+  "sensitive": true,
+  "tags": [
+    "MamataBanerjee",
+    "DelhiPolice",
+    "CJPProtest",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DeTwuHrREPO",
+  "ig_url": "https://www.instagram.com/reel/DeTwuHrREPO/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "mamata-banerjee-detained-delhi-south-avenue-dharna",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "PTI on X",
+      "headline": "PTI post on Delhi Police detaining Mamata Banerjee. The check records a 2:13 pm IST video, a 2:15 pm IST photo and a 2:20 pm IST News Alert, with the words detained by Delhi Police.",
+      "url": "https://x.com/PTI_News/status/2108840812939522232"
+    },
+    {
+      "outlet": "PTI on X",
+      "headline": "A second PTI post on the same detention",
+      "url": "https://x.com/PTI_News/status/2108842610458763355"
+    },
+    {
+      "outlet": "ANI on X",
+      "headline": "Mamata Banerjee and other TMC MPs detained by Delhi Police",
+      "url": "https://x.com/ANI/status/2108843853558186147",
+      "published": "2026-10-10T14:25:00+05:30"
+    },
+    {
+      "outlet": "Oneindia",
+      "headline": "Mamata Banerjee detained near South Avenue",
+      "url": "https://www.oneindia.com/india/mamata-banerjee-detained-near-south-avenue-as-delhi-police-crack-down-on-cjp-protest-2-0-8230913.html",
+      "published": "2026-10-10T14:37:00+05:30"
+    },
+    {
+      "outlet": "The Business Standard, Dhaka",
+      "headline": "Mamata Banerjee detained in Delhi, citing HT",
+      "url": "https://www.tbsnews.net/world/south-asia/mamata-banerjee-detained-delhi-1568171"
+    },
+    {
+      "outlet": "India Today",
+      "headline": "Delhi protest detentions; the 400-plus citywide figure used here as a floor",
+      "url": "https://www.indiatoday.in/india/story/delhi-protest-detentions-dhruv-rathee-among-150-held-over-cjp-voter-roll-march-3013867-2026-10-10"
+    },
+    {
+      "outlet": "ThePrint",
+      "headline": "Delhi Police deny permission for the CJP protest",
+      "url": "https://theprint.in/india/delhi-police-cites-serious-law-and-order-concerns-to-deny-cjp-protest-permission/3067220/"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Delhi Police deny CJP's 10 October Jantar Mantar protest",
+      "url": "https://www.thehindu.com/news/national/delhi-police-deny-cjps-october-10-jantar-mantar-protest/article71562901.ece"
+    }
+  ],
+  "photo_credits": [
+    "File photo, 2014: Viveka Tirtha / Ramakrishna Mission, CC BY 2.0, via Wikimedia Commons. Not a photograph from 10 October 2026."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/mamata-banerjee-detained-delhi-south-avenue-dharna.webp",
+  "corrections": []
+}
