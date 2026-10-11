@@ -1,0 +1,69 @@
+{
+  "review_only": true,
+  "do_not_publish": true,
+  "note": "Unpublished draft revision of indian-embassy-saudi-advisory-remain-alert-abha-riyadh-attacks. The live article's public text and poster were not changed. Hold for Priyank's review.",
+  "slug": "indian-embassy-saudi-advisory-remain-alert-abha-riyadh-attacks",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-10-11T12:49:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "sensitive": true,
+  "tags": [
+    "SaudiArabia",
+    "MEA",
+    "Riyadh",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DeWG3yZRyZj",
+  "ig_url": "https://www.instagram.com/reel/DeWG3yZRyZj/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "indian-embassy-saudi-riyadh-12-killed-draft-revision",
+  "follow_up_of": "indian-embassy-saudi-advisory-remain-alert-abha-riyadh-attacks",
+  "sources": [
+    {
+      "outlet": "The Times of India",
+      "headline": "India condemns the attacks on Riyadh airport that killed 12",
+      "url": "https://timesofindia.indiatimes.com/india/india-condemns-dastardly-attacks-on-saudi-arabias-riyadh-airport-that-killed-12/articleshow/134864673.cms"
+    },
+    {
+      "outlet": "NDTV",
+      "headline": "India condemns the Riyadh airport attack; toll reported as 12 killed and over 300 injured",
+      "url": "https://www.ndtv.com/world-news/india-condemns-houthis-missile-attack-on-saudis-riyadh-airport-that-killed-12-injured-over-300-calls-it-unacceptable-12168451"
+    },
+    {
+      "outlet": "The Hindu (PTI)",
+      "headline": "India condemns the attack on King Khalid International Airport in Riyadh",
+      "url": "https://www.thehindu.com/news/national/india-condemns-attack-on-king-khalid-international-airport-in-riyadh/article71570790.ece"
+    },
+    {
+      "outlet": "India Today NE (PTI)",
+      "headline": "India condemns the Riyadh airport attack that killed 12",
+      "url": "https://www.indiatodayne.in/national/story/india-condemns-attack-on-riyadh-airport-that-killed-12-injured-over-300-1461467-2026-10-11"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "MEA condemns the attack on King Khalid International Airport",
+      "url": "https://indianexpress.com/article/india/mea-condemns-attack-riyadh-king-khalid-international-airport-saudi-arabia-10916337/"
+    },
+    {
+      "outlet": "Gulf News",
+      "headline": "Saudi GACA toll: 12 dead and over 300 hurt in the Riyadh airport attack",
+      "url": "https://gulfnews.com/world/mena/12-dead-over-300-hurt-in-riyadh-airport-attack-as-trump-weighs-us-action-against-houthis-1.500706148"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "headline": "Reporting on condemnation of the deadly attack on Riyadh airport",
+      "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+    }
+  ],
+  "photo_credits": [
+    "None: NP-generated typographic graphics. No photos."
+  ],
+  "sample": false,
+  "poster": "revision.webp",
+  "corrections": []
+}
