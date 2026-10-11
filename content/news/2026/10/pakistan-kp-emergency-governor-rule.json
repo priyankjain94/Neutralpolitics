@@ -1,0 +1,70 @@
+{
+  "slug": "pakistan-kp-emergency-governor-rule",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-10-11T19:00:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "sensitive": true,
+  "tags": [
+    "Pakistan",
+    "KhyberPakhtunkhwa",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DeWxLrRxG0p",
+  "ig_url": "https://www.instagram.com/reel/DeWxLrRxG0p/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "pakistan-emergency-governor-rule-kp-oct11",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Dawn",
+      "headline": "Emergency and governor's rule in Khyber Pakhtunkhwa",
+      "url": "https://www.dawn.com/news/2036352"
+    },
+    {
+      "outlet": "Al Jazeera",
+      "headline": "Pakistan imposes emergency rule in Khyber Pakhtunkhwa",
+      "url": "https://www.aljazeera.com/news/2026/10/11/pakistan-imposes-emergency-rule-in-khyber-pakhtunkhwa"
+    },
+    {
+      "outlet": "AP (KIRO 7)",
+      "headline": "The president's step in Khyber Pakhtunkhwa, as AP reports it",
+      "url": "https://www.kiro7.com/news/pakistans-president/SHRRZIOM3I5ADFCH3S6CBIBCOE/"
+    },
+    {
+      "outlet": "The Hindu (PTI)",
+      "headline": "The president declares an emergency in Khyber Pakhtunkhwa; the provincial government ceases to exist",
+      "url": "https://www.thehindu.com/news/international/pakistan-president-declares-emergency-in-khyber-pakhtunkhwa-provincial-government-ceases-to-exist/article71571044.ece"
+    },
+    {
+      "outlet": "Radio Pakistan",
+      "headline": "An 11-member advisory council to run Khyber Pakhtunkhwa's affairs",
+      "url": "https://www.radio.gov.pk/11-10-2026/11-member-advisory-council-formed-to-run-kps-affairs-azam"
+    },
+    {
+      "outlet": "Dunya News",
+      "headline": "The centre imposes an emergency and governor's rule in KP",
+      "url": "https://dunyanews.tv/en/Pakistan/977217-centre-imposes-emergency-governors-rule-in-kp"
+    },
+    {
+      "outlet": "Dunya News",
+      "headline": "Army support in KP after the emergency decision",
+      "url": "https://webpr.dunyanews.tv/en/Pakistan/977261-pakistan-deploys-army-in-kp-under-article-245-after-emergency-decision"
+    },
+    {
+      "outlet": "Bloom Pakistan",
+      "headline": "Federal Order on an 11-member advisory council for KP",
+      "url": "https://bloompakistan.com/federal-order-kp-11-member-advisory-council-2026/"
+    }
+  ],
+  "photo_credits": [
+    "None: NP-generated typographic graphics. No photos."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/pakistan-kp-emergency-governor-rule.webp",
+  "corrections": []
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "trump-russia-ukraine-energy-ceasefire-claim",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-10-11T20:57:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "sensitive": true,
+  "tags": [
+    "Russia",
+    "Ukraine",
+    "Trump",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DeW-jPsRxri",
+  "ig_url": "https://www.instagram.com/reel/DeW-jPsRxri/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "trump-russia-ukraine-energy-ceasefire-oct11",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "NBC News",
+      "headline": "Trump's Truth Social post claiming an energy ceasefire; Zelenskyy's response",
+      "url": "https://www.nbcnews.com/world/ukraine/trump-russia-ukraine-agree-energy-ceasefire-zelenskyy-diesel-rcna602766"
+    },
+    {
+      "outlet": "The Hill",
+      "headline": "Trump's announcement of an energy ceasefire",
+      "url": "https://thehill.com/homenews/administration/6141275-trump-russia-ukraine-energy-ceasefire/"
+    },
+    {
+      "outlet": "Washington Examiner",
+      "headline": "Trump's announcement on an energy ceasefire in the Russia-Ukraine war",
+      "url": "https://www.washingtonexaminer.com/news/white-house/4762515/trump-energy-ceasefire-russia-ukraine-war/"
+    },
+    {
+      "outlet": "NDTV",
+      "headline": "Trump announces what he calls an energy ceasefire",
+      "url": "https://www.ndtv.com/world-news/trump-announces-russia-ukraine-energy-ceasefire-effective-immediately-12170439"
+    },
+    {
+      "outlet": "Kyiv Post",
+      "headline": "A report of Trump's announcement",
+      "url": "https://www.kyivpost.com/post/86743"
+    },
+    {
+      "outlet": "LBC",
+      "headline": "A report of Trump's announcement of an energy ceasefire",
+      "url": "https://www.lbc.co.uk/article/russia-ukraine-reach-energy-ceasefire-trump-5Hjdjk7_2/"
+    }
+  ],
+  "photo_credits": [
+    "None: NP-generated typographic graphics. No photos."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/trump-russia-ukraine-energy-ceasefire-claim.webp",
+  "corrections": []
+}
