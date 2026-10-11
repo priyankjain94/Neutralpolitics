@@ -108,5 +108,8 @@ assert.equal(top5.includes("nepal-flood-search-ends-189-indians-missing"), false
 assert.equal(top5.includes("us-ofac-sanctions-mumbai-firms-iran-oil"), false);
 assert.equal(top5.includes("mt-gem-no2-sharjah-22-indians-safe"), false);
 assert.equal(top5.includes("mamata-banerjee-detained-delhi-south-avenue-dharna"), false);
+assert.equal(top5.includes("tahir-hussain-convicted-abetment-dayalpur-riots-case-12-acquitted"), false);
+assert.equal(top5.includes("cjp-leaders-dipke-das-ranka-released-after-preventive-detention"), false);
+assert.equal(top5.includes("india-rejects-un-rights-office-concern-delhi-detentions"), false);
 console.log("live lead", live.lead.slug);
 console.log("live top5", top5.join(", "));
