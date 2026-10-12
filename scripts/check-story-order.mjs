@@ -117,5 +117,8 @@ assert.equal(top5.includes("manipur-kuki-naga-clashes-9-dead"), false);
 assert.equal(top5.includes("pakistan-kp-emergency-governor-rule"), false);
 assert.equal(top5.includes("trump-russia-ukraine-energy-ceasefire-claim"), false);
 assert.equal(top5.includes("hormuz-petro-dolphin-valthera-2-indians-missing"), false);
+assert.equal(top5.includes("kejriwal-aap-fir-bangla-sahib-dsgmc-complaint"), false);
+assert.equal(top5.includes("delhi-metro-6-stations-shut-day-after-sc-12-oct"), false);
+assert.equal(top5.includes("john-brittas-detained-cp-writes-to-cji-alleges-assault"), false);
 console.log("live lead", live.lead.slug);
 console.log("live top5", top5.join(", "));

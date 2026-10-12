@@ -1,0 +1,67 @@
+{
+  "slug": "kejriwal-aap-fir-bangla-sahib-dsgmc-complaint",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-10-12T13:00:00+05:30",
+  "updated_at": null,
+  "category": "politics",
+  "secondary": [],
+  "breaking": false,
+  "sensitive": true,
+  "tags": [
+    "Delhi",
+    "AAP",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DeYr4qPRjf6",
+  "ig_url": "https://www.instagram.com/reel/DeYr4qPRjf6/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "kejriwal-aap-fir-bangla-sahib-oct12",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Times Now (PTI)",
+      "headline": "FIR names Kejriwal and AAP leaders over alleged disruption and alleged misleading posts",
+      "url": "https://www.timesnownews.com/delhi/kejriwal-aap-leaders-face-fir-over-alleged-bangla-sahib-disruption-misleading-posts-amid-anti-cec-protest-article-156320570",
+      "published": "2026-10-12T09:24:00+05:30"
+    },
+    {
+      "outlet": "Mint",
+      "headline": "Headline reports an FIR naming former Delhi CM Arvind Kejriwal over the Bangla Sahib row",
+      "url": "https://www.livemint.com/news/india/fir-against-former-delhi-cm-arvind-kejriwal-over-alleged-chaos-at-bangla-sahib-gurdwara-11791780261796.html",
+      "published": "2026-10-12T10:24:00+05:30"
+    },
+    {
+      "outlet": "ABP Live",
+      "headline": "FIR registered on a complaint naming Arvind Kejriwal and AAP leaders",
+      "url": "https://www.abplive.com/states/delhi-ncr/bangla-sahib-gurudwara-case-fir-registered-complaint-against-arvind-kejriwal-aap-leaders-ann-3200807"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Gurdwara body files a police complaint against AAP leaders",
+      "url": "https://www.thehindu.com/news/cities/Delhi/bangla-sahib-entry-row-delhi-gurdwara-body-files-police-complaint-against-aap-leaders/article71571765.ece"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "headline": "Delhi Police on the common-passage account and legal action over the shoes video",
+      "url": "https://www.hindustantimes.com/india-news/delhi-police-clarify-after-video-shows-cops-wearing-shoes-on-bangla-sahib-premises-allege-malicious-intent-101791649781844.html"
+    },
+    {
+      "outlet": "ThePrint (PTI)",
+      "headline": "Police say they will take legal action over the shoes video",
+      "url": "https://theprint.in/india/delhi-police-to-take-legal-action-over-video-showing-cops-wearing-shoes-inside-bangla-sahib/3068038/"
+    },
+    {
+      "outlet": "ANI on X",
+      "headline": "ANI post read for the 12 October check",
+      "url": "https://x.com/ANI/status/2109485152791597224"
+    }
+  ],
+  "photo_credits": [
+    "None: NP-generated typographic graphics. No photos."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/kejriwal-aap-fir-bangla-sahib-dsgmc-complaint.webp",
+  "corrections": []
+}
