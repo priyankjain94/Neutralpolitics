@@ -120,5 +120,6 @@ assert.equal(top5.includes("hormuz-petro-dolphin-valthera-2-indians-missing"), f
 assert.equal(top5.includes("kejriwal-aap-fir-bangla-sahib-dsgmc-complaint"), false);
 assert.equal(top5.includes("delhi-metro-6-stations-shut-day-after-sc-12-oct"), false);
 assert.equal(top5.includes("john-brittas-detained-cp-writes-to-cji-alleges-assault"), false);
+assert.equal(top5.includes("jantar-mantar-denotified-protest-site-3-new-venues"), false);
 console.log("live lead", live.lead.slug);
 console.log("live top5", top5.join(", "));
