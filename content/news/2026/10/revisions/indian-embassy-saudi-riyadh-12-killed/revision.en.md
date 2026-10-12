@@ -31,3 +31,19 @@ How many times the airport was hit, and who is blamed, are separate from the MEA
 The links for this revision are The Times of India, NDTV, The Hindu, India Today NE, The Indian Express, Gulf News and Al Jazeera. The stamp also names ANI and IANS as carriers of the MEA wording. They are named here and are not separate links in the list above.
 
 The cover for the reel is an NP typographic graphic. No photograph is used.
+
+A follow-up was checked at 8:51 am IST on 12 October 2026 and posted at 8:55 am IST. It stays inside this unpublished draft. It adds an Indian death in the 10 October attack. It does not replace the MEA text above, and it does not replace the toll already recorded there.
+
+The Embassy of India in Riyadh posted on X at 9:41 pm IST on 11 October: "It is learnt that one Indian national injured in the Riyadh attack has unfortunately lost his life today. We convey our heartfelt condolences to the family of the deceased. We are in touch with the family and will provide all support for ensuring the early repatriation of mortal remains."
+
+At 8:01 pm IST the same day the embassy posted: "It is learnt that 11 Indians are among those injured in the attack." That sentence is the embassy's count of injured Indians. This follow-up uses 11.
+
+External Affairs Minister Jaishankar posted at 9:59 pm IST on 11 October: "Deeply grieved at the loss of life of an Indian national in the Riyadh attack. My heartfelt condolences to the bereaved family. The Embassy will extend all possible assistance."
+
+The embassy has not named the person who died. The family has named him Mohammed Yousuf. Asaduddin Owaisi of AIMIM has also used that name, in accounts carried by The Hindu, The Indian Express, India Today and Telangana Today. Those accounts, from the family and from Owaisi, give his age as 46, place him in Mehdipatnam in Hyderabad, and say he was on an Umrah trip. The family says two sons were injured. The name in this note is a name given by the family, and also by Owaisi in those reports. It is not an identification by the embassy.
+
+The embassy's helpline, from its post at 11:01 pm IST on 11 October, is the line it gave as a 24/7 toll-free helpline, 8002471234, in Saudi Arabia only.
+
+The follow-up screen says a Hyderabad man is among the dead, that the family named Mohammed Yousuf, that two sons were injured, that the embassy confirmed an Indian death and promised help with early repatriation, that the embassy count is 11 Indians injured, and that Jaishankar said he was deeply grieved.
+
+This follow-up names no attacker. It does not set a new overall toll. The cover of this reel is also an NP typographic graphic. No photograph is used.

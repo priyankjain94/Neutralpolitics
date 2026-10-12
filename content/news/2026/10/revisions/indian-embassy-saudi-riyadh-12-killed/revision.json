@@ -6,7 +6,7 @@
   "status": "draft",
   "status_hi": "draft",
   "published_at": "2026-10-11T12:49:00+05:30",
-  "updated_at": null,
+  "updated_at": "2026-10-12T08:55:00+05:30",
   "category": "world",
   "secondary": [],
   "breaking": false,
@@ -20,7 +20,14 @@
   "ig_shortcode": "DeWG3yZRyZj",
   "ig_url": "https://www.instagram.com/reel/DeWG3yZRyZj/",
   "ig_type": "reel",
-  "ig_more": [],
+  "ig_more": [
+    {
+      "shortcode": "DeYQwJ9Rzwl",
+      "url": "https://www.instagram.com/reel/DeYQwJ9Rzwl/",
+      "type": "reel",
+      "headline": "Follow-up, still draft: embassy confirms an Indian death; 11 Indians injured; Jaishankar condolences"
+    }
+  ],
   "event_id": "indian-embassy-saudi-riyadh-12-killed-draft-revision",
   "follow_up_of": "indian-embassy-saudi-advisory-remain-alert-abha-riyadh-attacks",
   "sources": [
@@ -58,6 +65,62 @@
       "outlet": "Al Jazeera",
       "headline": "Reporting on condemnation of the deadly attack on Riyadh airport",
       "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+    },
+    {
+      "outlet": "Embassy of India, Riyadh, on X",
+      "headline": "Embassy post read for the 12 October check",
+      "url": "https://x.com/IndianEmbRiyadh/status/2109316019634205090"
+    },
+    {
+      "outlet": "Embassy of India, Riyadh, on X",
+      "headline": "Embassy post read for the 12 October check",
+      "url": "https://x.com/IndianEmbRiyadh/status/2109290879768748305"
+    },
+    {
+      "outlet": "Embassy of India, Riyadh, on X",
+      "headline": "Embassy post read for the 12 October check",
+      "url": "https://x.com/IndianEmbRiyadh/status/2109356823736189386"
+    },
+    {
+      "outlet": "Embassy of India, Riyadh, on X",
+      "headline": "Embassy post read for the 12 October check",
+      "url": "https://x.com/IndianEmbRiyadh/status/2109336196878921733"
+    },
+    {
+      "outlet": "Jaishankar (@DrSJaishankar) on X",
+      "headline": "Deeply grieved at the loss of life of an Indian national in the Riyadh attack",
+      "url": "https://x.com/DrSJaishankar/status/2109320547729580382",
+      "published": "2026-10-11T21:59:00+05:30"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Family and Owaisi name a Hyderabad man among the Riyadh airport dead; two sons injured",
+      "url": "https://www.thehindu.com/news/national/telangana/hyderabad-man-killed-in-riyadh-airport-attack-two-sons-injured/article71572615.ece"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "An Indian killed in the Riyadh airport attack",
+      "url": "https://indianexpress.com/article/india/riyadh-airport-attack-indian-killed-middle-east-conflict-10917208/"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "Family and Owaisi name Mohammed Yousuf, 46, of Mehdipatnam, on an Umrah trip",
+      "url": "https://indianexpress.com/article/india/indian-killed-riyadh-airport-saudi-arabia-attack-mohammed-yusuf-ali-umrah-family-10917094/"
+    },
+    {
+      "outlet": "India Today",
+      "headline": "Embassy confirms the Indian death; family account of the Hyderabad pilgrim",
+      "url": "https://www.indiatoday.in/world/story/riyadh-airport-attack-hyderabad-pilgrim-killed-three-indians-stable-3015160-2026-10-12"
+    },
+    {
+      "outlet": "Telangana Today",
+      "headline": "A Hyderabad pilgrim killed in the Riyadh airport attack, as the family account has it",
+      "url": "https://telanganatoday.com/hyderabad-pilgrim-killed-family-members-hurt-in-riyadh-airport-attack"
+    },
+    {
+      "outlet": "NDTV",
+      "headline": "An Indian national injured in the airport attack has died",
+      "url": "https://www.ndtv.com/world-news/indian-national-injured-in-saudi-arabia-airport-attack-dies-of-injuries-12170860"
     }
   ],
   "photo_credits": [
