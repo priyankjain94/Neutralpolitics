@@ -116,5 +116,6 @@ assert.equal(top5.includes("mumbai-fir-tushar-gandhi-actor-imran-khan-cjp-protes
 assert.equal(top5.includes("manipur-kuki-naga-clashes-9-dead"), false);
 assert.equal(top5.includes("pakistan-kp-emergency-governor-rule"), false);
 assert.equal(top5.includes("trump-russia-ukraine-energy-ceasefire-claim"), false);
+assert.equal(top5.includes("hormuz-petro-dolphin-valthera-2-indians-missing"), false);
 console.log("live lead", live.lead.slug);
 console.log("live top5", top5.join(", "));

@@ -3,7 +3,7 @@
   "status": "draft",
   "status_hi": "draft",
   "published_at": "2026-10-11T20:57:00+05:30",
-  "updated_at": null,
+  "updated_at": "2026-10-12T10:56:00+05:30",
   "category": "world",
   "secondary": [],
   "breaking": false,
@@ -17,7 +17,14 @@
   "ig_shortcode": "DeW-jPsRxri",
   "ig_url": "https://www.instagram.com/reel/DeW-jPsRxri/",
   "ig_type": "reel",
-  "ig_more": [],
+  "ig_more": [
+    {
+      "shortcode": "DeYej9nRdNx",
+      "url": "https://www.instagram.com/reel/DeYej9nRdNx/",
+      "type": "reel",
+      "headline": "Follow-up: allies back the call; Moscow has not confirmed; the agreement stays a claim"
+    }
+  ],
   "event_id": "trump-russia-ukraine-energy-ceasefire-oct11",
   "follow_up_of": null,
   "sources": [
@@ -50,6 +57,51 @@
       "outlet": "LBC",
       "headline": "A report of Trump's announcement of an energy ceasefire",
       "url": "https://www.lbc.co.uk/article/russia-ukraine-reach-energy-ceasefire-trump-5Hjdjk7_2/"
+    },
+    {
+      "outlet": "AFP",
+      "headline": "AFP on Trump's energy-ceasefire claim, and Zelenskyy's account of later strikes",
+      "url": "https://www.afp.com/en/russia-hits-ukraine-power-plants-despite-trump-energy-ceasefire-claim"
+    },
+    {
+      "outlet": "RFE/RL",
+      "headline": "Zelenskyy, Trump's claim, and Moscow's silence",
+      "url": "https://www.rferl.org/a/zelenskyy-energy-ceasefire-trump-ukraine-russia/33874639.html"
+    },
+    {
+      "outlet": "RFE/RL",
+      "headline": "European backing of the call, as RFE/RL reports it; Moscow silent",
+      "url": "https://www.rferl.org/a/europe-backs-zelenskyy-trump-russia-diesel-deal-drone-strikes/33874495.html"
+    },
+    {
+      "outlet": "The Globe and Mail",
+      "headline": "Carney's support for the call, and his condemnation of the US–Russia diesel deal",
+      "url": "https://www.theglobeandmail.com/canada/article-carney-condemns-us-russia-diesel-deal-even-as-he-applauds-trump-on/"
+    },
+    {
+      "outlet": "CNA",
+      "headline": "von der Leyen's backing of Zelenskyy's call",
+      "url": "https://www.channelnewsasia.com/world/russia-hits-ukraine-power-plants-despite-trump-energy-ceasefire-claim-6450451"
+    },
+    {
+      "outlet": "PBS (AP)",
+      "headline": "Trump's claim; Moscow has not confirmed",
+      "url": "https://www.pbs.org/newshour/world/trump-claims-russia-and-ukraine-agree-to-energy-ceasefire-despite-continued-attacks"
+    },
+    {
+      "outlet": "BBC",
+      "headline": "BBC live file on the claim",
+      "url": "https://www.bbc.com/news/live/cqe8ry0xxp85t"
+    },
+    {
+      "outlet": "The Guardian",
+      "headline": "12 October briefing: Russia yet to confirm; Zelenskyy's account of power-plant strikes",
+      "url": "https://www.theguardian.com/world/2026/oct/12/ukraine-war-briefing-russia-attacks-multiple-power-plants-after-trump-energy-ceasefire-claim"
+    },
+    {
+      "outlet": "Winnipeg Free Press",
+      "headline": "Carney on the US–Russia diesel supply deal",
+      "url": "https://www.winnipegfreepress.com/business/2026/10/11/carney-says-u-s-russia-diesel-supply-deal-hurts-ukraine-peace-cause-pmo"
     }
   ],
   "photo_credits": [

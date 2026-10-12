@@ -1,35 +1,33 @@
 ---
-title: "Trump claims an energy ceasefire; Moscow has not confirmed it"
-standfirst: "Trump posted on Truth Social that both parties had agreed an energy ceasefire. That agreement is his claim. The post itself is verified. Zelenskyy called it \"news for me\" and said Ukraine will agree if Russia does. As of 8:55 pm IST on 11 October 2026, Moscow had not confirmed it. NBC notes that a similar announcement a month earlier did not hold."
+title: "Trump claims an energy ceasefire; allies back the call; Moscow has not confirmed"
+standfirst: "Trump's Truth Social post is verified. His line that both parties have agreed is a claim, and it is alleged. As of 8:55 am IST on 12 October 2026 the Kremlin had not confirmed it. Canada, the UK and France backed his call. The EU Commission's president backed Zelenskyy's push. Zelenskyy says Ukraine supports a truce and accuses Russia of hitting power plants after the announcement. Those strikes are his account."
 key_facts:
-  - "Checked at 8:55 pm IST on 11 October 2026. Posted at 8:57 pm IST. The announcement, meaning Trump's Truth Social post, is verified. The agreement is a claim."
-  - "NBC, The Hill, the Washington Examiner, NDTV and Kyiv Post quote the post. The line used here is his: \"Both parties have agreed.\" That sentence is Trump's claim about an energy ceasefire. Truth Social was not opened for this check. The stamp says the quoted text is consistent across the outlets."
-  - "Zelenskyy said it was \"news for me\", and that Ukraine will agree if Russia does. Axios, via NBC and The Hill, reports those words."
-  - "As of 8:55 pm IST, Moscow had not confirmed the announcement. NBC and kurs.com.ua report that. The Kyiv Independent notes that on 8 October Peskov said Russia saw no point in a sectoral ceasefire. That remark is from 8 October."
-  - "NBC notes that a similar announcement a month earlier did not hold."
+  - "Original post checked at 8:55 pm IST on 11 October 2026 and posted at 8:57 pm IST. Follow-up checked at 8:55 am IST on 12 October and posted at 10:56 am IST. The announcement is verified. \"Both parties have agreed\" is Trump's claim, labelled alleged."
+  - "Canada's Prime Minister Mark Carney, the UK's Prime Minister Andy Burnham, and France's Emmanuel Macron backed Trump's energy-ceasefire call. EU Commission President Ursula von der Leyen backed Zelenskyy's ceasefire push. This note does not treat her backing as Trump's framing."
+  - "Zelenskyy says Ukraine supports a truce. Here that word is the call, not a truce under way. He accused Russia of hitting power plants after the announcement. AFP's account names Kyiv and Kharkiv CHP-5. RFE/RL says the timing was not independently verified."
+  - "The Kremlin had not confirmed the claim as of 8:55 am IST on 12 October. The Globe and Mail, RFE/RL, the Guardian, PBS and the BBC carry that silence. A Russian lawmaker's question, in the Kyiv Independent, is not a Kremlin line."
+  - "Carney, in the Globe and Mail, also condemned the US–Russia diesel deal. That is separate from the call."
 sides:
   - label: "Verified"
-    text: "Trump posted the announcement on Truth Social. Outlets quote him saying both parties have agreed. That quotation is his claim."
-  - label: "Claim, unconfirmed"
-    text: "The agreement itself. Zelenskyy said it was news for him and that Ukraine will agree if Russia does. Moscow had not confirmed it as of 8:55 pm IST."
+    text: "Trump posted the announcement. Carney, Burnham and Macron backed the call. von der Leyen backed Zelenskyy's push. Moscow had not confirmed the claim at the 12 October check."
+  - label: "Claim, alleged"
+    text: "\"Both parties have agreed.\" Zelenskyy's accusation that Russia hit power plants after the announcement is his account. The timing is not adopted here as independently verified."
 not_confirmed:
-  - "That both parties have agreed. Those words are Trump's claim."
-  - "Moscow's confirmation, as of 8:55 pm IST on 11 October 2026."
-  - "Any length of time attached to the claim. None is stated here."
+  - "That both parties have agreed. Those words are Trump's claim, and they stay alleged."
+  - "A Kremlin confirmation or denial, as of 8:55 am IST on 12 October 2026."
+  - "The power-plant strikes as a finding of this note. They are Zelenskyy's accusation. RFE/RL says the timing was not independently verified."
 ---
 
-This note is NP NOW. The announcement is verified. The agreement is a claim. It was checked at 8:55 pm IST on 11 October 2026 and posted at 8:57 pm IST.
+This note is NP NOW. The announcement is verified. The agreement is a claim. The first check was at 8:55 pm IST on 11 October 2026, and that reel was posted at 8:57 pm IST. A follow-up was checked at 8:55 am IST on 12 October 2026 and posted at 10:56 am IST. The stamp on the follow-up is verified for the allies' backing, for Moscow's silence, and for the fact that Zelenskyy made the strike accusation. The line that both sides agreed stays a claim.
 
-President Donald Trump posted on Truth Social about an energy ceasefire between Russia and Ukraine. NBC, The Hill, the Washington Examiner, NDTV and Kyiv Post quote the post. LBC also reports the announcement. The line this note uses is his: "Both parties have agreed." That sentence is Trump's claim. The stamp records the announcement, meaning the post, as verified. It records the agreement itself as a claim. Truth Social was not opened for this check. The quoted text is the text those outlets carry, and the stamp says that quoted text is consistent across them. Xinhua's flash is named in the same check, without a separate link here.
+President Donald Trump posted on Truth Social about an energy ceasefire between Russia and Ukraine. NBC, The Hill, the Washington Examiner, NDTV and Kyiv Post quote the post. LBC also reports the announcement. The line this note uses is his: "Both parties have agreed." The follow-up screen shortens the same claim to "Both parties agreed." Either way it is alleged. It is Trump's claim. Truth Social was not opened for the first check. The quoted text is what those outlets carry.
 
-President Volodymyr Zelenskyy called the announcement "news for me". He said Ukraine will agree if Russia does. Axios, carried by NBC and by The Hill, reports those words. His sentence is conditional. It says Ukraine's agreement depends on Russia agreeing. It is his response to the post, reported by Axios through those two outlets.
+President Volodymyr Zelenskyy called the announcement "news for me" and said Ukraine will agree if Russia does. Axios, through NBC and The Hill, reported those words on 11 October. On the follow-up he says Ukraine supports a truce. In this note "truce" means that call. It does not mean a truce is under way. He also accused Russia of hitting power plants after the announcement. AFP, in a report timed 20:52 on 11 October, carries his account of strikes in Kyiv and at Kharkiv's CHP-5. RFE/RL, in a file timed at 10:01 pm UTC the same night, says the timing of those strikes was not independently verified. This note attributes the strikes to Zelenskyy. It does not adopt them as its own account of what happened.
 
-Moscow had not confirmed the announcement as of 8:55 pm IST. NBC reports that lack of confirmation, and so does kurs.com.ua. The Kyiv Independent, in an account noted for this check, reports that on 8 October Peskov said Russia saw no point in a sectoral ceasefire. That is Peskov's reported remark from 8 October. This note keeps it as that earlier remark. It is not used as Moscow's answer to the 11 October post. As of the check, the point on record is that Moscow had not confirmed the announcement.
+The follow-up records who backed the call. Canada's Prime Minister Mark Carney, the UK's Prime Minister Andy Burnham, and France's Emmanuel Macron backed Trump's energy-ceasefire call. RFE/RL reports Burnham and Carney. The Globe and Mail reports Carney's "strong support". AFP reports Macron speaking of a "real energy ceasefire" as his way of backing the call. That phrase is his, inside the call. EU Commission President Ursula von der Leyen backed Zelenskyy's ceasefire push. CNA reports that. The check also names SBS. This note does not treat her backing as an endorsement of Trump's framing. The screen's line is that the allies are on board, and that Moscow is silent.
 
-NBC also notes that a similar announcement a month earlier did not hold. That is NBC's comparison, and it is the track-record line on the screen. It records what happened to that earlier announcement. It is not a forecast.
+Moscow had not confirmed the claim as of 8:55 am IST on 12 October. The Globe and Mail, RFE/RL, the Guardian's 12 October briefing, PBS and the BBC carry that silence. The Kyiv Independent notes that a Russian lawmaker questioned the claim. That is not an official Kremlin confirmation or denial. The earlier 11 October check had the same gap: NBC and kurs.com.ua reported no Moscow confirmation then, and the Kyiv Independent noted Peskov's 8 October remark that Russia saw no point in a sectoral ceasefire. NBC also noted that a similar announcement a month earlier did not hold.
 
-The screen closes on a split. Announced: yes. Whether both agreed: a claim, and unconfirmed. The caption uses the same split. The status line on the post says the announcement is verified and the agreement is a claim, checked at 8:55 pm IST.
+Carney's diesel remark is separate, and it sits at caption level. The Globe and Mail reports that he condemned the US–Russia diesel deal even as he backed the call. The Winnipeg Free Press also carries his comment on that deal. This note records the condemnation. It does not add a price consequence.
 
-The links under the article are NBC, The Hill, the Washington Examiner, NDTV, Kyiv Post and LBC. kurs.com.ua, the Kyiv Independent and Xinhua are named in the check and are not given as separate links here.
-
-The cover is an NP typographic graphic. No photograph is used.
+The first reel is DeW-jPsRxri. The follow-up is DeYej9nRdNx. The links now include the 11 October outlets and AFP, RFE/RL, the Globe and Mail, CNA, PBS, the BBC, the Guardian and the Winnipeg Free Press. The cover is an NP typographic graphic. No photograph is used.
