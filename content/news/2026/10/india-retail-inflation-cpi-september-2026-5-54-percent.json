@@ -1,0 +1,45 @@
+{
+  "slug": "india-retail-inflation-cpi-september-2026-5-54-percent",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-13T13:45:00+05:30",
+  "updated_at": null,
+  "category": "economy",
+  "secondary": [],
+  "breaking": false,
+  "sensitive": false,
+  "tags": [
+    "Inflation",
+    "CPI",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DebWXVfG20m",
+  "ig_url": "https://www.instagram.com/p/DebWXVfG20m/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "india-retail-inflation-cpi-september-2026-5-54-percent",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "MoSPI / NSO",
+      "headline": "CPI on base 2024=100 for September 2026",
+      "url": "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1791800601071_643518af-5320-4e52-b78c-75c92b83885b_Press_Release_for_the_month_of_September,_2026.pdf"
+    },
+    {
+      "outlet": "PIB",
+      "headline": "The same CPI press release, hosted by PIB",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/oct/doc_10157_20261012_15535501.pdf"
+    },
+    {
+      "outlet": "Business Standard",
+      "headline": "12 October report of the 5.54% September reading",
+      "url": "https://www.business-standard.com/economy/news/food-fuel-push-retail-inflation-to-23-month-high-of-5-54-in-september-126101200829_1.html"
+    }
+  ],
+  "photo_credits": [
+    "NP-generated graphics using MoSPI figures. One frame shows page 1 of the MoSPI CPI press release, credited to mospi.gov.in."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/india-retail-inflation-cpi-september-2026-5-54-percent.webp",
+  "corrections": []
+}
