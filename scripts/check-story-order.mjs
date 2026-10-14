@@ -123,5 +123,6 @@ assert.equal(top5.includes("john-brittas-detained-cp-writes-to-cji-alleges-assau
 assert.equal(top5.includes("jantar-mantar-denotified-protest-site-3-new-venues"), false);
 assert.equal(top5.includes("bimol-akoijam-jnu-dismissed-delhi-police-fir"), false);
 assert.equal(top5.includes("cjp-leaders-saurav-das-ashutosh-ranka-5-day-judicial-custody-tihar"), false);
+assert.equal(top5.includes("mamata-banerjee-kalighat-alleged-knife-attack-claim-civic-volunteer-detained"), false);
 console.log("live lead", live.lead.slug);
 console.log("live top5", top5.join(", "));
