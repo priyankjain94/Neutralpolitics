@@ -87,11 +87,11 @@ for (const file of walk(path.join(process.cwd(), "content", "news"))) {
 const live = pickFeatured(published, Date.parse("2026-10-02T04:20:00Z"));
 const top5 = [live.lead, ...live.rest].slice(0, 5).map((item) => item.slug);
 assert.deepEqual(live.top.map((item) => item.slug), live.rest.slice(0, 3).map((item) => item.slug));
-assert.equal(live.lead.slug, "president-appoints-new-governors-6-states-oct-2026");
+assert.equal(live.lead.slug, "imf-raises-india-growth-forecast-7-percent-fy27-oct-2026");
 assert.deepEqual(top5.slice(0, 3), [
+  "imf-raises-india-growth-forecast-7-percent-fy27-oct-2026",
   "president-appoints-new-governors-6-states-oct-2026",
   "india-retail-inflation-cpi-september-2026-5-54-percent",
-  "lpg-subsidy-aadhaar-biometric-rule-from-1-oct-explained",
 ]);
 assert.equal(top5.includes("delhi-judge-letter-pocso-survivor"), false);
 assert.equal(top5.includes("nia-sonu-barnala-deportation"), false);
@@ -121,5 +121,6 @@ assert.equal(top5.includes("kejriwal-aap-fir-bangla-sahib-dsgmc-complaint"), fal
 assert.equal(top5.includes("delhi-metro-6-stations-shut-day-after-sc-12-oct"), false);
 assert.equal(top5.includes("john-brittas-detained-cp-writes-to-cji-alleges-assault"), false);
 assert.equal(top5.includes("jantar-mantar-denotified-protest-site-3-new-venues"), false);
+assert.equal(top5.includes("bimol-akoijam-jnu-dismissed-delhi-police-fir"), false);
 console.log("live lead", live.lead.slug);
 console.log("live top5", top5.join(", "));
