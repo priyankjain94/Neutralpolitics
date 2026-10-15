@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
 export default function HindiLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="hi" className={devanagari.variable}>
+    <html lang="hi-IN" className={devanagari.variable}>
       <body>
         <SiteHeader />
         <main id="main">{children}</main>

@@ -1,10 +1,13 @@
 import Link from "next/link";
+import { JsonLd } from "./JsonLd";
+import { PosterImage } from "./PosterImage";
 import { Markdown } from "./Markdown";
 import { ReportForm } from "./ReportForm";
 import { articlesInCategory, loadPage } from "@/lib/content";
 import { isDatabaseConfigured } from "@/lib/env";
 import { t } from "@/lib/i18n";
 import { articleHref } from "@/lib/paths";
+import { organizationNode } from "@/lib/seo";
 import type { Lang } from "@/lib/types";
 
 export function FactCheckPage({ lang }: { lang: Lang }) {
@@ -13,6 +16,7 @@ export function FactCheckPage({ lang }: { lang: Lang }) {
   const articles = articlesInCategory(lang, "fact-check");
   return (
     <div className="wrap">
+      <JsonLd data={organizationNode()} />
       <div className="prose-page">
         <h1 className="page-title">{page?.title || m.factCheck}</h1>
         {page?.description ? <p className="lede">{page.description}</p> : null}
@@ -22,7 +26,7 @@ export function FactCheckPage({ lang }: { lang: Lang }) {
         {articles.map((article) => (
           <article className="story-card" key={article.slug}>
             <figure className="card-figure">
-              <img src={article.poster} alt="" loading="lazy" decoding="async" />
+              <PosterImage src={article.poster} alt={article.title} />
             </figure>
             <div className="kicker-row">
               {article.factcheck ? <span className="verdict">{m.verdicts[article.factcheck.verdict]}</span> : null}

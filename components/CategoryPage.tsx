@@ -1,11 +1,14 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { JsonLd } from "./JsonLd";
+import { PosterImage } from "./PosterImage";
 import { LatestList, LeadStory, StoryGrid } from "./Stories";
 import { categoryLabel, isCategory } from "@/lib/categories";
 import { articlesWithDesk } from "@/lib/desk";
 import { sortStories } from "@/lib/story-order";
 import { t } from "@/lib/i18n";
 import { articleHref, withLang } from "@/lib/paths";
+import { breadcrumbJsonLd } from "@/lib/seo";
 import type { Lang } from "@/lib/types";
 
 const PAGE_SIZE = 12;
@@ -22,19 +25,34 @@ export async function CategoryView({ lang, name, page }: { lang: Lang; name: str
   const blurb = m.categoryBlurbs[name];
   const base = withLang(lang, `/category/${name}`);
 
+  const label = categoryLabel(name, lang);
   return (
     <div className="wrap">
-      <h1 className="page-title">{categoryLabel(name, lang)}</h1>
+      <JsonLd
+        data={breadcrumbJsonLd(lang, [
+          { name: m.home, path: "/" },
+          { name: label, path: `/category/${name}` },
+        ])}
+      />
+      <nav className="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li>
+            <Link href={withLang(lang, "/")}>{m.home}</Link>
+          </li>
+          <li>{label}</li>
+        </ol>
+      </nav>
+      <h1 className="page-title">{label}</h1>
       <p className="lede">{blurb}</p>
       <p className="fine">
         <a href={`${base}/rss.xml`}>RSS</a>
       </p>
       {lead ? (
         <div className="home-top two">
-          <LeadStory article={lead} figure={false} />
+          <LeadStory article={lead} figure={false} heading="h2" />
           <LatestList lang={lang} articles={live.slice(0, 6)} />
           <Link className="lead-photo" href={articleHref(lead.lang, lead.year, lead.month, lead.slug)} aria-label={lead.title}>
-            <img src={lead.poster} alt="" fetchPriority="high" decoding="async" />
+            <PosterImage src={lead.poster} alt={lead.title} priority />
           </Link>
         </div>
       ) : (

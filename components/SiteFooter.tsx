@@ -12,6 +12,7 @@ export function SiteFooter({ lang }: { lang: Lang }) {
     ["/fact-check", m.factCheck],
     ["/corrections", m.corrections],
     ["/contact", m.contact],
+    ["/ownership", m.ownership],
     ["/contribute", m.contribute],
     ["/privacy", m.privacy],
     ["/terms", m.terms],
@@ -20,7 +21,7 @@ export function SiteFooter({ lang }: { lang: Lang }) {
     <footer className="site-footer">
       <div className="wrap footer-cols">
         <div>
-          <img src="/brand/np-logo.png" alt="Neutral Politics" width={932} height={240} />
+          <img src="/brand/np-logo.png" alt="Neutral Politics" width={932} height={240} loading="lazy" decoding="async" />
           <p>{m.footerBlurb}</p>
           <p>
             <a href="https://www.instagram.com/theneutralpolitics/">Instagram @theneutralpolitics</a>

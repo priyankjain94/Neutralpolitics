@@ -1,16 +1,57 @@
 import type { Metadata } from "next";
 import { categoryLabel } from "./categories";
 import { isoIst } from "./format";
-import { documentTitle, fitDescription, googleSiteVerificationToken } from "./meta-text";
+import { bingSiteVerificationToken, documentTitle, fitDescription, googleSiteVerificationToken, metaDescription } from "./meta-text";
 import { absoluteUrl, siteUrl, withLang } from "./paths";
 import type { Article, Lang } from "./types";
 
 export { documentTitle, fitDescription } from "./meta-text";
 
 export function searchConsoleVerification(): Metadata["verification"] | undefined {
-  const token = googleSiteVerificationToken();
-  if (!token) return undefined;
-  return { google: token };
+  const google = googleSiteVerificationToken();
+  const bing = bingSiteVerificationToken();
+  if (!google && !bing) return undefined;
+  return {
+    ...(google ? { google } : {}),
+    ...(bing ? { other: { "msvalidate.01": bing } } : {}),
+  };
+}
+
+export function organizationNode() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Neutral Politics",
+    url: siteUrl(),
+    logo: {
+      "@type": "ImageObject",
+      url: `${siteUrl()}/brand/np-logo.png`,
+      width: 932,
+      height: 240,
+    },
+    sameAs: ["https://www.instagram.com/theneutralpolitics/"],
+  };
+}
+
+export function schemaHeadline(title: string): string {
+  const clean = title.replace(/\s+/g, " ").trim();
+  if (clean.length <= 110) return clean;
+  const cut = clean.slice(0, 110).trimEnd();
+  const space = cut.lastIndexOf(" ");
+  return (space >= 60 ? cut.slice(0, space) : cut).trimEnd();
+}
+
+export function breadcrumbJsonLd(lang: Lang, crumbs: { name: string; path: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: crumbs.map((crumb, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: crumb.name,
+      item: absoluteUrl(lang, crumb.path),
+    })),
+  };
 }
 
 export function robotsForIndex(): Metadata["robots"] {
@@ -41,6 +82,7 @@ export function pageMetadata(input: {
   const url = absoluteUrl(input.lang, input.path);
   const title = documentTitle(input.title).absolute;
   const description = fitDescription(input.description);
+  const image = absoluteUrl(input.lang, "/opengraph-image");
   return {
     title: { absolute: title },
     description,
@@ -53,11 +95,13 @@ export function pageMetadata(input: {
       url,
       siteName: "Neutral Politics",
       locale: input.lang === "hi" ? "hi_IN" : "en_IN",
+      images: [{ url: image, width: 1200, height: 630, alt: title }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
+      images: [image],
     },
   };
 }
@@ -66,13 +110,15 @@ export function articleMetadata(article: Article): Metadata {
   const path = `/news/${article.year}/${article.month}/${article.slug}`;
   const url = absoluteUrl(article.lang, path);
   const title = documentTitle(article.title).absolute;
-  const description = fitDescription(article.standfirst);
+  const description = metaDescription(article.standfirst, article.body);
   const published = isoIst(article.publishedAt);
   const modified = isoIst(article.updatedAt || article.publishedAt);
+  const image = absoluteUrl(article.lang, `${path}/opengraph-image`);
+  const poster = article.poster.startsWith("http") ? article.poster : `${siteUrl()}${article.poster}`;
   return {
     title: { absolute: title },
     description,
-    authors: [{ name: article.byline }],
+    authors: [{ name: article.byline || "Neutral Politics Desk" }],
     alternates: alternates(article.lang, path),
     robots: robotsForIndex(),
     openGraph: {
@@ -86,11 +132,16 @@ export function articleMetadata(article: Article): Metadata {
       modifiedTime: modified,
       section: categoryLabel(article.category, article.lang),
       tags: article.tags,
+      images: [
+        { url: image, width: 1200, height: 630, alt: article.title },
+        { url: poster, alt: article.title },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
+      images: [image],
     },
   };
 }
@@ -110,17 +161,22 @@ export function articleJsonLd(article: Article, imageAbs: string[]) {
   const enUrl = absoluteUrl("en", path);
   const published = isoIst(article.publishedAt);
   const modified = isoIst(article.updatedAt || article.publishedAt);
+  const ogImage = absoluteUrl(article.lang, `${path}/opengraph-image`);
   const news: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
-    headline: article.title,
-    description: fitDescription(article.standfirst),
+    headline: schemaHeadline(article.title),
+    description: metaDescription(article.standfirst, article.body),
     datePublished: published,
     dateModified: modified,
     inLanguage: article.lang === "hi" ? "hi-IN" : "en-IN",
     articleSection: categoryLabel(article.category, "en"),
-    image: imageAbs,
-    author: { "@type": "Organization", name: "Neutral Politics", url: siteUrl() },
+    isAccessibleForFree: true,
+    image: [
+      { "@type": "ImageObject", url: ogImage, width: 1200, height: 630 },
+      ...imageAbs.map((url) => ({ "@type": "ImageObject", url })),
+    ],
+    author: { "@type": "Organization", name: article.byline || "Neutral Politics Desk", url: siteUrl() },
     publisher: {
       "@type": "Organization",
       name: "Neutral Politics",
@@ -128,9 +184,11 @@ export function articleJsonLd(article: Article, imageAbs: string[]) {
       logo: {
         "@type": "ImageObject",
         url: `${siteUrl()}/brand/np-logo.png`,
+        width: 932,
+        height: 240,
       },
     },
-    mainEntityOfPage: url,
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
     citation: article.sources.map((source) => source.url),
     isBasedOn: article.sources.map((source) => source.url),
   };
@@ -150,26 +208,30 @@ export function articleJsonLd(article: Article, imageAbs: string[]) {
     ],
   };
   const graph: Record<string, unknown>[] = [news, breadcrumb];
-  if (article.factcheck?.claim) {
+  const rating = article.factcheck ? VERDICT_RATING[article.factcheck.verdict] : "";
+  if (article.factcheck?.claim && rating) {
+    const claimDate = /^\d{4}-\d{2}-\d{2}/.test(article.factcheck.claimDate) ? article.factcheck.claimDate : "";
     graph.push({
       "@context": "https://schema.org",
       "@type": "ClaimReview",
       url,
       datePublished: published,
       claimReviewed: article.factcheck.claim,
-      author: { "@type": "Organization", name: "Neutral Politics", url: siteUrl() },
+      author: { "@type": "Organization", name: article.byline || "Neutral Politics Desk", url: siteUrl() },
       reviewRating: {
         "@type": "Rating",
-        ratingValue: VERDICT_RATING[article.factcheck.verdict] || "3",
+        ratingValue: rating,
         bestRating: "5",
         worstRating: "1",
         alternateName: article.factcheck.verdict,
       },
       itemReviewed: {
         "@type": "Claim",
-        appearance: article.factcheck.claimant,
-        datePublished: article.factcheck.claimDate,
-        author: { "@type": "Organization", name: article.factcheck.claimant },
+        name: article.factcheck.claim,
+        ...(claimDate ? { datePublished: claimDate } : {}),
+        ...(article.factcheck.claimant
+          ? { author: { "@type": "Organization", name: article.factcheck.claimant } }
+          : {}),
       },
     });
   }
@@ -179,14 +241,7 @@ export function articleJsonLd(article: Article, imageAbs: string[]) {
 export function homeJsonLd(lang: Lang) {
   const url = absoluteUrl(lang, "/");
   return [
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      name: "Neutral Politics",
-      url: siteUrl(),
-      logo: `${siteUrl()}/brand/np-logo.png`,
-      sameAs: ["https://www.instagram.com/theneutralpolitics/"],
-    },
+    organizationNode(),
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
@@ -195,7 +250,10 @@ export function homeJsonLd(lang: Lang) {
       inLanguage: lang === "hi" ? "hi-IN" : "en-IN",
       potentialAction: {
         "@type": "SearchAction",
-        target: `${absoluteUrl(lang, "/search")}?q={search_term_string}`,
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: `${absoluteUrl(lang, "/search")}?q={search_term_string}`,
+        },
         "query-input": "required name=search_term_string",
       },
     },

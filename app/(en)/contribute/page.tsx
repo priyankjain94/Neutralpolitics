@@ -6,6 +6,6 @@ export const metadata = pageMetadata({
   lang: "en",
   path: "/contribute",
   title: m.contributeTitle,
-  description: m.contributeSub,
+  description: `${m.contributeSub} ${m.contributeIntro}`,
 });
 export default function Page() { return <ContributePage lang="en" />; }

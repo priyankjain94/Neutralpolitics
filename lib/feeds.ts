@@ -59,11 +59,12 @@ export function newsSitemapXml(): string {
       <news:publication_date>${xmlEscape(article.publishedAt)}</news:publication_date>
       <news:title>${xmlEscape(article.title)}</news:title>
     </news:news>
+    <image:image><image:loc>${xmlEscape(article.poster.startsWith("http") ? article.poster : `${siteUrl()}${article.poster}`)}</image:loc><image:title>${xmlEscape(article.title)}</image:title></image:image>
   </url>`;
     })
     .join("\n");
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${urls}
 </urlset>`;
 }

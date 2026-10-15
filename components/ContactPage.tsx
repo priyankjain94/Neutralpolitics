@@ -1,10 +1,12 @@
 import Link from "next/link";
+import { JsonLd } from "./JsonLd";
 import { ReportForm } from "./ReportForm";
 import { Markdown } from "./Markdown";
 import { loadPage } from "@/lib/content";
 import { isDatabaseConfigured } from "@/lib/env";
 import { t } from "@/lib/i18n";
 import { withLang } from "@/lib/paths";
+import { organizationNode } from "@/lib/seo";
 import type { Lang } from "@/lib/types";
 
 export function ContactPage({ lang }: { lang: Lang }) {
@@ -12,6 +14,7 @@ export function ContactPage({ lang }: { lang: Lang }) {
   const page = loadPage("contact", lang);
   return (
     <div className="wrap prose-page">
+      <JsonLd data={organizationNode()} />
       <h1 className="page-title">{page?.title || m.contact}</h1>
       <p className="lede">{m.contactBlurb}</p>
       {page ? <Markdown>{page.body}</Markdown> : null}

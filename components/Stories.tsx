@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { PosterImage } from "./PosterImage";
 import { categoryLabel } from "@/lib/categories";
 import { formatDateTime } from "@/lib/format";
 import { t } from "@/lib/i18n";
@@ -17,22 +18,31 @@ export function Kicker({ article }: { article: Article }) {
   );
 }
 
-export function LeadStory({ article, figure = true }: { article: Article; figure?: boolean }) {
+export function LeadStory({
+  article,
+  figure = true,
+  heading = "h1",
+}: {
+  article: Article;
+  figure?: boolean;
+  heading?: "h1" | "h2";
+}) {
+  const Title = heading;
   return (
     <article className="lead story-card">
       <Kicker article={article} />
-      <h1>
+      <Title className="story-title">
         <Link className="story-hit" href={articleHref(article.lang, article.year, article.month, article.slug)}>
           {article.title}
         </Link>
-      </h1>
+      </Title>
       <p className="standfirst">{article.standfirst}</p>
       <time className="story-time" dateTime={article.publishedAt}>
         {formatDateTime(article.publishedAt, article.lang)}
       </time>
       {figure ? (
         <figure className="figure">
-          <img src={article.poster} alt="" fetchPriority="high" decoding="async" />
+          <PosterImage src={article.poster} alt={article.title} priority />
         </figure>
       ) : null}
     </article>
@@ -54,7 +64,7 @@ export function SecondaryStory({ article }: { article: Article }) {
             {formatDateTime(article.publishedAt, article.lang)}
           </time>
         </div>
-        <img src={article.poster} alt="" decoding="async" />
+        <PosterImage src={article.poster} alt={article.title} variant="thumb" />
       </div>
     </article>
   );
@@ -85,7 +95,7 @@ export function StoryGrid({ articles }: { articles: Article[] }) {
       {articles.map((article) => (
         <article className="story-card" key={article.slug}>
           <figure className="card-figure">
-            <img src={article.poster} alt="" loading="lazy" decoding="async" />
+            <PosterImage src={article.poster} alt={article.title} />
           </figure>
           <Kicker article={article} />
           <h2>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { JsonLd } from "./JsonLd";
 import { Markdown } from "./Markdown";
 import { ErrorReportForm } from "./ErrorReportForm";
 import { loadPage } from "@/lib/content";
@@ -7,6 +8,7 @@ import { isDatabaseConfigured } from "@/lib/env";
 import { formatDateTime } from "@/lib/format";
 import { t } from "@/lib/i18n";
 import { articleHref } from "@/lib/paths";
+import { organizationNode } from "@/lib/seo";
 import type { Lang } from "@/lib/types";
 
 export async function CorrectionsPage({ lang }: { lang: Lang }) {
@@ -15,6 +17,7 @@ export async function CorrectionsPage({ lang }: { lang: Lang }) {
   const entries = await publicCorrections(lang);
   return (
     <div className="wrap prose-page">
+      <JsonLd data={organizationNode()} />
       <h1 className="page-title">{page?.title || m.corrections}</h1>
       {page?.description ? <p className="lede">{page.description}</p> : null}
       {page ? <Markdown>{page.body}</Markdown> : null}

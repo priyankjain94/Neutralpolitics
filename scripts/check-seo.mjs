@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { isoIst } from "../lib/format.ts";
-import { documentTitle, fitDescription, googleSiteVerificationToken } from "../lib/meta-text.ts";
+import { bingSiteVerificationToken, documentTitle, fitDescription, googleSiteVerificationToken, metaDescription } from "../lib/meta-text.ts";
 import { indexTopics, pickRelated, storiesForTopic, tagKey } from "../lib/topics.ts";
 
 function fail(message) {
@@ -70,8 +70,9 @@ for (const slug of drafts) {
 }
 
 const seoSource = fs.readFileSync(path.join(process.cwd(), "lib", "seo.ts"), "utf8");
-if (!seoSource.includes('name: "Neutral Politics"')) fail("author is not Neutral Politics");
-if (seoSource.includes("Neutral Politics Desk")) fail("JSON-LD still names the desk");
+if (!seoSource.includes('name: "Neutral Politics"')) fail("publisher is not Neutral Politics");
+if (!seoSource.includes("article.byline || \"Neutral Politics Desk\"")) fail("author is not the desk");
+if (!seoSource.includes("isAccessibleForFree: true")) fail("missing isAccessibleForFree");
 if (seoSource.includes("google-site-verification")) fail("verification token hardcoded in seo.ts");
 const layout = fs.readFileSync(path.join(process.cwd(), "app", "(en)", "layout.tsx"), "utf8");
 if (!layout.includes("NEXT_PUBLIC_GSC_VERIFICATION") && !layout.includes("searchConsoleVerification")) {
@@ -83,7 +84,9 @@ for (const article of [...en, ...hi]) {
   const title = documentTitle(article.title).absolute;
   const description = fitDescription(article.standfirst);
   if (title.length > 60) fail(`title ${title.length}: ${title}`);
-  if (description.length > 155) fail(`description ${description.length}: ${article.slug}`);
+  const fromLede = metaDescription(article.standfirst);
+  if (description.length > 160) fail(`description ${description.length}: ${article.slug}`);
+  if (fromLede.length > 160) fail(`lede description ${fromLede.length}: ${article.slug}`);
   if (!title.endsWith("Neutral Politics")) fail(`title missing site name: ${title}`);
   const related = pickRelated(article, article.lang === "hi" ? hi : en);
   if (related.length < 3 || related.length > 4) fail(`related count ${related.length} for ${article.slug}`);
@@ -119,7 +122,7 @@ for (let i = 1; i < sir.length; i += 1) {
   if (Date.parse(sir[i].publishedAt) > Date.parse(sir[i - 1].publishedAt)) fail("SIR topic is not newest first");
 }
 if (sir.some((article) => drafts.includes(article.slug))) fail("SIR topic includes a draft");
-if (relatedGoa[0].slug !== "karnataka-form7-bulk-fir-eci-action") {
+if (relatedGoa[0].slug !== "sc-notice-eci-india-bloc-sir-plea-delhi-protest-cctv-home-secretary-apology") {
   fail(`Goa related lead ${relatedGoa[0].slug}`);
 }
 const hockey = en.find((article) => article.slug === "asian-games-women-hockey-gold-china");
@@ -128,7 +131,7 @@ const hockeySlugs = relatedHockey.map((item) => item.slug);
 if (hockeySlugs.some((slug) => ["us-h1b-100k-fee-second-judge-block", "hdfc-bank-anup-bagchi-md-ceo", "putin-valdai-modi-ukraine-ideas"].includes(slug))) {
   fail(`hockey related drifted to other sections: ${hockeySlugs.join(",")}`);
 }
-if (relatedHockey[0].slug !== "asian-games-panghal-kalkal-golds") fail(`hockey related lead ${relatedHockey[0].slug}`);
+if (relatedHockey[0].slug !== "asian-games-mens-hockey-gold-malaysia") fail(`hockey related lead ${relatedHockey[0].slug}`);
 
 const asian = storiesForTopic(en, "AsianGames2026");
 if (asian.length < 2) fail("AsianGames2026 listing is short");
@@ -138,7 +141,9 @@ if (isoIst("2026-10-03T08:25:00+05:30") !== "2026-10-03T08:25:00+05:30") fail("i
 if (isoIst("2026-10-02T04:20:00Z") !== "2026-10-02T09:50:00+05:30") fail(`isoIst zulu ${isoIst("2026-10-02T04:20:00Z")}`);
 if (documentTitle("Short").absolute !== "Short | Neutral Politics") fail("short title");
 if (documentTitle("x".repeat(80)).absolute.length > 60) fail("long title cap");
-if (fitDescription("y".repeat(200)).length > 155) fail("long description cap");
+if (fitDescription("y".repeat(200)).length > 160) fail("long description cap");
+const longLede = metaDescription("word ".repeat(80));
+if (longLede.length < 140 || longLede.length > 160) fail(`lede band ${longLede.length}`);
 
 if (process.env.NEXT_PUBLIC_GSC_VERIFICATION) fail("check ran with a GSC token set");
 if (googleSiteVerificationToken() !== undefined) fail("verification token present when unset");
@@ -146,6 +151,12 @@ process.env.NEXT_PUBLIC_GSC_VERIFICATION = "  test-token  ";
 if (googleSiteVerificationToken() !== "test-token") fail("verification token was not read from the env");
 delete process.env.NEXT_PUBLIC_GSC_VERIFICATION;
 if (googleSiteVerificationToken() !== undefined) fail("verification token stuck after unset");
+process.env.GOOGLE_SITE_VERIFICATION = "google-token";
+process.env.BING_SITE_VERIFICATION = "bing-token";
+if (googleSiteVerificationToken() !== "google-token") fail("GOOGLE_SITE_VERIFICATION was not read");
+if (bingSiteVerificationToken() !== "bing-token") fail("BING_SITE_VERIFICATION was not read");
+delete process.env.GOOGLE_SITE_VERIFICATION;
+delete process.env.BING_SITE_VERIFICATION;
 
 if (process.exitCode) console.error("seo check failed");
 else {

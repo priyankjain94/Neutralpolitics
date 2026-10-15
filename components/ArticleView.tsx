@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { after } from "next/server";
 import { IgEmbed } from "./IgEmbed";
 import { JsonLd } from "./JsonLd";
 import { LatestList } from "./Stories";
@@ -9,6 +10,8 @@ import { relatedArticles } from "@/lib/content";
 import { articlesWithDesk } from "@/lib/desk";
 import { formatDateTime, formatSourceTime } from "@/lib/format";
 import { t } from "@/lib/i18n";
+import { posterDimensions } from "@/lib/image-size";
+import { pingIndexNow } from "@/lib/indexnow";
 import { absoluteUrl, articleHref, siteUrl, withLang } from "@/lib/paths";
 import { articleJsonLd } from "@/lib/seo";
 import { indexTopics, tagKey, topicPath } from "@/lib/topics";
@@ -32,7 +35,9 @@ export async function ArticleView({ article }: { article: Article }) {
   const latest = pool.slice(0, 6);
   const trending = [...pool.filter((item) => item.breaking), ...pool.filter((item) => !item.breaking)].slice(0, 5);
   const image = article.poster.startsWith("http") ? article.poster : `${siteUrl()}${article.poster}`;
+  const poster = posterDimensions(article.poster);
   const verdict = article.factcheck ? m.verdicts[article.factcheck.verdict] : "";
+  after(() => pingIndexNow([url]));
 
   return (
     <article className="wrap article-layout">
@@ -62,11 +67,12 @@ export async function ArticleView({ article }: { article: Article }) {
         <div className="meta">
           <span>{article.byline}</span>
           <time dateTime={article.publishedAt}>{formatDateTime(article.publishedAt, article.lang)}</time>
-          {article.updatedAt ? (
-            <span>
-              {m.updated} <time dateTime={article.updatedAt}>{formatDateTime(article.updatedAt, article.lang)}</time>
-            </span>
-          ) : null}
+          <span>
+            {m.updated}{" "}
+            <time dateTime={article.updatedAt || article.publishedAt}>
+              {formatDateTime(article.updatedAt || article.publishedAt, article.lang)}
+            </time>
+          </span>
           <span>
             {article.readingMinutes} {m.minRead}
           </span>
@@ -117,6 +123,9 @@ export async function ArticleView({ article }: { article: Article }) {
           type={article.igType}
           poster={article.poster}
           sample={article.sample}
+          alt={article.title}
+          width={poster.width}
+          height={poster.height}
         />
         {article.igMore.length ? (
           <p className="embed-note">

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 export default function EnglishLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en-IN">
       <body>
         <SiteHeader />
         <main id="main">{children}</main>

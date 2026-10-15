@@ -10,6 +10,7 @@ import { loadPage, publishedArticles } from "@/lib/content";
 import { articleWithDesk, articlesWithDesk } from "@/lib/desk";
 import { t } from "@/lib/i18n";
 import { withLang } from "@/lib/paths";
+import { metaDescription } from "@/lib/meta-text";
 import { pageMetadata, articleMetadata as articleMetaFromArticle } from "@/lib/seo";
 import { decodeTag, indexTopics, storiesForTopic, tagKey, topicPath } from "@/lib/topics";
 import type { Lang } from "@/lib/types";
@@ -48,7 +49,7 @@ export async function categoryMeta(lang: Lang, params: Promise<{ name: string }>
     lang,
     path: `/category/${name}`,
     title: categoryLabel(name, lang),
-    description: m.categoryBlurbs[name],
+    description: metaDescription(m.categoryBlurbs[name], m.tagline, m.footerBlurb),
   });
 }
 
@@ -75,6 +76,7 @@ export function topicDescription(lang: Lang, tag: string): string {
 
 export async function topicMeta(lang: Lang, params: Promise<{ tag: string }>) {
   const { tag } = await params;
+  const m = t(lang);
   const topics = indexTopics(await articlesWithDesk(lang));
   const topic = topics.find((item) => item.key === tagKey(decodeTag(tag)));
   if (!topic) return {};
@@ -82,7 +84,7 @@ export async function topicMeta(lang: Lang, params: Promise<{ tag: string }>) {
     lang,
     path: topicPath(topic.tag),
     title: topic.tag,
-    description: topicDescription(lang, topic.tag),
+    description: metaDescription(topicDescription(lang, topic.tag), m.tagline, m.footerBlurb),
   });
 }
 
@@ -99,15 +101,13 @@ export async function TopicRoute(lang: Lang, params: Promise<{ tag: string }>) {
 
 export function homeMeta(lang: Lang) {
   const m = t(lang);
-  return {
-    ...pageMetadata({
-      lang,
-      path: "/",
-      title: "Neutral Politics",
-      description: m.tagline,
-    }),
-    title: { absolute: lang === "hi" ? "न्यूट्रल पॉलिटिक्स | Neutral Politics" : "Neutral Politics" },
-  };
+  const about = loadPage("about", lang);
+  return pageMetadata({
+    lang,
+    path: "/",
+    title: lang === "hi" ? "न्यूट्रल पॉलिटिक्स" : "Neutral Politics",
+    description: metaDescription(m.tagline, m.footerBlurb, about?.description || "", about?.body || ""),
+  });
 }
 
 export function HomeRoute({ lang }: { lang: Lang }) {
@@ -120,7 +120,7 @@ export function staticMeta(lang: Lang, name: string, path: string) {
     lang,
     path,
     title: page?.title || name,
-    description: page?.description || page?.title || name,
+    description: metaDescription(page?.description || "", page?.body || page?.title || name),
   });
 }
 
@@ -130,7 +130,12 @@ export function StaticRoute({ lang, name }: { lang: Lang; name: string }) {
 
 export function searchMeta(lang: Lang) {
   const m = t(lang);
-  return pageMetadata({ lang, path: "/search", title: m.searchTitle, description: m.searchHint, noindex: true });
+  return pageMetadata({
+    lang,
+    path: "/search",
+    title: m.searchTitle,
+    description: metaDescription(m.searchHint, m.tagline, m.footerBlurb),
+  });
 }
 
 export function SearchRoute({ lang, query }: { lang: Lang; query: string }) {
