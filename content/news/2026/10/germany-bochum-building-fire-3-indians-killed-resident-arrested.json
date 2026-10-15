@@ -1,0 +1,65 @@
+{
+  "slug": "germany-bochum-building-fire-3-indians-killed-resident-arrested",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-10-15T10:17:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "sensitive": true,
+  "tags": [
+    "Germany",
+    "Bochum",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DegIkOuxS8j",
+  "ig_url": "https://www.instagram.com/reel/DegIkOuxS8j/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "germany-bochum-building-fire-3-indians-killed-resident-arrested",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Süddeutsche Zeitung (dpa)",
+      "headline": "Fire in Bochum with three dead; a resident held on suspicion of murder",
+      "url": "https://www.sueddeutsche.de/panorama/mordkommission-ermittelt-feuer-mit-drei-toten-in-bochum-bewohner-unter-mordverdacht-dpa.urn-newsml-dpa-com-20090101-261014-930-838287"
+    },
+    {
+      "outlet": "WDR",
+      "headline": "Bochum fire and a police arrest",
+      "url": "https://www1.wdr.de/nrw/ruhrgebiet/bochum/brand-bochum-festnahme-polizei-100.html"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Indians killed in a building fire in Germany; families and repatriation",
+      "url": "https://www.thehindu.com/news/international/indians-killed-in-germany-building-fire-police/article71584633.ece"
+    },
+    {
+      "outlet": "Anadolu",
+      "headline": "German police identify three Indian nationals killed in the Bochum fire",
+      "url": "https://www.aa.com.tr/en/asia-pacific/german-police-identify-3-indian-nationals-killed-in-bochum-fire/4088832"
+    },
+    {
+      "outlet": "The Tribune",
+      "headline": "Three Indians killed in a Germany fire; a resident arrested",
+      "url": "https://www.tribuneindia.com/news/world/three-indian-students-killed-in-germany-fire-resident-arrested-on-homicide-charges/"
+    },
+    {
+      "outlet": "Gulf News",
+      "headline": "Three Indians killed in a Germany fire; a resident arrested",
+      "url": "https://gulfnews.com/world/europe/3-indian-students-killed-in-germany-fire-resident-arrested-on-homicide-charges-1.500711049"
+    },
+    {
+      "outlet": "Manorama",
+      "headline": "Kerala origin reported for the people killed in the Bochum fire",
+      "url": "https://www.manoramaonline.com/global-malayali/europe/2026/10/14/bochum-apartment-fire-indian-victims-young-professionals-from-kerala.html"
+    }
+  ],
+  "photo_credits": [
+    "NP graphic. NP-made maps (Natural Earth, public domain) and NP-made icons. No photographs, no victim images."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/germany-bochum-building-fire-3-indians-killed-resident-arrested.webp",
+  "corrections": []
+}
