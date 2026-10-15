@@ -1,0 +1,61 @@
+{
+  "slug": "air-india-ai2030-7500-hijack-alert-jaipur-diversion-not-a-hijack",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-15T17:00:00+05:30",
+  "updated_at": null,
+  "category": "fact-check",
+  "secondary": [],
+  "breaking": false,
+  "pinned": true,
+  "sensitive": false,
+  "tags": [
+    "AirIndia",
+    "Jaipur",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "Deg20UVkTNH",
+  "ig_url": "https://www.instagram.com/p/Deg20UVkTNH/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "air-india-ai2030-7500-hijack-alert-jaipur-diversion-not-a-hijack",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The Indian Express",
+      "headline": "Frankfurt–Delhi flight diverted to Jaipur after a hijack scare; an official on a preliminary report",
+      "url": "https://indianexpress.com/article/india/air-india-frankfurt-delhi-flight-diverted-jaipur-after-bomb-hijack-scare-10921035/"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "Mumbai ATC's new radar system is being looked at; the probe is on",
+      "url": "https://timesofindia.indiatimes.com/india/atc-software-glitch-behind-ai-false-hijack-scare-probe-on/articleshow/134950766.cms"
+    },
+    {
+      "outlet": "India Today",
+      "headline": "The Frankfurt–Delhi flight landed at Jaipur after a hijack alert",
+      "url": "https://www.indiatoday.in/india/story/air-india-flight-from-frankfurt-to-delhi-makes-emergency-landing-in-jaipur-after-hijack-alert-from-pilot-3016958-2026-10-14"
+    },
+    {
+      "outlet": "BusinessLine (PTI)",
+      "headline": "DGCA to look into the alarm on the Air India flight",
+      "url": "https://www.thehindubusinessline.com/economy/logistics/dgca-to-investigate-hijack-alarm-scare-on-air-india-flight/article71584950.ece"
+    },
+    {
+      "outlet": "BusinessLine (PTI)",
+      "headline": "The Frankfurt–Delhi flight diverted to Jaipur after the alert",
+      "url": "https://www.thehindubusinessline.com/economy/logistics/air-india-frankfurt-delhi-flight-diverted-to-jaipur-following-hijack-alert/article71582816.ece"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "headline": "A 7500 code and the diversion of the Air India flight",
+      "url": "https://www.hindustantimes.com/india-news/code-7500-mystery-hijack-alert-forces-air-india-flight-diversion-101792022720280.html"
+    }
+  ],
+  "photo_credits": [
+    "NP graphic. NP-made map from Natural Earth. No photographs."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/air-india-ai2030-7500-hijack-alert-jaipur-diversion-not-a-hijack.webp",
+  "corrections": []
+}
