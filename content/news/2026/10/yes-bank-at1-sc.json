@@ -1,0 +1,53 @@
+{
+  "slug": "yes-bank-at1-sc",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-16T12:49:47+05:30",
+  "updated_at": null,
+  "category": "courts",
+  "secondary": [],
+  "breaking": false,
+  "pinned": false,
+  "sensitive": false,
+  "tags": [
+    "YesBank",
+    "AT1",
+    "SupremeCourt",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "Dei-xCmkU1Q",
+  "ig_url": "https://www.instagram.com/p/Dei-xCmkU1Q/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "sc-yes-bank-at1-bond-writeoff-quashed-oct15",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Supreme Court of India",
+      "headline": "Judgment of 15 October 2026, 2026 INSC 1132",
+      "url": "https://api.sci.gov.in/supremecourt/2023/6245/6245_2023_6_1501_75512_Judgement_15-Oct-2026.pdf"
+    },
+    {
+      "outlet": "Bar & Bench",
+      "headline": "The court upholds the quashing of the Yes Bank AT1 write-off",
+      "url": "https://www.barandbench.com/news/litigation/supreme-court-upholds-quashing-of-yes-banks-8415-crore-at1-bond-write-off"
+    },
+    {
+      "outlet": "Mint",
+      "headline": "The High Court order stands, and the share move of about 14.5 percent",
+      "url": "https://www.livemint.com/companies/news/yes-bank-supreme-court-upholds-hc-order-at-1-bond-writeoff-11792042824907.html"
+    },
+    {
+      "outlet": "Business Standard",
+      "headline": "The Supreme Court upholds the Bombay High Court on the ₹8,415 crore write-off",
+      "url": "https://www.business-standard.com/india-news/sc-upholds-bombay-hc-ruling-quashing-yes-bank-s-8-415-cr-at1-write-off-126101501222_1.html"
+    }
+  ],
+  "photo_credits": [
+    "Photo: Subhashish Panigrahi, Wikimedia Commons (CC BY-SA 4.0)",
+    "NP graphic"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/yes-bank-at1-sc.webp",
+  "corrections": []
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "air-india-saudi-till-oct20",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-16T13:57:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "pinned": false,
+  "sensitive": false,
+  "tags": [
+    "AirIndia",
+    "SaudiArabia",
+    "Travel",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DejGb2ykVsH",
+  "ig_url": "https://www.instagram.com/p/DejGb2ykVsH/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "air-india-saudi-till-oct20",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Air India (X)",
+      "headline": "Travel advisory: flights to and from Riyadh, Dammam and Jeddah cancelled until 20 October 2026",
+      "url": "https://x.com/airindia/status/2110969241327546566",
+      "published": "2026-10-16T11:11:00+05:30"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Air India extends the Saudi cancellations until 20 October; IndiGo and Akasa dates",
+      "url": "https://www.thehindu.com/news/national/air-india-extends-cancellations-to-saudi-arabia-until-oct-20/article71591417.ece",
+      "published": "2026-10-16T12:35:00+05:30"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "Full refunds, and the steps for website, agent and ticket-office bookings",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/air-india-cancels-riyadh-dammam-and-jeddah-flights-till-october-20-heres-how-passengers-can-apply-for-refunds-for-saudi-flights-cancelled/articleshow/134984412.cms"
+    },
+    {
+      "outlet": "ABP Live",
+      "headline": "The cancellations to Riyadh, Dammam and Jeddah until 20 October",
+      "url": "https://news.abplive.com/news/india/air-india-flights-cancelled-to-riyadh-dammam-jeddah-until-october-20-amid-saudi-situation-1871702"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "One Indian national died in the 10 October attack at Riyadh airport",
+      "url": "https://www.thehindu.com/news/national/indian-killed-saudi-arabia-riyadh-airport-attack/article71572503.ece"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "An Indian national killed in the Riyadh airport attack",
+      "url": "https://indianexpress.com/article/india/indian-killed-riyadh-airport-saudi-arabia-attack-mohammed-yusuf-ali-umrah-family-10917094/"
+    },
+    {
+      "outlet": "Ministry of External Affairs",
+      "headline": "Brief putting the Indian community in Saudi Arabia at 2.74 million",
+      "url": "https://www.mea.gov.in/Portal/ForeignRelation/India-KSA-26.pdf"
+    }
+  ],
+  "photo_credits": [
+    "FILE. Air India Boeing 787-8 VT-ANP. Photo: Anna Zvereva, Wikimedia Commons (CC BY-SA 2.0)",
+    "NP graphic"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/air-india-saudi-till-oct20.webp",
+  "corrections": []
+}

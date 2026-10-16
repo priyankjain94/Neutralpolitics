@@ -1,0 +1,48 @@
+{
+  "slug": "pac-sc-scholarship-delays",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-16T15:07:00+05:30",
+  "updated_at": null,
+  "category": "politics",
+  "secondary": [],
+  "breaking": false,
+  "pinned": true,
+  "sensitive": false,
+  "tags": [
+    "PAC",
+    "Scholarship",
+    "CAG",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DejOmqHkTyk",
+  "ig_url": "https://www.instagram.com/p/DejOmqHkTyk/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "pac-sc-scholarship-delays-privilege-6-states-oct15",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The Indian Express",
+      "headline": "The committee and a privilege motion over the scholarship delays",
+      "url": "https://indianexpress.com/article/india/public-accounts-committee-privilege-motion-scholarship-delay-10923751/"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Delays of 1 to 90 months in the CAG's account, and a privilege move described as likely",
+      "url": "https://www.thehindu.com/news/national/pac-grills-centre-states-on-fraud-markers-flagged-by-cag-in-sc-scholarship-schemes/article71588571.ece"
+    },
+    {
+      "outlet": "UNI",
+      "headline": "The chair's ranges: up to 48 months before matric and 89 after",
+      "url": "https://www.uniindia.com/national/politics-pac-congress-sc-sholarships/215422"
+    }
+  ],
+  "photo_credits": [
+    "FILE. Old Parliament House, Sansad Bhavan. Photo: David Castor, Wikimedia Commons (public domain)",
+    "NP graphic"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/pac-sc-scholarship-delays.webp",
+  "corrections": []
+}

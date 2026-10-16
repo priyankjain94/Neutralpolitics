@@ -3,7 +3,7 @@
   "status": "published",
   "status_hi": "published",
   "published_at": "2026-10-16T09:37:00+05:30",
-  "updated_at": null,
+  "updated_at": "2026-10-16T13:15:00+05:30",
   "category": "law-order",
   "secondary": [],
   "breaking": false,
@@ -18,7 +18,14 @@
   "ig_shortcode": "DeiovzTkb2y",
   "ig_url": "https://www.instagram.com/p/DeiovzTkb2y/",
   "ig_type": "carousel",
-  "ig_more": [],
+  "ig_more": [
+    {
+      "shortcode": "DejBu8NEWAI",
+      "url": "https://www.instagram.com/p/DejBu8NEWAI/",
+      "type": "carousel",
+      "headline": "SC: no urgent order as Delhi shuts Central Park before the CJP march"
+    }
+  ],
   "event_id": "delhi-cjp-connaught-place-tiranga-call-whats-shut",
   "follow_up_of": null,
   "sources": [
@@ -58,10 +65,28 @@
       "outlet": "Moneycontrol",
       "headline": "Also attributes a group of 11, a stay-away appeal, and a listing on 3 November",
       "url": "https://www.moneycontrol.com/news/india/stay-away-from-protest-delhi-police-warns-ahead-of-cjp-s-october-16-march-14053315.html"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Live updates: the Supreme Court gives no urgent order before the 16 October march",
+      "url": "https://www.thehindu.com/news/national/cjp-delhi-tiranga-march-oct-16-2026-live-updates/article71590925.ece"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "headline": "The Supreme Court declines urgent directions on the Central Park closure",
+      "url": "https://www.hindustantimes.com/india-news/supreme-court-sc-abhijeet-dipke-cjp-connaught-place-cp-tiranga-march-urgent-directions-plea-101792130032434.html"
+    },
+    {
+      "outlet": "India Today",
+      "headline": "The Supreme Court declines an urgent hearing and notes the effect on business",
+      "url": "https://www.indiatoday.in/india/law-news/story/cjp-tiranga-march-supreme-court-declines-urgent-hearing-flags-business-impact-3018623-2026-10-16"
     }
   ],
   "photo_credits": [
-    "Photo: Pulakit Singh, Wikimedia Commons (CC BY-SA 4.0)"
+    "Photo: Pulakit Singh, Wikimedia Commons (CC BY-SA 4.0)",
+    "FILE. Central Park, Connaught Place. Photo: DiplomatTesterMan, Wikimedia Commons (CC BY-SA 4.0)",
+    "FILE. Photo: Subhashish Panigrahi, Wikimedia Commons (CC BY-SA 4.0)",
+    "NP graphic"
   ],
   "sample": false,
   "poster": "/media/2026/10/delhi-cjp-connaught-place-tiranga-call-whats-shut.webp",
