@@ -14,7 +14,7 @@ import { posterDimensions } from "@/lib/image-size";
 import { pingIndexNow } from "@/lib/indexnow";
 import { absoluteUrl, articleHref, siteUrl, withLang } from "@/lib/paths";
 import { articleJsonLd } from "@/lib/seo";
-import { indexTopics, tagKey, topicPath } from "@/lib/topics";
+import { indexTopics, isBrandTopic, tagKey, topicPath } from "@/lib/topics";
 import type { Article } from "@/lib/types";
 
 export async function ArticleView({ article }: { article: Article }) {
@@ -77,9 +77,10 @@ export async function ArticleView({ article }: { article: Article }) {
             {article.readingMinutes} {m.minRead}
           </span>
         </div>
-        {article.tags.length ? (
+        {article.tags.some((tag) => !isBrandTopic(tag)) ? (
           <p className="tag-row">
             {article.tags.map((tag, index) => {
+              if (isBrandTopic(tag)) return null;
               const topic = topics.get(tagKey(tag));
               return topic ? (
                 <Link key={`${tag}-${index}`} href={withLang(article.lang, topicPath(topic.tag))}>

@@ -12,7 +12,7 @@ import { t } from "@/lib/i18n";
 import { withLang } from "@/lib/paths";
 import { metaDescription } from "@/lib/meta-text";
 import { pageMetadata, articleMetadata as articleMetaFromArticle } from "@/lib/seo";
-import { decodeTag, indexTopics, storiesForTopic, tagKey, topicPath } from "@/lib/topics";
+import { decodeTag, indexTopics, isBrandTopic, storiesForTopic, tagKey, topicPath } from "@/lib/topics";
 import type { Lang } from "@/lib/types";
 
 export function articleStaticParams(lang: Lang) {
@@ -85,6 +85,7 @@ export async function topicMeta(lang: Lang, params: Promise<{ tag: string }>) {
     path: topicPath(topic.tag),
     title: topic.tag,
     description: metaDescription(topicDescription(lang, topic.tag), m.tagline, m.footerBlurb),
+    noindex: isBrandTopic(topic.tag),
   });
 }
 

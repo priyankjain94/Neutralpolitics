@@ -4,7 +4,7 @@ import { CATEGORIES } from "./categories";
 import { articlesWithDesk } from "./desk";
 import { xmlEscape, isoIst } from "./format";
 import { absoluteUrl, siteUrl } from "./paths";
-import { indexTopics, tagKey, topicPath } from "./topics";
+import { indexableTopics, tagKey, topicPath } from "./topics";
 import type { Article, Lang } from "./types";
 
 const PAGE_NAMES: { path: string; file?: string }[] = [
@@ -85,7 +85,7 @@ export async function pagesSitemapXml(): Promise<string> {
   }
   const grouped = new Map<string, { tag: string; langs: Lang[] }>();
   for (const lang of ["en", "hi"] as const) {
-    for (const topic of indexTopics(live.filter((article) => article.lang === lang))) {
+    for (const topic of indexableTopics(live.filter((article) => article.lang === lang))) {
       const row = grouped.get(topic.key) || { tag: topic.tag, langs: [] };
       if (lang === "en") row.tag = topic.tag;
       row.langs.push(lang);

@@ -4,7 +4,7 @@ import path from "node:path";
 import matter from "gray-matter";
 import { isoIst } from "../lib/format.ts";
 import { bingSiteVerificationToken, documentTitle, fitDescription, googleSiteVerificationToken, metaDescription } from "../lib/meta-text.ts";
-import { indexTopics, pickRelated, storiesForTopic, tagKey } from "../lib/topics.ts";
+import { indexTopics, indexableTopics, isBrandTopic, pickRelated, storiesForTopic, tagKey } from "../lib/topics.ts";
 
 function fail(message) {
   console.error(message);
@@ -56,6 +56,9 @@ const hi = hiAll.filter((article) => article.status === "published");
 const topics = indexTopics(en);
 const drafts = ["sc-ahmedabad-blasts-death-stay", "nia-sonu-barnala-deportation", "delhi-judge-letter-pocso-survivor"];
 
+if (!topics.some((topic) => isBrandTopic(topic.tag) && topic.slugs.length >= 2)) fail("NeutralPolitics topic should still resolve");
+const indexable = indexableTopics(en);
+if (indexable.some((topic) => isBrandTopic(topic.tag))) fail("NeutralPolitics is still an indexable topic");
 if (!topics.some((topic) => topic.tag === "SIR" && topic.slugs.length >= 2)) fail("SIR is not a topic");
 if (!topics.some((topic) => topic.tag === "AsianGames2026" && topic.slugs.length >= 2)) fail("AsianGames2026 is not a topic");
 for (const topic of topics) {

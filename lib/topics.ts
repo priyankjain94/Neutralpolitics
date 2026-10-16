@@ -6,6 +6,16 @@ export const TOPIC_MIN_STORIES = 2;
 /** Hashtags that mark the desk or the country, not a story-to-story link. */
 const RELATED_UMBRELLA_TAGS = new Set(["india", "teamindia", "neutralpolitics", "npnow"]);
 
+/**
+ * Brand tag. It stays on the story record, and /topic/NeutralPolitics still
+ * resolves, but it is not a chip, not a sitemap URL, and not an indexable page.
+ */
+const BRAND_TOPIC_KEYS = new Set(["neutralpolitics"]);
+
+export function isBrandTopic(tag: string): boolean {
+  return BRAND_TOPIC_KEYS.has(tagKey(tag));
+}
+
 function specificTagKeys(tags: string[]): Set<string> {
   return new Set(tags.map((tag) => tagKey(tag)).filter((key) => key && !RELATED_UMBRELLA_TAGS.has(key)));
 }
@@ -64,6 +74,11 @@ export function indexTopics(articles: Article[]): Topic[] {
   }
   topics.sort((a, b) => a.tag.localeCompare(b.tag));
   return topics;
+}
+
+/** Topics that belong in the sitemap and as article chips. */
+export function indexableTopics(articles: Article[]): Topic[] {
+  return indexTopics(articles).filter((topic) => !isBrandTopic(topic.tag));
 }
 
 export function storiesForTopic(articles: Article[], tag: string): Article[] {
