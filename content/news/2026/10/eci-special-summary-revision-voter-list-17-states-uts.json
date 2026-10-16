@@ -1,0 +1,52 @@
+{
+  "slug": "eci-special-summary-revision-voter-list-17-states-uts",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-16T10:08:00+05:30",
+  "updated_at": null,
+  "category": "explainers",
+  "secondary": [],
+  "breaking": false,
+  "pinned": false,
+  "sensitive": false,
+  "tags": [
+    "SSR",
+    "ElectionCommission",
+    "VoterList",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "Deisafqka01",
+  "ig_url": "https://www.instagram.com/p/Deisafqka01/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "eci-ssr-voter-rolls-17-states-uts-oct15",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Election Commission of India",
+      "headline": "Letter No.23/2026-ERS of 15 October 2026 on the special summary revision",
+      "url": "https://www.eci.gov.in/eci/public/api/document?id=17546"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "No citizenship documents, no mapping to old rolls, and no BLO house visits for this revision",
+      "url": "https://www.thehindu.com/news/national/eci-announces-special-summary-revision-of-voters-list-in-14-states-and-3-uts/article71588567.ece"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "The revision in states where SIR is over, and polls due in five of them",
+      "url": "https://indianexpress.com/article/india/election-commission-special-summary-revision-electoral-rolls-in-states-where-sir-is-over-10923364/"
+    },
+    {
+      "outlet": "ThePrint",
+      "headline": "The schedule for the 17 states and Union Territories",
+      "url": "https://theprint.in/india/ec-directs-17-states-uts-to-carry-out-special-summary-revision-of-electoral-rolls/3073141/"
+    }
+  ],
+  "photo_credits": [
+    "FILE, 2009. Election Commission of India / Wikimedia Commons (GODL-India)"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/eci-special-summary-revision-voter-list-17-states-uts.webp",
+  "corrections": []
+}

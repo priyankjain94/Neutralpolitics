@@ -125,7 +125,7 @@ for (let i = 1; i < sir.length; i += 1) {
   if (Date.parse(sir[i].publishedAt) > Date.parse(sir[i - 1].publishedAt)) fail("SIR topic is not newest first");
 }
 if (sir.some((article) => drafts.includes(article.slug))) fail("SIR topic includes a draft");
-if (relatedGoa[0].slug !== "sc-notice-eci-india-bloc-sir-plea-delhi-protest-cctv-home-secretary-apology") {
+if (relatedGoa[0].slug !== "centre-sc-reel-makers-vs-journalists-sir-protest-hearing") {
   fail(`Goa related lead ${relatedGoa[0].slug}`);
 }
 const hockey = en.find((article) => article.slug === "asian-games-women-hockey-gold-china");

@@ -1,0 +1,57 @@
+{
+  "slug": "tesla-next-gen-roadster-unveil-flying-demo-texas",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-16T10:47:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "pinned": false,
+  "sensitive": false,
+  "tags": [
+    "Tesla",
+    "Roadster",
+    "SpaceX",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DeiwwufxrZ_",
+  "ig_url": "https://www.instagram.com/reel/DeiwwufxrZ_/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "tesla-next-gen-roadster-unveil-flying-demo-texas",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Engadget",
+      "headline": "The redesigned Roadster, the cold-gas thruster option, and the reservation",
+      "url": "https://www.engadget.com/2288437/teslas-redesigned-roadster-cold-gas-thruster-option-reservation/"
+    },
+    {
+      "outlet": "The Verge",
+      "headline": "The next-generation Roadster reveal",
+      "url": "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk"
+    },
+    {
+      "outlet": "Electrek",
+      "headline": "The unveil, and production in 2028 as Musk states it",
+      "url": "https://electrek.co/2026/10/15/tesla-unveils-cyberfied-new-roadster-kickflip/"
+    },
+    {
+      "outlet": "TechCrunch",
+      "headline": "The SpaceX-powered demo: the car flies and lands",
+      "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/"
+    },
+    {
+      "outlet": "Tesla",
+      "headline": "The reservation page for the Roadster",
+      "url": "https://www.tesla.com/en_US/roadster/reserve"
+    }
+  ],
+  "photo_credits": [
+    "Footage: Tesla / Elon Musk (X)"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/tesla-next-gen-roadster-unveil-flying-demo-texas.webp",
+  "corrections": []
+}
