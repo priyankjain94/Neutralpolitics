@@ -1,0 +1,64 @@
+{
+  "slug": "kwatra-jayapal-sir",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-16T17:15:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "pinned": false,
+  "sensitive": false,
+  "tags": [
+    "SIR",
+    "Kwatra",
+    "Jayapal",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DejdPqhEZ2Q",
+  "ig_url": "https://www.instagram.com/p/DejdPqhEZ2Q/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "kwatra-jayapal-sir",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Vinay Mohan Kwatra (X)",
+      "headline": "The ambassador's reply on 15 October",
+      "url": "https://x.com/AmbVMKwatra/status/2110741691820871860"
+    },
+    {
+      "outlet": "Pramila Jayapal (X)",
+      "headline": "The congresswoman's post on the voter rolls",
+      "url": "https://x.com/RepJayapal/status/2110423382378610985"
+    },
+    {
+      "outlet": "Pramila Jayapal (X)",
+      "headline": "A second post in the same thread",
+      "url": "https://x.com/RepJayapal/status/2110423379249438732"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "The envoy's reply after the lawmaker's remarks on the special intensive revision",
+      "url": "https://www.thehindu.com/news/national/unacceptable-interference-indias-envoy-says-after-us-lawmaker-voices-deep-concern-over-sir/article71589583.ece"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "headline": "The envoy's reply, and the Election Commission's position on the figure",
+      "url": "https://www.hindustantimes.com/india-news/indian-envoy-vinay-mohan-kwatra-rejects-us-lawmaker-pramila-jayapal-purging-130-million-from-voter-rolls-trump-101792079091289.html"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "Draft-roll figures the paper attributes to Election Commission data",
+      "url": "https://timesofindia.indiatimes.com/india/her-misconceptions-indian-envoy-vinay-kwatra-rejects-us-congresswoman-pramila-jayapals-remarks-on-voter-rolls/articleshow/134971588.cms"
+    }
+  ],
+  "photo_credits": [
+    "Pramila Jayapal: U.S. House Office of Photography, public domain, via Wikimedia Commons",
+    "Vinay Mohan Kwatra: U.S. Department of State, public domain, via Wikimedia Commons",
+    "NP graphic"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/kwatra-jayapal-sir.webp",
+  "corrections": []
+}

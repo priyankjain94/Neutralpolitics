@@ -1,0 +1,57 @@
+{
+  "slug": "mod-gsat7c-varunastra",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-16T15:42:00+05:30",
+  "updated_at": null,
+  "category": "defence-security",
+  "secondary": [],
+  "breaking": false,
+  "pinned": false,
+  "sensitive": false,
+  "tags": [
+    "Defence",
+    "IAF",
+    "IndianNavy",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DejSlgfxHPc",
+  "ig_url": "https://www.instagram.com/reel/DejSlgfxHPc/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "mod-4106cr-gsat7c-varunastra-contracts-oct15",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Press Information Bureau",
+      "headline": "Ministry of Defence release on the two contracts, timed 3:22 pm IST on 15 October",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323814&lang=1&reg=48",
+      "published": "2026-10-15T15:22:00+05:30"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "The same contract figures for the Air Force satellite and the Navy torpedoes",
+      "url": "https://www.thehindu.com/news/national/mod-signs-4106-crore-contracts-for-iaf-communication-satellite-navy-torpedoes/article71588378.ece"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "GSAT-7A described as ageing, launched in 2018, with capacity shared with the Army",
+      "url": "https://timesofindia.indiatimes.com/defence/news/def-min-inks-rs-4106cr-contracts-for-dedicated-sat-gsat-7c-for-iaf-varunastra-torpedoes-for-indian-navy/articleshow/134966141.cms"
+    },
+    {
+      "outlet": "DD News",
+      "headline": "The Ministry of Defence contracts for GSAT-7C and Varunastra",
+      "url": "https://ddnews.gov.in/en/mod-signs-rs-4106-crore-contracts-for-gsat-7c-satellite-varunastra-torpedoes/"
+    }
+  ],
+  "photo_credits": [
+    "Courtesy: PIB (GODL-India). Release photographs, 15 October 2026",
+    "FILE. Varunastra handover, 29 June 2016. Courtesy: Ministry of Defence / PIB, Wikimedia Commons (GODL-India)",
+    "Representational footage: Indian Navy, Wikimedia Commons (GODL-India). Not the contracts or the torpedoes",
+    "File footage: GSAT-11 launch, December 2018, not GSAT-7C. Arianespace, Wikimedia Commons (CC BY 3.0)",
+    "NP graphic"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/mod-gsat7c-varunastra.webp",
+  "corrections": []
+}

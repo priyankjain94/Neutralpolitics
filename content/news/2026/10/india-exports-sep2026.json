@@ -1,0 +1,55 @@
+{
+  "slug": "india-exports-sep2026",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-16T16:55:00+05:30",
+  "updated_at": null,
+  "category": "economy",
+  "secondary": [],
+  "breaking": false,
+  "pinned": false,
+  "sensitive": false,
+  "tags": [
+    "Exports",
+    "Trade",
+    "Economy",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DejaPOBRjyx",
+  "ig_url": "https://www.instagram.com/reel/DejaPOBRjyx/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "india-exports-sep2026",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Press Information Bureau",
+      "headline": "Commerce Ministry trade data for September 2026",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/oct/doc_10183_20261015_17202601.pdf"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Goods exports up 23 percent in September, and the goods deficit at $30.21 billion",
+      "url": "https://www.thehindu.com/business/Economy/indias-exports-jump-23-in-september-trade-deficit-narrows-to-3021-billion/article71588471.ece"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "The goods deficit eases, exports jump, and services log a rare dip",
+      "url": "https://indianexpress.com/article/business/economy/india-goods-trade-deficit-eases-to-30-bn-goods-exports-jump-23-services-log-rare-dip-10923351/"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "Exports up 23 percent, and a September trade deficit of $30 billion",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/exports-up-23-trade-deficit-at-30-billion-in-september/articleshow/134979212.cms"
+    }
+  ],
+  "photo_credits": [
+    "Representational footage: Marian Croitoru, Pexels",
+    "Representational. Port of Cork, Ireland, not an Indian port. FILMING CORK, Wikimedia Commons (CC BY 3.0)",
+    "Data cards: Courtesy PIB",
+    "NP graphic"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/india-exports-sep2026.webp",
+  "corrections": []
+}

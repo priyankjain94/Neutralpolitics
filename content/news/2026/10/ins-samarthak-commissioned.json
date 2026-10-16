@@ -1,0 +1,59 @@
+{
+  "slug": "ins-samarthak-commissioned",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-16T17:48:00+05:30",
+  "updated_at": null,
+  "category": "defence-security",
+  "secondary": [],
+  "breaking": false,
+  "pinned": false,
+  "sensitive": false,
+  "tags": [
+    "IndianNavy",
+    "INSSamarthak",
+    "Karwar",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "Dejg7q7Rle-",
+  "ig_url": "https://www.instagram.com/reel/Dejg7q7Rle-/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "ins-samarthak-commissioned",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Press Information Bureau",
+      "headline": "The Ministry of Defence release on INS Samarthak",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322795&lang=1&reg=48"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "The multi-purpose vessel commissioned into the Indian Navy",
+      "url": "https://www.thehindu.com/news/national/multi-purpose-vessel-ins-samarthak-commissioned-into-indian-navy/article71591555.ece"
+    },
+    {
+      "outlet": "News on AIR",
+      "headline": "The Vice-President commissions the indigenously built ship in Karnataka",
+      "url": "https://newsonair.gov.in/vice-president-commissions-indigenously-built-ins-samarthak-into-indian-navy-in-karnataka/"
+    },
+    {
+      "outlet": "The New Indian Express",
+      "headline": "The Vice-President and INS Samarthak at Karwar",
+      "url": "https://www.newindianexpress.com/states/karnataka/2026/Oct/16/vice-president-cp-radhakrishnan-launched-ins-samarthak-at-karnatakas-karwar"
+    },
+    {
+      "outlet": "Indian Navy (X)",
+      "headline": "The Navy's post on the commissioning",
+      "url": "https://x.com/IndiannavyMedia/status/2110946653167665412"
+    }
+  ],
+  "photo_credits": [
+    "Footage: Indian Navy (@IndiannavyMedia)",
+    "Courtesy: PIB (GODL-India). Release photograph, 13 October 2026",
+    "NP graphic"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/ins-samarthak-commissioned.webp",
+  "corrections": []
+}
