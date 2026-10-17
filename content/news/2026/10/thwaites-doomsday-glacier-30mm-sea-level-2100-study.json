@@ -1,0 +1,44 @@
+{
+  "slug": "thwaites-doomsday-glacier-30mm-sea-level-2100-study",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-17T16:22:00+05:30",
+  "updated_at": null,
+  "category": "disasters-weather",
+  "secondary": [],
+  "breaking": false,
+  "pinned": false,
+  "sensitive": false,
+  "tags": [
+    "Thwaites",
+    "DoomsdayGlacier",
+    "ClimateChange",
+    "SeaLevelRise",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "Del74Ntx9jH",
+  "ig_url": "https://www.instagram.com/reel/Del74Ntx9jH/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "thwaites-doomsday-glacier-sea-level-double-study-nature-comms-uci-jpl-oct12",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Nature Communications",
+      "headline": "Poinelli, Rignot, Seroussi, Cuzzone, Pelle and Larour, published 12 October 2026",
+      "url": "https://www.nature.com/articles/s41467-026-77976-1"
+    },
+    {
+      "outlet": "UC Irvine School of Physical Sciences",
+      "headline": "UC Irvine and NASA JPL on melting of Antarctica's Thwaites Glacier",
+      "url": "https://ps.uci.edu/news/uc-irvine-nasa-jpl-melting-of-antarcticas-thwaites-glacier-worse-than-thought/"
+    }
+  ],
+  "photo_credits": [
+    "Photo: NASA, JPL release 2014-148, File:Thwaites_Glacier.jpg, public domain",
+    "NASA Scientific Visualization Studio / Worldview, Worldview Tour of Iceberg B-22, SVS5179, public domain"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/thwaites-doomsday-glacier-30mm-sea-level-2100-study.webp",
+  "corrections": []
+}

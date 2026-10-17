@@ -59,6 +59,15 @@ export function robotsForIndex(): Metadata["robots"] {
   return { index: true, follow: true };
 }
 
+export function feedAlternates(lang: Lang): NonNullable<Metadata["alternates"]>["types"] {
+  return {
+    "application/rss+xml":
+      lang === "hi"
+        ? [{ url: "/hi/rss.xml", title: "न्यूट्रल पॉलिटिक्स" }]
+        : [{ url: "/rss.xml", title: "Neutral Politics" }],
+  };
+}
+
 export function alternates(lang: Lang, path: string): Metadata["alternates"] {
   const en = absoluteUrl("en", path);
   const hi = absoluteUrl("hi", path);
@@ -69,6 +78,7 @@ export function alternates(lang: Lang, path: string): Metadata["alternates"] {
       "hi-IN": hi,
       "x-default": en,
     },
+    types: feedAlternates(lang),
   };
 }
 

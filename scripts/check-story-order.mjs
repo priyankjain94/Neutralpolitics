@@ -87,11 +87,11 @@ for (const file of walk(path.join(process.cwd(), "content", "news"))) {
 const live = pickFeatured(published, Date.parse("2026-10-02T04:20:00Z"));
 const top5 = [live.lead, ...live.rest].slice(0, 5).map((item) => item.slug);
 assert.deepEqual(live.top.map((item) => item.slug), live.rest.slice(0, 3).map((item) => item.slug));
-assert.equal(live.lead.slug, "modi-ladakh-3350cr-projects");
+assert.equal(live.lead.slug, "fssai-draft-no-added-sucrose-fructose-infant-food-6-months");
 assert.deepEqual(top5.slice(0, 3), [
-  "modi-ladakh-3350cr-projects",
-  "raut-wagle-contempt",
-  "ins-samarthak-commissioned",
+  "fssai-draft-no-added-sucrose-fructose-infant-food-6-months",
+  "cjp-abhijeet-dipke-conditional-bail-sem-peace-bond",
+  "maharashtra-305-talukas-drought-5000-advance-diwali",
 ]);
 assert.equal(top5.includes("delhi-judge-letter-pocso-survivor"), false);
 assert.equal(top5.includes("nia-sonu-barnala-deportation"), false);
@@ -126,5 +126,6 @@ assert.equal(top5.includes("cjp-leaders-saurav-das-ashutosh-ranka-5-day-judicial
 assert.equal(top5.includes("mamata-banerjee-kalighat-alleged-knife-attack-claim-civic-volunteer-detained"), false);
 assert.equal(top5.includes("germany-bochum-building-fire-3-indians-killed-resident-arrested"), false);
 assert.equal(top5.includes("rahul-gandhi-letter-president-dushyant-gautam-sikkim-governor-ankita-bhandari"), false);
+assert.equal(top5.includes("ed-detains-amardeep-grewal-delhi-airport-loc"), false);
 console.log("live lead", live.lead.slug);
 console.log("live top5", top5.join(", "));

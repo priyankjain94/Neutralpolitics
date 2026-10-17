@@ -82,6 +82,12 @@ if (!layout.includes("NEXT_PUBLIC_GSC_VERIFICATION") && !layout.includes("search
   fail("english layout missing verification slot");
 }
 if (layout.includes("google-site-verification")) fail("verification meta hardcoded in layout");
+if (!seoSource.includes("application/rss+xml")) fail("rss alternate missing in seo.ts");
+if (!seoSource.includes('url: "/rss.xml"')) fail("english rss href missing");
+if (!seoSource.includes('url: "/hi/rss.xml"')) fail("hindi rss href missing");
+const hiLayout = fs.readFileSync(path.join(process.cwd(), "app", "(hi)", "layout.tsx"), "utf8");
+if (!layout.includes("feedAlternates") || !layout.includes('feedAlternates("en")')) fail("english layout rss link missing");
+if (!hiLayout.includes("feedAlternates") || !hiLayout.includes('feedAlternates("hi")')) fail("hindi layout rss link missing");
 
 for (const article of [...en, ...hi]) {
   const title = documentTitle(article.title).absolute;
