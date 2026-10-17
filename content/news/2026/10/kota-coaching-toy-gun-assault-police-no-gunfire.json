@@ -1,0 +1,66 @@
+{
+  "slug": "kota-coaching-toy-gun-assault-police-no-gunfire",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-10-17T20:16:00+05:30",
+  "updated_at": null,
+  "category": "fact-check",
+  "secondary": [],
+  "breaking": false,
+  "pinned": false,
+  "sensitive": true,
+  "tags": [
+    "Kota",
+    "FactCheck",
+    "StudentSafety",
+    "JEE",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DemWZrVxYu4",
+  "ig_url": "https://www.instagram.com/reel/DemWZrVxYu4/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "kota-allen-sabal-toy-gun-assault-jee-aspirant-oct16",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "PTI via News18",
+      "headline": "JEE aspirant injured after a classmate attacks him with a toy gun in Kota",
+      "url": "https://www.news18.com/agency-feeds/jee-aspirant-injured-after-classmate-attacks-him-with-toy-gun-in-kota-10386450.html",
+      "published": "2026-10-17T14:45:00+05:30"
+    },
+    {
+      "outlet": "PTI via The Siasat Daily",
+      "headline": "Kota JEE aspirant injured after a classmate hits him with a toy gun",
+      "url": "https://www.siasat.com/kota-jee-aspirant-injured-after-classmate-hits-him-with-toy-gun-3560046/"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "Kota JEE aspirant, 16, hit on the head with a toy gun butt",
+      "url": "https://timesofindia.indiatimes.com/city/jaipur/kota-jee-aspirant-16-hit-on-head-with-toy-gun-butt-by-classmate-during-coaching-institute-clash/articleshow/135009469.cms",
+      "published": "2026-10-17T12:42:00+05:30"
+    },
+    {
+      "outlet": "Dainik Bhaskar",
+      "headline": "DSP Manish Sharma on the Kota coaching-centre assault",
+      "url": "https://www.bhaskar.com/local/rajasthan/kota/news/kota-coaching-center-neet-student-fight-attack-injury-case-139387463.html"
+    },
+    {
+      "outlet": "NDTV India",
+      "headline": "Police deny firing at an ALLEN campus; a metal toy pistol or air-gun-like object",
+      "url": "https://ndtv.in/crime-news/kota-allen-coaching-institute-student-clash-pistol-attack-one-injured-video-viral-classroom-fight-female-classmate-gunshot-rajasthan-crime-12198105"
+    }
+  ],
+  "photo_credits": [
+    "File photo of Kota: Kushagra140, Wikimedia Commons, File:Kota_City_of_Rajasthan_View.jpg (CC BY-SA 4.0)",
+    "Representational: RDNE Stock project and Nishant Das via Pexels"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/kota-coaching-toy-gun-assault-police-no-gunfire.webp",
+  "corrections": [],
+  "factcheck": {
+    "verdict": "misleading",
+    "claimant": "Social media posts describing the Kota coaching incident as a firing or a gunshot",
+    "claim_date": "2026-10-17"
+  }
+}

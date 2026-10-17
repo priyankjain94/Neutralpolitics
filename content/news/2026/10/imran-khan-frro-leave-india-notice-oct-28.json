@@ -3,7 +3,7 @@
   "status": "published",
   "status_hi": "published",
   "published_at": "2026-10-16T07:56:00+05:30",
-  "updated_at": null,
+  "updated_at": "2026-10-17T19:45:00+05:30",
   "category": "law-order",
   "secondary": [],
   "breaking": false,
@@ -18,7 +18,14 @@
   "ig_shortcode": "Deic1IgkSVx",
   "ig_url": "https://www.instagram.com/p/Deic1IgkSVx/",
   "ig_type": "carousel",
-  "ig_more": [],
+  "ig_more": [
+    {
+      "shortcode": "DemSk7FEVtA",
+      "url": "https://www.instagram.com/p/DemSk7FEVtA/",
+      "type": "carousel",
+      "headline": "Imran Khan moves the Bombay High Court against the leave-India notice"
+    }
+  ],
   "event_id": "actor-imran-khan-leave-india-notice-oct28-anti-cec-protest-oct15",
   "follow_up_of": null,
   "sources": [
@@ -62,10 +69,35 @@
       "outlet": "Hindustan Times",
       "headline": "The notice text, citing the Immigration and Foreigners Act",
       "url": "https://www.hindustantimes.com/india-news/us-national-liable-for-prosecution-inside-leave-india-notice-to-bollywood-actor-imran-khan-101792061902768.html"
+    },
+    {
+      "outlet": "Bar & Bench",
+      "headline": "Imran Khan moves the Bombay High Court against the FRRO leave-India notice",
+      "url": "https://www.barandbench.com/news/imran-khan-moves-bombay-high-court-against-frros-leave-india-notice-flags-procedural-lapses",
+      "published": "2026-10-17T12:55:00+05:30"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "Actor Imran Khan moves the Bombay High Court against the FRRO leave-India notice",
+      "url": "https://indianexpress.com/article/cities/mumbai/actor-imran-khan-moves-bombay-high-court-against-frros-leave-india-notice-10926009/",
+      "published": "2026-10-17T18:49:00+05:30"
+    },
+    {
+      "outlet": "India Today",
+      "headline": "The actor challenges the notice to leave India by 28 October and seeks a stay",
+      "url": "https://www.indiatoday.in/india/story/anti-cec-protest-actor-challenges-notice-to-leave-india-by-oct-28-seeks-urgent-stay-cancellation-of-order-3019727-2026-10-17",
+      "published": "2026-10-17T18:48:00+05:30"
+    },
+    {
+      "outlet": "News18 Hindi",
+      "headline": "A show-cause on why the OCI registration should not be cancelled",
+      "url": "https://hindi.news18.com/news/entertainment/bollywood-imran-khan-lifelong-visa-could-be-cancelled-so-cause-notice-issued-asking-actor-why-should-your-oci-card-not-be-revoked-10916802.html",
+      "published": "2026-10-17T18:25:00+05:30"
     }
   ],
   "photo_credits": [
-    "NP graphic"
+    "NP graphic",
+    "Update photo: Imran Khan, Mumbai, 9 December 2013, file, cropped. TeachAIDS, Wikimedia Commons, File:Imran_Khan_-_TeachAIDS_Interview_(13566247005).jpg (CC BY-SA 2.0)"
   ],
   "sample": false,
   "poster": "/media/2026/10/imran-khan-frro-leave-india-notice-oct-28.webp",
