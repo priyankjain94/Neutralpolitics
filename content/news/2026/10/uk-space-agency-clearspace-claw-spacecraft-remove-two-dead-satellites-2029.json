@@ -1,0 +1,48 @@
+{
+  "slug": "uk-space-agency-clearspace-claw-spacecraft-remove-two-dead-satellites-2029",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-18T10:19:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "pinned": false,
+  "sensitive": false,
+  "tags": [
+    "UKSpaceAgency",
+    "SpaceDebris",
+    "ClearSpace",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "Den3HXTxosW",
+  "ig_url": "https://www.instagram.com/reel/Den3HXTxosW/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "uk-space-agency-clearspace-claw-spacecraft-remove-2-dead-satellites-2029-oct15",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "GOV.UK",
+      "headline": "UK Space Agency, 15 October 2026: more than £60 million for a mission to remove two defunct satellites",
+      "url": "https://www.gov.uk/government/news/world-first-mission-puts-uk-expertise-to-work-to-help-clean-up-space"
+    },
+    {
+      "outlet": "Via Satellite",
+      "headline": "ClearSpace prime contract, £61 million, for the UK active debris removal mission",
+      "url": "https://www.satellitetoday.com/technology/2026/10/15/clearspace-wins-major-uk-debris-removal-contract/"
+    },
+    {
+      "outlet": "SpaceNews",
+      "headline": "Lead paragraph only: ClearSpace's British unit picked as prime for a 2029 de-orbit mission",
+      "url": "https://spacenews.com/uk-awards-clearspace-80-million-prime-contract-for-dual-satellite-deorbit-mission/"
+    }
+  ],
+  "photo_credits": [
+    "Animation: ClearSpace SA / ESA. Earlier ClearSpace concept, not the final UK active-debris-removal craft.",
+    "Representational Earth footage: Adis Resic via Pexels."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/uk-space-agency-clearspace-claw-spacecraft-remove-two-dead-satellites-2029.webp",
+  "corrections": []
+}

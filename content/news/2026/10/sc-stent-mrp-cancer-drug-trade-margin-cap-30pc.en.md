@@ -32,3 +32,5 @@ The 10:40 am IST recheck on 13 October found the NPPA notification not yet issue
 The stamp on this note is verified for the hearing as those outlets report it. That is the stent figures, the Centre's account of the cancer-drug cap and the yearly savings, the ask about other medicines and devices, the Solicitor General's line that stents are already capped, and the 27 October date. The notification status is the 10:40 am check.
 
 The cover is an NP typographic graphic. The price figures on it are the hearing figures above. No photograph is used.
+
+Update: NPPA notified the cap on 17 October 2026, in Gazette order S.O. 5690(E). Revised prices take effect on 9 November 2026. That notification is a separate note: [NPPA notified the cancer-drug cap](/news/2026/10/nppa-notifies-30-percent-trade-margin-cap-137-cancer-drugs-from-9-nov).

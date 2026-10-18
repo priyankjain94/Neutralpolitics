@@ -32,3 +32,5 @@ This note stops at that cap and that sequence. It does not give a savings figure
 Rechecked at 1:05 pm IST on 10 October, the position is unchanged from the 8 October approval. The cap is 30 percent of MRP, on the trade margin, for non-scheduled anti-cancer drugs. Prices change when NPPA notifies, and only for the drugs on the DGHS list. Until that notification, this note does not describe a price as already changed.
 
 The cover is an NP typographic graphic. No photograph is used. No person is shown.
+
+Update: NPPA notified the cap on 17 October 2026, in Gazette order S.O. 5690(E). Revised prices take effect on 9 November 2026. That notification is a separate note: [NPPA notified the cancer-drug cap](/news/2026/10/nppa-notifies-30-percent-trade-margin-cap-137-cancer-drugs-from-9-nov).

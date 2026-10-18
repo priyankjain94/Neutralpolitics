@@ -1,0 +1,34 @@
+---
+title: "Gwalior temple crash: at least 14"
+standfirst: "As of 11:20 am IST on 18 October, officials put the Gwalior temple truck crash at at least 14 dead, and the cause is not confirmed."
+key_facts:
+  - "NP NOW. Stamp: verified. The toll is still developing. Posted at 9:46 am IST on 18 October. The caption's later block is timed 11:20 am and was edited in at 11:30 am. The package's source check is the 9:00 am check."
+  - "About 1:30 am, about 20 km from Gwalior. A paddy truck broke police barricades and came down a slope that was restricted for Navratri. It hit devotees and stalls, then the temple gate and outer wall. The caption says Sheetla Mata. Hindustan Times and an India Today video say Shitala. India Today names the steep Chhinor road."
+  - "Toll, with times. Earlier: Collector 11, SSP 12. Hindustan Times at 7:20 am: 12 dead. As of the 9:00 am check and the 9:50 am caption: at least 13, from the Collector, the SP via PTI, the JAH superintendent, The Times of India, India Today and The Week. The caption said Navbharat Times and Amar Ujala were reporting 14, awaiting an official update. As of 11:20 am: at least 14 per officials. Some outlets citing officials say 15. That 15 is not stated here as the toll."
+  - "Hurt: SSP about 39 to hospital, 5 or 6 critical, 2 personnel injured. PTI: nearly 40 injured. Collector video: about 30 injured. JAH superintendent: 7 critical. The SSP's name is spelled Dharmveer Singh, Dharamveer or Dharamvir Yadav, and Dharmveer Singh Yadav. The Collector is not named here."
+  - "Cause not confirmed. The Collector said circumstances were not clear. Hindustan Times reports that the SP said a preliminary probe suggests mechanical failure. That is not a finding."
+  - "The 9:00 am check had not confirmed ex-gratia. Hindustan Times: injured treated with Red Cross funds. The 11:20 caption update, as separate funds: PMNRF Rs 2 lakh per deceased and Rs 50,000 per injured; Madhya Pradesh chief minister Mohan Yadav, Rs 4 lakh per deceased, Rs 2 lakh for the seriously injured, Rs 50,000 for others, plus free treatment. The probe continues."
+sides:
+  - label: "What officials have put on the toll"
+    text: "At least 14 dead as of 11:20 am IST, in the caption update. Earlier official figures were lower: 11, then 12, then at least 13 by about 9:00 am. Some outlets citing officials say 15. This note does not adopt 15."
+  - label: "What is not a finding"
+    text: "The cause. A preliminary suggestion of mechanical failure, reported by Hindustan Times from the SP, and the Collector's line that circumstances were not clear, stay attributed. The probe and the RTO inspection are continuing."
+not_confirmed:
+  - "A single death toll. At least 14 is the officials' figure as of 11:20 am. Fifteen appears only as what some outlets say, citing officials."
+  - "The cause. No official cause is confirmed."
+  - "One count of the injured, or one spelling of the SSP's name, or a surname for the Collector."
+---
+
+This note is NP NOW. The stamp is verified, the toll is still developing, and the cause is not confirmed. It was posted at 9:46 am IST on 18 October 2026. A 9:50 am caption was edited at 11:30 am with an 11:20 am block. That block is the latest toll and the relief.
+
+A paddy truck broke police barricades near the temple and came down a slope. The caption says Sheetla Mata. Hindustan Times and an India Today video say Shitala Mata. It was about 1:30 am on Sunday 18 October, about 20 km from Gwalior, the distance in News18 Hindi. India Today names the steep Chhinor road, restricted for the Navratri crowd on Saptami. The truck hit devotees and stalls, then the temple gate and the outer wall. Hindustan Times, updated at 7:20 am, says the truck stopped at a barricade and lost control on the slope.
+
+The toll rose, so each figure keeps its clock. The 9:00 am check records an earlier Collector figure of 11 and an SSP figure of 12. Hindustan Times at 7:20 am reported 12 dead and 29 injured. By the 9:00 am check the official toll was at least 13. The Collector, on India Today video at 7:30 am, said "around thirteen people have passed away." The SP told PTI, in The New Indian Express, that 13 were killed. Dr Sudhir Saxena, the JAH superintendent, told ETV Bharat at 8:30 am that 13 deaths were confirmed. The Times of India at 7:49 am, India Today at 7:54 am and The Week at 8:15 am said the same. The Week adds that authorities confirmed one more death after the SSP spoke of 12. The 9:50 am caption still said at least 13. It said Navbharat Times and Amar Ujala were reporting 14. As of 11:20 am, officials put the toll at at least 14. Some outlets, citing officials, say 15. That 15 is their report, not the figure this note adopts.
+
+SSP Dharmveer Singh, the spelling in The Times of India, The Week, NDTV and India Today, said about 39 people went to hospital, 5 or 6 critical, with 2 personnel on duty hurt. Hindustan Times and The New Indian Express spell him Dharamveer or Dharamvir Yadav. News18 Hindi uses Dharmveer Singh Yadav. PTI said nearly 40 injured. The Collector's video said about 30 injured and 2 home guards. Dr Saxena said 7 were critical. The Times of India says 2 police were injured. The Collector is not named, because the outlets do not agree on the surname.
+
+No cause is officially confirmed. In the India Today video the Collector said the circumstances were not clear, and the video's account is that the truck had been parked behind the barriers and then started rolling. Hindustan Times reports that the SP said a preliminary probe suggests mechanical failure. That is a suggestion in one report, not a finding. The Collector said the probe will ask how the truck passed a stopper and a checkpoint. A probe has been ordered, an RTO team is inspecting the truck, and India Today says CT scans and X-rays were under way. The 11:20 update says the probe continues.
+
+The 9:00 am check had not confirmed ex-gratia for this crash. Hindustan Times, citing the Collector, said the injured were being treated with Red Cross funds. The caption's 11:20 am update then lists two separate sets of aid. From the PMNRF: Rs 2 lakh for each person who died, and Rs 50,000 for each person injured. From Madhya Pradesh chief minister Mohan Yadav: Rs 4 lakh for each person who died, Rs 2 lakh for those seriously injured, Rs 50,000 for the other injured, and free treatment.
+
+The caption's advice, to use marked routes and to listen to police and volunteers, is the post's, not an order. The poster is the NP slide. Its photograph is a representational file image of Gwalior Fort and the city, 26 August 2007, by Krystyna Grabelus Shaikh, Wikimedia Commons, CC BY-SA 4.0. It is not this temple and not this crash, and it shows no crowd and no victims. The other slides are NP graphics. The post offers condolences.

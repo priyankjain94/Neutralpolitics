@@ -87,11 +87,11 @@ for (const file of walk(path.join(process.cwd(), "content", "news"))) {
 const live = pickFeatured(published, Date.parse("2026-10-02T04:20:00Z"));
 const top5 = [live.lead, ...live.rest].slice(0, 5).map((item) => item.slug);
 assert.deepEqual(live.top.map((item) => item.slug), live.rest.slice(0, 3).map((item) => item.slug));
-assert.equal(live.lead.slug, "isro-gaganyaan-crew-module-service-module-separation-tests");
+assert.equal(live.lead.slug, "iphone-duo-preorders-india-price-delivery-late-january-2027");
 assert.deepEqual(top5.slice(0, 3), [
-  "isro-gaganyaan-crew-module-service-module-separation-tests",
-  "kolkata-durga-puja-pandal-crush-19-dead-25-injured",
-  "bengaluru-born-ramya-anche-lead-nasa-puffins-uv-telescope",
+  "iphone-duo-preorders-india-price-delivery-late-january-2027",
+  "nppa-notifies-30-percent-trade-margin-cap-137-cancer-drugs-from-9-nov",
+  "sukhna-wetland-sauj-jheel-ramsar-sites-india-tally-103",
 ]);
 assert.equal(top5.includes("delhi-judge-letter-pocso-survivor"), false);
 assert.equal(top5.includes("nia-sonu-barnala-deportation"), false);
