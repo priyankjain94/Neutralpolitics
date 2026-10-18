@@ -9,6 +9,7 @@ export const CATEGORIES = [
   { slug: "defence-security", en: "Defence & Security", hi: "रक्षा व सुरक्षा" },
   { slug: "disasters-weather", en: "Disasters & Weather", hi: "आपदा व मौसम" },
   { slug: "law-order", en: "Law & Order", hi: "क़ानून व्यवस्था" },
+  { slug: "crime", en: "Crime", hi: "अपराध" },
   { slug: "explainers", en: "Explainers", hi: "समझिए" },
   { slug: "np-facts", en: "NP Facts", hi: "रोचक तथ्य" },
   { slug: "fact-check", en: "Fact-check", hi: "फ़ैक्ट चेक" },
@@ -29,6 +30,7 @@ export const MORE_NAV: CategorySlug[] = [
   "defence-security",
   "disasters-weather",
   "law-order",
+  "crime",
   "explainers",
   "np-facts",
 ];

@@ -123,7 +123,8 @@
     "sports": "Results and selections, without the cheerleading.",
     "defence-security": "The armed forces, borders and security operations.",
     "disasters-weather": "Floods, storms and official warnings.",
-    "law-order": "Crime and policing, with allegations labelled as allegations.",
+    "law-order": "Public order and policing, with allegations labelled as allegations.",
+    "crime": "Police cases, arrests, custody and fraud, with allegations labelled as allegations.",
     "explainers": "How a rule, a scheme or a number actually works.",
     "np-facts": "Curious items that are not news. Labelled so they are not mistaken for it.",
     "fact-check": "A claim, what we checked, and a verdict."

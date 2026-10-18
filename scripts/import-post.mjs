@@ -15,6 +15,7 @@ const CATEGORIES = [
   "defence-security",
   "disasters-weather",
   "law-order",
+  "crime",
   "explainers",
   "np-facts",
   "fact-check",
@@ -79,6 +80,8 @@ function normaliseCategory(value) {
     disasters: "disasters-weather",
     weather: "disasters-weather",
     "law-and-order": "law-order",
+    crime: "crime",
+    crimes: "crime",
     "factcheck": "fact-check",
     facts: "np-facts",
   };
@@ -97,7 +100,8 @@ function resolveCategory() {
   if (pkg === "politics-world") return /trump|china|russia|unsc|unga|pakistan/.test(text) ? "world" : "politics";
   if (/medal|cricket|kohli|football|olympic|asian games/.test(text)) return "sports";
   if (/flood|rain|cyclone|earthquake/.test(text)) return "disasters-weather";
-  if (/police|killed|arrested/.test(text)) return "law-order";
+  if (/\b(murder|arrested|arrest|custody|scam|fraud|assault|attack|fir|traffick|extort|ransom|stab|killed)\b/.test(text)) return "crime";
+  if (/police/.test(text)) return "law-order";
   if (/army|iaf|rajnath|missile|border/.test(text)) return "defence-security";
   warnings.push("Category could not be resolved.");
   return null;

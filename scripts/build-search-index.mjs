@@ -17,6 +17,7 @@ const categories = new Set([
   "defence-security",
   "disasters-weather",
   "law-order",
+  "crime",
   "explainers",
   "np-facts",
   "fact-check",
