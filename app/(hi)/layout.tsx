@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
+import { LiveTicker } from "@/components/LiveTicker";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { devanagari } from "@/lib/fonts";
 import { siteUrl } from "@/lib/paths";
 import { feedAlternates, searchConsoleVerification } from "@/lib/seo";
 import "../globals.css";
+
+export const revalidate = 60;
 
 const verification = searchConsoleVerification();
 
@@ -23,6 +26,7 @@ export default function HindiLayout({ children }: { children: React.ReactNode })
   return (
     <html lang="hi-IN" className={devanagari.variable}>
       <body>
+        <LiveTicker lang="hi" />
         <SiteHeader />
         <main id="main">{children}</main>
         <SiteFooter lang="hi" />

@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
+import { LiveTicker } from "@/components/LiveTicker";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { siteUrl } from "@/lib/paths";
 import { feedAlternates, searchConsoleVerification } from "@/lib/seo";
 import "../globals.css";
+
+export const revalidate = 60;
 
 const verification = searchConsoleVerification();
 
@@ -22,6 +25,7 @@ export default function EnglishLayout({ children }: { children: React.ReactNode 
   return (
     <html lang="en-IN">
       <body>
+        <LiveTicker lang="en" />
         <SiteHeader />
         <main id="main">{children}</main>
         <SiteFooter lang="en" />

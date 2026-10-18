@@ -47,6 +47,113 @@ button, input, select, textarea { font: inherit; color: inherit; }
 }
 .skip:focus { left: 0.5rem; top: 0.5rem; }
 
+.live-ticker {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  min-height: 36px;
+  max-height: 36px;
+  background: var(--ink);
+  color: #fff;
+  overflow: hidden;
+  font-family: var(--sans);
+  font-size: 13px;
+  line-height: 1;
+}
+.live-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex: 0 0 auto;
+  height: 22px;
+  margin: 0 10px;
+  padding: 0 8px 0 7px;
+  background: var(--red);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  border-radius: 999px;
+}
+html[lang|="hi"] .live-pill { letter-spacing: 0.02em; }
+.live-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  flex: 0 0 auto;
+  animation: live-pulse 1.4s ease-out infinite;
+}
+@keyframes live-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  70% { opacity: 0.35; transform: scale(0.72); }
+}
+.live-viewport {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  height: 36px;
+}
+.live-track {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  height: 36px;
+  animation: live-marquee var(--ticker-duration, 48s) linear infinite;
+}
+@keyframes live-marquee {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-50%, 0, 0); }
+}
+.live-ticker:hover .live-track,
+.live-ticker:focus-within .live-track { animation-play-state: paused; }
+.live-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 36px;
+}
+.live-item {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  height: 36px;
+  white-space: nowrap;
+}
+.live-ticker a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  height: 36px;
+  padding: 0 2px;
+}
+.live-ticker a:hover { color: #fff; text-decoration: underline; text-underline-offset: 0.18em; }
+.live-ticker a:focus-visible { outline: 2px solid #fff; outline-offset: -2px; }
+.live-sep {
+  width: 4px;
+  height: 4px;
+  margin: 0 12px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.75;
+  flex: 0 0 auto;
+}
+@media (prefers-reduced-motion: reduce) {
+  .live-dot, .live-track { animation: none; }
+  .live-viewport {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .live-viewport::-webkit-scrollbar { display: none; }
+  .live-clone { display: none; }
+}
+
 .toprule { height: 4px; background: var(--red); }
 .wrap { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
 .topbar {

@@ -1,4 +1,5 @@
 import { revalidatePath } from "next/cache";
+import { cache } from "react";
 import { loadArticles } from "./content";
 import { sortStories } from "./story-order";
 import { getDb } from "./db";
@@ -49,11 +50,11 @@ export async function allMerged(): Promise<Article[]> {
   );
 }
 
-export async function articlesWithDesk(lang?: Lang): Promise<Article[]> {
+export const articlesWithDesk = cache(async (lang?: Lang): Promise<Article[]> => {
   return sortStories(
     (await allMerged()).filter((article) => article.status === "published" && (!lang || article.lang === lang)),
   );
-}
+});
 
 export type PublicCorrection = {
   key: string;
