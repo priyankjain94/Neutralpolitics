@@ -1,0 +1,52 @@
+{
+  "slug": "isro-gaganyaan-crew-module-service-module-separation-tests",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-18T09:25:00+05:30",
+  "updated_at": null,
+  "category": "explainers",
+  "secondary": [],
+  "breaking": false,
+  "pinned": false,
+  "sensitive": false,
+  "tags": [
+    "ISRO",
+    "Gaganyaan",
+    "Space",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "Denw_RRxLEY",
+  "ig_url": "https://www.instagram.com/reel/Denw_RRxLEY/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "isro-gaganyaan-crew-module-service-module-separation-tests-oct16",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "ISRO",
+      "headline": "Crew Module–Service Module separation tests, release of 16 October 2026",
+      "url": "https://www.isro.gov.in/ISRO_EN/Crew_Module_Service_Module_Separation_Tests.html"
+    },
+    {
+      "outlet": "ISRO",
+      "headline": "Gaganyaan programme page: Service Module supports the Crew Module in orbit",
+      "url": "https://www.isro.gov.in/Gaganyaan.html"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "ISRO completes a key Gaganyaan test ahead of the first uncrewed mission",
+      "url": "https://www.thehindu.com/sci-tech/science/gaganyaan-isro-completes-key-test-ahead-of-first-uncrewed-mission/article71592436.ece"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "ISRO completes Gaganyaan crew and service module separation tests",
+      "url": "https://timesofindia.indiatimes.com/science/isro-completes-gaganyaan-crew-service-module-separation-tests/articleshow/134998365.cms"
+    }
+  ],
+  "photo_credits": [
+    "Courtesy: ISRO. Test footage from the release-page video, title card skipped, and stills of the Crew Module–Service Module separation test set-up before and after the test."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/isro-gaganyaan-crew-module-service-module-separation-tests.webp",
+  "corrections": []
+}
