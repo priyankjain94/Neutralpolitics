@@ -1,0 +1,68 @@
+{
+  "slug": "chennai-rain-north-chennai-waterlogged-gcc-15000-workers-no-rain-deaths",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-18T15:30:00+05:30",
+  "updated_at": null,
+  "category": "disasters-weather",
+  "secondary": [],
+  "breaking": false,
+  "pinned": true,
+  "sensitive": false,
+  "tags": [
+    "Chennai",
+    "TamilNadu",
+    "Monsoon",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DeoaCsaRM31",
+  "ig_url": "https://www.instagram.com/reel/DeoaCsaRM31/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "chennai-heavy-rain-northeast-monsoon-waterlogging-15000-workers-no-fatalities-oct18",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The Hindu",
+      "headline": "GCC: no rain-related deaths or major accidents in the Corporation area; 15,000-plus personnel, 650 pumps, subways by 6 am, nine relief centres",
+      "url": "https://www.thehindu.com/news/cities/chennai/no-fatalities-reported-as-heavy-rain-leaves-parts-of-chennai-waterlogged-says-gcc/article71599352.ece",
+      "published": "2026-10-18T14:03:00+05:30"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "RMC totals to 5:30 am, the 15,000-worker deployment, and Sunday's rain forecast",
+      "url": "https://timesofindia.indiatimes.com/city/chennai/imd-forecasts-heavy-rain-in-17-tamil-nadu-districts-over-15000-civic-workers-deployed/articleshow/135023480.cms",
+      "published": "2026-10-18T09:34:00+05:30"
+    },
+    {
+      "outlet": "The New Indian Express",
+      "headline": "Named with The Hindu, in the caption, for the Thirunindravur cable death",
+      "url": "https://www.newindianexpress.com/cities/chennai/2026/Oct/18/greater-chennai-corp-to-shift-residents-in-low-lying-areas-to-relief-centres-in-advance",
+      "published": "2026-10-18T05:03:00+05:30"
+    },
+    {
+      "outlet": "Greater Chennai Corporation",
+      "headline": "100 HP pump draining BB Road at the Goods Shed pond, Tondiarpet zone",
+      "url": "https://x.com/chennaicorp/status/2111679393450147971",
+      "published": "2026-10-18T10:12:00+05:30"
+    },
+    {
+      "outlet": "Greater Chennai Corporation",
+      "headline": "Super-sucker at the Alapakkam Main Road and Arcot Road junction, near Porur",
+      "url": "https://x.com/chennaicorp/status/2111724495816077371",
+      "published": "2026-10-18T13:12:00+05:30"
+    },
+    {
+      "outlet": "Greater Chennai Corporation",
+      "headline": "Canal inspection posted by the Corporation",
+      "url": "https://x.com/chennaicorp/status/2111729092555075777",
+      "published": "2026-10-18T13:30:00+05:30"
+    }
+  ],
+  "photo_credits": [
+    "Courtesy Greater Chennai Corporation. Frame from the Corporation's own relief and pumping footage on 18 October 2026: a 100 HP pump on BB Road, a super-sucker near Porur, and a canal inspection. Not the peak waterlogging."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/chennai-rain-north-chennai-waterlogged-gcc-15000-workers-no-rain-deaths.webp",
+  "corrections": []
+}
