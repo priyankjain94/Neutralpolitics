@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { LiveTicker } from "@/components/LiveTicker";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -8,6 +8,13 @@ import { feedAlternates, searchConsoleVerification } from "@/lib/seo";
 import "../globals.css";
 
 export const revalidate = 60;
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  interactiveWidget: "resizes-content",
+};
 
 const verification = searchConsoleVerification();
 
