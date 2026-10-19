@@ -3,7 +3,7 @@
   "status": "published",
   "status_hi": "published",
   "published_at": "2026-10-19T18:26:00+05:30",
-  "updated_at": null,
+  "updated_at": "2026-10-19T19:06:00+05:30",
   "category": "sports",
   "secondary": [],
   "breaking": false,
@@ -16,7 +16,14 @@
   "ig_shortcode": "DerTvAOEXla",
   "ig_url": "https://www.instagram.com/p/DerTvAOEXla/",
   "ig_type": "carousel",
-  "ig_more": [],
+  "ig_more": [
+    {
+      "shortcode": "DerYUonR1Tj",
+      "url": "https://www.instagram.com/theneutralpolitics/reel/DerYUonR1Tj/",
+      "type": "reel",
+      "headline": "Day 1 update: India win 11 medals, including four golds"
+    }
+  ],
   "event_id": "asian-para-games-2026-mona-agarwal-gold-avani-silver-nishad-long-jump-gold-oct19",
   "follow_up_of": null,
   "sources": [
@@ -39,12 +46,33 @@
       "outlet": "India Today",
       "headline": "Nishad Kumar's T47 long jump gold on Monday 19 October",
       "url": "https://www.indiatoday.in/sports/asian-para-games/story/nishad-kumar-long-jump-gold-t47-para-asian-games-2026-3020675-2026-10-19"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "India win 11 medals on day one, four of them gold",
+      "url": "https://timesofindia.indiatimes.com/sports/asian-para-games-2026/asian-para-games-india-win-11-medals-on-day-1-as-nishad-kumar-mona-agarwal-lead-four-gold-haul/articleshow/135048669.cms"
+    },
+    {
+      "outlet": "Sportstar",
+      "headline": "Rinku wins the men's javelin F46; Ajeet Singh takes silver",
+      "url": "https://sportstar.thehindu.com/athletics/rinku-hooda-javelin-throw-gold-medal-asian-para-games-ajeet-silver-news/article71602632.ece"
+    },
+    {
+      "outlet": "Mint",
+      "headline": "Asian Para Games live updates, 19 October",
+      "url": "https://www.livemint.com/sports/news/para-asian-games-2026-live-updates-india-schedule-today-medal-tally-results-archery-athletics-badminton-19-october-11792371698757.html"
+    },
+    {
+      "outlet": "India Today",
+      "headline": "Sheetal Devi equals a world record in compound qualification",
+      "url": "https://www.indiatoday.in/sports/asian-para-games/story/sheetal-devi-archery-para-asian-games-world-record-3020509-2026-10-19"
     }
   ],
   "photo_credits": [
     "File photograph of Mona Agarwal, 12 September 2024, not the medal moment. Prime Minister's Office (India) / Wikimedia Commons, GODL-India. https://commons.wikimedia.org/wiki/File:Mona_Agarwal_in_September_2024.jpg",
     "File photograph of Nishad Kumar, 12 September 2024, not the medal moment. Prime Minister's Office (India) / Wikimedia Commons, GODL-India. https://commons.wikimedia.org/wiki/File:Nishad_Kumar_in_September_2024.jpg",
-    "Podium slides: NP graphic."
+    "Podium slides: NP graphic.",
+    "Video frame: Courtesy SAI Media / PCI. Sheetal Devi at the archery venue, Aichi-Nagoya. Not a medal ceremony."
   ],
   "sample": false,
   "poster": "/media/2026/10/asian-para-games-2026-mona-agarwal-nishad-kumar-gold-day1.webp",
