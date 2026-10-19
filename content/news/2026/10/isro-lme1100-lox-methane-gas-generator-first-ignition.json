@@ -1,0 +1,47 @@
+{
+  "slug": "isro-lme1100-lox-methane-gas-generator-first-ignition",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-19T17:22:00+05:30",
+  "updated_at": null,
+  "category": "explainers",
+  "secondary": [],
+  "breaking": false,
+  "pinned": false,
+  "sensitive": false,
+  "tags": [
+    "ISRO",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DerMSobxeBI",
+  "ig_url": "https://www.instagram.com/reel/DerMSobxeBI/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "isro-lme1100-lox-methane-full-scale-gas-generator-first-ignition-oct19",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "ISRO",
+      "headline": "Development of LOX-Methane engine in ISRO, release of 16 October 2026",
+      "url": "https://www.isro.gov.in/LOX_Methane_engine.html"
+    },
+    {
+      "outlet": "India Today",
+      "headline": "ISRO's first ignition of the full-scale gas generator for the LME1100",
+      "url": "https://www.indiatoday.in/science/story/isro-tests-methane-rocket-engine-similar-to-spacex-style-tech-why-its-a-big-deal-3020530-2026-10-19",
+      "published": "2026-10-19T10:54:00+05:30"
+    },
+    {
+      "outlet": "Deccan Chronicle",
+      "headline": "ISRO's 9 October gas-generator ignition for the LME1100",
+      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/isro-successfully-tests-next-gen-lme1100-engine-to-power-future-lunar-missions-1996830",
+      "published": "2026-10-18T00:46:00+05:30"
+    }
+  ],
+  "photo_credits": [
+    "Courtesy ISRO. Footage of the 9 October 2026 full-scale gas-generator hot test, an igniter test, and an earlier sub-scale test of 6 March 2026."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/isro-lme1100-lox-methane-gas-generator-first-ignition.webp",
+  "corrections": []
+}
