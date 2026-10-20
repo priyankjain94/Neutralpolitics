@@ -22,6 +22,10 @@ not_confirmed:
   - "That the reel shows Deepthi Jeevanji's race. The video is courtesy of SAI Media and shows India's para table-tennis medallists at the venue."
 ---
 
+## Update, 20 Oct 2026, 5:28 PM IST
+
+India's third day of medal events is in a separate note, posted at 5:28 pm IST on 20 October 2026: [Pranav Soorma and Simran Sharma](/news/2026/10/asian-para-games-2026-day3-pranav-soorma-simran-sharma-gold).
+
 This note is verified. The reel was posted at 11:28 am IST on 20 October 2026. The Asian Para Games are in Aichi-Nagoya, Japan. For India's medal events this is the second day. Sportstar's live page labels the calendar day as Day 4 of the Games. Monday's day-one note, 11 medals including four golds, is [Day 1 at the Asian Para Games](/news/2026/10/asian-para-games-2026-mona-agarwal-nishad-kumar-gold-day1).
 
 Deepthi Jeevanji won the women's 400 metres in the T20 class. Mint, Sportstar and the Sports Authority of India give the time as 56.36 seconds and call it a Games record. She won the same event at the 2022 Games in Hangzhou, so this gold retains the title. Those reports treat the gold as India's fifth of these Games.

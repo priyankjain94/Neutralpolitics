@@ -25,6 +25,10 @@ not_confirmed:
   - "A career history for Nishad Kumar. The caption says a first major long-jump gold. The brief says a first major long-jump event. Nothing further is added."
 ---
 
+## Update, 20 Oct 2026, 5:28 PM IST
+
+India's third day of medal events is in a separate note, posted at 5:28 pm IST on 20 October 2026: [Pranav Soorma and Simran Sharma](/news/2026/10/asian-para-games-2026-day3-pranav-soorma-simran-sharma-gold).
+
 ## Update, 20 Oct 2026, 11:28 AM IST
 
 India's second day of medal events at the Asian Para Games is in a separate note, posted at 11:28 am IST on 20 October 2026: [Deepthi Jeevanji retains the 400m T20 gold](/news/2026/10/asian-para-games-2026-day2-deepthi-jeevanji-400m-t20-gold-games-record). The day was still in progress when that note was filed.

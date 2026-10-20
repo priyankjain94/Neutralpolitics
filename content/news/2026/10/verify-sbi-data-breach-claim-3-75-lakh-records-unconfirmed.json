@@ -1,0 +1,51 @@
+{
+  "slug": "verify-sbi-data-breach-claim-3-75-lakh-records-unconfirmed",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-10-20T17:49:00+05:30",
+  "updated_at": null,
+  "category": "fact-check",
+  "secondary": [],
+  "breaking": false,
+  "pinned": false,
+  "sensitive": false,
+  "tags": [
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "Det0ShAETr7",
+  "ig_url": "https://www.instagram.com/p/Det0ShAETr7/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "sbi-siriusim-375000-csv-rows-claim-unverified-oct20",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "India Today",
+      "headline": "Report of the Siriusim claim about records linked to SBI",
+      "url": "https://www.indiatoday.in/technology/news/story/sbi-data-breach-reported-hacker-claims-sensitive-info-including-kyc-records-of-375-lakh-users-at-risk-3020636-2026-10-19",
+      "published": "2026-10-19"
+    },
+    {
+      "outlet": "The Economic Times",
+      "headline": "Report of the claim, with a headline that says accounts",
+      "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/sbi-data-breach-claim-hackers-allegedly-access-3-75-lakh-accounts/articleshow/135055988.cms",
+      "published": "2026-10-20"
+    },
+    {
+      "outlet": "Moneycontrol",
+      "headline": "Hacker group alleges access to 3.75 lakh records and 2,722 documents",
+      "url": "https://www.moneycontrol.com/news/business/sbi-data-breach-claim-hacker-group-alleges-access-to-3-75-lakh-records-2-722-documents-14056008.html"
+    },
+    {
+      "outlet": "Free Press Journal",
+      "headline": "Report of the claim of 3.75 lakh records and 2,722 documents",
+      "url": "https://www.freepressjournal.in/business/sbi-subsidiaries-customer-data-allegedly-on-dark-web-375-lakh-records-2722-documents-claimed-in-data-breach"
+    }
+  ],
+  "photo_credits": [
+    "NP graphic; no sample data is shown"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/verify-sbi-data-breach-claim-3-75-lakh-records-unconfirmed.webp",
+  "corrections": []
+}
