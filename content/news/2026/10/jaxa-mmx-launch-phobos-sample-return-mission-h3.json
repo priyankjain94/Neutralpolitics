@@ -1,0 +1,66 @@
+{
+  "slug": "jaxa-mmx-launch-phobos-sample-return-mission-h3",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-20T09:49:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "pinned": false,
+  "sensitive": false,
+  "tags": [
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "Des9TPFRfHn",
+  "ig_url": "https://www.instagram.com/reel/Des9TPFRfHn/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "jaxa-mmx-phobos-sample-return-launch-h3f10-oct20",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "JAXA",
+      "headline": "Launch result of MMX aboard H3 flight No. 10",
+      "url": "https://global.jaxa.jp/press/2026/10/20261020-1_e.html",
+      "published": "2026-10-20"
+    },
+    {
+      "outlet": "JAXA",
+      "headline": "Launch time of MMX aboard H3 flight No. 10",
+      "url": "https://global.jaxa.jp/press/2026/10/20261018-1_e.html",
+      "published": "2026-10-18"
+    },
+    {
+      "outlet": "JAXA",
+      "headline": "MMX mission site, including the FY2031 capsule-recovery schedule",
+      "url": "http://www.mmx.jaxa.jp/en/"
+    },
+    {
+      "outlet": "ESA",
+      "headline": "Mars moon lander set to launch on 19 October",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October"
+    },
+    {
+      "outlet": "The Hindu (AFP)",
+      "headline": "Japan successfully launches probe in historic Mars moon mission",
+      "url": "https://www.thehindu.com/news/international/japan-successfully-launches-probe-in-historic-mars-moon-mission/article71603095.ece"
+    },
+    {
+      "outlet": "Kyodo News",
+      "headline": "Kyodo report on the MMX launch and the sample-return plan",
+      "url": "https://english.kyodonews.net/articles/-/88750"
+    },
+    {
+      "outlet": "NHK World",
+      "headline": "NHK World report on the MMX launch",
+      "url": "https://www3.nhk.or.jp/nhkworld/news/20261020de61933/"
+    }
+  ],
+  "photo_credits": [
+    "NP reel frame; visuals are NASA public-domain FILE stills (Phobos: NASA/JPL-Caltech/University of Arizona; Mars: NASA/USGS), not launch footage"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/jaxa-mmx-launch-phobos-sample-return-mission-h3.webp",
+  "corrections": []
+}

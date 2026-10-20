@@ -25,6 +25,10 @@ not_confirmed:
   - "A career history for Nishad Kumar. The caption says a first major long-jump gold. The brief says a first major long-jump event. Nothing further is added."
 ---
 
+## Update, 20 Oct 2026, 11:28 AM IST
+
+India's second day of medal events at the Asian Para Games is in a separate note, posted at 11:28 am IST on 20 October 2026: [Deepthi Jeevanji retains the 400m T20 gold](/news/2026/10/asian-para-games-2026-day2-deepthi-jeevanji-400m-t20-gold-games-record). The day was still in progress when that note was filed.
+
 ## Update, 19 Oct 2026, 7:06 PM IST
 
 A reel posted at 7:06 pm IST on 19 October gives the full Day 1 count for the Asian Para Games in Aichi-Nagoya. The 11-medal line was rechecked at about 7:05 pm IST on The Times of India's live page. India won 11 medals: four gold, five silver and two bronze. On the medal table India is fourth, behind China and Japan.

@@ -3,7 +3,7 @@
   "status": "published",
   "status_hi": "published",
   "published_at": "2026-10-19T18:26:00+05:30",
-  "updated_at": "2026-10-19T19:06:00+05:30",
+  "updated_at": "2026-10-20T11:28:00+05:30",
   "category": "sports",
   "secondary": [],
   "breaking": false,
@@ -11,7 +11,8 @@
   "sensitive": false,
   "tags": [
     "TeamIndia",
-    "NeutralPolitics"
+    "NeutralPolitics",
+    "AsianParaGames2026"
   ],
   "ig_shortcode": "DerTvAOEXla",
   "ig_url": "https://www.instagram.com/p/DerTvAOEXla/",
