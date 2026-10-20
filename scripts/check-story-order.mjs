@@ -87,11 +87,11 @@ for (const file of walk(path.join(process.cwd(), "content", "news"))) {
 const live = pickFeatured(published, Date.parse("2026-10-02T04:20:00Z"));
 const top5 = [live.lead, ...live.rest].slice(0, 5).map((item) => item.slug);
 assert.deepEqual(live.top.map((item) => item.slug), live.rest.slice(0, 3).map((item) => item.slug));
-assert.equal(live.lead.slug, "india-world-in-24-hours-19-oct-2026");
+assert.equal(live.lead.slug, "ccpa-explosives-online-3940-sellers-delisted-7-platforms");
 assert.deepEqual(top5.slice(0, 3), [
+  "ccpa-explosives-online-3940-sellers-delisted-7-platforms",
   "india-world-in-24-hours-19-oct-2026",
   "asian-para-games-2026-mona-agarwal-nishad-kumar-gold-day1",
-  "isro-lme1100-lox-methane-gas-generator-first-ignition",
 ]);
 assert.equal(top5.includes("delhi-judge-letter-pocso-survivor"), false);
 assert.equal(top5.includes("nia-sonu-barnala-deportation"), false);
