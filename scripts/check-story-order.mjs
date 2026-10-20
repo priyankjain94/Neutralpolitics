@@ -87,11 +87,11 @@ for (const file of walk(path.join(process.cwd(), "content", "news"))) {
 const live = pickFeatured(published, Date.parse("2026-10-02T04:20:00Z"));
 const top5 = [live.lead, ...live.rest].slice(0, 5).map((item) => item.slug);
 assert.deepEqual(live.top.map((item) => item.slug), live.rest.slice(0, 3).map((item) => item.slug));
-assert.equal(live.lead.slug, "asian-para-games-2026-day2-deepthi-jeevanji-400m-t20-gold-games-record");
+assert.equal(live.lead.slug, "rajnath-sco-chg-dushanbe-no-double-standards-terrorism");
 assert.deepEqual(top5.slice(0, 3), [
+  "rajnath-sco-chg-dushanbe-no-double-standards-terrorism",
   "asian-para-games-2026-day2-deepthi-jeevanji-400m-t20-gold-games-record",
   "i4c-advisory-fake-welfare-scheme-ads-deepfake-pm-fm-cms",
-  "jaxa-mmx-launch-phobos-sample-return-mission-h3",
 ]);
 assert.equal(top5.includes("delhi-judge-letter-pocso-survivor"), false);
 assert.equal(top5.includes("nia-sonu-barnala-deportation"), false);
