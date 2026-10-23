@@ -1,0 +1,55 @@
+{
+  "slug": "marathon-fusion-claims-mercury-to-gold-fusion-neutrons-unverified",
+  "status": "draft",
+  "status_hi": "draft",
+  "published_at": "2026-10-23T09:09:00+05:30",
+  "updated_at": null,
+  "category": "fact-check",
+  "secondary": [],
+  "breaking": false,
+  "pinned": false,
+  "sensitive": false,
+  "tags": [
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "De0mq_JRQ9R",
+  "ig_url": "https://www.instagram.com/theneutralpolitics/reel/De0mq_JRQ9R/",
+  "ig_type": "reel",
+  "ig_more": [],
+  "event_id": "marathon-fusion-mercury-gold-fusion-neutrons-claim-unverified-oct23",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Marathon Fusion",
+      "headline": "X thread dated 21 October 2026 in the source name; the list gives the X homepage, not a link to one post",
+      "url": "https://x.com/",
+      "published": "2026-10-21"
+    },
+    {
+      "outlet": "The Deep Dive",
+      "headline": "Named in the caption; homepage only",
+      "url": "https://thedeepdive.ca"
+    },
+    {
+      "outlet": "TokenPost",
+      "headline": "The one specific article URL in the source list",
+      "url": "https://tokenpost.com/news/technology/38276"
+    },
+    {
+      "outlet": "The Oregon Group",
+      "headline": "Named in the caption; homepage only",
+      "url": "https://theoregongroup.com"
+    }
+  ],
+  "photo_credits": [
+    "NP reel frame (Pexels footage, representational)",
+    "Sururi Ballıdağ/Pexels. Gold jewellery display. Representational, not the claimed experiment. Pexels License.",
+    "Dan Cristian Pădureț/Pexels. Metallic liquid swirl, representational for mercury. Pexels License. https://www.pexels.com/video/gold-silver-liquid-in-circular-motion-3039168/",
+    "Kindel Media/Pexels. Scientist in a laboratory. Representational. Pexels License. https://www.pexels.com/video/a-scientist-doing-an-experiment-in-the-laboratory-8326499/",
+    "Mathias De Rivo/Pexels. Plasma ball, labelled not fusion. Pexels License. https://www.pexels.com/video/close-up-footage-of-a-plasma-ball-6738879/",
+    "Pavel Danilyuk/Pexels. Cleanroom laboratory. Representational. Pexels License. https://www.pexels.com/video/a-female-scientist-working-in-a-laboratory-8381451/"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/marathon-fusion-claims-mercury-to-gold-fusion-neutrons-unverified.webp",
+  "corrections": []
+}
