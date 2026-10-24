@@ -2,7 +2,7 @@
 title: "Bhau detained in the US, officials say"
 standfirst: "Officials say the FBI detained Himanshu Bhau in Las Vegas on Thursday evening, US time, and that deportation or extradition efforts are under way."
 key_facts:
-  - "NP NOW. The carousel was posted at 9:52 am IST on 24 October 2026. This file is a draft. The case list is allegation-heavy. The picture is an NP-made typographic graphic. No photograph of the accused is used."
+  - "NP NOW. The carousel was posted at 9:52 am IST on 24 October 2026. The case list is allegation-heavy. The picture is an NP-made typographic graphic. No photograph of the accused is used."
   - "Officials say the FBI detained him in the United States, in Las Vegas, on Thursday evening, US time. The package does not give that moment as a clock time in IST. This note uses detained, as the caption and the brief do."
   - "He is described as wanted in about 18 cases, including alleged murder, attempt to murder and extortion. NDTV and The Indian Express are named for that list. Wanted is not a court result."
   - "An Interpol Red Notice was issued in August 2023. The Indian Express and NDTV report that."
@@ -24,7 +24,7 @@ not_confirmed:
   - "That the firing outside Elvish Yadav's house is a proved act. The line here is that he claimed responsibility."
 ---
 
-This file is a draft. The carousel was posted at 9:52 am IST on 24 October 2026. The series is NP NOW. The picture is an NP-made typographic graphic. No photograph of the accused is used. The underlying material is allegation-heavy, which is why the page is held unpublished. Detention, where this note states it, is attributed to officials. The cases are labelled as alleged.
+The carousel was posted at 9:52 am IST on 24 October 2026. The series is NP NOW. The picture is an NP-made typographic graphic. No photograph of the accused is used. The underlying material is allegation-heavy. Detention, where this note states it, is attributed to officials. The cases are labelled as alleged.
 
 Officials say the FBI detained Himanshu Bhau in the United States. The reports place that in Las Vegas, on Thursday evening, US time. The caption says he was picked up then. This note does not convert that evening into a clock time in Indian Standard Time. The 9:52 am IST figure is when the carousel was posted, not when officials say the detention happened. The verb in the caption and in the brief is detained. This note stays with that verb.
 
