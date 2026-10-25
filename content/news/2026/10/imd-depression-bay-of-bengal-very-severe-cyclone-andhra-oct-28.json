@@ -1,0 +1,53 @@
+{
+  "slug": "imd-depression-bay-of-bengal-very-severe-cyclone-andhra-oct-28",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-25T08:58:00+05:30",
+  "updated_at": null,
+  "category": "disasters-weather",
+  "secondary": [],
+  "breaking": false,
+  "pinned": true,
+  "sensitive": false,
+  "tags": [
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "De5veEplFbB",
+  "ig_url": "https://www.instagram.com/p/De5veEplFbB/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "imd-depression-bay-of-bengal-formed-oct24-vscs-landfall-bapatla-visakhapatnam-oct28-forenoon-update-oct25",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "India Meteorological Department",
+      "headline": "National Bulletin No. 2 (BOB/08/2026), issued 02:00 IST on 25 October",
+      "url": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/2__National_Bulletin_No_2-24Oct2026_2330IST.pdf",
+      "published": "2026-10-25"
+    },
+    {
+      "outlet": "India Meteorological Department",
+      "headline": "Press release of 24 October 2026",
+      "url": "https://internal.imd.gov.in/press_release/20261024_pr_5430.pdf",
+      "published": "2026-10-24"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Report of the IMD forecast for the Andhra Pradesh and Yanam coasts",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-braces-for-very-severe-cyclonic-storm-landfall-likely-between-bapatla-and-vizag-on-october-28/article71621095.ece",
+      "published": "2026-10-25"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Earlier report named with the 24 October package",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclonic-storm-likely-to-hit-north-andhra-pradesh-coast-on-october-28-says-imd/article71617203.ece",
+      "published": "2026-10-24"
+    }
+  ],
+  "photo_credits": [
+    "Cover: NP graphic; data: IMD."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/imd-depression-bay-of-bengal-very-severe-cyclone-andhra-oct-28.webp",
+  "corrections": []
+}
