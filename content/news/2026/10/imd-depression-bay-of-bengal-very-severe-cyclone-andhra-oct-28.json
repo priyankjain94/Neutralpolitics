@@ -3,7 +3,7 @@
   "status": "published",
   "status_hi": "published",
   "published_at": "2026-10-25T08:58:00+05:30",
-  "updated_at": null,
+  "updated_at": "2026-10-26T12:32:00+05:30",
   "category": "disasters-weather",
   "secondary": [],
   "breaking": false,
@@ -12,10 +12,17 @@
   "tags": [
     "NeutralPolitics"
   ],
-  "ig_shortcode": "De5veEplFbB",
-  "ig_url": "https://www.instagram.com/p/De5veEplFbB/",
+  "ig_shortcode": "De8s3jbm5P_",
+  "ig_url": "https://www.instagram.com/p/De8s3jbm5P_/",
   "ig_type": "carousel",
-  "ig_more": [],
+  "ig_more": [
+    {
+      "shortcode": "De5veEplFbB",
+      "url": "https://www.instagram.com/p/De5veEplFbB/",
+      "type": "carousel",
+      "headline": "Earlier carousel, 25 October: the depression forecast"
+    }
+  ],
   "event_id": "imd-depression-bay-of-bengal-formed-oct24-vscs-landfall-bapatla-visakhapatnam-oct28-forenoon-update-oct25",
   "follow_up_of": null,
   "sources": [
@@ -42,10 +49,30 @@
       "headline": "Earlier report named with the 24 October package",
       "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclonic-storm-likely-to-hit-north-andhra-pradesh-coast-on-october-28-says-imd/article71617203.ece",
       "published": "2026-10-24"
+    },
+    {
+      "outlet": "India Meteorological Department",
+      "headline": "National Bulletin No. 8 (BOB/08/2026), issued 09:30 IST on 26 October",
+      "url": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/8__National_Bulletin_No_8-26Oct2026_0530IST1.pdf",
+      "published": "2026-10-26"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "The deep depression intensifies into Cyclone Arnab",
+      "url": "https://www.thehindu.com/news/national/odisha/deep-depression-intensifies-into-cyclonic-storm-arnab/article71625560.ece",
+      "published": "2026-10-26"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Andhra Pradesh preparations after Cyclone Arnab; this note uses the vigilance order",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-threat-naidu-orders-evacuations-puts-andhra-pradesh-on-high-alert/article71627074.ece",
+      "published": "2026-10-26"
     }
   ],
   "photo_credits": [
-    "Cover: NP graphic; data: IMD."
+    "Cover: Images: Courtesy IMD (INSAT-3DR, track) in NP graphic.",
+    "IMD INSAT-3DR visible image, 26 October 2026, 07:14 IST, from National Bulletin No. 8. Courtesy: IMD.",
+    "IMD observed and forecast track with cone of uncertainty, based on 0000 UTC (05:30 IST) on 26 October. Source: IMD."
   ],
   "sample": false,
   "poster": "/media/2026/10/imd-depression-bay-of-bengal-very-severe-cyclone-andhra-oct-28.webp",

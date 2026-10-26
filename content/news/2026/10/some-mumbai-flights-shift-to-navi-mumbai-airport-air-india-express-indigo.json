@@ -1,0 +1,53 @@
+{
+  "slug": "some-mumbai-flights-shift-to-navi-mumbai-airport-air-india-express-indigo",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-26T11:36:00+05:30",
+  "updated_at": null,
+  "category": "economy",
+  "secondary": [],
+  "breaking": false,
+  "pinned": true,
+  "sensitive": false,
+  "tags": [
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "De8mV4om5xS",
+  "ig_url": "https://www.instagram.com/p/De8mV4om5xS/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "indigo-air-india-express-phased-shift-navi-mumbai-nmia-aix-domestic-dec2026-indigo-12-intl-feb-jul2027-csmia-t1-redevelopment-oct25-update",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Air India",
+      "headline": "Air India Group and Adani Airports on a phased move of some flights to Navi Mumbai",
+      "url": "https://www.airindia.com/in/en/newsroom/press-release/air-india-group-adani-airports-navi-mumbai-transition.html",
+      "published": "2026-10-25"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "Report of the Navi Mumbai shift; other airlines still oppose the reallocation",
+      "url": "https://indianexpress.com/article/cities/mumbai/navi-mumbai-airport-international-flights-december-10936249/",
+      "published": "2026-10-25"
+    },
+    {
+      "outlet": "Moneycontrol",
+      "headline": "IndiGo and Air India Express plans from Navi Mumbai airport",
+      "url": "https://www.moneycontrol.com/news/business/companies/indigo-air-india-express-share-international-flights-plans-from-navi-mumbai-airport-14059497.html",
+      "published": "2026-10-25"
+    },
+    {
+      "outlet": "CNBC-TV18",
+      "headline": "IndiGo and Air India Express plans to shift some Mumbai flights",
+      "url": "https://www.cnbctv18.com/business/aviation/indigo-air-india-express-to-shift-mumbai-flights-to-navi-mumbai-airport-20018777.htm",
+      "published": "2026-10-25"
+    }
+  ],
+  "photo_credits": [
+    "Cover: Navi Mumbai Airport photo: Suraj Digrase, Wikimedia Commons, CC0 (in NP graphic). https://commons.wikimedia.org/wiki/File:Navi_Mumbai_Airport_(96252).jpg"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/some-mumbai-flights-shift-to-navi-mumbai-airport-air-india-express-indigo.webp",
+  "corrections": []
+}
