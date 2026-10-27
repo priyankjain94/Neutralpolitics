@@ -3,7 +3,7 @@
   "status": "published",
   "status_hi": "published",
   "published_at": "2026-10-25T08:58:00+05:30",
-  "updated_at": "2026-10-26T12:32:00+05:30",
+  "updated_at": "2026-10-27T08:50:00+05:30",
   "category": "disasters-weather",
   "secondary": [],
   "breaking": false,
@@ -12,10 +12,16 @@
   "tags": [
     "NeutralPolitics"
   ],
-  "ig_shortcode": "De8s3jbm5P_",
-  "ig_url": "https://www.instagram.com/p/De8s3jbm5P_/",
+  "ig_shortcode": "De-4OINlFUv",
+  "ig_url": "https://www.instagram.com/p/De-4OINlFUv/",
   "ig_type": "carousel",
   "ig_more": [
+    {
+      "shortcode": "De8s3jbm5P_",
+      "url": "https://www.instagram.com/p/De8s3jbm5P_/",
+      "type": "carousel",
+      "headline": "Earlier carousel, 26 October: Cyclone Arnab forms"
+    },
     {
       "shortcode": "De5veEplFbB",
       "url": "https://www.instagram.com/p/De5veEplFbB/",
@@ -67,12 +73,50 @@
       "headline": "Andhra Pradesh preparations after Cyclone Arnab; this note uses the vigilance order",
       "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-threat-naidu-orders-evacuations-puts-andhra-pradesh-on-high-alert/article71627074.ece",
       "published": "2026-10-26"
+    },
+    {
+      "outlet": "India Meteorological Department",
+      "headline": "National Bulletin No. 15 (BOB/08/2026), issued 03:45 IST on 27 October",
+      "url": "https://mausam.imd.gov.in/Forecast/marquee_data/15.%20National%20Bulletin%20No%2015-27Oct2026_0230IST.pdf",
+      "published": "2026-10-27"
+    },
+    {
+      "outlet": "India Meteorological Department",
+      "headline": "RSMC Tropical Cyclone Advisory No. 7, based on 1800 UTC on 26 October",
+      "url": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/Tropical_cyclone_advisory_No__7_based_on_1800_UTC_of_26_10_2026.pdf",
+      "published": "2026-10-26"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Report named for the Andhra evacuation order",
+      "url": "https://www.thehindu.com/news/national/ap-odisha-on-alert-as-cyclone-arnab-nears-land/article71627868.ece",
+      "published": "2026-10-27"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Report named for the red alert and the helplines",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/very-severe-cyclone-arnab-to-make-landfall-near-yanam-kakinada-red-alert-issued-for-seven-districts/article71626990.ece",
+      "published": "2026-10-27"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "Report named for the 27 October red-alert places",
+      "url": "https://timesofindia.indiatimes.com/city/vijayawada/yellow-alert-in-2-andhra-districts-today-red-alert-in-several-areas-on-oct-27-28-amid-cyclone-arnab/articleshow/135201914.cms",
+      "published": "2026-10-27"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "Live updates named with the red-alert list",
+      "url": "https://timesofindia.indiatimes.com/city/vijayawada/cyclone-arnab-live-updates-imd-weather-forecast-landfall-andhra-pradesh-odisha-heavy-rain-warnings-bay-of-bengal/liveblog/135191583.cms",
+      "published": "2026-10-27"
     }
   ],
   "photo_credits": [
-    "Cover: Images: Courtesy IMD (INSAT-3DR, track) in NP graphic.",
-    "IMD INSAT-3DR visible image, 26 October 2026, 07:14 IST, from National Bulletin No. 8. Courtesy: IMD.",
-    "IMD observed and forecast track with cone of uncertainty, based on 0000 UTC (05:30 IST) on 26 October. Source: IMD."
+    "Cover: Images: Courtesy IMD (INSAT-3DS, track) in NP graphic.",
+    "IMD INSAT-3DS thermal infrared image, 27 October 2026, 02:30-02:57 IST, from National Bulletin No. 15. Courtesy: IMD.",
+    "IMD observed and forecast track with cone of uncertainty, based on 1800 UTC (23:30 IST) on 26 October, from Bulletin No. 15. Source: IMD.",
+    "Earlier cover, 26 October: IMD INSAT-3DR visible image, 26 October 2026, 07:14 IST, from National Bulletin No. 8. Courtesy: IMD.",
+    "Earlier track, Bulletin No. 8: observed and forecast track with cone of uncertainty, based on 0000 UTC (05:30 IST) on 26 October. Source: IMD."
   ],
   "sample": false,
   "poster": "/media/2026/10/imd-depression-bay-of-bengal-very-severe-cyclone-andhra-oct-28.webp",
