@@ -3,7 +3,7 @@
   "status": "published",
   "status_hi": "published",
   "published_at": "2026-10-25T08:58:00+05:30",
-  "updated_at": "2026-10-27T08:50:00+05:30",
+  "updated_at": "2026-10-28T09:37:00+05:30",
   "category": "disasters-weather",
   "secondary": [],
   "breaking": false,
@@ -12,10 +12,16 @@
   "tags": [
     "NeutralPolitics"
   ],
-  "ig_shortcode": "De-4OINlFUv",
-  "ig_url": "https://www.instagram.com/p/De-4OINlFUv/",
+  "ig_shortcode": "DfBiXaylHta",
+  "ig_url": "https://www.instagram.com/p/DfBiXaylHta/",
   "ig_type": "carousel",
   "ig_more": [
+    {
+      "shortcode": "De-4OINlFUv",
+      "url": "https://www.instagram.com/p/De-4OINlFUv/",
+      "type": "carousel",
+      "headline": "Earlier carousel, 27 October: very severe, Yanam forecast"
+    },
     {
       "shortcode": "De8s3jbm5P_",
       "url": "https://www.instagram.com/p/De8s3jbm5P_/",
@@ -109,11 +115,60 @@
       "headline": "Live updates named with the red-alert list",
       "url": "https://timesofindia.indiatimes.com/city/vijayawada/cyclone-arnab-live-updates-imd-weather-forecast-landfall-andhra-pradesh-odisha-heavy-rain-warnings-bay-of-bengal/liveblog/135191583.cms",
       "published": "2026-10-27"
+    },
+    {
+      "outlet": "India Meteorological Department",
+      "headline": "National Bulletin No. 24 (BOB/08/2026), issued 08:45 IST on 28 October",
+      "url": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/24__National_Bulletin_No_24-28Oct2026_0530IST.pdf",
+      "published": "2026-10-28"
+    },
+    {
+      "outlet": "Channel NewsAsia",
+      "headline": "Reuters report, carried here, of the surge line; this note gives no casualty count",
+      "url": "https://www.channelnewsasia.com/asia/cyclone-arnab-india-east-coast-6497916",
+      "published": "2026-10-28"
+    },
+    {
+      "outlet": "India Today",
+      "headline": "Report named with the flights and the trains",
+      "url": "https://www.indiatoday.in/science/story/cyclone-arnab-landfall-andhra-pradesh-150-kmph-winds-kakinada-flood-rescues-3026554-2026-10-28",
+      "published": "2026-10-28"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Report of rain in northern Andhra Pradesh; this note gives no casualty count",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-very-heavy-rainfall-batters-northern-districts-of-ap-one-dead/article71632422.ece",
+      "published": "2026-10-28"
+    },
+    {
+      "outlet": "Sambad",
+      "headline": "Report of the later IMD statement that the coast was crossed and the storm weakened",
+      "url": "https://sambadenglish.com/national-international-news/india/cyclone-arnab-crosses-coast-with-max-wind-speed-of-150-kmph-weakens-12759872",
+      "published": "2026-10-28"
+    },
+    {
+      "outlet": "Associated Press",
+      "headline": "Report of Cyclone Arnab on the Andhra Pradesh and Odisha coasts",
+      "url": "https://apnews.com/article/cyclone-arnab-india-andhra-pradesh-odisha-96277efc4371cf379c24b7694dfa9f62",
+      "published": "2026-10-28"
+    },
+    {
+      "outlet": "The New Indian Express",
+      "headline": "Chief Minister N. Chandrababu Naidu's statement on casualties so far",
+      "url": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Oct/28/cyclone-arnab-no-casualties-in-andhra-pradesh-says-cm-chandrababu-naidu",
+      "published": "2026-10-28"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Updates after the crossing; this note gives no casualty count",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-landfall-updates/article71633266.ece",
+      "published": "2026-10-28"
     }
   ],
   "photo_credits": [
-    "Cover: Images: Courtesy IMD (INSAT-3DS, track) in NP graphic.",
-    "IMD INSAT-3DS thermal infrared image, 27 October 2026, 02:30-02:57 IST, from National Bulletin No. 15. Courtesy: IMD.",
+    "Cover: Source: IMD (INSAT-3DS) / NP graphic.",
+    "IMD INSAT-3DS thermal infrared image, 28 October 2026, 08:00-08:27 IST. Source: IMD.",
+    "Earlier cover, 27 October: IMD INSAT-3DS thermal infrared image, 27 October 2026, 02:30-02:57 IST, from National Bulletin No. 15. Courtesy: IMD.",
     "IMD observed and forecast track with cone of uncertainty, based on 1800 UTC (23:30 IST) on 26 October, from Bulletin No. 15. Source: IMD.",
     "Earlier cover, 26 October: IMD INSAT-3DR visible image, 26 October 2026, 07:14 IST, from National Bulletin No. 8. Courtesy: IMD.",
     "Earlier track, Bulletin No. 8: observed and forecast track with cone of uncertainty, based on 0000 UTC (05:30 IST) on 26 October. Source: IMD."
