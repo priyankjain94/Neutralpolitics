@@ -1,0 +1,188 @@
+{
+  "slug": "india-world-in-24-hours-30-oct-2026",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-30T21:10:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "pinned": true,
+  "sensitive": false,
+  "tags": [
+    "roundup",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DfH7T5VCF9H",
+  "ig_url": "https://www.instagram.com/p/DfH7T5VCF9H/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "india-world-24h-recap-2026-10-30",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The Hindu",
+      "headline": "Chamoli district magistrate's confirmation of the Joshimath deaths",
+      "url": "https://www.thehindu.com/news/national/uttarakhand/uttarakhand-chopper-crash-casualties-badrinath-to-dehradun-updates-october-30-2026/article71644516.ece",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "ThePrint",
+      "headline": "Chamoli superintendent of police's confirmation, via PTI, of all six deaths",
+      "url": "https://theprint.in/india/uttarakhand-chopper-crash-kills-all-six-on-board-near-joshimath/3086282/",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "Report of the helicopter crash near Joshimath",
+      "url": "https://timesofindia.indiatimes.com/india/uttarakhand-helicopter-crash-chopper-went-missing-near-joshimath-passengers-were-from-bengaluru-what-we-know-so-far/articleshow/135356082.cms",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "The Economic Times",
+      "headline": "Report of the Prime Minister releasing the 24th PM-KISAN instalment",
+      "url": "https://economictimes.indiatimes.com/news/india/pm-modi-releases-rs-19000-crore-under-24th-instalment-of-pm-kisan/articleshow/135346598.cms",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "MyGov",
+      "headline": "Event page for the 24th instalment to more than 9.34 crore beneficiaries",
+      "url": "https://pmevents.mygov.in/en/event/transfer-of-24th-installment-to-more-than-9-34-crore-pm-kisan-beneficiaries/",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "Moneycontrol",
+      "headline": "Report of the Banaskantha release of the 24th PM-KISAN instalment",
+      "url": "https://www.moneycontrol.com/news/india/pm-modi-releases-pm-kisan-samman-nidhi-s-24th-installment-at-banaskantha-event-how-to-check-at-pmkisan-gov-in-14064346.html",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "Business Standard",
+      "headline": "Report of the Supreme Court on bank compensation in the cyber-fraud rules",
+      "url": "https://www.business-standard.com/india-news/sc-asks-rbi-to-make-banks-compensate-victims-of-digital-arrest-cyber-fraud-126102901741_1.html",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "LiveLaw",
+      "headline": "Report of the Supreme Court hearing on digital-arrest and cyber-fraud rules",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-digital-arrest-cyber-fraud-banks-strict-liability-negligence-failure-in-due-diligence-collusion-556538",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Report of the Supreme Court on compensation where a bank's due diligence failed",
+      "url": "https://www.thehindu.com/news/national/sc-calls-for-mandatory-compensation-to-digital-fraud-victims-in-case-of-banks-due-diligence/article71640230.ece",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "The Economic Times",
+      "headline": "Report of the Karnataka milk-price rise of Rs 8 a litre",
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/food/karnataka-hikes-milk-prices-by-rs-8-per-litre/articleshow/135304032.cms",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "Report of the Nandini price change from 1 November",
+      "url": "https://indianexpress.com/article/cities/bangalore/karnataka-milk-price-hike-8-rupees-november-1-cabinet-approval-10942332/",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Report of the milk-price rise in Karnataka",
+      "url": "https://www.thehindu.com/news/national/karnataka/milk-price-hiked-in-karnataka/article71640242.ece",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "Report of the Rafale Marine landing on INS Vikrant during trials",
+      "url": "https://timesofindia.indiatimes.com/defence/news/watch-rafale-marine-lands-on-ins-vikrant-navy-tests-french-jet-in-major-milestone/articleshow/135357716.cms",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "CNBC-TV18",
+      "headline": "Report of the first Rafale Marine landing as carrier trials begin",
+      "url": "https://www.cnbctv18.com/india/rafale-marine-makes-maiden-landing-on-ins-vikrant-as-indian-navy-begins-carrier-trials-watch-video-20023537.htm",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "India Today",
+      "headline": "Report of the Rafale Marine landing on INS Vikrant",
+      "url": "https://www.indiatoday.in/india/story/rafale-marine-lands-on-ins-vikrant-on-maiden-attempt-indian-navy-3028534-2026-10-30",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "The Week",
+      "headline": "Report of the first Rafale Marine landing, described as a step in trials",
+      "url": "https://www.theweek.in/news/defence/2026/10/30/in-first-step-towards-operationalisation-rafale-marine-fighter-jet-makes-successful-first-landing-on-ins-vikrant.html",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "Indian Navy",
+      "headline": "Indian Navy account named with the Rafale Marine trials",
+      "url": "https://x.com/indiannavy",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "Associated Press",
+      "headline": "Report of the Binance security incident; the figure used here is assets impacted",
+      "url": "https://apnews.com/article/binance-cryptocurrency-security-39cda8ceb8095e036334a18549d3d20d",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "Binance",
+      "headline": "Binance announcement named with the security incident",
+      "url": "https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "CNBC",
+      "headline": "Report that Tether and Circle froze tokens after the Binance incident",
+      "url": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "Reuters",
+      "headline": "Report, via StreetInsider, that Tether and Circle froze $2.38 billion",
+      "url": "https://www.streetinsider.com/Reuters/Tether%2C+Circle+freeze+%242.38+billion+after+Binance+reports+security+incident/27259548.html",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "Report of the Shintaphu glacial-lake burst and the Sankosh flood alert",
+      "url": "https://indianexpress.com/article/india/bhutan-shintaphu-lake-glacial-burst-sankosh-river-flood-alert-assam-kokrajhar-dhubri-water-receding-10943442/",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "News on Air",
+      "headline": "Central Water Commission flood advisory for West Bengal and Assam after the Bhutan outburst",
+      "url": "https://newsonair.gov.in/cwc-issues-flood-advisory-for-west-bengal-assam-following-glacial-lake-outburst-in-bhutan/",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "headline": "Report of the alert in north Bengal after the glacial-lake outburst in Bhutan",
+      "url": "https://www.hindustantimes.com/india-news/glacial-lake-outburst-in-bhutan-alert-sounded-in-north-bengal-101793325975831.html",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "NDTV",
+      "headline": "Report of the Shintaphu outburst and the warning for Bengal and Assam",
+      "url": "https://www.ndtv.com/world-news/shintaphu-lake-glacial-lake-outburst-in-bhutan-sends-flash-floods-warning-to-bengal-assam-12256637",
+      "published": "2026-10-30"
+    }
+  ],
+  "photo_credits": [
+    "Cover: NP graphic (recap cover).",
+    "Joshimath town, file, 2022, not this crash. Rohanshah657 / Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Joshimath_town_on_mountain_slope.jpg",
+    "Official portrait of Prime Minister Narendra Modi, file, November 2020, not the Bhildi event. Government of India / Wikimedia Commons, GODL-India. https://commons.wikimedia.org/wiki/File:Official_portrait_of_the_Prime_Minister_Narendra_Modi,_November_2020_(cropped).jpg",
+    "Supreme Court of India, file, 2019, not this hearing. Subhashish Panigrahi / Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Supreme_Court_of_India_01.jpg",
+    "A Nandini milk booth in Mysuru, file, 2024, not this price decision. Timothy A. Gonsalves / Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Milk_Booth_Nandini_Siddhartha_Mysore_May24_A7CR_00081-2_Pano.jpg",
+    "INS Vikrant, file, 2022, not the 29 October landing. Indian Navy / Wikimedia Commons, GODL-India. https://commons.wikimedia.org/wiki/File:INS_Vikrant_Fleet_Operation_5.jpg",
+    "Binance merchandise, file, 2022, not this incident. Bretwa / Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Binance_t-shirt_and_bag_-_2022-07-09.jpg",
+    "A river in Bhutan, file, 2018, not the Sankosh on this day. Bernard Gagnon / Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Puna_Tsang_Chu_River,_Bhutan.jpg",
+    "End card: NP-made graphic."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/india-world-in-24-hours-30-oct-2026.webp",
+  "corrections": []
+}
