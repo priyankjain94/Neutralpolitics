@@ -1,0 +1,55 @@
+{
+  "slug": "isro-gslv-f18-places-nvs-03-in-orbit-navic",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-31T09:14:00+05:30",
+  "updated_at": null,
+  "category": "explainers",
+  "secondary": [],
+  "breaking": false,
+  "pinned": true,
+  "sensitive": false,
+  "tags": [
+    "ISRO",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DfJOEMHEQhq",
+  "ig_url": "https://www.instagram.com/p/DfJOEMHEQhq/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "isro-gslv-f18-nvs-03-launch-success-navic-oct30-2026",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "ISRO",
+      "headline": "Mission page for GSLV-F18 and NVS-03: the 20th GSLV flight, the Second Launch Pad, and placement in the intended transfer orbit",
+      "url": "https://www.isro.gov.in/Mission_GSLVF18.html",
+      "published": "2026-10-30"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "News report of the launch; used for figures that are not on the ISRO mission-page text",
+      "url": "https://timesofindia.indiatimes.com/india/isros-gslv-f18/nvs-03-mission-successful-next-generation-navigation-satellite-placed-in-orbit-navic-constellation-gets-a-boost/articleshow/135374721.cms",
+      "published": "2026-10-31"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "PTI report of the launch; used for figures that are not on the ISRO mission-page text",
+      "url": "https://indianexpress.com/article/india/isro-successfully-launches-navigation-satellite-nvs-03-into-designated-orbit-10944123/",
+      "published": "2026-10-31"
+    },
+    {
+      "outlet": "Space.com",
+      "headline": "News report of the NVS-03 launch; used for figures that are not on the ISRO mission-page text",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/india-launches-nvs-03-navigation-satellite-gslv-rocket",
+      "published": "2026-10-31"
+    }
+  ],
+  "photo_credits": [
+    "Cover: Courtesy: ISRO.",
+    "Launch photograph: Courtesy: ISRO. https://www.isro.gov.in/media_isro/image/index/GSLVF18_NVS03/TPF05922.webp"
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/isro-gslv-f18-places-nvs-03-in-orbit-navic.webp",
+  "corrections": []
+}

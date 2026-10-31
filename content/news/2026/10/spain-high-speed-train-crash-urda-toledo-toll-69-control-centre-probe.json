@@ -1,0 +1,54 @@
+{
+  "slug": "spain-high-speed-train-crash-urda-toledo-toll-69-control-centre-probe",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-10-29T16:58:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "pinned": false,
+  "sensitive": false,
+  "tags": [
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DfE5mcJG4xo",
+  "ig_url": "https://www.instagram.com/p/DfE5mcJG4xo/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "spain-urda-toledo-ave-iryo-toll-69-control-centre-oct28-2026",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Associated Press",
+      "headline": "Report of the Spain train crash; this note uses the later toll of at least 69",
+      "url": "https://apnews.com/article/train-accident-spain-4f65471a0e36f448d7ee9efe0768cd77",
+      "published": "2026-10-28"
+    },
+    {
+      "outlet": "BBC",
+      "headline": "Report of the Spain train crash; named with the earlier figures",
+      "url": "https://www.bbc.com/news/articles/c6p3g84kjqjlo",
+      "published": "2026-10-28"
+    },
+    {
+      "outlet": "Euronews",
+      "headline": "Transport Minister Oscar Puente's timeline and his word for the control-centre order",
+      "url": "https://www.euronews.com/2026/10/28/inexplicable-order-by-control-centre-investigated-after-spain-train-crash",
+      "published": "2026-10-28"
+    },
+    {
+      "outlet": "RTVE",
+      "headline": "The later toll, about 50 people still in hospital, and a control-centre operator questioned",
+      "url": "https://www.rtve.es/noticias/20261028/guardia-civil-interroga-operario-del-centro-control-regulaba-trafico-momento-del-accidente/17287370.shtml",
+      "published": "2026-10-28"
+    }
+  ],
+  "photo_credits": [
+    "Cover: NP graphic (typographic card); data: Spanish Transport Ministry via media reports.",
+    "Graphics: NP-made typographic cards. No photograph. No crash-site image."
+  ],
+  "sample": false,
+  "poster": "/media/2026/10/spain-high-speed-train-crash-urda-toledo-toll-69-control-centre-probe.webp",
+  "corrections": []
+}
