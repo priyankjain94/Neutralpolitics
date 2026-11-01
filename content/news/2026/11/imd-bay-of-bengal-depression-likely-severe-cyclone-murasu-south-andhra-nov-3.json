@@ -1,0 +1,54 @@
+{
+  "slug": "imd-bay-of-bengal-depression-likely-severe-cyclone-murasu-south-andhra-nov-3",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-11-01T08:58:00+05:30",
+  "updated_at": null,
+  "category": "disasters-weather",
+  "secondary": [],
+  "breaking": false,
+  "pinned": true,
+  "sensitive": false,
+  "tags": [
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DfLxGp3EWM1",
+  "ig_url": "https://www.instagram.com/p/DfLxGp3EWM1/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "bay-depression-likely-cyclone-murasu-south-andhra-nov3-2026",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "India Meteorological Department",
+      "headline": "ACWC Kolkata sea area bulletin, issued at 06:00 IST on 1 November 2026",
+      "url": "https://mausam.imd.gov.in/Forecast/seaarea_bulletin_new.php?id=1",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "India Meteorological Department",
+      "headline": "Met Centre Amaravati sub-division warnings, issued on 1 November 2026",
+      "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=2",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "Report of another system after Cyclone Arnab; this note takes no evacuation or damage figure from it",
+      "url": "https://indianexpress.com/article/india/days-after-arnab-andhra-pradesh-braces-for-another-cyclone-10945346/",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "Ommcom News",
+      "headline": "Report that the depression is likely to become a severe cyclone and cross the south Andhra coast on 3 November",
+      "url": "https://ommcomnews.com/breaking-news/depression-over-bay-intensifies-likely-to-become-severe-cyclone-cross-south-ap-coast-on-nov-3/",
+      "published": "2026-11-01"
+    }
+  ],
+  "photo_credits": [
+    "Slide 1, cover: Courtesy: IMD (INSAT-3DS), infrared image at 08:00 IST on 1 November 2026. https://mausam.imd.gov.in/Satellite/3Dasiasec_ir1.jpg",
+    "Slide 2: Neutral Politics schematic track map. Indicative. Not an official IMD track."
+  ],
+  "sample": false,
+  "poster": "/media/2026/11/imd-bay-of-bengal-depression-likely-severe-cyclone-murasu-south-andhra-nov-3.webp",
+  "corrections": []
+}
