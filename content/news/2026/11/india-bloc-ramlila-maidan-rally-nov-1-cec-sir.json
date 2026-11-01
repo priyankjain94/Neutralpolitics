@@ -1,0 +1,48 @@
+{
+  "slug": "india-bloc-ramlila-maidan-rally-nov-1-cec-sir",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-11-01T10:57:00+05:30",
+  "updated_at": null,
+  "category": "politics",
+  "secondary": [],
+  "breaking": false,
+  "pinned": true,
+  "sensitive": false,
+  "tags": [
+    "SIR",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DfL-sqMEfDq",
+  "ig_url": "https://www.instagram.com/p/DfL-sqMEfDq/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "india-bloc-chalo-dilli-ramlila-maidan-rally-nov1-2026",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "The Hindu",
+      "headline": "Delhi Police advisory on traffic curbs for the Ramlila Maidan rally",
+      "url": "https://www.thehindu.com/news/cities/Delhi/india-bloc-rally-ramlila-maidan-november-1-traffic-curbs-roads-to-avoid-timings/article71648423.ece",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "News18",
+      "headline": "Earlier report on rally permission and the Connaught Place march; superseded by the 1 November morning update",
+      "url": "https://www.news18.com/india/india-bloc-got-nod-for-ramlila-maidan-rally-no-permission-for-march-from-connaught-place-delhi-police-ws-l-10406221.html",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "headline": "Earlier report that the Ramlila ground stir was permitted, with no word then on a Connaught Place march",
+      "url": "https://www.hindustantimes.com/cities/delhi-news/stir-at-ramlila-ground-permitted-no-word-on-cp-rally-delhi-police-on-india-bloc-s-protest-101793386017291.html",
+      "published": "2026-11-01"
+    }
+  ],
+  "photo_credits": [
+    "All six cards: Neutral Politics typographic cards. No photographs. No faces."
+  ],
+  "sample": false,
+  "poster": "/media/2026/11/india-bloc-ramlila-maidan-rally-nov-1-cec-sir.webp",
+  "corrections": []
+}
