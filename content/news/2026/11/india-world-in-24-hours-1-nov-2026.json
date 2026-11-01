@@ -1,0 +1,198 @@
+{
+  "slug": "india-world-in-24-hours-1-nov-2026",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-11-01T21:08:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "pinned": true,
+  "sensitive": false,
+  "tags": [
+    "roundup",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DfNEyOUEaam",
+  "ig_url": "https://www.instagram.com/p/DfNEyOUEaam/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "india-world-24h-recap-2026-11-01",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "India Meteorological Department",
+      "headline": "All-India bulletin of 1 November with the Murasu landfall window",
+      "url": "https://mausam.imd.gov.in/backend/assets/aiwfb_pdf/78bbc4bc6f59cbc05f9eed22ad348506.pdf",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "The New Indian Express",
+      "headline": "Report that Cyclonic Storm Murasu is forecast to cross the Andhra coast on 3 November",
+      "url": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Nov/01/cyclone-murasu-intensifies-over-bay-of-bengal-likely-to-cross-andhra-coast-on-november-3",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "India Today",
+      "headline": "Report of an Odisha alert as the Murasu forecast points at Andhra Pradesh",
+      "url": "https://www.indiatoday.in/india/story/odisha-cyclone-murasu-landfall-andhra-pradesh-high-alert-3029859-2026-11-01",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "The Hindu BusinessLine",
+      "headline": "IMD update on a second severe-cyclone forecast for the Andhra coast",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/imd-update-andhra-pradesh-coast-now-faces-a-second-severe-cyclone/article71652107.ece",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "Live report of the Ramlila Maidan rally",
+      "url": "https://indianexpress.com/article/india/india-bloc-protest-rally-live-updates-ramilila-maidan-chalo-delhi-anti-cec-gyanesh-kumar-modi-congress-sp-tmc-rahul-gandhi-10945439/",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "Report that Mallikarjun Kharge said the agitation would continue until the Chief Election Commissioner resigns",
+      "url": "https://timesofindia.indiatimes.com/india/will-dig-you-out-from-ground-if-needed-kharge-warns-cec-gyanesh-kumar-at-india-bloc-rally/articleshow/135424349.cms",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "headline": "Live report of the INDIA bloc rally at Ramlila Maidan",
+      "url": "https://www.hindustantimes.com/india-news/india-bloc-rally-ramlila-maidan-live-updates-congress-rahul-gandhi-gyanesh-kumar-eci-sir-cjp-dipke-das-delhi-police-nov1-101793495265205.html",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "Associated Press",
+      "headline": "Report of the opposition rally; the attendance line used here is this report's",
+      "url": "https://apnews.com/article/india-opposition-protests-voters-elections-cockroach-party-cb532b4811eea64c51f61cd4199fb64e",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "PTI",
+      "headline": "Amit Shah on holding the rally on the anniversary of the 1984 anti-Sikh riots",
+      "url": "https://www.ptinews.com/story/national/rahul-gandhi-s-rally-in-delhi-will-only-rub-salt-in-wounds-of-anti-sikh-riot-victims-shah/4221170",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Report of October GST collections",
+      "url": "https://www.thehindu.com/business/Economy/gst-collections-in-october/article71652320.ece",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "Financial Express",
+      "headline": "Report of the October GST figures; this roundup does not call them a record",
+      "url": "https://www.financialexpress.com/policy/economy/october-gst-collections-grow-23-to-record-rs-2-31-lakh-cr-domestic-revenue-rises-16/4374383/",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "Report of the October GST rise, including some state figures",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/gst-collections-rise-22-9-to-rs-2-31-lakh-crore-in-october/articleshow/135421008.cms",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "Fortune India",
+      "headline": "Report that October GST rose, with imports driving growth",
+      "url": "https://www.fortuneindia.com/economy/gst-collections-rise-23-to-231-lakh-crore-in-october-imports-drive-growth/168020",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "Sportstar",
+      "headline": "Report of India's men's and women's titles at the Commonwealth Kabaddi Championship",
+      "url": "https://sportstar.thehindu.com/kabaddi/india-women-men-win-inaugural-commonwealth-kabaddi-championships-2026-finals-uganda-sri-lanka/article71650727.ece",
+      "published": "2026-10-31"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "Report of the kabaddi double in Ahmedabad",
+      "url": "https://timesofindia.indiatimes.com/sports/more-sports/others/india-complete-historic-double-with-mens-and-womens-title-at-commonwealth-kabaddi-championship/articleshow/135408317.cms",
+      "published": "2026-10-31"
+    },
+    {
+      "outlet": "News on Air",
+      "headline": "Report that the Indian women won the inaugural Commonwealth Kabaddi Championship",
+      "url": "https://newsonair.gov.in/indian-women-win-inaugural-commonwealth-kabaddi-championship-title/",
+      "published": "2026-10-31"
+    },
+    {
+      "outlet": "ABP Live",
+      "headline": "City rates for the 19-kg commercial LPG cylinder from 1 November",
+      "url": "https://news.abplive.com/business/commercial-lpg-cylinder-price-hike-rs-10-11-50-nov-1-diwali-domestic-rates-unchanged-check-city-wise-rates-1874173",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "Navbharat Times",
+      "headline": "Report of the 1 November revision of the 19-kg commercial cylinder by the oil companies",
+      "url": "https://navbharattimes.indiatimes.com/business/commodity/lpg-commercial-cylinder-price-revision-on-1-nov-19kg-rate-hiked-by-ioc-hpcl-bpcl/articleshow/135414905.cms",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "India Today",
+      "headline": "Report of six Indian tourists not yet traced in the snow in Dolpa",
+      "url": "https://www.indiatoday.in/india/story/six-indians-missing-nepal-shey-phoksundo-lake-heavy-snowfall-3029711-2026-11-01",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "The Kathmandu Post",
+      "headline": "Report that a Nepal Army helicopter was sent for the stranded tourists",
+      "url": "https://kathmandupost.com/karnali-province/2026/11/01/army-helicopter-to-rescue-six-indian-tourists-stranded-by-snow-in-dolpa",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "The Globe and Mail",
+      "headline": "Report of Quebec's plan on religious symbols in elementary schools",
+      "url": "https://www.theglobeandmail.com/canada/article-quebec-secular-religious-symbols-schools/",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "CBC",
+      "headline": "Report of the Quebec plan; this roundup does not call it a law",
+      "url": "https://www.cbc.ca/news/canada/montreal/pq-school-kids-religious-symbols-9.7402353",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "Montreal Gazette",
+      "headline": "Report of the proposed school restriction on religious symbols",
+      "url": "https://montrealgazette.com/news/provincial-news/provincial-politics/quebec-education-religious-symbol-ban-schools/",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "headline": "Report of the Quebec government's plan for elementary schools",
+      "url": "https://www.hindustantimes.com/world-news/canada-quebec-govt-to-ban-turbans-niqabs-from-elementary-schools-101793517221583.html",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Report that seven Rameswaram fishermen were detained near Katchatheevu",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/seven-rameswaram-fishermen-detained-by-sri-lankan-navy-near-katchatheevu-islet/article71652111.ece",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "The New Indian Express",
+      "headline": "Report of the seven Rameswaram fishermen detained by the Sri Lankan Navy",
+      "url": "https://www.newindianexpress.com/states/tamil-nadu/2026/Nov/01/sri-lankan-navy-arrests-seven-rameswaram-fishermen",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "Sri Lanka Navy",
+      "headline": "Navy release on a seized trawler; this roundup uses seven fishermen, and the fishing claim is alleged",
+      "url": "https://news.navy.lk/operations-news/2026/november/navy-seizes-indian-fishing-trawler-with-09-fishermen-for-illegal-fishing-in-sri-lankan-waters.html",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "The Tribune",
+      "headline": "Report that fishermen's associations want the Centre to intervene",
+      "url": "https://www.tribuneindia.com/news/world/sri-lankan-navy-arrests-7-rameswaram-fishermen-for-allegedly-crossing-maritime-border-association-seeks-centres-intervention/",
+      "published": "2026-11-01"
+    }
+  ],
+  "photo_credits": [
+    "Cover: NP graphic (cover card)."
+  ],
+  "sample": false,
+  "poster": "/media/2026/11/india-world-in-24-hours-1-nov-2026.webp",
+  "corrections": []
+}
