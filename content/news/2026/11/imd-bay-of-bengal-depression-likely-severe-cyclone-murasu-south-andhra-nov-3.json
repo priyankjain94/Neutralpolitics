@@ -3,7 +3,7 @@
   "status": "published",
   "status_hi": "published",
   "published_at": "2026-11-01T08:58:00+05:30",
-  "updated_at": null,
+  "updated_at": "2026-11-02T08:44:00+05:30",
   "category": "disasters-weather",
   "secondary": [],
   "breaking": false,
@@ -12,13 +12,56 @@
   "tags": [
     "NeutralPolitics"
   ],
-  "ig_shortcode": "DfLxGp3EWM1",
-  "ig_url": "https://www.instagram.com/p/DfLxGp3EWM1/",
+  "ig_shortcode": "DfOUT6lkXyp",
+  "ig_url": "https://www.instagram.com/p/DfOUT6lkXyp/",
   "ig_type": "carousel",
-  "ig_more": [],
+  "ig_more": [
+    {
+      "shortcode": "DfLxGp3EWM1",
+      "url": "https://www.instagram.com/p/DfLxGp3EWM1/",
+      "type": "carousel",
+      "headline": "1 November carousel: depression likely to become Cyclone Murasu"
+    }
+  ],
   "event_id": "bay-depression-likely-cyclone-murasu-south-andhra-nov3-2026",
   "follow_up_of": null,
   "sources": [
+    {
+      "outlet": "India Meteorological Department",
+      "headline": "National Bulletin No. 11 on Cyclone Murasu, issued at 05:00 IST on 2 November 2026, position at 02:30 IST",
+      "url": "https://mausam.imd.gov.in/Forecast/marquee_data/11.%20National%20Bulletin%20No%2011-02Nov2026_0230IST.pdf",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "Chennai District Collector",
+      "headline": "Official notice that schools and colleges in Chennai are closed on 2 November",
+      "url": "https://x.com/Collr_Chn/status/2116979869150335280",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "Tiruvallur District Collector",
+      "headline": "Official notice that schools and colleges in Tiruvallur are closed on 2 November",
+      "url": "https://x.com/TiruvallurCollr/status/2116954796402094224",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "India Meteorological Department",
+      "headline": "Tropical cyclone advisory based on 21:00 UTC on 1 November",
+      "url": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/TROPICAL_CYCLONE_ADVISORY_NO__5_based_on_2100_UTC_of_01_11_2026.pdf",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "ABP Live",
+      "headline": "Report of the severe-storm forecast; this note does not take a toll from it",
+      "url": "https://news.abplive.com/news/india/cyclone-murasu-severe-storm-to-make-landfall-on-andhra-coast-tonight-tamil-nadu-odisha-on-high-alert-1874296",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "Business Standard",
+      "headline": "Report that Murasu had intensified into a severe storm, with landfall still a forecast",
+      "url": "https://www.business-standard.com/india-news/cyclone-murasu-intensifies-into-severe-storm-to-hit-andhra-coast-by-nov-3-126110200044_1.html",
+      "published": "2026-11-02"
+    },
     {
       "outlet": "India Meteorological Department",
       "headline": "ACWC Kolkata sea area bulletin, issued at 06:00 IST on 1 November 2026",
@@ -45,10 +88,11 @@
     }
   ],
   "photo_credits": [
-    "Slide 1, cover: Courtesy: IMD (INSAT-3DS), infrared image at 08:00 IST on 1 November 2026. https://mausam.imd.gov.in/Satellite/3Dasiasec_ir1.jpg",
-    "Slide 2: Neutral Politics schematic track map. Indicative. Not an official IMD track."
+    "Update cover, 2 November: Courtesy: IMD (INSAT-3DS IR). https://mausam.imd.gov.in/Satellite/3Dasiasec_ir1.jpg",
+    "1 November cover: Courtesy: IMD (INSAT-3DS), infrared image at 08:00 IST on 1 November 2026.",
+    "1 November track drawing: Neutral Politics schematic. Indicative. Not an official IMD track."
   ],
   "sample": false,
-  "poster": "/media/2026/11/imd-bay-of-bengal-depression-likely-severe-cyclone-murasu-south-andhra-nov-3.webp",
+  "poster": "/media/2026/11/imd-bay-of-bengal-depression-likely-severe-cyclone-murasu-south-andhra-nov-3-nov2.webp",
   "corrections": []
 }
