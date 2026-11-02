@@ -1,0 +1,207 @@
+{
+  "slug": "india-world-in-24-hours-2-nov-2026",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-11-02T21:03:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "pinned": true,
+  "sensitive": false,
+  "tags": [
+    "roundup",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DfPo7yjkTHx",
+  "ig_url": "https://www.instagram.com/theneutralpolitics/p/DfPo7yjkTHx/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "india-world-24h-recap-2026-11-02",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "India Meteorological Department",
+      "headline": "Tropical cyclone advisory on Murasu, based on 00:00 UTC on 2 November",
+      "url": "https://mausam.imd.gov.in/backend/assets/cyclone_pdf/TROPICAL_CYCLONE_ADVISORY_NO__6_based_on_0000_UTC_of_02_11_2026.pdf",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "Channel News Asia",
+      "headline": "Reuters report of Andhra evacuations ahead of the forecast crossing",
+      "url": "https://www.channelnewsasia.com/asia/india-cyclone-murasu-evacuation-weather-6512186",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "Report of 1,688 medical teams and 116 relief centres in Andhra Pradesh",
+      "url": "https://timesofindia.indiatimes.com/city/vijayawada/cyclone-murasu-ap-deploys-1688-medical-teams-readies-116-relief-camps/articleshow/135434025.cms",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "Deccan Chronicle",
+      "headline": "Report of the medical teams and relief centres",
+      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-murasu-1688-medical-teams-116-relief-camps-set-up-2000898",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "The New Indian Express",
+      "headline": "Report of the forecast crossing between Nellore and Narsapuram",
+      "url": "https://www.newindianexpress.com/states/andhra-pradesh/2026/Nov/02/andhra-cyclonic-storm-murasu-landfall-between-nellore-narsapuram-likely",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "ETV Bharat",
+      "headline": "Report of the Jhunjhunu electrocution; the injured figure is not taken as a single number",
+      "url": "https://www.etvbharat.com/en/bharat/accident-during-road-construction-in-jhunjhunu-rajasthan-workers-electrocuted-and-injured-enn26110202377",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "The New Indian Express",
+      "headline": "PTI report of eight labourers killed in Jhunjhunu",
+      "url": "https://www.newindianexpress.com/states/rajasthan/2026/Nov/02/eight-labourers-killed-5-injured-as-road-construction-machine-touches-high-tension-line-in-rajasthan",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "PTI report of the Jhunjhunu electrocution",
+      "url": "https://www.thehindu.com/news/national/rajasthan/labourers-electrocuted-in-jhunjhunu-rajasthan-while-working-on-road-construction-project/article71655841.ece",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "Commission for Air Quality Management",
+      "headline": "Order invoking GRAP Stage II across Delhi-NCR on 2 November",
+      "url": "https://caqm.nic.in/WriteReadData/LINKS/GRAP%20Order47928aa8-d026-4478-9407-2eba0a328a2d.pdf",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "headline": "Report that Delhi's AQI reached 324 and Stage II was invoked",
+      "url": "https://www.hindustantimes.com/india-news/delhi-aqi-rises-to-324-caqm-invokes-stage-2-pollution-curbs-across-ncr-101793621243523.html",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "Business Standard",
+      "headline": "Report of Stage II; this roundup notes its 5 pm AQI reading of 325 separately",
+      "url": "https://www.business-standard.com/india-news/grap-stage-ii-restrictions-imposed-across-delhi-ncr-as-aqi-hits-325-126110201110_1.html",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "Report of the Stage II curbs, including parking fees",
+      "url": "https://indianexpress.com/article/cities/delhi/delhi-raises-pollution-curbs-grap-ii-air-quality-index-aqi-falls-10947514/",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "Press Information Bureau",
+      "headline": "Contracts for eight Next Generation Corvettes, PRID 2331461",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2331461&lang=2&reg=48",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "Business Standard",
+      "headline": "Report of the Rs 53,866.50 crore corvette contracts",
+      "url": "https://www.business-standard.com/external-affairs-defence-security/news/defence-ministry-rs-53866-crore-contracts-eight-next-generation-corvettes-126110200531_1.html",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "The Economic Times",
+      "headline": "Report of the contracts with GRSE and Goa Shipyard",
+      "url": "https://economictimes.indiatimes.com/news/defence/india-inks-inks-rs-53866-50-crore-contracts-with-grse-gsl-for-8-next-generation-corvettes-for-indian-navy/articleshow/135448547.cms",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "The Hindu BusinessLine",
+      "headline": "Report of the eight-ship contracts",
+      "url": "https://www.thehindubusinessline.com/economy/policy/defence-ministry-signs-53866-crore-contracts-for-eight-indian-navy-warships/article71655710.ece",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "Sportstar",
+      "headline": "Report of Lakshya Sen's Hylo Open final",
+      "url": "https://sportstar.thehindu.com/badminton/lakshya-sen-wins-hylo-open-2026-final-beats-jonatan-christie-full-match-result-highlights/article71653876.ece",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "India Today",
+      "headline": "Report of Lakshya Sen's title",
+      "url": "https://www.indiatoday.in/sports/badminton/story/lakshya-sen-wins-hylo-open-title-beats-jonathan-christie-final-3030165-2026-11-01",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "Report of the Hylo Open men's final; this roundup does not use a career-title count",
+      "url": "https://indianexpress.com/article/sports/badminton/lakshya-sen-wins-hylo-open-7th-career-title-beat-jonatan-christie-10946256/",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "Arab News",
+      "headline": "Reuters report of Iran's conditional two-day Hormuz statement",
+      "url": "https://www.arabnews.com/middle-east/iran-says-strait-of-hormuz-could-reopen-within-two-days-if-us-meets-its-demands-3009389",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "headline": "AFP report that Iran said everything depends on the United States",
+      "url": "https://www.hindustantimes.com/world-news/iran-says-ready-to-reopen-strait-of-hormuz-in-two-days-everything-depends-on-us-101793611799048.html",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Report that Iran is considering a two-day plan to reopen Hormuz",
+      "url": "https://www.thehindu.com/news/international/iran-says-considering-two-day-plan-to-reopen-hormuz/article71656060.ece",
+      "published": "2026-11-02"
+    },
+    {
+      "outlet": "FIA",
+      "headline": "Antonelli crowned youngest Formula 1 world champion; Verstappen won in Mexico City",
+      "url": "https://www.fia.com/news/f1-antonelli-crowned-f1s-youngest-world-champion-verstappen-wins-mexico-city",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "BBC Sport",
+      "headline": "Report of the Mexico City Grand Prix and the drivers' title",
+      "url": "https://www.bbc.com/sport/formula1/articles/c6m2dj7ze9v2o",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "IANS",
+      "headline": "Report of the SEVIS fall in active Indian student records",
+      "url": "https://ianslive.in/indian-students-in-us-fall-135-pc-to-317000-dhs-data--20261101075102",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "The Economic Times",
+      "headline": "Report of the SEVIS snapshot, including the all-international figure",
+      "url": "https://economictimes.indiatimes.com/nri/study/us-midterm-elections-2026-could-the-results-change-how-long-indian-students-can-stay-in-america/articleshow/135423146.cms",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "Free Press Journal",
+      "headline": "Report of fewer Indian student records in the United States",
+      "url": "https://www.freepressjournal.in/amp/education/study-abroad/us-sees-nearly-50000-fewer-indian-students-in-a-year-as-enrolment-falls-135",
+      "published": "2026-11-01"
+    },
+    {
+      "outlet": "US Department of Homeland Security",
+      "headline": "SEVIS data mapping tool for October 2026",
+      "url": "https://studyinthestates.dhs.gov/sevis-data-mapping-tool/october-2026-sevis-data-mapping-tool-data",
+      "published": "2026-10-01"
+    }
+  ],
+  "photo_credits": [
+    "Cover: NP graphic (recap cover).",
+    "Cyclone Fani over the Bay of Bengal, file, 30 April 2019, not Murasu. NOAA / Wikimedia Commons, public domain. https://commons.wikimedia.org/wiki/File:Tropical_Cyclone_Fani_Churns_Through_the_Bay_of_Bengal_(NESDIS_2019-04-30).jpg",
+    "High-tension lines at Pattiseema, file, 2013, not this site. vijay chennupati / Wikimedia Commons, CC BY 2.0. https://commons.wikimedia.org/wiki/File:Power_transmission_lines_(High_Tension)_at_Pattiseema.jpg",
+    "Smog over Delhi, file, 2008, not this week. wili hybrid / Wikimedia Commons, CC BY 2.0. https://commons.wikimedia.org/wiki/File:Smog_in_the_skies_of_Delhi,_India.jpg",
+    "INS Kirch during Malabar 2016, file, not these corvettes. US Navy / Wikimedia Commons, public domain. https://commons.wikimedia.org/wiki/File:Rear_Adm._tours_the_Indian_navy_Kora-class_corvette_INS_Kirch_(P62)_during_Malabar_2016.jpg",
+    "Lakshya Sen, file, 2018, not the Hylo Open final. BugWarp / Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Lakshya_Sen_(IND)_2018.jpg",
+    "The Strait of Hormuz from orbit, file, 1982, not this statement. NASA / Wikimedia Commons, public domain. https://commons.wikimedia.org/wiki/File:STS004-37-716_-_Strait_of_Hormuz.jpg",
+    "Kimi Antonelli after the 2026 Chinese Grand Prix, file, not the Mexico City race. Liauzh / Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:2026_Chinese_GP_-_Mercedes_-_Kimi_Antonelli_-_Pole_Position_Award.jpg",
+    "Students on a campus, file, 2019, University of North Carolina, not these records. Dennis Ludlow / Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Students_walking_through_UNC_campus.jpg",
+    "End card: NP-made graphic."
+  ],
+  "sample": false,
+  "poster": "/media/2026/11/india-world-in-24-hours-2-nov-2026.webp",
+  "corrections": []
+}
