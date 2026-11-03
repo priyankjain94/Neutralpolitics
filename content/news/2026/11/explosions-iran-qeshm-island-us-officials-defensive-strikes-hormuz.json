@@ -1,0 +1,41 @@
+{
+  "slug": "explosions-iran-qeshm-island-us-officials-defensive-strikes-hormuz",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-11-03T09:16:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "pinned": true,
+  "sensitive": false,
+  "tags": [
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DfQ8tZ8kdSr",
+  "ig_url": "https://www.instagram.com/p/DfQ8tZ8kdSr/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "us-defensive-strikes-qeshm-island-bandar-lengeh-hormuz-nov3-2026",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Al Jazeera",
+      "headline": "Report of explosions on Qeshm and of US media citing US officials on Hormuz",
+      "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz",
+      "published": "2026-11-03"
+    },
+    {
+      "outlet": "Anadolu Agency",
+      "headline": "Report of the Qeshm explosions and of the US officials' account via US media",
+      "url": "https://www.aa.com.tr/en/americas/us-strikes-iran-s-qeshm-island-report/4109260",
+      "published": "2026-11-03"
+    }
+  ],
+  "photo_credits": [
+    "Cover: NP graphic. Typographic card. No photograph."
+  ],
+  "sample": false,
+  "poster": "/media/2026/11/explosions-iran-qeshm-island-us-officials-defensive-strikes-hormuz.webp",
+  "corrections": []
+}

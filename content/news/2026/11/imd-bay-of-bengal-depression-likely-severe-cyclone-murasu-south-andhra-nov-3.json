@@ -3,7 +3,7 @@
   "status": "published",
   "status_hi": "published",
   "published_at": "2026-11-01T08:58:00+05:30",
-  "updated_at": "2026-11-02T08:44:00+05:30",
+  "updated_at": "2026-11-03T08:55:00+05:30",
   "category": "disasters-weather",
   "secondary": [],
   "breaking": false,
@@ -12,10 +12,16 @@
   "tags": [
     "NeutralPolitics"
   ],
-  "ig_shortcode": "DfOUT6lkXyp",
-  "ig_url": "https://www.instagram.com/p/DfOUT6lkXyp/",
+  "ig_shortcode": "DfQ6RSDEf09",
+  "ig_url": "https://www.instagram.com/p/DfQ6RSDEf09/",
   "ig_type": "carousel",
   "ig_more": [
+    {
+      "shortcode": "DfOUT6lkXyp",
+      "url": "https://www.instagram.com/p/DfOUT6lkXyp/",
+      "type": "carousel",
+      "headline": "2 November carousel: severe storm, landfall still a forecast"
+    },
     {
       "shortcode": "DfLxGp3EWM1",
       "url": "https://www.instagram.com/p/DfLxGp3EWM1/",
@@ -26,6 +32,36 @@
   "event_id": "bay-depression-likely-cyclone-murasu-south-andhra-nov3-2026",
   "follow_up_of": null,
   "sources": [
+    {
+      "outlet": "India Meteorological Department",
+      "headline": "Coastal bulletin at 08:36 IST on 3 November: Murasu has crossed near Ongole",
+      "url": "https://mausam.imd.gov.in/Forecast/coastal_bulletin_new.php?id=7",
+      "published": "2026-11-03"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "headline": "Live report of the crossing; the landfall process near Kothapatnam is taken from this report",
+      "url": "https://www.hindustantimes.com/india-news/cyclone-murasu-live-updates-severe-cyclonic-storm-andhra-pradesh-odisha-rain-warning-landfall-tomorrow-november-3-imd-101793588601578.html",
+      "published": "2026-11-03"
+    },
+    {
+      "outlet": "The Indian Express",
+      "headline": "Report of rain on the Andhra coast after the crossing; gusts here stay at IMD's 120 kmph",
+      "url": "https://indianexpress.com/article/india/cyclone-murasu-landfall-rains-batter-andhra-pradesh-coasts-10948035/",
+      "published": "2026-11-03"
+    },
+    {
+      "outlet": "The Hindu",
+      "headline": "Report from Kothapatnam; power-disruption accounts differ and are not treated as statewide",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/no-power-disruptions-reported-as-cyclone-murasu-makes-landfall-near-kothapatnam-in-prakasam-dist/article71658516.ece",
+      "published": "2026-11-03"
+    },
+    {
+      "outlet": "The Times of India",
+      "headline": "Report of the crossing, the rain at Kothapatnam, and the weakening speeds",
+      "url": "https://timesofindia.indiatimes.com/city/vijayawada/cyclone-murasu-crosses-andhra-coast-with-120-kmph-gusts-triggers-heavy-rain-damages-in-coastal-districts/articleshow/135478566.cms",
+      "published": "2026-11-03"
+    },
     {
       "outlet": "India Meteorological Department",
       "headline": "National Bulletin No. 11 on Cyclone Murasu, issued at 05:00 IST on 2 November 2026, position at 02:30 IST",
@@ -88,11 +124,12 @@
     }
   ],
   "photo_credits": [
+    "Update cover, 3 November: IMD (INSAT-3D IR satellite image, mausam.imd.gov.in).",
     "Update cover, 2 November: Courtesy: IMD (INSAT-3DS IR). https://mausam.imd.gov.in/Satellite/3Dasiasec_ir1.jpg",
     "1 November cover: Courtesy: IMD (INSAT-3DS), infrared image at 08:00 IST on 1 November 2026.",
     "1 November track drawing: Neutral Politics schematic. Indicative. Not an official IMD track."
   ],
   "sample": false,
-  "poster": "/media/2026/11/imd-bay-of-bengal-depression-likely-severe-cyclone-murasu-south-andhra-nov-3-nov2.webp",
+  "poster": "/media/2026/11/imd-bay-of-bengal-depression-likely-severe-cyclone-murasu-south-andhra-nov-3-nov3.webp",
   "corrections": []
 }
