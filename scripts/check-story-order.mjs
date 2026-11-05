@@ -106,6 +106,7 @@ assert.equal(top5.includes("delhi-seemapuri-building-collapse"), false);
 assert.equal(top5.includes("jantar-mantar-permission-rule-explained-cec-row-firs"), false);
 assert.equal(top5.includes("nepal-flood-search-ends-189-indians-missing"), false);
 assert.equal(top5.includes("us-ofac-sanctions-mumbai-firms-iran-oil"), false);
+assert.equal(top5.includes("us-treasury-sanctions-chandigarh-couple-9-india-linked-entities-iran-oil-false-flags"), false);
 assert.equal(top5.includes("mt-gem-no2-sharjah-22-indians-safe"), false);
 assert.equal(top5.includes("mamata-banerjee-detained-delhi-south-avenue-dharna"), false);
 assert.equal(top5.includes("tahir-hussain-convicted-abetment-dayalpur-riots-case-12-acquitted"), false);
