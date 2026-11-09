@@ -1,0 +1,91 @@
+{
+  "slug": "india-world-in-24-hours-9-nov-2026",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-11-09T21:14:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "pinned": true,
+  "sensitive": false,
+  "tags": [
+    "roundup",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DfhrtCSkVNh",
+  "ig_url": "https://www.instagram.com/p/DfhrtCSkVNh/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "india-world-24h-recap-2026-11-09",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Press Information Bureau",
+      "headline": "17 October release on trade-margin rationalisation for 137 anti-cancer drugs",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2324743&lang=1&reg=3",
+      "published": "2026-10-17"
+    },
+    {
+      "outlet": "Press Information Bureau",
+      "headline": "Factsheet on the margin cap and what it means for patients",
+      "url": "https://www.pib.gov.in/FactsheetDetails.aspx?ModuleId=16&NoteId=151169&id=151169&lang=1&reg=1",
+      "published": "2026-11-06"
+    },
+    {
+      "outlet": "Press Information Bureau",
+      "headline": "7 November release: revised prices from 9 November, savings estimate Rs 3,502.31 crore",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2333949",
+      "published": "2026-11-07"
+    },
+    {
+      "outlet": "National Pharmaceutical Pricing Authority",
+      "headline": "NPPA site, with the revised MRP lists taking effect on 9 November 2026",
+      "url": "https://nppa.gov.in/en",
+      "published": "2026-11-09"
+    },
+    {
+      "outlet": "World Meteorological Organization",
+      "headline": "State of the Climate 2026 update released for COP31",
+      "url": "https://wmo.int/media/news/state-of-climate-2026-gives-new-meaning-phrase-charts",
+      "published": "2026-11-09"
+    },
+    {
+      "outlet": "Hindustan Times",
+      "headline": "Report that Sheikh Hasina's side sought a new passport and identity card",
+      "url": "https://www.hindustantimes.com/india-news/sheikh-hasina-seeks-new-passport-and-id-card-ahead-of-planned-return-to-bangladesh-101794211501139.html",
+      "published": "2026-11-09"
+    },
+    {
+      "outlet": "ThePrint",
+      "headline": "Report of the passport and identity-card application at the Bangladesh High Commission",
+      "url": "https://theprint.in/diplomacy/homeward-bound-sheikh-hasina-applies-to-bangladesh-high-commission-for-new-passport-identity-card/3093945/",
+      "published": "2026-11-09"
+    },
+    {
+      "outlet": "Associated Press",
+      "headline": "Report on the passport request",
+      "url": "https://apnews.com/article/bangladesh-sheikh-hasina-passport-81c5aa1fd7c84bedef0ae07af1d1640d",
+      "published": "2026-11-09"
+    },
+    {
+      "outlet": "The Japan Times",
+      "headline": "Reuters report on the passport request",
+      "url": "https://www.japantimes.co.jp/news/2026/11/09/asia-pacific/politics/hasina-passport-bangladesh-return/",
+      "published": "2026-11-09"
+    },
+    {
+      "outlet": "Press Information Bureau",
+      "headline": "Ministry of Defence release PRID 2334344 on INS Surat at Muscat",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2334344",
+      "published": "2026-11-09"
+    }
+  ],
+  "photo_credits": [
+    "Cover: NP graphic (recap cover).",
+    "Story slides: file or representative images, not same-day stills. Credits are on the carousel slides."
+  ],
+  "sample": false,
+  "poster": "/media/2026/11/india-world-in-24-hours-9-nov-2026.webp",
+  "corrections": []
+}
