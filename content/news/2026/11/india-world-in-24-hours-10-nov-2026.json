@@ -1,0 +1,44 @@
+{
+  "slug": "india-world-in-24-hours-10-nov-2026",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-11-10T21:12:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "pinned": true,
+  "sensitive": false,
+  "tags": [
+    "roundup",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DfkQN7QkTL5",
+  "ig_url": "https://www.instagram.com/p/DfkQN7QkTL5/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "india-world-24h-recap-2026-11-10",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Press Information Bureau",
+      "headline": "Ministry of Minority Affairs release 2334463 on the India-Saudi Haj 2027 agreement",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2334463",
+      "published": "2026-11-09"
+    }
+  ],
+  "photo_credits": [
+    "Cover: NP graphic (recap cover).",
+    "Sanjit Roy slide: file photograph, CC BY 2.0, David Shankbone, Wikimedia Commons. Not the day of the death.",
+    "Jobs-survey slide: file photograph, CC BY-SA 4.0, Jim Carter, Wikimedia Commons.",
+    "Election Commission slide: file photograph, CC BY 2.0, Ramesh Lalwani, Wikimedia Commons.",
+    "Haj slide: file photograph, CC BY-SA 4.0, Adli Wahid, Wikimedia Commons.",
+    "Shooting slide: file, GODL-India, Rajya Sabha TV, Wikimedia Commons. Not this final.",
+    "Abu Dhabi slide: file photograph, CC BY-SA 4.0, comedian44, Wikimedia Commons.",
+    "Qantas slide: file photograph, CC BY-SA 4.0, Sean Glossop, Wikimedia Commons.",
+    "Museum slide: exterior of the Oxford University Museum of Natural History, the entrance used for the Pitt Rivers Museum. CC BY-SA 4.0, Ethan Doyle White, Wikimedia Commons. The remains are not shown."
+  ],
+  "sample": false,
+  "poster": "/media/2026/11/india-world-in-24-hours-10-nov-2026.webp",
+  "corrections": []
+}
