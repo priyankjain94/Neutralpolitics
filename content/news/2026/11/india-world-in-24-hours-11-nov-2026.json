@@ -1,0 +1,44 @@
+{
+  "slug": "india-world-in-24-hours-11-nov-2026",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-11-11T21:14:43+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "pinned": true,
+  "sensitive": false,
+  "tags": [
+    "roundup",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "Dfm09w2Ebbc",
+  "ig_url": "https://www.instagram.com/p/Dfm09w2Ebbc/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "india-world-24h-recap-2026-11-11",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Press Information Bureau",
+      "headline": "Release 2334972 on Nutrient Based Subsidy rates for Rabi 2026-27",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2334972",
+      "published": "2026-11-11"
+    }
+  ],
+  "photo_credits": [
+    "Cover: NP graphic (recap cover).",
+    "Fertiliser slide: file of a farmer spreading fertiliser. CC BY-SA 2.0, kiran kumar, Wikimedia Commons. https://commons.wikimedia.org/wiki/File:An_Indian_farmer_spreading_fertilizer_over_a_crop.jpg",
+    "Moody's slide: Mumbai skyline at night, representative, not a rating event. CC BY-SA 3.0, Cididity Hat, Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Mumbai_Skyline_at_Night.jpg",
+    "Party slide: file of a  Rajya Sabha oath, not the Vijayawada launch. GODL-India, Vice President's Secretariat, Wikimedia Commons.",
+    "Kedarnath slide: file of the temple. Public domain, Shaq774, Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Kedarnath_Temple.jpg",
+    "IPL slide: file of Hardik Pandya, 2020, not this trade. CC BY 3.0, Bollywood Hungama, Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Hardik_Pandya_2020.jpg",
+    "Abu Dhabi slide: file skyline. CC BY-SA 4.0, comedian44, Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Abu_Dhabi_Skyline.jpg",
+    "Ebola slide: file of a 2014 treatment unit in Liberia, not this outbreak. CC BY 2.0, CDC Global, Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Ebola_Treatment_Unit.jpg",
+    "Smog slide: NASA MODIS archive, 10 November 2024, not this week. Public domain, MODIS Land Rapid Response Team, NASA GSFC. https://commons.wikimedia.org/wiki/File:Record_Levels_of_Smog_in_Pakistan_(MODIS_2024-11-13).jpg"
+  ],
+  "sample": false,
+  "poster": "/media/2026/11/india-world-in-24-hours-11-nov-2026.webp",
+  "corrections": []
+}
