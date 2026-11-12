@@ -1,0 +1,62 @@
+{
+  "slug": "india-world-in-24-hours-12-nov-2026",
+  "status": "published",
+  "status_hi": "published",
+  "published_at": "2026-11-12T21:06:00+05:30",
+  "updated_at": null,
+  "category": "world",
+  "secondary": [],
+  "breaking": false,
+  "pinned": true,
+  "sensitive": false,
+  "tags": [
+    "roundup",
+    "NeutralPolitics"
+  ],
+  "ig_shortcode": "DfpZJnWESxu",
+  "ig_url": "https://www.instagram.com/p/DfpZJnWESxu/",
+  "ig_type": "carousel",
+  "ig_more": [],
+  "event_id": "india-world-24h-recap-2026-11-12",
+  "follow_up_of": null,
+  "sources": [
+    {
+      "outlet": "Press Information Bureau",
+      "headline": "MoSPI release 2335416 on provisional CPI for October 2026",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335416",
+      "published": "2026-11-12"
+    },
+    {
+      "outlet": "Press Information Bureau",
+      "headline": "Release 2335182 on the revised visa categories",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335182",
+      "published": "2026-11-11"
+    },
+    {
+      "outlet": "Kremlin",
+      "headline": "Note of the 12 November meeting with Witkoff and Kushner",
+      "url": "http://kremlin.ru/events/president/news/81246",
+      "published": "2026-11-12"
+    },
+    {
+      "outlet": "Climate Change Performance Index",
+      "headline": "India country page for CCPI 2027",
+      "url": "https://ccpi.org/country/ind",
+      "published": "2026-11-12"
+    }
+  ],
+  "photo_credits": [
+    "Cover: NP graphic (recap cover).",
+    "Inflation slide: file of onions at Koyambedu market. CC BY 2.0, McKay Savage, Wikimedia Commons. https://commons.wikimedia.org/wiki/File:India_-_Koyambedu_Market_-_Onions_06_(3987043646).jpg",
+    "Kishtwar slide: file view from Pochal, not this search. CC BY-SA 4.0, PIXI-14, Wikimedia Commons. https://commons.wikimedia.org/wiki/File:View_from_pochal,_kishtwar_(aarse).jpg",
+    "Arunachal slide: file of Sarli, representative, not Parsi-Parlo. CC BY-SA 4.0, Frontierman123, Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Sarli_AP.jpg",
+    "AAP slide: file of Bhagwant Mann, 2026, not this candidate list. GODL-India, Press Information Bureau. https://commons.wikimedia.org/wiki/File:Bhagwant_Mann_2026.jpg",
+    "Visa slide: file of an India e-visa. CC BY-SA 4.0, CrFilip98, Wikimedia Commons. https://commons.wikimedia.org/wiki/File:India_e-Visa.jpg",
+    "Kremlin slide: file photograph credited to kremlin.ru, CC BY 4.0. https://commons.wikimedia.org/wiki/File:Kushner_and_Witkoff_meeting_with_President_Putin_of_Russia.jpg",
+    "Indonesia slide: official portrait, not the resignation. Public domain, Darwis Triadi and the Ministry of State Secretariat. https://commons.wikimedia.org/wiki/File:Gibran_Rakabuming_2024_official_portrait.jpg",
+    "CCPI slide: file of a COP31 energy ministerial. CC BY 4.0, Necati Savas / European Union, 2026. https://commons.wikimedia.org/wiki/File:General_view_of_the_COP31_Presidency%E2%80%99s_Energy_Ministerial_Meeting.jpg"
+  ],
+  "sample": false,
+  "poster": "/media/2026/11/india-world-in-24-hours-12-nov-2026.webp",
+  "corrections": []
+}
