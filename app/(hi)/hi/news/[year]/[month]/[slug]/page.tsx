@@ -1,6 +1,5 @@
 import { ArticleRoute, articleMeta, articleStaticParams } from "@/lib/render";
-export const dynamicParams = true;
-export const revalidate = 60;
+export const dynamicParams = false;
 export function generateStaticParams() { return articleStaticParams("hi"); }
 export function generateMetadata(props: { params: Promise<{ year: string; month: string; slug: string }> }) {
   return articleMeta("hi", props.params);

@@ -4,7 +4,7 @@ import { Markdown } from "./Markdown";
 import { ErrorReportForm } from "./ErrorReportForm";
 import { loadPage } from "@/lib/content";
 import { publicCorrections } from "@/lib/desk";
-import { isDatabaseConfigured } from "@/lib/env";
+import { publicDatabaseFormsEnabled } from "@/lib/env";
 import { formatDateTime } from "@/lib/format";
 import { t } from "@/lib/i18n";
 import { articleHref } from "@/lib/paths";
@@ -34,7 +34,7 @@ export async function CorrectionsPage({ lang }: { lang: Lang }) {
           </li>
         ))}
       </ul>
-      <ErrorReportForm lang={lang} enabled={isDatabaseConfigured()} />
+      <ErrorReportForm lang={lang} enabled={publicDatabaseFormsEnabled()} />
     </div>
   );
 }

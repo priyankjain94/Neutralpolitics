@@ -1,6 +1,12 @@
 import { articleWithDesk } from "@/lib/desk";
 import { categoryLabel } from "@/lib/categories";
 import { ogSize, renderOg } from "@/lib/og";
+import { articleStaticParams } from "@/lib/render";
+export const dynamic = "force-static";
+export const dynamicParams = false;
+export function generateStaticParams() {
+  return articleStaticParams("en");
+}
 export const alt = "Neutral Politics";
 export const size = ogSize;
 export const contentType = "image/png";

@@ -34,3 +34,12 @@ export function uploadProvider(): "r2" | "supabase" | null {
 export function isTurnstileConfigured(): boolean {
   return Boolean(process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY && process.env.TURNSTILE_SECRET_KEY);
 }
+
+/** Static export bakes HTML before runtime secrets exist. The API still returns 503 when unset. */
+export function publicDatabaseFormsEnabled(): boolean {
+  return process.env.NP_STATIC === "1" || isDatabaseConfigured();
+}
+
+export function publicUploadsEnabled(): boolean {
+  return process.env.NP_STATIC === "1" || isUploadConfigured();
+}

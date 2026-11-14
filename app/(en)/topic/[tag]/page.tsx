@@ -1,7 +1,6 @@
 import { TopicRoute, topicMeta, topicStaticParams } from "@/lib/render";
 
-export const revalidate = 60;
-export const dynamicParams = true;
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return topicStaticParams();
