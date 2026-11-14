@@ -4,7 +4,7 @@ import { PosterImage } from "./PosterImage";
 import { Markdown } from "./Markdown";
 import { ReportForm } from "./ReportForm";
 import { articlesInCategory, loadPage } from "@/lib/content";
-import { isDatabaseConfigured } from "@/lib/env";
+import { publicDatabaseFormsEnabled } from "@/lib/env";
 import { t } from "@/lib/i18n";
 import { articleHref } from "@/lib/paths";
 import { organizationNode } from "@/lib/seo";
@@ -41,7 +41,7 @@ export function FactCheckPage({ lang }: { lang: Lang }) {
         ))}
       </div>
       <div className="prose-page">
-        <ReportForm lang={lang} type="factcheck" enabled={isDatabaseConfigured()} />
+        <ReportForm lang={lang} type="factcheck" enabled={publicDatabaseFormsEnabled()} />
       </div>
     </div>
   );

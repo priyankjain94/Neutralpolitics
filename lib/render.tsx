@@ -53,15 +53,9 @@ export async function categoryMeta(lang: Lang, params: Promise<{ name: string }>
   });
 }
 
-export async function CategoryRoute(
-  lang: Lang,
-  params: Promise<{ name: string }>,
-  searchParams: Promise<{ page?: string }>,
-) {
+export async function CategoryRoute(lang: Lang, params: Promise<{ name: string }>) {
   const { name } = await params;
-  const query = await searchParams;
-  const page = Number(query.page || "1");
-  return <CategoryView lang={lang} name={name} page={Number.isFinite(page) ? page : 1} />;
+  return <CategoryView lang={lang} name={name} />;
 }
 
 export function topicStaticParams() {

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { t } from "@/lib/i18n";
 import type { Lang } from "@/lib/types";
 
@@ -16,6 +16,12 @@ export function ErrorReportForm({
   const m = t(lang);
   const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">("idle");
   const [message, setMessage] = useState("");
+  const [storyValue, setStoryValue] = useState(story);
+
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search).get("story");
+    if (q) setStoryValue(q);
+  }, []);
 
   async function onSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -86,7 +92,13 @@ export function ErrorReportForm({
       <fieldset disabled={!enabled || status === "sending"}>
         <label>
           {m.storyField}
-          <input name="story_ref" required minLength={2} defaultValue={story} />
+          <input
+            name="story_ref"
+            required
+            minLength={2}
+            value={storyValue}
+            onChange={(event) => setStoryValue(event.target.value)}
+          />
         </label>
         <label>
           {m.whatWrong}

@@ -1,10 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import published from "./data/published.json";
 import { readSession } from "./lib/admin-session";
-
-function keyOf(match: RegExpMatchArray | null): string {
-  return match ? `${match[1]}/${match[2]}/${match[3]}` : "";
-}
+import { articleRedirect, searchQueryNoindex, shouldNoindexHost } from "./lib/host-gate";
 
 async function overrideStatus(slug: string, lang: "en" | "hi"): Promise<string | null> {
   const base = process.env.SUPABASE_URL;
@@ -33,7 +30,7 @@ function hostname(request: NextRequest): string {
 }
 
 function markHost(response: NextResponse, host: string): NextResponse {
-  if (host.endsWith(".vercel.app")) response.headers.set("X-Robots-Tag", "noindex, nofollow");
+  if (shouldNoindexHost(host)) response.headers.set("X-Robots-Tag", "noindex, nofollow");
   return response;
 }
 
@@ -66,20 +63,27 @@ export async function middleware(request: NextRequest) {
     return markHost(NextResponse.next(), host);
   }
 
+  if (searchQueryNoindex(pathname, request.nextUrl.searchParams)) {
+    const response = NextResponse.next();
+    response.headers.set("X-Robots-Tag", "noindex, nofollow");
+    return markHost(response, host);
+  }
+
   const hindi = pathname.match(/^\/hi\/news\/(\d{4})\/(\d{2})\/([^/]+)\/?$/);
   const english = pathname.match(/^\/news\/(\d{4})\/(\d{2})\/([^/]+)\/?$/);
   if (hindi || english) {
     const match = hindi || english;
     const lang = hindi ? "hi" : "en";
-    const key = keyOf(match);
     const slug = match?.[3] || "";
     const override = await overrideStatus(slug, lang);
-    const listed = lang === "hi" ? published.hi.includes(key) : published.en.includes(key);
+    const listed = articleRedirect(pathname, published) === null;
     const live = override === "published" ? true : override === "draft" ? false : listed;
     if (!live) {
       const url = request.nextUrl.clone();
-      url.pathname = lang === "hi" ? "/hi" : "/";
-      url.searchParams.set("notice", lang === "hi" ? "hi-soon" : "en-soon");
+      const dest = articleRedirect(pathname, published) || (lang === "hi" ? "/hi?notice=hi-soon" : "/?notice=en-soon");
+      const target = new URL(dest, request.url);
+      url.pathname = target.pathname;
+      url.search = target.search;
       const response = NextResponse.redirect(url, 302);
       response.headers.set("X-Robots-Tag", "noindex, nofollow");
       return markHost(response, host);

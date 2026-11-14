@@ -1,5 +1,5 @@
 import { ErrorReportForm } from "@/components/ErrorReportForm";
-import { isDatabaseConfigured } from "@/lib/env";
+import { publicDatabaseFormsEnabled } from "@/lib/env";
 import { t } from "@/lib/i18n";
 import { pageMetadata } from "@/lib/seo";
 
@@ -11,13 +11,12 @@ export const metadata = pageMetadata({
   noindex: true,
 });
 
-export default async function Page({ searchParams }: { searchParams: Promise<{ story?: string }> }) {
-  const query = await searchParams;
+export default function Page() {
   const m = t("en");
   return (
     <div className="wrap prose-page">
       <h1 className="page-title">{m.reportError}</h1>
-      <ErrorReportForm lang="en" enabled={isDatabaseConfigured()} story={query.story || ""} />
+      <ErrorReportForm lang="en" enabled={publicDatabaseFormsEnabled()} />
     </div>
   );
 }

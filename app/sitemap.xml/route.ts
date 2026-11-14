@@ -1,6 +1,6 @@
 import { sitemapIndexXml } from "@/lib/sitemaps";
 
-export const revalidate = 60;
+export const dynamic = "force-static";
 
 export function GET() {
   return new Response(sitemapIndexXml(), {

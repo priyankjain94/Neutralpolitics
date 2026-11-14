@@ -1,4 +1,5 @@
 import { ogSize, renderOg } from "@/lib/og";
+export const dynamic = "force-static";
 export const alt = "Neutral Politics";
 export const size = ogSize;
 export const contentType = "image/png";

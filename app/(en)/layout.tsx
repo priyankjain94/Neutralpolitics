@@ -6,8 +6,6 @@ import { siteUrl } from "@/lib/paths";
 import { feedAlternates, searchConsoleVerification } from "@/lib/seo";
 import "../globals.css";
 
-export const revalidate = 60;
-
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
