@@ -50,6 +50,7 @@ try {
   code = run([path.join(root, "node_modules", "next", "dist", "bin", "next"), "build"]);
   if (code === 0) code = run([path.join(root, "scripts", "copy-layout-css.mjs")]);
   if (code === 0) code = run([path.join(root, "scripts", "write-cloudflare-output.mjs")]);
+  if (code === 0) code = run([path.join(root, "scripts", "write-hostinger-output.mjs")]);
   if (code === 0) code = run(["--experimental-strip-types", "--import", "./scripts/register-ts-hooks.mjs", path.join(root, "scripts", "check-host-gate.mjs")]);
   if (code === 0 && process.env.INDEXNOW_PING === "1") {
     const ping = run([path.join(root, "scripts", "ping-indexnow-build.mjs")]);

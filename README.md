@@ -9,7 +9,7 @@ The website for [Neutral Politics](https://www.instagram.com/theneutralpolitics/
 - Pagefind for search, one index per language
 - Supabase Postgres for contributor videos, newsletter signups, reader reports, and desk overrides
 - Supabase Storage, private bucket `submissions`, for contributor video (Cloudflare R2 is the fallback only when Supabase is unset)
-- Deployable on Vercel Hobby with no paid services
+- Static export for Hostinger (Apache + PHP) or Cloudflare Pages; also runnable on Vercel
 
 The site builds and runs with no accounts connected. Forms that need a database or storage say so, instead of failing the build.
 
@@ -160,6 +160,10 @@ The connected project is `neutralpolitics` on the Hobby plan, team `neutral-poli
 5. The public site is [https://www.neutralpolitics.in](https://www.neutralpolitics.in). The apex domain redirects there. Leave `NEXT_PUBLIC_SITE_URL` unset, or set it to that origin, so canonical URLs, sitemaps, and share links match. `neutralpolitics.vercel.app` still serves the same build.
 
 Do not put keys in the repository. Vercel environment variables are the right place.
+
+## Deploying on Hostinger
+
+The live move is onto Hostinger shared hosting (static files + PHP). `npm run build` writes `out/`, then copies Apache `.htaccess` and the PHP form/admin endpoints. See [DEPLOY-HOSTINGER.md](DEPLOY-HOSTINGER.md) for the preview URL, `np-config.php` placement (one level above `public_html`), and the GitHub Actions FTPS secrets. Do not change DNS until Priyank approves it.
 
 ## What is deliberately not included
 

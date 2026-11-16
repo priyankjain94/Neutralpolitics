@@ -10,3 +10,4 @@ search-out
 .DS_Store
 *.log
 tsconfig.tsbuildinfo
+np-config.php
