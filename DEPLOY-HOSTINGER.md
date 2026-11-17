@@ -8,7 +8,7 @@ Do not change DNS or nameservers until Priyank says yes. Leave the Vercel projec
 
 - Temporary URL: `https://forward-ivory-mallard-25.hostingersite.com`
 - Web root: `public_html/`
-- That host is not `www.neutralpolitics.in`, so Apache sends `X-Robots-Tag: noindex, nofollow` and serves a `Disallow: /` robots.txt.
+- The temp URL now 403s; do not use it for previews. On any host that is not `www.neutralpolitics.in` or `neutralpolitics.in`, `.htaccess` still rewrites `robots.txt` to `robots-preview.txt` (`Disallow: /`). A host-based `X-Robots-Tag` header is not used, because LiteSpeed does not honor `SetEnvIf Host` plus `env=!NP_CANONICAL_HOST` and that rule was noindexing production.
 
 ## Build
 
@@ -20,7 +20,7 @@ Output directory: `out`
 
 The build still writes Cloudflare `_headers` / `_routes.json` (harmless on Apache) and then copies:
 
-- `.htaccess` — clean URLs, trailing-slash strip, apex → www, unpublished-story notices, gzip, cache, preview noindex
+- `.htaccess` — clean URLs, trailing-slash strip, apex → www, unpublished-story notices, gzip, cache, and a host-safe preview `robots.txt`
 - `api/*.php` — public forms and admin session
 - `admin/index.php` — login plus read-only desk lists
 - `robots-preview.txt`

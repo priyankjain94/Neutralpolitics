@@ -79,10 +79,9 @@ ErrorDocument 404 /404.html
 </IfModule>
 
 <IfModule mod_headers.c>
-  # noindex unless this is the real domain (www or apex). The temp Hostinger URL is covered.
-  SetEnvIf Host "^(www\.)?neutralpolitics\.in$" NP_CANONICAL_HOST
-  Header always set X-Robots-Tag "noindex, nofollow" env=!NP_CANONICAL_HOST
-
+  # Search and /admin stay noindex on every host, including www.
+  # Do not set a host-based X-Robots-Tag here. LiteSpeed does not honor
+  # SetEnvIf Host + "env=!NP_CANONICAL_HOST", and that rule noindexed production.
   Header always set X-Robots-Tag "noindex, nofollow" env=NP_SEARCH_NOINDEX
 
   SetEnvIf Request_URI "^/admin" NP_ADMIN_NOINDEX
