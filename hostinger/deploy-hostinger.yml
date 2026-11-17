@@ -1,0 +1,87 @@
+# Deploy the static newspaper + PHP forms to Hostinger over FTPS
+# whenever a story is pushed to main (including the Instagram sync).
+#
+# Required GitHub secrets:
+#   FTP_SERVER    = 46.202.182.134
+#   FTP_USERNAME  = u169914107.forward-ivory-mallard-25.hostingersite.com
+#   FTP_PASSWORD  = (set in hPanel, then paste here — never commit it)
+#
+# Optional build secrets (public values baked into HTML):
+#   NEXT_PUBLIC_SITE_URL              (fallback is https://www.neutralpolitics.in)
+#   NEXT_PUBLIC_SUPABASE_URL
+#   NEXT_PUBLIC_SUPABASE_ANON_KEY
+#   NEXT_PUBLIC_TURNSTILE_SITE_KEY
+#   NEXT_PUBLIC_GSC_VERIFICATION
+#   GOOGLE_SITE_VERIFICATION
+#   BING_SITE_VERIFICATION
+#   SUPABASE_URL                      (optional; bakes story overrides into HTML)
+#   SUPABASE_SERVICE_ROLE_KEY         (optional; same)
+#
+# Runtime secrets do NOT go here. They live in np-config.php one level
+# above public_html, uploaded by hand, never by this workflow.
+#
+# server-dir is ./ because this FTP user is the site-specific account
+# whose home is already the web root (public_html). If a test upload
+# lands next to public_html instead of inside it, change server-dir to
+# public_html/ or set the FTP_SERVER_DIR secret.
+
+name: Deploy to Hostinger
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-hostinger
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static site
+        env:
+          NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+          NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${{ secrets.NEXT_PUBLIC_TURNSTILE_SITE_KEY }}
+          NEXT_PUBLIC_GSC_VERIFICATION: ${{ secrets.NEXT_PUBLIC_GSC_VERIFICATION }}
+          GOOGLE_SITE_VERIFICATION: ${{ secrets.GOOGLE_SITE_VERIFICATION }}
+          BING_SITE_VERIFICATION: ${{ secrets.BING_SITE_VERIFICATION }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          INDEXNOW_PING: "1"
+        run: npm run build
+
+      - name: Upload out/ to Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          local-dir: ./out/
+          server-dir: ${{ secrets.FTP_SERVER_DIR || './' }}
+          timeout: 60000
+          # Include dotfiles such as .htaccess.
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/.DS_Store

@@ -3,7 +3,7 @@ import { JsonLd } from "./JsonLd";
 import { ReportForm } from "./ReportForm";
 import { Markdown } from "./Markdown";
 import { loadPage } from "@/lib/content";
-import { isDatabaseConfigured } from "@/lib/env";
+import { publicDatabaseFormsEnabled } from "@/lib/env";
 import { t } from "@/lib/i18n";
 import { withLang } from "@/lib/paths";
 import { organizationNode } from "@/lib/seo";
@@ -35,7 +35,7 @@ export function ContactPage({ lang }: { lang: Lang }) {
           <Link href={withLang(lang, "/contribute")}>{m.contributorLink}</Link>
         </li>
       </ul>
-      <ReportForm lang={lang} type="contact" enabled={isDatabaseConfigured()} />
+      <ReportForm lang={lang} type="contact" enabled={publicDatabaseFormsEnabled()} />
     </div>
   );
 }

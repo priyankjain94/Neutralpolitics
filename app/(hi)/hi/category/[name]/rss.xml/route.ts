@@ -1,5 +1,7 @@
 import { CATEGORIES } from "@/lib/categories";
 import { categoryRss } from "@/lib/feeds";
+export const dynamic = "force-static";
+export const dynamicParams = false;
 export function generateStaticParams() {
   return CATEGORIES.map((category) => ({ name: category.slug }));
 }

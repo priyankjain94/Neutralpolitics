@@ -1,0 +1,4 @@
+# Served only on hosts that are not www.neutralpolitics.in or neutralpolitics.in
+# (the Hostinger temporary URL, localhost, and any other preview host).
+User-agent: *
+Disallow: /

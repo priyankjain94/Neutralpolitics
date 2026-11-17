@@ -1,5 +1,5 @@
 import { ContributorForm } from "./ContributorForm";
-import { isUploadConfigured } from "@/lib/env";
+import { publicUploadsEnabled } from "@/lib/env";
 import { t } from "@/lib/i18n";
 import type { Lang } from "@/lib/types";
 
@@ -24,7 +24,7 @@ export function ContributePage({ lang }: { lang: Lang }) {
           </li>
         ))}
       </ol>
-      <ContributorForm lang={lang} enabled={isUploadConfigured()} />
+      <ContributorForm lang={lang} enabled={publicUploadsEnabled()} />
       <section className="faq">
         <h2>{m.faqTitle}</h2>
         <details>

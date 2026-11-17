@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { logout } from "@/app/(admin)/admin/actions";
 
 const LINKS = [
   ["/admin", "dashboard", "Dashboard"],
@@ -29,7 +28,7 @@ export function AdminShell({
             </Link>
           ))}
         </nav>
-        <form action={logout}>
+        <form method="post" action="/api/admin/logout">
           <button className="ghost" type="submit">
             Log out
           </button>

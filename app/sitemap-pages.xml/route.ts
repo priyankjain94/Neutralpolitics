@@ -1,6 +1,6 @@
 import { pagesSitemapXml } from "@/lib/sitemaps";
 
-export const revalidate = 60;
+export const dynamic = "force-static";
 
 export async function GET() {
   return new Response(await pagesSitemapXml(), {

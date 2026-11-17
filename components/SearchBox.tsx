@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { CATEGORIES, categoryLabel } from "@/lib/categories";
 import { formatDateTime } from "@/lib/format";
 import { t } from "@/lib/i18n";
@@ -16,15 +16,13 @@ export function SearchBox({ lang, initialQuery }: { lang: Lang; initialQuery: st
   const [results, setResults] = useState<Result[] | null>(null);
   const [error, setError] = useState("");
 
-  async function run(event?: FormEvent) {
-    event?.preventDefault();
+  async function execute(q: string, sectionFilter: string) {
     setError("");
-    const q = query.trim();
     if (!q) return;
     try {
       const pagefind = await import(/* webpackIgnore: true */ `${window.location.origin}/pagefind/pagefind.js`);
       if (pagefind.init) await pagefind.init();
-      const options = section ? { filters: { section: [section] } } : undefined;
+      const options = sectionFilter ? { filters: { section: [sectionFilter] } } : undefined;
       const search = await pagefind.search(q, options);
       const rows = await Promise.all(search.results.slice(0, 20).map((result: { data: () => Promise<Result> }) => result.data()));
       setResults(rows);
@@ -35,6 +33,20 @@ export function SearchBox({ lang, initialQuery }: { lang: Lang; initialQuery: st
       setError(m.searchUnavailable);
       setResults(null);
     }
+  }
+
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search).get("q") || initialQuery;
+    if (!q.trim()) return;
+    setQuery(q);
+    void execute(q.trim(), "");
+    // Search once from the address bar. Later submits go through the form.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  function run(event?: FormEvent) {
+    event?.preventDefault();
+    void execute(query.trim(), section);
   }
 
   return (

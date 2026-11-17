@@ -1,6 +1,7 @@
 node_modules
 .next
 out
+.static-hold
 public/pagefind
 search-out
 .env
@@ -9,3 +10,4 @@ search-out
 .DS_Store
 *.log
 tsconfig.tsbuildinfo
+np-config.php

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { after } from "next/server";
 import { IgEmbed } from "./IgEmbed";
 import { JsonLd } from "./JsonLd";
 import { LatestList } from "./Stories";
@@ -11,7 +10,6 @@ import { articlesWithDesk } from "@/lib/desk";
 import { formatDateTime, formatSourceTime } from "@/lib/format";
 import { t } from "@/lib/i18n";
 import { posterDimensions } from "@/lib/image-size";
-import { pingIndexNow } from "@/lib/indexnow";
 import { absoluteUrl, articleHref, siteUrl, withLang } from "@/lib/paths";
 import { articleJsonLd } from "@/lib/seo";
 import { indexTopics, isBrandTopic, tagKey, topicPath } from "@/lib/topics";
@@ -37,7 +35,6 @@ export async function ArticleView({ article }: { article: Article }) {
   const image = article.poster.startsWith("http") ? article.poster : `${siteUrl()}${article.poster}`;
   const poster = posterDimensions(article.poster);
   const verdict = article.factcheck ? m.verdicts[article.factcheck.verdict] : "";
-  after(() => pingIndexNow([url]));
 
   return (
     <article className="wrap article-layout">
